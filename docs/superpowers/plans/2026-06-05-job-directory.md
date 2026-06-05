@@ -1,4 +1,4 @@
-# Job Directory (Occupations Encyclopedia) Implementation Plan
+# Workroots Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
@@ -36,19 +36,19 @@
 ### Task 1: Scaffold Next.js project
 
 **Files:**
-- Create: project via `create-next-app` at `/Users/vishnu/Projects/occupations`
+- Create: project via `create-next-app` at `/Users/vishnu/Projects/workroots`
 
 - [ ] **Step 1: Create app**
 
 ```bash
 cd /Users/vishnu/Projects
-npx create-next-app@latest occupations --typescript --tailwind --eslint --app --src-dir --import-alias "@/*" --turbopack --yes
+npx create-next-app@latest workroots --typescript --tailwind --eslint --app --src-dir --import-alias "@/*" --turbopack --yes
 ```
 
 - [ ] **Step 2: Init git**
 
 ```bash
-cd /Users/vishnu/Projects/occupations
+cd /Users/vishnu/Projects/workroots
 git init
 echo "node_modules/\n.env*\n!.env.example\n.next/\n.vercel/\ndrizzle/meta/\n" >> .gitignore
 git add .
@@ -67,7 +67,7 @@ Expected: `npm run dev` serves http://localhost:3000
 - [ ] **Step 1: Install runtime deps**
 
 ```bash
-cd /Users/vishnu/Projects/occupations
+cd /Users/vishnu/Projects/workroots
 npm install drizzle-orm @neondatabase/serverless dotenv zod
 npm install -D drizzle-kit tsx vitest @vitejs/plugin-react @types/node
 ```
@@ -678,7 +678,7 @@ npx shadcn@latest add button input badge card separator
 
 - [ ] **Step 2: Typography** — use `next/font` with **Fraunces** (headings) + **Source Sans 3** (body) in layout.tsx; warm stone palette in globals.css (museum catalog feel).
 
-- [ ] **Step 3: SiteHeader** with logo "Occupations", links Home / Browse / About.
+- [ ] **Step 3: SiteHeader** with logo "Workroots", links Home / Browse / About.
 
 - [ ] **Step 4: Commit**
 
@@ -796,7 +796,7 @@ git commit -m "docs: about page methodology"
 - [ ] **Step 1: Push to GitHub**
 
 ```bash
-gh repo create occupations --private --source=. --push
+gh repo create workroots --private --source=. --push
 ```
 
 (or user creates repo manually)
