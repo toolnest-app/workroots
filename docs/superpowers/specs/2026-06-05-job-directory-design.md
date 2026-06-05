@@ -1,8 +1,8 @@
-# Job Directory (Occupations Encyclopedia) — Design Spec
+# Workroots — Design Spec
 
 **Date:** 2026-06-05  
 **Status:** Approved  
-**Project root:** `/Users/vishnu/Projects/occupations`  
+**Project root:** `/Users/vishnu/Projects/workroots`  
 **Deploy target:** Vercel (public)
 
 ---
@@ -16,7 +16,7 @@ Build a public **global occupation encyclopedia** that combines:
 - **Current-job lookup (B-lite):** search living roles and see **how old the occupation is**, with lineage to predecessor roles
 - **English-first, global** scope for v1 (not US-only)
 
-Working title: **Occupations** (brand TBD). Slug namespace: `/jobs/[slug]`.
+**Product name:** **Workroots**. Slug namespace: `/jobs/[slug]`.
 
 ---
 

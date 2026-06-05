@@ -53,9 +53,9 @@ export default async function JobsPage({ searchParams }: JobsPageProps) {
       </aside>
       <div className="space-y-6">
         <div>
-          <h1 className="font-serif text-3xl font-semibold">Browse occupations</h1>
+          <h1 className="font-serif text-3xl font-semibold">Browse the archive</h1>
           <p className="mt-1 text-stone-600">
-            {result.total.toLocaleString()} occupations in the archive
+            {result.total.toLocaleString()} roles in Workroots
           </p>
         </div>
         <SearchBox initialQuery={params.q ?? ""} />

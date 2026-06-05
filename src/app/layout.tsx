@@ -15,11 +15,11 @@ const sourceSans = Source_Sans_3({
 
 export const metadata: Metadata = {
   title: {
-    default: "Occupations — Global Job Encyclopedia",
-    template: "%s · Occupations",
+    default: "Workroots — Global Job Encyclopedia",
+    template: "%s · Workroots",
   },
   description:
-    "Explore occupations across history: how old a job is, how it evolved, and how roles connect across eras.",
+    "Explore work across history: how old a job is, how it evolved, and how roles connect across eras.",
 };
 
 export default function RootLayout({
@@ -33,7 +33,7 @@ export default function RootLayout({
         <SiteHeader />
         <main className="mx-auto max-w-6xl flex-1 px-4 py-8">{children}</main>
         <footer className="border-t border-stone-200 py-8 text-center text-sm text-stone-500">
-          Occupations — historical archive &amp; encyclopedia
+          Workroots — historical archive &amp; encyclopedia
         </footer>
       </body>
     </html>

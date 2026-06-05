@@ -1,4 +1,4 @@
-# Occupations
+# Workroots
 
 Global occupation encyclopedia and historical archive. Search roles, see how old a job is, explore lineage from ancient crafts to modern careers.
 
@@ -21,7 +21,7 @@ Open http://localhost:3000
 
 ## Deploy on Vercel
 
-1. Push this repo to GitHub.
+1. Push this repo to GitHub (repo name: `workroots` recommended).
 2. Import the project in Vercel.
 3. Add environment variable `DATABASE_URL` (Neon connection string).
 4. Deploy, then run import scripts locally against production `DATABASE_URL` (or use Neon SQL console).
@@ -33,7 +33,7 @@ Open http://localhost:3000
 | `npm run dev` | Development server |
 | `npm run build` | Production build |
 | `npm test` | Unit tests (age display) |
-| `npm run import:showcase` | Curated occupations + lineage |
+| `npm run import:showcase` | Curated roles + lineage |
 | `npm run import:wikidata` | Bulk Wikidata occupations |
 
 ## Docs

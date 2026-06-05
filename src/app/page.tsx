@@ -45,7 +45,7 @@ export default async function HomePage() {
       </section>
 
       <section>
-        <h2 className="mb-4 font-serif text-2xl font-semibold">Featured occupations</h2>
+        <h2 className="mb-4 font-serif text-2xl font-semibold">Featured roles</h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {featured.map(
             (entry) =>

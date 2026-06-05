@@ -28,7 +28,7 @@ LIMIT ${BATCH_SIZE} OFFSET ${offset}
   const res = await fetch(url, {
     headers: {
       Accept: "application/sparql-results+json",
-      "User-Agent": "OccupationsDirectory/1.0 (educational; contact: local-dev)",
+      "User-Agent": "WorkrootsDirectory/1.0 (educational; contact: local-dev)",
     },
   });
 

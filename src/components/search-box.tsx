@@ -40,8 +40,8 @@ export function SearchBox({ initialQuery = "" }: { initialQuery?: string }) {
       <Input
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="Search occupations — blacksmith, scribe, developer…"
-        aria-label="Search occupations"
+        placeholder="Search roles — blacksmith, scribe, developer…"
+        aria-label="Search roles"
       />
       {loading && (
         <p className="mt-2 text-sm text-stone-500">Searching…</p>

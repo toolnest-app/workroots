@@ -1,9 +1,9 @@
 export default function AboutPage() {
   return (
     <div className="prose prose-stone max-w-3xl">
-      <h1 className="font-serif text-4xl font-semibold">About Occupations</h1>
+      <h1 className="font-serif text-4xl font-semibold">About Workroots</h1>
       <p>
-        Occupations is a global encyclopedia and historical archive of work. Each
+        Workroots is a global encyclopedia and historical archive of work. Each
         entry documents what a role involved, where it existed, how it connects
         to predecessor and successor jobs, and—when evidence allows—how long the
         occupation has been recognized.
