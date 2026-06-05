@@ -1,0 +1,300 @@
+[
+  {
+    "slug": "blacksmith",
+    "name": "Blacksmith",
+    "status": "declining",
+    "summary": "A metalworker who forges and repairs iron and steel tools, hardware, and structural pieces using heat and hammer work.",
+    "duties": "Heat metal in a forge, shape it on an anvil, weld and join parts, repair agricultural and household metal goods, and sometimes shoe horses in smaller communities.",
+    "skills": "Metalworking, heat control, tool maintenance, design of functional objects, physical stamina.",
+    "tools": "Forge, anvil, hammer, tongs, bellows; modern shops add welders and grinders.",
+    "regions": "Worldwide historically; still present in rural and heritage contexts.",
+    "category": "craft",
+    "eraPrimary": "ancient",
+    "originYear": -1500,
+    "originYearEnd": null,
+    "originLabel": "Bronze Age metalwork traditions",
+    "dateConfidence": "medium",
+    "aliases": ["smith", "ironworker"],
+    "events": [
+      {
+        "year": 1800,
+        "label": "Industrial competition",
+        "description": "Mass-produced factory metal goods reduce demand for village smiths in many regions.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Historical craft surveys",
+        "url": null,
+        "note": "Origin estimate aggregated from archaeological metalwork traditions."
+      }
+    ],
+    "relations": [{ "toSlug": "cooper", "type": "related" }]
+  },
+  {
+    "slug": "cooper",
+    "name": "Cooper",
+    "status": "extinct",
+    "summary": "A craft worker who built and repaired wooden barrels, casks, and tubs bound with hoops for storage and transport.",
+    "duties": "Shape staves, assemble vessels, fit hoops, seal containers for liquids and dry goods, and maintain reusable shipping packaging.",
+    "skills": "Wood selection, joinery, measurement, knowledge of liquids and swelling wood.",
+    "tools": "Drawknife, adze, hoop driver, windlass, cooper's axe.",
+    "regions": "Europe, Americas, and port cities worldwide through the 19th century.",
+    "category": "craft",
+    "eraPrimary": "medieval",
+    "originYear": 1200,
+    "originYearEnd": null,
+    "originLabel": "Medieval brewing and shipping trades",
+    "dateConfidence": "medium",
+    "aliases": ["barrel maker", "cask maker"],
+    "events": [
+      {
+        "year": 1950,
+        "label": "Decline of wooden shipping",
+        "description": "Steel drums, cardboard, and palletized logistics largely replace cooperage in industry.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [{ "title": "Maritime trade histories", "url": null, "note": "" }],
+    "relations": [
+      { "toSlug": "blacksmith", "type": "related" },
+      { "toSlug": "brewer", "type": "related" }
+    ]
+  },
+  {
+    "slug": "scribe",
+    "name": "Scribe",
+    "status": "extinct",
+    "summary": "A literate copyist and record-keeper who produced manuscripts and official documents before widespread printing and literacy.",
+    "duties": "Copy texts, maintain ledgers, draft contracts, assist temples and courts with written records.",
+    "skills": "Handwriting, grammar, archival organization, sometimes accounting or legal formulae.",
+    "tools": "Reed or quill pens, ink, parchment or papyrus, rulers, wax tablets.",
+    "regions": "Ancient Egypt, Mesopotamia, medieval Europe, Islamic scholarly centers, and East Asia.",
+    "category": "clerical",
+    "eraPrimary": "ancient",
+    "originYear": -3200,
+    "originYearEnd": null,
+    "originLabel": "Early literate bureaucracies",
+    "dateConfidence": "low",
+    "aliases": ["copyist", "amanuensis"],
+    "events": [
+      {
+        "year": 1450,
+        "label": "Printing press spreads",
+        "description": "Movable type accelerates document production; scribal guilds shrink in Europe.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [{ "title": "Writing systems archaeology", "url": null, "note": "" }],
+    "relations": [
+      { "toSlug": "typist", "type": "successor" },
+      { "toSlug": "clerk", "type": "predecessor" }
+    ]
+  },
+  {
+    "slug": "typist",
+    "name": "Typist",
+    "status": "extinct",
+    "summary": "An office worker who produced typed correspondence and forms on typewriters, central to 20th-century business administration.",
+    "duties": "Type letters, reports, and forms; manage carbon copies; sometimes take shorthand dictation.",
+    "skills": "Touch typing, formatting, proofreading, office workflow.",
+    "tools": "Typewriter, carbon paper, correction fluid, later word processors.",
+    "regions": "Industrialized economies, 1880s–1990s peak.",
+    "category": "clerical",
+    "eraPrimary": "industrial",
+    "originYear": 1880,
+    "originYearEnd": null,
+    "originLabel": "Commercial typewriter era",
+    "dateConfidence": "high",
+    "aliases": ["stenographer (related)", "secretary (overlapping)"],
+    "events": [
+      {
+        "year": 1970,
+        "label": "Word processing",
+        "description": "Digital text editing reduces dedicated typing pools in many offices.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [{ "title": "Business history references", "url": null, "note": "" }],
+    "relations": [
+      { "toSlug": "scribe", "type": "predecessor" },
+      { "toSlug": "data-entry-clerk", "type": "successor" }
+    ]
+  },
+  {
+    "slug": "data-entry-clerk",
+    "name": "Data Entry Clerk",
+    "status": "declining",
+    "summary": "A worker who inputs structured information into computer systems, successor to much typist and clerical data work.",
+    "duties": "Enter records into databases, validate fields, scan documents, support billing and logistics forms.",
+    "skills": "Keyboarding, attention to detail, basic software literacy, data quality checks.",
+    "tools": "PC, scanners, ERP and CRM forms, spreadsheets.",
+    "regions": "Global office economies since the 1970s.",
+    "category": "clerical",
+    "eraPrimary": "contemporary",
+    "originYear": 1970,
+    "originYearEnd": null,
+    "originLabel": "Corporate computerization",
+    "dateConfidence": "high",
+    "educationPath": "High school plus on-the-job training; some roles prefer associate degrees.",
+    "modernSectors": "Healthcare admin, logistics, finance back-office, BPO.",
+    "aliases": ["key punch operator (predecessor role)"],
+    "events": [],
+    "sources": [{ "title": "Office automation histories", "url": null, "note": "" }],
+    "relations": [{ "toSlug": "typist", "type": "predecessor" }]
+  },
+  {
+    "slug": "telegraph-operator",
+    "name": "Telegraph Operator",
+    "status": "extinct",
+    "summary": "A specialist who sent and received Morse code messages over telegraph wires, enabling rapid long-distance communication in the 19th and early 20th centuries.",
+    "duties": "Transmit messages, route traffic through relay stations, maintain logs, troubleshoot line issues with field crews.",
+    "skills": "Morse proficiency, listening comprehension, accuracy under time pressure.",
+    "tools": "Telegraph key, sounder, wire lines, relay equipment.",
+    "regions": "North America, Europe, colonies, and rail networks worldwide.",
+    "category": "communication",
+    "eraPrimary": "industrial",
+    "originYear": 1840,
+    "originYearEnd": null,
+    "originLabel": "Electric telegraph commercial era",
+    "dateConfidence": "high",
+    "aliases": ["telegrapher"],
+    "events": [
+      {
+        "year": 1920,
+        "label": "Telephone and radio rise",
+        "description": "Voice and wireless systems compete with telegraph traffic.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [{ "title": "Telecommunications museum records", "url": null, "note": "" }],
+    "relations": [{ "toSlug": "software-developer", "type": "related" }]
+  },
+  {
+    "slug": "plague-doctor",
+    "name": "Plague Doctor",
+    "status": "extinct",
+    "summary": "A physician contracted during plague outbreaks in early modern Europe, often associated with beaked masks and municipal pest control.",
+    "duties": "Treat bubonic plague patients, record deaths, perform autopsies in some cities, advise quarantines.",
+    "skills": "Herbal medicine of the period, public health reporting, negotiation with city officials.",
+    "tools": "Beaked mask, waxed robe, cane, herbal pouches.",
+    "regions": "Italian city-states and broader Europe, especially 17th century.",
+    "category": "medicine",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": 1700,
+    "originLabel": "Municipal plague commissions",
+    "dateConfidence": "low",
+    "aliases": ["pesthouse physician"],
+    "events": [],
+    "sources": [{ "title": "Early modern medical histories", "url": null, "note": "" }],
+    "relations": []
+  },
+  {
+    "slug": "software-developer",
+    "name": "Software Developer",
+    "status": "active",
+    "summary": "A professional who designs, writes, tests, and maintains computer programs and systems that run on digital hardware.",
+    "duties": "Implement features, review code, debug production issues, collaborate on architecture, document APIs and behavior.",
+    "skills": "Programming, algorithms, version control, testing, system design, communication.",
+    "tools": "IDEs, Git, cloud platforms, databases, CI pipelines.",
+    "regions": "Global; concentrated in tech hubs and remote-first companies.",
+    "category": "technology",
+    "eraPrimary": "contemporary",
+    "originYear": 1950,
+    "originYearEnd": null,
+    "originLabel": "Stored-program computer era",
+    "dateConfidence": "high",
+    "educationPath": "Computer science degrees, bootcamps, and self-directed learning are all common paths.",
+    "modernSectors": "SaaS, finance, healthcare IT, gaming, government, embedded systems.",
+    "aliases": ["programmer", "software engineer", "coder"],
+    "events": [
+      {
+        "year": 1990,
+        "label": "Web era",
+        "description": "Internet applications explode demand for application developers.",
+        "sortOrder": 1
+      },
+      {
+        "year": 2007,
+        "label": "Mobile platforms",
+        "description": "Smartphones create new client and backend specializations.",
+        "sortOrder": 2
+      }
+    ],
+    "sources": [
+      {
+        "title": "Computing history timelines",
+        "url": "https://www.computer.org/",
+        "note": "Origin year marks early professional programming roles."
+      }
+    ],
+    "relations": [
+      { "toSlug": "telegraph-operator", "type": "related" },
+      { "toSlug": "computer-programmer", "type": "related" }
+    ]
+  },
+  {
+    "slug": "computer-programmer",
+    "name": "Computer Programmer",
+    "status": "active",
+    "summary": "A specialist who writes instructions for computers, closely related to the software developer role with overlapping duties in many organizations.",
+    "duties": "Code business logic, maintain legacy systems, optimize performance, integrate libraries.",
+    "skills": "Languages, debugging, data structures, domain modeling.",
+    "tools": "Compilers, interpreters, databases, debuggers.",
+    "regions": "Global since mid-20th century.",
+    "category": "technology",
+    "eraPrimary": "modern",
+    "originYear": 1940,
+    "originYearEnd": null,
+    "originLabel": "World War II era computing projects",
+    "dateConfidence": "medium",
+    "educationPath": "STEM degrees and vocational training programs.",
+    "modernSectors": "Enterprise IT, defense, research, startups.",
+    "aliases": ["coder", "developer"],
+    "events": [],
+    "sources": [{ "title": "ENIAC and postwar computing histories", "url": null, "note": "" }],
+    "relations": [{ "toSlug": "software-developer", "type": "related" }]
+  },
+  {
+    "slug": "clerk",
+    "name": "Clerk",
+    "status": "active",
+    "summary": "A worker who keeps records, handles correspondence, and supports administrative workflows in organizations.",
+    "duties": "File documents, process forms, assist customers or officials, maintain schedules and inventories.",
+    "skills": "Literacy, numeracy, organization, customer service, software use in modern roles.",
+    "tools": "Ledgers historically; today PCs, spreadsheets, and ERP modules.",
+    "regions": "Worldwide across public and private institutions.",
+    "category": "clerical",
+    "eraPrimary": "medieval",
+    "originYear": 1100,
+    "originYearEnd": null,
+    "originLabel": "Medieval administrative offices",
+    "dateConfidence": "low",
+    "aliases": ["office clerk", "records clerk"],
+    "events": [],
+    "sources": [{ "title": "Administrative history surveys", "url": null, "note": "" }],
+    "relations": [{ "toSlug": "scribe", "type": "predecessor" }]
+  },
+  {
+    "slug": "brewer",
+    "name": "Brewer",
+    "status": "active",
+    "summary": "A maker of beer through mashing, fermentation, and finishing, from household ale wives to industrial brewery operators.",
+    "duties": "Select grains and hops, manage fermentation, ensure sanitation, blend batches to style.",
+    "skills": "Microbiology basics, recipe design, quality control, equipment operation.",
+    "tools": "Mash tuns, fermenters, kettles, hydrometers, modern PLC-controlled plants.",
+    "regions": "Global; ancient Mesopotamia to contemporary craft and industrial breweries.",
+    "category": "food",
+    "eraPrimary": "ancient",
+    "originYear": -3500,
+    "originYearEnd": null,
+    "originLabel": "Early agrarian settlements",
+    "dateConfidence": "low",
+    "aliases": ["alewife (historical)", "master brewer"],
+    "events": [],
+    "sources": [{ "title": "Fermentation archaeology", "url": null, "note": "" }],
+    "relations": [{ "toSlug": "cooper", "type": "related" }]
+  }
+]
