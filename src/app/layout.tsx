@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Fraunces, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
+import { CommandMenu } from "@/components/command-menu";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { cn } from "@/lib/utils";
 
 const fraunces = Fraunces({
   variable: "--font-serif",
@@ -28,13 +31,28 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${fraunces.variable} ${sourceSans.variable}`}>
-      <body className="min-h-screen bg-stone-50 font-sans text-stone-900 antialiased">
-        <SiteHeader />
-        <main className="mx-auto max-w-6xl flex-1 px-4 py-8">{children}</main>
-        <footer className="border-t border-stone-200 py-8 text-center text-sm text-stone-500">
-          Workroots — historical archive &amp; encyclopedia
-        </footer>
+    <html
+      lang="en"
+      className={cn(fraunces.variable, sourceSans.variable, "font-sans")}
+    >
+      <body className="min-h-screen antialiased">
+        <TooltipProvider>
+          <CommandMenu />
+          <SiteHeader />
+          <main className="mx-auto max-w-6xl flex-1 px-4 py-8 md:py-10">
+            {children}
+          </main>
+          <footer className="border-t border-border/60 bg-muted/30 py-10">
+            <div className="mx-auto max-w-6xl px-4 text-center text-sm text-muted-foreground">
+              <p className="font-serif text-base text-foreground/80">
+                Workroots
+              </p>
+              <p className="mt-1">
+                Historical archive &amp; encyclopedia of human work
+              </p>
+            </div>
+          </footer>
+        </TooltipProvider>
       </body>
     </html>
   );

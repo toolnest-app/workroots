@@ -168,3 +168,23 @@ export async function countOccupations() {
     .from(occupations);
   return row?.count ?? 0;
 }
+
+export async function getSiteStats() {
+  const db = getDb();
+  const [totalRow] = await db
+    .select({ count: sql<number>`count(*)::int` })
+    .from(occupations);
+  const eraRows = await db
+    .select({
+      era: occupations.eraPrimary,
+      count: sql<number>`count(*)::int`,
+    })
+    .from(occupations)
+    .groupBy(occupations.eraPrimary);
+  return {
+    totalRoles: totalRow?.count ?? 0,
+    eraCounts: Object.fromEntries(
+      eraRows.map((r) => [r.era, r.count])
+    ) as Partial<Record<EraPrimary, number>>,
+  };
+}

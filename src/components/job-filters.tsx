@@ -1,8 +1,17 @@
+"use client";
+
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { ERA_LABELS, STATUS_LABELS, ERA_ORDER } from "@/lib/constants";
+import { ERA_STYLES } from "@/lib/status-styles";
 import type { EraPrimary, OccupationStatus } from "@/db/schema";
+import { buttonVariants } from "@/components/ui/button";
+import { Separator } from "@/components/ui/separator";
+import { cn } from "@/lib/utils";
+import { X } from "lucide-react";
 
 interface JobFiltersProps {
+  total: number;
   current: {
     q?: string;
     status?: OccupationStatus;
@@ -23,55 +32,97 @@ function buildHref(
   return qs ? `/jobs?${qs}` : "/jobs";
 }
 
-export function JobFilters({ current }: JobFiltersProps) {
+export function JobFilters({ total, current }: JobFiltersProps) {
+  const router = useRouter();
+  const hasFilters = Boolean(current.status || current.era || current.q);
+
   return (
-    <div className="space-y-4 rounded-xl border border-stone-200 bg-white/70 p-4">
+    <div className="space-y-6 rounded-xl border border-border/80 bg-card p-5">
       <div>
-        <p className="mb-2 text-xs font-semibold uppercase text-stone-500">
+        <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+          Archive
+        </p>
+        <p className="mt-1 font-serif text-2xl font-semibold tabular-nums">
+          {total.toLocaleString()}
+        </p>
+        <p className="text-xs text-muted-foreground">roles match filters</p>
+      </div>
+
+      <Separator />
+
+      <div className="space-y-3">
+        <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
           Status
         </p>
-        <div className="flex flex-wrap gap-2">
-          <Link
-            href={buildHref(current, { status: undefined })}
-            className="text-sm text-stone-700 underline-offset-2 hover:underline"
-          >
-            All
-          </Link>
-          {(Object.keys(STATUS_LABELS) as OccupationStatus[]).map((s) => (
-            <Link
-              key={s}
-              href={buildHref(current, { status: s })}
-              className={`text-sm underline-offset-2 hover:underline ${
-                current.status === s ? "font-semibold text-stone-900" : "text-stone-600"
-              }`}
-            >
-              {STATUS_LABELS[s]}
-            </Link>
-          ))}
+        <div className="flex flex-wrap gap-1.5">
+          {(Object.keys(STATUS_LABELS) as OccupationStatus[]).map((s) => {
+            const active = current.status === s;
+            return (
+              <Link
+                key={s}
+                href={buildHref(current, {
+                  status: active ? undefined : s,
+                })}
+                className={cn(
+                  buttonVariants({
+                    variant: active ? "default" : "outline",
+                    size: "sm",
+                  }),
+                  "h-7 text-xs"
+                )}
+              >
+                {STATUS_LABELS[s]}
+              </Link>
+            );
+          })}
         </div>
       </div>
-      <div>
-        <p className="mb-2 text-xs font-semibold uppercase text-stone-500">Era</p>
-        <div className="flex flex-wrap gap-2">
-          <Link
-            href={buildHref(current, { era: undefined })}
-            className="text-sm text-stone-700 underline-offset-2 hover:underline"
-          >
-            All eras
-          </Link>
-          {ERA_ORDER.map((era) => (
-            <Link
-              key={era}
-              href={buildHref(current, { era })}
-              className={`text-sm underline-offset-2 hover:underline ${
-                current.era === era ? "font-semibold text-stone-900" : "text-stone-600"
-              }`}
-            >
-              {ERA_LABELS[era]}
-            </Link>
-          ))}
+
+      <div className="space-y-3">
+        <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+          Era
+        </p>
+        <div className="flex flex-col gap-1.5">
+          {ERA_ORDER.map((era) => {
+            const active = current.era === era;
+            return (
+              <Link
+                key={era}
+                href={buildHref(current, {
+                  era: active ? undefined : era,
+                })}
+                className={cn(
+                  buttonVariants({
+                    variant: active ? "default" : "ghost",
+                    size: "sm",
+                  }),
+                  "h-8 w-full justify-start text-xs font-normal",
+                  !active && ERA_STYLES[era].badge
+                )}
+              >
+                {ERA_LABELS[era]}
+              </Link>
+            );
+          })}
         </div>
       </div>
+
+      {hasFilters && (
+        <>
+          <Separator />
+          <button
+            type="button"
+            onClick={() => router.push("/jobs")}
+            className={cn(
+              buttonVariants({ variant: "ghost", size: "sm" }),
+              "w-full text-xs"
+            )}
+          >
+            <X className="mr-1 size-3" />
+            Clear filters
+          </button>
+        </>
+      )}
     </div>
   );
 }

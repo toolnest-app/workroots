@@ -2,18 +2,18 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { hasDatabase } from "@/db";
 import { SetupNotice } from "@/components/setup-notice";
-import { AgeBadge } from "@/components/age-badge";
-import { LineageList } from "@/components/lineage-list";
-import { Badge } from "@/components/ui/badge";
+import { DetailSidebar } from "@/components/detail-sidebar";
+import { OccupationTimeline } from "@/components/occupation-timeline";
+import { BreadcrumbsNav } from "@/components/breadcrumbs-nav";
 import { getOccupationBySlug } from "@/lib/queries/occupations";
-import { ERA_LABELS, STATUS_LABELS } from "@/lib/constants";
+import { Separator } from "@/components/ui/separator";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  if (!hasDatabase()) return { title: "Occupation" };
+  if (!hasDatabase()) return { title: "Role" };
   const { slug } = await params;
   const data = await getOccupationBySlug(slug);
   if (!data) return { title: "Not found" };
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-function Section({
+function ContentSection({
   title,
   children,
 }: {
@@ -31,9 +31,13 @@ function Section({
   children: React.ReactNode;
 }) {
   return (
-    <section className="space-y-2">
-      <h2 className="font-serif text-xl font-semibold text-stone-900">{title}</h2>
-      <div className="prose prose-stone max-w-none text-stone-700">{children}</div>
+    <section className="space-y-3">
+      <h2 className="font-serif text-xl font-semibold tracking-tight">
+        {title}
+      </h2>
+      <div className="text-sm leading-relaxed text-muted-foreground md:text-base">
+        {children}
+      </div>
     </section>
   );
 }
@@ -52,121 +56,136 @@ export default async function OccupationDetailPage({ params }: PageProps) {
     occupation.status === "active" || occupation.status === "declining";
 
   return (
-    <article className="space-y-10">
-      <header className="space-y-4">
-        <div className="flex flex-wrap gap-2">
-          <Badge>{STATUS_LABELS[occupation.status]}</Badge>
-          <Badge className="bg-stone-200">{ERA_LABELS[occupation.eraPrimary]}</Badge>
-          <Badge className="bg-stone-200">{occupation.category}</Badge>
-        </div>
-        <h1 className="font-serif text-4xl font-semibold">{occupation.name}</h1>
-        {aliases.length > 0 && (
-          <p className="text-sm text-stone-600">
-            Also known as: {aliases.join(", ")}
-          </p>
-        )}
-        <p className="text-lg text-stone-700">{occupation.summary}</p>
-        <AgeBadge
+    <div>
+      <BreadcrumbsNav
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Browse", href: "/jobs" },
+          { label: occupation.name },
+        ]}
+      />
+
+      <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-12 xl:grid-cols-[minmax(0,1fr)_360px]">
+        <article className="min-w-0 space-y-8">
+          <header className="space-y-3 border-b border-border/60 pb-8">
+            <h1 className="font-serif text-4xl font-semibold tracking-tight md:text-5xl">
+              {occupation.name}
+            </h1>
+            {aliases.length > 0 && (
+              <p className="text-sm text-muted-foreground">
+                Also known as:{" "}
+                <span className="text-foreground">{aliases.join(", ")}</span>
+              </p>
+            )}
+            <p className="text-lg leading-relaxed text-foreground/90">
+              {occupation.summary}
+            </p>
+          </header>
+
+          {events.length > 0 && (
+            <ContentSection title="Timeline">
+              <OccupationTimeline events={events} />
+            </ContentSection>
+          )}
+
+          {occupation.duties && (
+            <ContentSection title="Duties">
+              <p className="whitespace-pre-wrap text-foreground/85">
+                {occupation.duties}
+              </p>
+            </ContentSection>
+          )}
+
+          {occupation.skills && (
+            <ContentSection title="Skills">
+              <p className="whitespace-pre-wrap text-foreground/85">
+                {occupation.skills}
+              </p>
+            </ContentSection>
+          )}
+
+          {occupation.tools && (
+            <ContentSection title="Tools">
+              <p className="whitespace-pre-wrap text-foreground/85">
+                {occupation.tools}
+              </p>
+            </ContentSection>
+          )}
+
+          {occupation.regions && (
+            <ContentSection title="Regions">
+              <p className="text-foreground/85">{occupation.regions}</p>
+            </ContentSection>
+          )}
+
+          {isActive && (occupation.educationPath || occupation.modernSectors) && (
+            <ContentSection title="Today">
+              {occupation.educationPath && (
+                <p>
+                  <span className="font-medium text-foreground">Path in: </span>
+                  {occupation.educationPath}
+                </p>
+              )}
+              {occupation.modernSectors && (
+                <p className="mt-3">
+                  <span className="font-medium text-foreground">Sectors: </span>
+                  {occupation.modernSectors}
+                </p>
+              )}
+            </ContentSection>
+          )}
+
+          <Separator />
+
+          <ContentSection title="Sources & uncertainty">
+            {occupation.originLabel && (
+              <p className="mb-3 text-sm">
+                <span className="font-medium text-foreground">Origin note: </span>
+                {occupation.originLabel}
+              </p>
+            )}
+            {sources.length > 0 ? (
+              <ul className="list-disc space-y-2 pl-5">
+                {sources.map((s) => (
+                  <li key={s.id}>
+                    {s.url ? (
+                      <a
+                        href={s.url}
+                        className="font-medium text-primary underline-offset-2 hover:underline"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {s.title}
+                      </a>
+                    ) : (
+                      <span className="font-medium text-foreground">
+                        {s.title}
+                      </span>
+                    )}
+                    {s.note ? (
+                      <span className="text-muted-foreground"> — {s.note}</span>
+                    ) : null}
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p>Sources being expanded for this entry.</p>
+            )}
+          </ContentSection>
+        </article>
+
+        <DetailSidebar
           status={occupation.status}
+          eraPrimary={occupation.eraPrimary}
+          category={occupation.category}
           originYear={occupation.originYear}
           originYearEnd={occupation.originYearEnd}
           originLabel={occupation.originLabel}
           dateConfidence={occupation.dateConfidence}
+          relations={relations}
+          currentName={occupation.name}
         />
-      </header>
-
-      <Section title="Lineage">
-        <LineageList relations={relations} />
-      </Section>
-
-      {events.length > 0 && (
-        <Section title="Timeline">
-          <ol className="space-y-3 border-l-2 border-stone-300 pl-4">
-            {events.map((ev) => (
-              <li key={ev.id} className="text-sm">
-                <p className="font-medium text-stone-900">
-                  {ev.year != null ? `${ev.year}` : "—"} · {ev.label}
-                </p>
-                {ev.description && (
-                  <p className="text-stone-600">{ev.description}</p>
-                )}
-              </li>
-            ))}
-          </ol>
-        </Section>
-      )}
-
-      {occupation.duties && (
-        <Section title="Duties">
-          <p className="whitespace-pre-wrap">{occupation.duties}</p>
-        </Section>
-      )}
-
-      {occupation.skills && (
-        <Section title="Skills">
-          <p className="whitespace-pre-wrap">{occupation.skills}</p>
-        </Section>
-      )}
-
-      {occupation.tools && (
-        <Section title="Tools">
-          <p className="whitespace-pre-wrap">{occupation.tools}</p>
-        </Section>
-      )}
-
-      {occupation.regions && (
-        <Section title="Regions">
-          <p>{occupation.regions}</p>
-        </Section>
-      )}
-
-      {isActive && (occupation.educationPath || occupation.modernSectors) && (
-        <Section title="Today">
-          {occupation.educationPath && (
-            <p>
-              <span className="font-medium">Path in: </span>
-              {occupation.educationPath}
-            </p>
-          )}
-          {occupation.modernSectors && (
-            <p className="mt-2">
-              <span className="font-medium">Sectors: </span>
-              {occupation.modernSectors}
-            </p>
-          )}
-        </Section>
-      )}
-
-      <Section title="Sources & uncertainty">
-        {occupation.originLabel && (
-          <p className="text-sm text-stone-600">
-            Origin note: {occupation.originLabel}
-          </p>
-        )}
-        {sources.length > 0 ? (
-          <ul className="mt-2 list-disc space-y-1 pl-5 text-sm">
-            {sources.map((s) => (
-              <li key={s.id}>
-                {s.url ? (
-                  <a
-                    href={s.url}
-                    className="text-stone-800 underline"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {s.title}
-                  </a>
-                ) : (
-                  s.title
-                )}
-                {s.note ? ` — ${s.note}` : ""}
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p className="text-sm text-stone-500">Sources being expanded.</p>
-        )}
-      </Section>
-    </article>
+      </div>
+    </div>
   );
 }

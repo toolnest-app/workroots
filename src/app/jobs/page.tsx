@@ -3,9 +3,13 @@ import { hasDatabase } from "@/db";
 import { SetupNotice } from "@/components/setup-notice";
 import { JobFilters } from "@/components/job-filters";
 import { OccupationCard } from "@/components/occupation-card";
-import { SearchBox } from "@/components/search-box";
+import { BreadcrumbsNav } from "@/components/breadcrumbs-nav";
+import { EraTimeline } from "@/components/era-timeline";
+import { CommandTrigger } from "@/components/command-trigger";
 import { listOccupations } from "@/lib/queries/occupations";
 import type { EraPrimary, OccupationStatus } from "@/db/schema";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 
 interface JobsPageProps {
   searchParams: Promise<{
@@ -47,57 +51,103 @@ export default async function JobsPage({ searchParams }: JobsPageProps) {
   });
 
   return (
-    <div className="grid gap-8 lg:grid-cols-[240px_1fr]">
-      <aside className="space-y-4">
-        <JobFilters current={{ q: params.q, status, era }} />
-      </aside>
-      <div className="space-y-6">
+    <div className="space-y-8">
+      <BreadcrumbsNav
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Browse archive" },
+        ]}
+      />
+
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <h1 className="font-serif text-3xl font-semibold">Browse the archive</h1>
-          <p className="mt-1 text-stone-600">
-            {result.total.toLocaleString()} roles in Workroots
+          <h1 className="font-serif text-3xl font-semibold tracking-tight md:text-4xl">
+            Browse the archive
+          </h1>
+          <p className="mt-2 text-muted-foreground">
+            Filter by status and historical era
           </p>
         </div>
-        <SearchBox initialQuery={params.q ?? ""} />
-        <div className="grid gap-4 sm:grid-cols-2">
-          {result.items.map((job) => (
-            <OccupationCard
-              key={job.slug}
-              slug={job.slug}
-              name={job.name}
-              summary={job.summary}
-              status={job.status}
-              eraPrimary={job.eraPrimary}
-            />
-          ))}
+        <CommandTrigger className="w-full sm:w-72" />
+      </div>
+
+      {era && (
+        <div className="rounded-xl border border-primary/20 bg-primary/5 px-4 py-2 text-sm">
+          Filtering by era:{" "}
+          <span className="font-medium capitalize">{era.replace("_", " ")}</span>
         </div>
-        {result.totalPages > 1 && (
-          <div className="flex items-center justify-between border-t border-stone-200 pt-4 text-sm">
-            {page > 1 ? (
-              <Link
-                href={jobsPageHref(params, page - 1)}
-                className="text-stone-700 hover:underline"
-              >
-                ← Previous
-              </Link>
+      )}
+
+      <EraTimeline activeEra={era} />
+
+      <div className="grid gap-8 lg:grid-cols-[260px_1fr]">
+        <JobFilters
+          total={result.total}
+          current={{ q: params.q, status, era }}
+        />
+        <div className="space-y-6">
+          <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+            {result.items.length === 0 ? (
+              <div className="col-span-full rounded-xl border border-dashed bg-muted/30 px-6 py-16 text-center">
+                <p className="font-serif text-lg font-medium">
+                  No roles match these filters
+                </p>
+                <p className="mt-2 text-sm text-muted-foreground">
+                  Try clearing filters or search from the command menu (⌘K)
+                </p>
+                <Link
+                  href="/jobs"
+                  className={cn(
+                    buttonVariants({ variant: "outline", size: "sm" }),
+                    "mt-4 inline-flex"
+                  )}
+                >
+                  Clear filters
+                </Link>
+              </div>
             ) : (
-              <span />
-            )}
-            <span>
-              Page {page} of {result.totalPages}
-            </span>
-            {page < result.totalPages ? (
-              <Link
-                href={jobsPageHref(params, page + 1)}
-                className="text-stone-700 hover:underline"
-              >
-                Next →
-              </Link>
-            ) : (
-              <span />
+              result.items.map((job) => (
+                <OccupationCard
+                  key={job.slug}
+                  slug={job.slug}
+                  name={job.name}
+                  summary={job.summary}
+                  status={job.status}
+                  eraPrimary={job.eraPrimary}
+                  originYear={job.originYear}
+                />
+              ))
             )}
           </div>
-        )}
+
+          {result.totalPages > 1 && (
+            <div className="flex items-center justify-between border-t pt-4 text-sm">
+              {page > 1 ? (
+                <Link
+                  href={jobsPageHref(params, page - 1)}
+                  className={buttonVariants({ variant: "ghost", size: "sm" })}
+                >
+                  ← Previous
+                </Link>
+              ) : (
+                <span />
+              )}
+              <span className="text-muted-foreground">
+                Page {page} of {result.totalPages}
+              </span>
+              {page < result.totalPages ? (
+                <Link
+                  href={jobsPageHref(params, page + 1)}
+                  className={buttonVariants({ variant: "ghost", size: "sm" })}
+                >
+                  Next →
+                </Link>
+              ) : (
+                <span />
+              )}
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
