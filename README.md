@@ -18,6 +18,7 @@ npx tsx scripts/run-sql-file.ts drizzle/manual/002_enhanced_tier.sql
 npx tsx scripts/run-sql-file.ts drizzle/manual/003_current_pressures.sql
 npm run enrich:stubs
 npm run import:pressures
+npx tsx scripts/run-sql-file.ts drizzle/manual/004_suggestions.sql
 npm run dev
 ```
 

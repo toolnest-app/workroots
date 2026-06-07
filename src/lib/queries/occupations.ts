@@ -1,5 +1,14 @@
-import { and, asc, desc, eq, isNotNull, sql, type SQL } from "drizzle-orm";
-import { FEATURED_SLUGS } from "@/lib/constants";
+import {
+  and,
+  asc,
+  desc,
+  eq,
+  inArray,
+  isNotNull,
+  sql,
+  type SQL,
+} from "drizzle-orm";
+import { FEATURED_SLUGS, PRESSURE_FEATURED_SLUGS } from "@/lib/constants";
 import { getDb } from "@/db";
 import {
   occupationAliases,
@@ -173,6 +182,38 @@ export async function getOccupationBySlug(slug: string) {
 
 export async function getFeaturedSlugs() {
   return [...FEATURED_SLUGS];
+}
+
+export async function getPressureFeaturedOccupations() {
+  const db = getDb();
+  const slugs = [...PRESSURE_FEATURED_SLUGS];
+
+  const rows = await db
+    .select({
+      slug: occupations.slug,
+      name: occupations.name,
+      summary: occupations.summary,
+      status: occupations.status,
+      eraPrimary: occupations.eraPrimary,
+      originYear: occupations.originYear,
+      contentTier: occupations.contentTier,
+      pressureType: occupations.pressureType,
+      pressureSummary: occupations.pressureSummary,
+    })
+    .from(occupations)
+    .where(
+      and(
+        inArray(occupations.slug, slugs),
+        isNotNull(occupations.pressureType)
+      )
+    );
+
+  const order = new Map<string, number>(
+    slugs.map((slug, index) => [slug, index])
+  );
+  return rows.sort(
+    (a, b) => (order.get(a.slug) ?? 99) - (order.get(b.slug) ?? 99)
+  );
 }
 
 export async function countCuratedOccupations() {

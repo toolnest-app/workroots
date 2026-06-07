@@ -55,6 +55,18 @@ export const CONFIDENCE_LABELS = {
 } as const;
 
 /** Homepage featured order — all must exist in showcase.json */
+/** Homepage pressure strip — diverse impact types, all must have pressure data */
+export const PRESSURE_FEATURED_SLUGS = [
+  "software-developer",
+  "nurse",
+  "illustrator",
+  "data-entry-clerk",
+  "travel-agent",
+  "electrician",
+  "teacher",
+  "judge",
+] as const;
+
 export const FEATURED_SLUGS = [
   "blacksmith",
   "software-developer",

@@ -7,7 +7,9 @@ import {
 import type { DateConfidence } from "@/lib/occupation-age";
 import type { PressureType } from "@/db/schema";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 import { Sparkles } from "lucide-react";
+import { buttonVariants } from "@/components/ui/button";
 
 const PRESSURE_STYLES: Record<PressureType, string> = {
   augmented: "border-violet-300/80 bg-violet-50/90 text-violet-950",
@@ -25,6 +27,7 @@ interface PressureSource {
 }
 
 interface CurrentPressuresProps {
+  occupationSlug: string;
   pressureType: PressureType;
   pressureConfidence: DateConfidence;
   summary: string;
@@ -32,6 +35,7 @@ interface CurrentPressuresProps {
 }
 
 export function CurrentPressures({
+  occupationSlug,
   pressureType,
   pressureConfidence,
   summary,
@@ -88,10 +92,21 @@ export function CurrentPressures({
         </ul>
       )}
 
-      <p className="mt-4 text-xs opacity-70">
-        Pilot layer (2024–2026). Assessments are curated and revised as evidence
-        shifts — not predictive scores.
-      </p>
+      <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-current/10 pt-4">
+        <p className="text-xs opacity-70">
+          Pilot layer (2024–2026). Assessments are curated and revised as
+          evidence shifts — not predictive scores.
+        </p>
+        <Link
+          href={`/suggest?role=${occupationSlug}&type=pressure`}
+          className={cn(
+            buttonVariants({ variant: "outline", size: "sm" }),
+            "shrink-0 border-current/20 bg-white/50 text-xs"
+          )}
+        >
+          Suggest an update
+        </Link>
+      </div>
     </section>
   );
 }

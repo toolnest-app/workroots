@@ -50,6 +50,11 @@ export default function RootLayout({
               <p className="mt-1">
                 Historical archive &amp; encyclopedia of human work
               </p>
+              <p className="mt-3">
+                <a href="/suggest" className="underline-offset-2 hover:underline">
+                  Suggest a correction
+                </a>
+              </p>
             </div>
           </footer>
         </TooltipProvider>

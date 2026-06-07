@@ -12,6 +12,9 @@ import { getOccupationBySlug } from "@/lib/queries/occupations";
 import { Separator } from "@/components/ui/separator";
 import { TierNotice } from "@/components/tier-notice";
 import { CurrentPressures } from "@/components/current-pressures";
+import Link from "next/link";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -109,6 +112,7 @@ export default async function OccupationDetailPage({ params }: PageProps) {
             occupation.pressureConfidence &&
             occupation.pressureSummary && (
               <CurrentPressures
+                occupationSlug={occupation.slug}
                 pressureType={occupation.pressureType}
                 pressureConfidence={occupation.pressureConfidence}
                 summary={occupation.pressureSummary}
@@ -197,6 +201,17 @@ export default async function OccupationDetailPage({ params }: PageProps) {
             ) : (
               <p>Sources being expanded for this entry.</p>
             )}
+            <p className="mt-4 text-sm">
+              <Link
+                href={`/suggest?role=${occupation.slug}&type=correction`}
+                className={cn(
+                  buttonVariants({ variant: "outline", size: "sm" }),
+                  "inline-flex"
+                )}
+              >
+                Suggest a correction
+              </Link>
+            </p>
           </ContentSection>
         </article>
 

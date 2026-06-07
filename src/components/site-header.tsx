@@ -26,6 +26,9 @@ export function SiteHeader() {
             <Link href="/jobs" className={navLink}>
               Browse
             </Link>
+            <Link href="/suggest" className={navLink}>
+              Suggest
+            </Link>
           </nav>
         </div>
         <div className="flex flex-1 items-center justify-end gap-4 sm:max-w-md">
@@ -39,6 +42,9 @@ export function SiteHeader() {
             </Link>
             <Link href="/about" className={navLink}>
               About
+            </Link>
+            <Link href="/suggest" className={navLink}>
+              Suggest
             </Link>
           </nav>
         </div>

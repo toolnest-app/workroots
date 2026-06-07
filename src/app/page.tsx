@@ -3,11 +3,14 @@ import { SetupNotice } from "@/components/setup-notice";
 import { HomeHero } from "@/components/home-hero";
 import { EraTimeline } from "@/components/era-timeline";
 import { OccupationCard } from "@/components/occupation-card";
+import { PressureRolesStrip } from "@/components/pressure-roles-strip";
 import {
   countCuratedOccupations,
   countEnhancedOccupations,
+  countPressureOccupations,
   getFeaturedSlugs,
   getOccupationBySlug,
+  getPressureFeaturedOccupations,
   getSiteStats,
 } from "@/lib/queries/occupations";
 
@@ -16,12 +19,15 @@ export default async function HomePage() {
     return <SetupNotice />;
   }
 
-  const [stats, curatedCount, enhancedCount, slugs] = await Promise.all([
-    getSiteStats(),
-    countCuratedOccupations(),
-    countEnhancedOccupations(),
-    getFeaturedSlugs(),
-  ]);
+  const [stats, curatedCount, enhancedCount, pressureCount, pressureRoles, slugs] =
+    await Promise.all([
+      getSiteStats(),
+      countCuratedOccupations(),
+      countEnhancedOccupations(),
+      countPressureOccupations(),
+      getPressureFeaturedOccupations(),
+      getFeaturedSlugs(),
+    ]);
   const featured = (
     await Promise.all(slugs.map((slug) => getOccupationBySlug(slug)))
   ).filter(Boolean);
@@ -32,6 +38,14 @@ export default async function HomePage() {
         totalRoles={stats.totalRoles}
         curatedCount={curatedCount}
         enhancedCount={enhancedCount}
+      />
+
+      <PressureRolesStrip
+        roles={pressureRoles.filter(
+          (role): role is typeof role & { pressureType: NonNullable<typeof role.pressureType> } =>
+            role.pressureType != null
+        )}
+        totalCount={pressureCount}
       />
 
       <section className="space-y-4">

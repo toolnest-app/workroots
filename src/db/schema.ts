@@ -151,6 +151,39 @@ export const occupationEvents = pgTable(
   })
 );
 
+export const suggestionTypeEnum = pgEnum("suggestion_type", [
+  "correction",
+  "pressure",
+  "source",
+  "other",
+]);
+
+export const suggestionStatusEnum = pgEnum("suggestion_status", [
+  "pending",
+  "reviewed",
+  "dismissed",
+]);
+
+export const suggestions = pgTable(
+  "suggestions",
+  {
+    id: serial("id").primaryKey(),
+    occupationSlug: text("occupation_slug"),
+    type: suggestionTypeEnum("type").notNull(),
+    message: text("message").notNull(),
+    email: text("email"),
+    name: text("name"),
+    status: suggestionStatusEnum("status").notNull().default("pending"),
+    ipHash: text("ip_hash").notNull(),
+    createdAt: timestamp("created_at").defaultNow().notNull(),
+  },
+  (t) => ({
+    statusIdx: index("suggestions_status_idx").on(t.status),
+    createdIdx: index("suggestions_created_at_idx").on(t.createdAt),
+    ipCreatedIdx: index("suggestions_ip_created_idx").on(t.ipHash, t.createdAt),
+  })
+);
+
 export const occupationSources = pgTable(
   "occupation_sources",
   {
@@ -173,3 +206,4 @@ export type EraPrimary = Occupation["eraPrimary"];
 export type DateConfidence = Occupation["dateConfidence"];
 export type ContentTier = Occupation["contentTier"];
 export type PressureType = NonNullable<Occupation["pressureType"]>;
+export type SuggestionType = (typeof suggestions.$inferSelect)["type"];
