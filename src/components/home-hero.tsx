@@ -3,9 +3,15 @@ import { BookOpen, Clock, GitBranch } from "lucide-react";
 
 interface HomeHeroProps {
   totalRoles: number;
+  curatedCount?: number;
+  enhancedCount?: number;
 }
 
-export function HomeHero({ totalRoles }: HomeHeroProps) {
+export function HomeHero({
+  totalRoles,
+  curatedCount = 0,
+  enhancedCount = 0,
+}: HomeHeroProps) {
   const formatted =
     totalRoles >= 1000
       ? `${Math.floor(totalRoles / 100) / 10}k+`
@@ -64,9 +70,16 @@ export function HomeHero({ totalRoles }: HomeHeroProps) {
           <div>
             <dt className="flex items-center gap-1.5 text-xs font-medium uppercase tracking-wide text-muted-foreground">
               <GitBranch className="size-3.5" />
-              Lineage
+              Curated
             </dt>
-            <dd className="mt-1 font-serif text-2xl font-semibold">Mapped</dd>
+            <dd className="mt-1 font-serif text-2xl font-semibold tabular-nums">
+              {curatedCount > 0 ? curatedCount : "—"}
+            </dd>
+            {enhancedCount > 0 && (
+              <p className="mt-0.5 text-[11px] text-muted-foreground">
+                +{enhancedCount.toLocaleString()} enhanced
+              </p>
+            )}
           </div>
         </dl>
       </div>

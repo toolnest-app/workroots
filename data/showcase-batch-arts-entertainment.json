@@ -1,0 +1,1507 @@
+[
+  {
+    "slug": "actor",
+    "name": "Actor",
+    "status": "active",
+    "summary": "A performer who portrays characters in theater, film, television, and radio—one of the oldest paid entertainment roles, from Greek chorus members to screen stars.",
+    "duties": "Memorize lines, rehearse blocking, perform for audiences or cameras, collaborate with directors, and maintain vocal and physical readiness.",
+    "skills": "Emotional range, memorization, improvisation, stamina, professionalism on set or stage.",
+    "tools": "Scripts, costumes, microphones, marks on set, dialect coaches.",
+    "regions": "Theater districts worldwide; Hollywood, Bollywood, West End, and regional repertory traditions.",
+    "category": "arts",
+    "eraPrimary": "ancient",
+    "originYear": -500,
+    "originYearEnd": null,
+    "originLabel": "Classical Greek tragic and comic actors",
+    "dateConfidence": "medium",
+    "educationPath": "Drama school, conservatory training, audition circuits, on-set experience.",
+    "modernSectors": "Film, television, theater, voice acting, commercial work, motion capture.",
+    "aliases": [
+      "actress",
+      "player (historical)",
+      "thespian"
+    ],
+    "events": [
+      {
+        "year": 1895,
+        "label": "Cinema acting",
+        "description": "Motion pictures create a new mass market for screen performers.",
+        "sortOrder": 1
+      },
+      {
+        "year": 1950,
+        "label": "Method influence",
+        "description": "Stanislavski-derived training reshapes film and stage acting pedagogy.",
+        "sortOrder": 2
+      }
+    ],
+    "sources": [
+      {
+        "title": "Theater history surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "playwright",
+        "type": "related"
+      },
+      {
+        "toSlug": "film-director",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "playwright",
+    "name": "Playwright",
+    "status": "active",
+    "summary": "A writer who crafts scripts for live theater—structuring dialogue, conflict, and stage directions for actors and directors.",
+    "duties": "Draft plays, revise from readings, collaborate in workshops, and negotiate rights with producers.",
+    "skills": "Dialogue, dramatic structure, character psychology, revision discipline, networking.",
+    "tools": "Notebooks, typewriters historically, Final Draft and similar software today.",
+    "regions": "Athens, London, Paris, Broadway, and national theater movements worldwide.",
+    "category": "arts",
+    "eraPrimary": "ancient",
+    "originYear": -500,
+    "originYearEnd": null,
+    "originLabel": "Athenian dramatic competitions",
+    "dateConfidence": "medium",
+    "educationPath": "MFA playwriting programs, fringe festival production, dramaturg apprenticeships.",
+    "modernSectors": "Regional theater, Broadway, West End, community stages, streaming audio drama.",
+    "aliases": [
+      "dramatist",
+      "scriptwriter (stage)"
+    ],
+    "events": [
+      {
+        "year": 1580,
+        "label": "Elizabethan theater boom",
+        "description": "Commercial playhouses employ resident playwrights like Shakespeare's circle.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Drama literature histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "actor",
+        "type": "related"
+      },
+      {
+        "toSlug": "screenwriter",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "dancer",
+    "name": "Dancer",
+    "status": "active",
+    "summary": "A performer who expresses stories and rhythm through choreographed movement—spanning court ballets, folk traditions, and commercial music videos.",
+    "duties": "Rehearse choreography, maintain fitness, perform in ensembles or solos, and adapt to stage or camera.",
+    "skills": "Technique, musicality, flexibility, memorization, injury prevention.",
+    "tools": "Dance shoes, studio mirrors, sprung floors, costumes, tour buses.",
+    "regions": "Every culture with ritual and social dance; professional companies in Europe, Americas, and Asia.",
+    "category": "arts",
+    "eraPrimary": "ancient",
+    "originYear": -3000,
+    "originYearEnd": null,
+    "originLabel": "Ritual and court dance in early civilizations",
+    "dateConfidence": "low",
+    "educationPath": "Conservatory training, company auditions, commercial dance workshops.",
+    "modernSectors": "Ballet companies, touring pop acts, cruise ships, film choreography, teaching studios.",
+    "aliases": [
+      "performing dancer",
+      "chorus dancer"
+    ],
+    "events": [
+      {
+        "year": 1661,
+        "label": "Royal academies",
+        "description": "Louis XIV-era institutions formalize professional ballet training in France.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dance ethnology and history",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "ballet-dancer",
+        "type": "related"
+      },
+      {
+        "toSlug": "actor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "ballet-dancer",
+    "name": "Ballet Dancer",
+    "status": "active",
+    "summary": "A specialist in classical ballet technique who performs pointe work, pas de deux, and repertoire from Petipa to contemporary choreographers.",
+    "duties": "Daily class, rehearse repertoire, tour with companies, and maintain extraordinary physical conditioning.",
+    "skills": "Turnout, pointe safety, partnering, musical precision, silent storytelling.",
+    "tools": "Pointe shoes, tutus, rosin, rehearsal pianists, company studios.",
+    "regions": "Paris Opera Ballet, Bolshoi, Royal Ballet, American Ballet Theatre, and national companies.",
+    "category": "arts",
+    "eraPrimary": "early_modern",
+    "originYear": 1661,
+    "originYearEnd": null,
+    "originLabel": "Académie Royale de Danse in France",
+    "dateConfidence": "high",
+    "educationPath": "Pre-professional academies, company school pipelines, summer intensives.",
+    "modernSectors": "Major ballet companies, contemporary ballet hybrids, commercial ballet events.",
+    "aliases": [
+      "ballerina",
+      "danseur",
+      "principal dancer (rank)"
+    ],
+    "events": [
+      {
+        "year": 1832,
+        "label": "Romantic ballet",
+        "description": "La Sylphide era elevates pointe technique and ethereal repertoire.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ballet historiography",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "dancer",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "choreographer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "musician",
+    "name": "Musician",
+    "status": "active",
+    "summary": "A performer who plays instruments or sings for audiences—encompassing court minstrels, orchestra members, session players, and touring artists.",
+    "duties": "Practice repertoire, rehearse with ensembles, perform concerts or sessions, and maintain instruments.",
+    "skills": "Rhythm, ear training, sight-reading, stage presence, collaboration.",
+    "tools": "Instruments, sheet music, amplifiers, in-ear monitors, recording booths.",
+    "regions": "Global; patronage courts historically, concert halls and clubs today.",
+    "category": "arts",
+    "eraPrimary": "ancient",
+    "originYear": -2000,
+    "originYearEnd": null,
+    "originLabel": "Professional musicians in ancient courts and temples",
+    "dateConfidence": "low",
+    "educationPath": "Conservatory, private lessons, band circuits, music school degrees.",
+    "modernSectors": "Orchestras, touring bands, studio session work, weddings, teaching.",
+    "aliases": [
+      "instrumentalist",
+      "minstrel (historical)"
+    ],
+    "events": [
+      {
+        "year": 1925,
+        "label": "Recorded music industry",
+        "description": "Phonograph and radio stars create new employment beyond live performance alone.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Musicology surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "composer",
+        "type": "related"
+      },
+      {
+        "toSlug": "conductor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "composer",
+    "name": "Composer",
+    "status": "active",
+    "summary": "A creator of music who writes scores for concert hall, theater, film, and games—evolving from court kapellmeisters to freelance media composers.",
+    "duties": "Write notation or DAW projects, orchestrate, revise to director notes, and deliver parts to performers.",
+    "skills": "Harmony, orchestration, deadline work, collaboration, stylistic range.",
+    "tools": "Manuscript paper, piano, Sibelius/Finale, DAWs, sample libraries.",
+    "regions": "Vienna classical tradition, Hollywood scoring stages, game audio studios globally.",
+    "category": "arts",
+    "eraPrimary": "medieval",
+    "originYear": 900,
+    "originYearEnd": null,
+    "originLabel": "Notated composition in medieval and Renaissance chapels",
+    "dateConfidence": "medium",
+    "educationPath": "Composition degrees, mentorship, portfolio of concert and media work.",
+    "modernSectors": "Symphony commissions, film/TV scoring, video games, advertising, theater.",
+    "aliases": [
+      "songwriter (popular overlap)",
+      "arranger (related)"
+    ],
+    "events": [
+      {
+        "year": 1800,
+        "label": "Concert tradition",
+        "description": "Public concert halls expand commissions for symphonic composers.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Music composition histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "musician",
+        "type": "related"
+      },
+      {
+        "toSlug": "conductor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "conductor",
+    "name": "Conductor",
+    "status": "active",
+    "summary": "A leader who interprets scores and directs orchestras, choirs, or pit bands—emerging as a distinct role in the 19th-century concert hall.",
+    "duties": "Rehearse ensembles, set tempi and dynamics, cue entries, and represent the orchestra publicly.",
+    "skills": "Score study, baton technique, leadership, interpersonal diplomacy, stamina.",
+    "tools": "Batons, scores, recording sessions, concert podiums.",
+    "regions": "European and American symphony institutions; opera houses worldwide.",
+    "category": "arts",
+    "eraPrimary": "modern",
+    "originYear": 1820,
+    "originYearEnd": null,
+    "originLabel": "Public conductor-as-star in Romantic orchestra culture",
+    "dateConfidence": "medium",
+    "educationPath": "Conservatory conducting programs, assistant conductor posts, competitions.",
+    "modernSectors": "Symphonies, opera pits, youth orchestras, recording labels.",
+    "aliases": [
+      "maestro",
+      "music director (overlap)"
+    ],
+    "events": [
+      {
+        "year": 1882,
+        "label": "Recorded conductors",
+        "description": "Early recordings spread celebrity conductor interpretations globally.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Orchestral history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "composer",
+        "type": "related"
+      },
+      {
+        "toSlug": "musician",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "opera-singer",
+    "name": "Opera Singer",
+    "status": "active",
+    "summary": "A classically trained vocalist who performs staged works with orchestra—combining musicianship, acting, and often multilingual diction.",
+    "duties": "Learn roles, attend musical and stage rehearsals, perform long scores, and protect vocal health.",
+    "skills": "Bel canto or equivalent technique, language diction, stamina, stage movement.",
+    "tools": "Scores, costumes, wigs, resonant practice rooms, vocal coaches.",
+    "regions": "Italian opera houses, German Festspiel traditions, Met Opera, global festivals.",
+    "category": "arts",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "Florentine camerata and early opera around 1600",
+    "dateConfidence": "high",
+    "educationPath": "Conservatory voice programs, young artist programs, coachings.",
+    "modernSectors": "Opera companies, oratorio concerts, crossover recording, teaching.",
+    "aliases": [
+      "prima donna (historical star)",
+      "tenor (voice type example)"
+    ],
+    "events": [
+      {
+        "year": 1607,
+        "label": "Monteverdi Orfeo",
+        "description": "Early masterwork helps establish opera as enduring professional repertoire.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Opera history textbooks",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "musician",
+        "type": "related"
+      },
+      {
+        "toSlug": "actor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "music-producer",
+    "name": "Music Producer",
+    "status": "active",
+    "summary": "A studio professional who shapes recordings by guiding performance, arrangement, and mix decisions—central to pop, hip-hop, and electronic genres.",
+    "duties": "Select takes, coach artists, hire session players, oversee mixing and mastering budgets.",
+    "skills": "Ear for hooks, arrangement, diplomacy, technical literacy, trend awareness.",
+    "tools": "DAWs, control surfaces, outboard gear, reference monitors, sample packs.",
+    "regions": "Nashville, Los Angeles, London, Atlanta, Seoul pop factories.",
+    "category": "arts",
+    "eraPrimary": "modern",
+    "originYear": 1950,
+    "originYearEnd": null,
+    "originLabel": "Independent producers in post-war recording studios",
+    "dateConfidence": "medium",
+    "educationPath": "Engineering apprenticeships, home studio portfolios, label production deals.",
+    "modernSectors": "Major labels, indie artists, sync licensing, beat leasing markets.",
+    "aliases": [
+      "record producer",
+      "beatmaker (genre overlap)"
+    ],
+    "events": [
+      {
+        "year": 1980,
+        "label": "MIDI and home studios",
+        "description": "Digital tools democratize production outside expensive commercial studios.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Recording industry histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "musician",
+        "type": "related"
+      },
+      {
+        "toSlug": "composer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "luthier",
+    "name": "Luthier",
+    "status": "active",
+    "summary": "A craftsperson who builds and repairs stringed instruments—violins, guitars, and related wooden bodies requiring acute acoustic judgment.",
+    "duties": "Carve tops and backs, fit necks, varnish instruments, setup action, and restore antiques.",
+    "skills": "Woodworking, acoustics intuition, patience, client consultation, repair diagnosis.",
+    "tools": "Chisels, bending iron, purfling tools, calipers, humidity-controlled workshop.",
+    "regions": "Cremona violin tradition, Spanish guitar makers, Nashville repair shops.",
+    "category": "arts",
+    "eraPrimary": "medieval",
+    "originYear": 1200,
+    "originYearEnd": null,
+    "originLabel": "European plucked and bowed instrument workshops",
+    "dateConfidence": "low",
+    "aliases": [
+      "violin maker",
+      "guitar maker"
+    ],
+    "events": [
+      {
+        "year": 1700,
+        "label": "Stradivari legend",
+        "description": "Cremonese makers set enduring standards for violin craft prestige.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Instrument making histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "musician",
+        "type": "related"
+      },
+      {
+        "toSlug": "carpenter",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "painter",
+    "name": "Painter",
+    "status": "active",
+    "summary": "An artist who applies pigment to surfaces to create images—from temple fresco painters to gallery exhibitors and commercial illustrators.",
+    "duties": "Prepare supports, mix color, compose images, exhibit work, and fulfill commissions.",
+    "skills": "Color theory, composition, medium handling, critique resilience, business for freelancers.",
+    "tools": "Brushes, palettes, easels, canvases, pigments, studio lighting.",
+    "regions": "Italian Renaissance workshops, Dutch Golden Age, Paris salons, global contemporary scenes.",
+    "category": "arts",
+    "eraPrimary": "ancient",
+    "originYear": -15000,
+    "originYearEnd": null,
+    "originLabel": "Cave painting traditions",
+    "dateConfidence": "low",
+    "educationPath": "Art school, atelier study, residency programs, gallery representation.",
+    "modernSectors": "Fine art markets, murals, illustration, scenic painting, teaching.",
+    "aliases": [
+      "fine artist",
+      "oil painter"
+    ],
+    "events": [
+      {
+        "year": 1500,
+        "label": "Renaissance workshops",
+        "description": "Patronage systems employ painters in organized botteghe across Italy.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Art history surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "illustrator",
+        "type": "related"
+      },
+      {
+        "toSlug": "muralist",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "sculptor",
+    "name": "Sculptor",
+    "status": "active",
+    "summary": "An artist who shapes three-dimensional forms in stone, metal, wood, or clay—from temple carvers to public monument makers.",
+    "duties": "Model maquettes, carve or cast works, install large pieces, and collaborate with foundries.",
+    "skills": "Spatial reasoning, material knowledge, physical endurance, engineering liaison for installs.",
+    "tools": "Chisels, rasps, armatures, kilns, welding gear, CNC aids in modern studios.",
+    "regions": "Classical Mediterranean, Indian temple ateliers, modern public art programs.",
+    "category": "arts",
+    "eraPrimary": "ancient",
+    "originYear": -3000,
+    "originYearEnd": null,
+    "originLabel": "Monumental stone carving in early states",
+    "dateConfidence": "low",
+    "educationPath": "Fine art degrees, foundry apprenticeships, public art RFQ experience.",
+    "modernSectors": "Galleries, civic monuments, film props, garden design, restoration.",
+    "aliases": [
+      "stone carver",
+      "statuary artist"
+    ],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Modernist sculpture",
+        "description": "Rodin-era traditions expand abstract and installation practice.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sculpture historiography",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "painter",
+        "type": "related"
+      },
+      {
+        "toSlug": "mason",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "illustrator",
+    "name": "Illustrator",
+    "status": "active",
+    "summary": "A commercial artist who draws images for books, magazines, advertising, and games—distinct from purely gallery-focused painters.",
+    "duties": "Interpret briefs, sketch concepts, finalize art to print specs, and meet publication deadlines.",
+    "skills": "Drawing, storytelling, client communication, print and digital file prep.",
+    "tools": "Ink, tablets, Procreate, Photoshop, style guides from art directors.",
+    "regions": "Publishing centers in London, New York, Tokyo; freelance global markets online.",
+    "category": "arts",
+    "eraPrimary": "industrial",
+    "originYear": 1800,
+    "originYearEnd": null,
+    "originLabel": "Mass illustrated periodicals and books",
+    "dateConfidence": "medium",
+    "educationPath": "Illustration programs, agency portfolios, social media audience building.",
+    "modernSectors": "Children's books, editorial, advertising, tabletop games, concept art.",
+    "aliases": [
+      "commercial illustrator",
+      "book illustrator"
+    ],
+    "events": [
+      {
+        "year": 1890,
+        "label": "Golden age illustration",
+        "description": "Halftone printing employs household-name magazine illustrators.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Illustration history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "painter",
+        "type": "related"
+      },
+      {
+        "toSlug": "cartoonist",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "poet",
+    "name": "Poet",
+    "status": "active",
+    "summary": "A writer who composes verse—oral epic singers, court laureates, and modern slam and lyric poets.",
+    "duties": "Write poems, perform readings, submit to journals, teach workshops, and compile collections.",
+    "skills": "Language music, metaphor, revision, performance voice, literary community building.",
+    "tools": "Notebooks, chapbooks, open mic stages, Substack, recording apps.",
+    "regions": "Every literate culture; strong public traditions in Ireland, Persia, and contemporary slam scenes.",
+    "category": "arts",
+    "eraPrimary": "ancient",
+    "originYear": -2000,
+    "originYearEnd": null,
+    "originLabel": "Epic and hymn traditions in oral societies",
+    "dateConfidence": "low",
+    "educationPath": "MFA creative writing, self-publishing, festival circuits.",
+    "modernSectors": "Publishing, academia, spoken word, songwriting overlap, grants.",
+    "aliases": [
+      "bard",
+      "lyric poet"
+    ],
+    "events": [
+      {
+        "year": 1922,
+        "label": "Modernist anthologies",
+        "description": "Little magazines and modernist presses expand professional poetry publication paths.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Literary history surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "novelist",
+        "type": "related"
+      },
+      {
+        "toSlug": "playwright",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "novelist",
+    "name": "Novelist",
+    "status": "active",
+    "summary": "A writer of long-form fiction who builds characters and worlds across book-length narratives—flourishing after print markets matured.",
+    "duties": "Draft manuscripts, revise with editors, promote releases, and manage series continuity.",
+    "skills": "Plot architecture, voice, discipline, research, audience awareness.",
+    "tools": "Word processors, research archives, agents, publishers, audiobook studios.",
+    "regions": "London, Paris, New York, Lagos, Tokyo publishing ecosystems.",
+    "category": "arts",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "Rise of prose fiction markets in Europe",
+    "dateConfidence": "medium",
+    "educationPath": "Writing practice, MFAs optional, agent representation, self-publishing platforms.",
+    "modernSectors": "Trade publishing, genre imprints, audiobooks, adaptation rights.",
+    "aliases": [
+      "fiction writer",
+      "author"
+    ],
+    "events": [
+      {
+        "year": 1850,
+        "label": "Serialized novels",
+        "description": "Magazine serialization pays novelists by installment in Victorian markets.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Novel history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "poet",
+        "type": "related"
+      },
+      {
+        "toSlug": "screenwriter",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "screenwriter",
+    "name": "Screenwriter",
+    "status": "active",
+    "summary": "A writer who crafts scripts for film and television—structuring scenes for camera coverage and production budgets.",
+    "duties": "Write treatments and drafts, pitch studios, revise to producer notes, and support writers' room sessions.",
+    "skills": "Visual writing, pacing, dialogue, collaboration, understanding of production constraints.",
+    "tools": "Screenwriting software, pitch decks, writers' room whiteboards, zoom writers' rooms.",
+    "regions": "Hollywood, Seoul drama factories, Mumbai, London, streaming hub cities.",
+    "category": "arts",
+    "eraPrimary": "modern",
+    "originYear": 1910,
+    "originYearEnd": null,
+    "originLabel": "Silent film scenario writers",
+    "dateConfidence": "medium",
+    "educationPath": "Film school writing tracks, fellowships, spec script sales, room staffing.",
+    "modernSectors": "Studios, streamers, advertising, video games, limited series.",
+    "aliases": [
+      "scriptwriter",
+      "television writer"
+    ],
+    "events": [
+      {
+        "year": 1960,
+        "label": "New Hollywood",
+        "description": "Director-writer auteur culture elevates screenplay prestige in US cinema.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Screenwriting craft histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "playwright",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "film-director",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "cinematographer",
+    "name": "Cinematographer",
+    "status": "active",
+    "summary": "A director of photography who designs lighting and camera work to tell stories on screen—successor to early camera operators in silent film.",
+    "duties": "Plan shots with directors, choose lenses and lights, supervise camera crew, and grade look with colorists.",
+    "skills": "Exposure, composition, color, leadership on set, equipment knowledge.",
+    "tools": "Cameras, lenses, dollies, LED panels, light meters, LUT monitors.",
+    "regions": "Global film production hubs; ASC and equivalents as craft guilds.",
+    "category": "arts",
+    "eraPrimary": "modern",
+    "originYear": 1910,
+    "originYearEnd": null,
+    "originLabel": "Camera department specialization in early cinema",
+    "dateConfidence": "medium",
+    "educationPath": "Film school cinematography, camera PA ladder, reel building.",
+    "modernSectors": "Features, commercials, music videos, streaming series, documentaries.",
+    "aliases": [
+      "director of photography",
+      "DP"
+    ],
+    "events": [
+      {
+        "year": 1929,
+        "label": "Sound film",
+        "description": "Microphone constraints reshape lighting and camera movement craft.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cinematography craft histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "film-director",
+        "type": "related"
+      },
+      {
+        "toSlug": "photographer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "film-editor",
+    "name": "Film Editor",
+    "status": "active",
+    "summary": "A post-production craftsperson who assembles footage into coherent scenes and stories—often where final narrative rhythm is discovered.",
+    "duties": "Sync dailies, build assemblies, cut to director notes, manage VFX turnovers, and deliver masters.",
+    "skills": "Pacing, storytelling, software fluency, diplomacy in review sessions, organization.",
+    "tools": "Avid, Premiere, DaVinci Resolve, screening rooms, asset servers.",
+    "regions": "Hollywood post houses, Soho London, Bollywood, global streamer pipelines.",
+    "category": "arts",
+    "eraPrimary": "modern",
+    "originYear": 1920,
+    "originYearEnd": null,
+    "originLabel": "Specialized negative cutters and editors in silent-to-sound era",
+    "dateConfidence": "medium",
+    "educationPath": "Assistant editing tracks, film school post programs, union apprenticeships.",
+    "modernSectors": "Features, TV rooms, trailers, documentaries, social content.",
+    "aliases": [
+      "picture editor",
+      "cutter (historical)"
+    ],
+    "events": [
+      {
+        "year": 1970,
+        "label": "Nonlinear editing experiments",
+        "description": "Digital tools eventually replace flatbed-only workflows in most markets.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Film editing oral histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "film-director",
+        "type": "related"
+      },
+      {
+        "toSlug": "cinematographer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "costume-designer",
+    "name": "Costume Designer",
+    "status": "active",
+    "summary": "A designer who creates clothing for characters in theater, film, and television—balancing history, symbolism, and practical quick changes.",
+    "duties": "Research eras, sketch designs, supervise fittings, manage wardrobe teams, and maintain continuity.",
+    "skills": "Fashion history, sewing literacy, collaboration, budget tracking, distressing techniques.",
+    "tools": "Sewing rooms, dye pots, reference libraries, fitting mirrors, continuity Polaroids.",
+    "regions": "Broadway wardrobe shops, Hollywood costume houses, opera companies.",
+    "category": "arts",
+    "eraPrimary": "modern",
+    "originYear": 1900,
+    "originYearEnd": null,
+    "originLabel": "Professional costume departments in film studios",
+    "dateConfidence": "medium",
+    "educationPath": "Theater design MFAs, wardrobe internships, portfolio of period work.",
+    "modernSectors": "Film, TV, theater, ballet, cosplay-adjacent commercial work.",
+    "aliases": [
+      "wardrobe designer",
+      "costumer"
+    ],
+    "events": [
+      {
+        "year": 1939,
+        "label": "Technicolor prestige",
+        "description": "Golden age studios expand costume shop employment for spectacle films.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Costume design histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "tailor",
+        "type": "related"
+      },
+      {
+        "toSlug": "actor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "set-designer",
+    "name": "Set Designer",
+    "status": "active",
+    "summary": "A production designer or set specialist who builds the visual environment for stage and screen—bridging architecture, art, and storytelling.",
+    "duties": "Draft set plans, choose materials, coordinate with construction crews, and align with director vision.",
+    "skills": "Drafting, spatial design, history research, budgeting, safety codes.",
+    "tools": "Drafting tables, CAD, paint shops, foam carving, scenic flats.",
+    "regions": "West End and Broadway shops, Hollywood art departments, opera houses.",
+    "category": "arts",
+    "eraPrimary": "modern",
+    "originYear": 1900,
+    "originYearEnd": null,
+    "originLabel": "Scenic design in proscenium theater and early film",
+    "dateConfidence": "medium",
+    "educationPath": "Theater design programs, art department PA tracks, portfolio of builds.",
+    "modernSectors": "Film, television, theater, events, immersive experiences.",
+    "aliases": [
+      "scenic designer",
+      "production designer (senior role)"
+    ],
+    "events": [
+      {
+        "year": 1950,
+        "label": "Widescreen spectacle",
+        "description": "Epic films expand large-scale scenic construction departments.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Scenic design references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "carpenter",
+        "type": "related"
+      },
+      {
+        "toSlug": "film-director",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "stage-manager",
+    "name": "Stage Manager",
+    "status": "active",
+    "summary": "The operational captain of a live performance who calls cues, coordinates departments, and keeps shows running on time night after night.",
+    "duties": "Run rehearsals, maintain prompt scripts, call light and sound cues, manage understudies, and enforce safety.",
+    "skills": "Organization, calm under pressure, communication, diplomacy, precision timing.",
+    "tools": "Prompt book, headsets, spike tape, show reports, call sheets.",
+    "regions": "Professional theater worldwide; union stage management in US and UK.",
+    "category": "arts",
+    "eraPrimary": "modern",
+    "originYear": 1880,
+    "originYearEnd": null,
+    "originLabel": "Complex touring productions and proscenium stage systems",
+    "dateConfidence": "medium",
+    "educationPath": "Theater production degrees, ASM apprenticeships, union membership paths.",
+    "modernSectors": "Broadway, touring musicals, opera, ballet, corporate live events.",
+    "aliases": [
+      "SM",
+      "company stage manager"
+    ],
+    "events": [
+      {
+        "year": 1920,
+        "label": "Union stage crews",
+        "description": "Professional associations codify stage management roles and pay scales.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Theater production histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "actor",
+        "type": "related"
+      },
+      {
+        "toSlug": "playwright",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "circus-performer",
+    "name": "Circus Performer",
+    "status": "active",
+    "summary": "An entertainer skilled in acrobatics, aerial work, clowning, or daredevil acts under tent or arena lights—descended from traveling European circuses.",
+    "duties": "Train routines, maintain safety rigging awareness, perform multiple shows weekly, and tour with companies.",
+    "skills": "Athleticism, showmanship, risk management, adaptability, ensemble trust.",
+    "tools": "Trapeze rigs, tightropes, clown props, crash mats, touring trucks.",
+    "regions": "Ringling-era America, Cirque du Soleil, Moscow circus schools, Mexican carpas.",
+    "category": "arts",
+    "eraPrimary": "industrial",
+    "originYear": 1770,
+    "originYearEnd": null,
+    "originLabel": "Modern circus founded by Philip Astley tradition",
+    "dateConfidence": "medium",
+    "educationPath": "Circus schools, gymnastic backgrounds, company audition circuits.",
+    "modernSectors": "Big tops, arena spectacles, cruise ships, street busking festivals.",
+    "aliases": [
+      "acrobat",
+      "aerialist",
+      "clown (act type)"
+    ],
+    "events": [
+      {
+        "year": 1974,
+        "label": "New circus aesthetics",
+        "description": "Cirque du Soleil reframes circus as arts-first rather than menagerie spectacle.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Circus historiography",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "magician",
+        "type": "related"
+      },
+      {
+        "toSlug": "dancer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "magician",
+    "name": "Magician",
+    "status": "active",
+    "summary": "A performer who presents illusions and sleight-of-hand—entertaining courts, vaudeville halls, and television audiences with crafted misdirection.",
+    "duties": "Rehearse routines, maintain apparatus, perform shows, and develop new effects.",
+    "skills": "Manual dexterity, patter, misdirection, audience psychology, secret keeping.",
+    "tools": "Decks, cups and balls, trap tables, smoke, mirrors, escape apparatus.",
+    "regions": "European court magic, Las Vegas showrooms, street magic worldwide.",
+    "category": "arts",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "Renaissance conjuring pamphlets and court entertainers",
+    "dateConfidence": "low",
+    "aliases": [
+      "conjurer",
+      "illusionist",
+      "prestidigitator"
+    ],
+    "events": [
+      {
+        "year": 1845,
+        "label": "Sala's magic theater",
+        "description": "Dedicated magic theaters popularize stage illusion as a profession in Paris and London.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Magic performance histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "circus-performer",
+        "type": "related"
+      },
+      {
+        "toSlug": "actor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "puppeteer",
+    "name": "Puppeteer",
+    "status": "active",
+    "summary": "A performer who animates puppets for theater, film, and children's television—preserving traditions from Indonesian wayang to Muppet-style character work.",
+    "duties": "Manipulate puppets, voice characters, maintain puppets, and coordinate with directors and camera.",
+    "skills": "Hand dexterity, voice acting, timing, teamwork in bunraku-style ensembles.",
+    "tools": "Marionettes, rod puppets, foam characters, monitor feedback for TV.",
+    "regions": "Java wayang kulit, Japanese bunraku, European puppet theaters, US children's TV.",
+    "category": "arts",
+    "eraPrimary": "ancient",
+    "originYear": -1000,
+    "originYearEnd": null,
+    "originLabel": "Ritual and folk puppet traditions",
+    "dateConfidence": "low",
+    "aliases": [
+      "marionettist",
+      "Muppet performer (style)"
+    ],
+    "events": [
+      {
+        "year": 1955,
+        "label": "Television puppetry",
+        "description": "Children's TV expands employment for character puppeteers globally.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Puppetry ethnography",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "actor",
+        "type": "related"
+      },
+      {
+        "toSlug": "voice-actor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "voice-actor",
+    "name": "Voice Actor",
+    "status": "active",
+    "summary": "A performer who supplies voices for animation, games, dubbing, and audiobooks—specialized acting without on-camera presence.",
+    "duties": "Record lines to picture, match lip flaps in dubbing, create character voices, and attend multiple sessions.",
+    "skills": "Vocal range, cold reading, mic technique, endurance, direction responsiveness.",
+    "tools": "Studio booths, pop filters, Pro Tools sessions, scripts, monitors for ADR.",
+    "regions": "Los Angeles animation hubs, Tokyo seiyū industry, London games audio.",
+    "category": "arts",
+    "eraPrimary": "modern",
+    "originYear": 1928,
+    "originYearEnd": null,
+    "originLabel": "Sound cartoon voice performances",
+    "dateConfidence": "medium",
+    "educationPath": "Voice coaching, demo reels, agency representation, game/animation auditions.",
+    "modernSectors": "Animation, AAA games, dubbing, audiobooks, advertising VO.",
+    "aliases": [
+      "voice-over artist",
+      "VO actor",
+      "seiyū (Japan)"
+    ],
+    "events": [
+      {
+        "year": 1995,
+        "label": "Games voice expansion",
+        "description": "CD-ROM and later AAA titles increase voiced character workloads.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Animation and VO industry histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "actor",
+        "type": "related"
+      },
+      {
+        "toSlug": "radio-broadcaster",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "stand-up-comedian",
+    "name": "Stand-Up Comedian",
+    "status": "active",
+    "summary": "A solo performer who tells jokes and observational stories directly to live audiences—modern club circuits grew from vaudeville and coffeehouse scenes.",
+    "duties": "Write material, test jokes in open mics, tour clubs, record specials, and manage personal brand.",
+    "skills": "Timing, crowd reading, originality, resilience, brevity editing.",
+    "tools": "Microphone, notebook, comedy clubs, streaming special platforms.",
+    "regions": "US club circuit, UK alternative comedy, Montreal festival scene, global Netflix specials.",
+    "category": "arts",
+    "eraPrimary": "modern",
+    "originYear": 1950,
+    "originYearEnd": null,
+    "originLabel": "Nightclub comedy in post-war US cities",
+    "dateConfidence": "medium",
+    "educationPath": "Open mic ladder, writing groups, festival showcases, agent/booker relationships.",
+    "modernSectors": "Clubs, festivals, streaming specials, podcasting, writing for TV rooms.",
+    "aliases": [
+      "comic",
+      "comedian"
+    ],
+    "events": [
+      {
+        "year": 1980,
+        "label": "Comedy club boom",
+        "description": "Dedicated comedy clubs create full-time touring circuits in major US cities.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Comedy history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "actor",
+        "type": "related"
+      },
+      {
+        "toSlug": "screenwriter",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "talent-agent",
+    "name": "Talent Agent",
+    "status": "active",
+    "summary": "A representative who negotiates contracts and bookings for performers—institutionalized as Hollywood and theater agencies matured.",
+    "duties": "Pitch clients, negotiate deals, coordinate auditions, and manage long-term career strategy with managers.",
+    "skills": "Negotiation, relationship networks, contract literacy, taste, hustle.",
+    "tools": "Breakdown services, contracts, CRM, phones, festival party circuits.",
+    "regions": "Los Angeles, New York, London, Seoul talent agencies.",
+    "category": "arts",
+    "eraPrimary": "modern",
+    "originYear": 1920,
+    "originYearEnd": null,
+    "originLabel": "Hollywood agency system consolidation",
+    "dateConfidence": "medium",
+    "educationPath": "Mailroom-to-agent tracks at agencies, entertainment law overlap, internships.",
+    "modernSectors": "Film/TV agencies, music booking, sports crossover agencies, voiceover reps.",
+    "aliases": [
+      "booking agent",
+      "theatrical agent"
+    ],
+    "events": [
+      {
+        "year": 1950,
+        "label": "Television expansion",
+        "description": "TV demand multiplies scripted roles and agent representation for working actors.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hollywood business histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "actor",
+        "type": "related"
+      },
+      {
+        "toSlug": "impresario",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "impresario",
+    "name": "Impresario",
+    "status": "extinct",
+    "summary": "A show producer and financier who organized opera, concert, and theater seasons—blending artistic taste with entrepreneurial risk before modern arts administration.",
+    "duties": "Hire companies, rent halls, market subscriptions, balance budgets, and curate repertoires.",
+    "skills": "Taste-making, fundraising, logistics, patron relations, risk tolerance.",
+    "tools": "Contracts, season brochures, box office ledgers, patron lists.",
+    "regions": "Italian opera impresarios, London concert promoters, 18th–19th century Europe.",
+    "category": "arts",
+    "eraPrimary": "early_modern",
+    "originYear": 1700,
+    "originYearEnd": null,
+    "originLabel": "Commercial opera and concert promotion",
+    "dateConfidence": "medium",
+    "aliases": [
+      "promoter (historical)",
+      "show producer"
+    ],
+    "events": [
+      {
+        "year": 1850,
+        "label": "Permanent institutions",
+        "description": "Founded opera houses and symphony boards replace many individual impresario risk models.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Opera business histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "conductor",
+        "type": "related"
+      },
+      {
+        "toSlug": "talent-agent",
+        "type": "successor"
+      }
+    ]
+  },
+  {
+    "slug": "muralist",
+    "name": "Muralist",
+    "status": "active",
+    "summary": "A painter who works at architectural scale on walls and public spaces—from Mesoamerican temples to New Deal fresco programs and street art walls.",
+    "duties": "Design compositions, prepare surfaces, scaffold safely, apply durable pigments, and engage communities.",
+    "skills": "Large-scale composition, scaffolding safety, public art process, color permanence knowledge.",
+    "tools": "Scaffolds, spray equipment, acrylics, lifts, community workshop materials.",
+    "regions": "Mexico muralism, Italian fresco churches, US WPA walls, global street art festivals.",
+    "category": "arts",
+    "eraPrimary": "ancient",
+    "originYear": -500,
+    "originYearEnd": null,
+    "originLabel": "Monumental wall painting in classical and indigenous traditions",
+    "dateConfidence": "low",
+    "educationPath": "Fine art training, public art RFQs, apprenticeship with experienced muralists.",
+    "modernSectors": "Civic percent-for-art programs, corporate lobbies, festivals, community nonprofits.",
+    "aliases": [
+      "wall painter",
+      "fresco painter (technique)"
+    ],
+    "events": [
+      {
+        "year": 1935,
+        "label": "WPA murals",
+        "description": "US federal arts projects employ muralists in public buildings nationwide.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Public art histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "painter",
+        "type": "related"
+      },
+      {
+        "toSlug": "sculptor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "tattoo-artist",
+    "name": "Tattoo Artist",
+    "status": "active",
+    "summary": "A body artist who applies permanent pigment designs to skin—evolving from sailor and carnival traditions into licensed studio professions.",
+    "duties": "Consult clients, draw stencils, tattoo safely, maintain sterile equipment, and manage shop bookings.",
+    "skills": "Drawing, color packing, line work, hygiene protocols, client rapport.",
+    "tools": "Tattoo machines, inks, autoclaves, stencils, studio chairs.",
+    "regions": "Pacific Island traditions, Japanese irezumi, Western sailor ports, global studio culture.",
+    "category": "arts",
+    "eraPrimary": "modern",
+    "originYear": 1891,
+    "originYearEnd": null,
+    "originLabel": "Electric tattoo machine patent era",
+    "dateConfidence": "medium",
+    "educationPath": "Apprenticeships, bloodborne pathogen certification, portfolio building.",
+    "modernSectors": "Street shops, fine-art tattoo studios, convention circuits, cosmetic tattooing.",
+    "aliases": [
+      "tattooist",
+      "ink artist"
+    ],
+    "events": [
+      {
+        "year": 1960,
+        "label": "Studio professionalization",
+        "description": "Health regulations and art-school graduates elevate tattoo shop standards in US cities.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tattoo culture histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "illustrator",
+        "type": "related"
+      },
+      {
+        "toSlug": "painter",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "calligrapher",
+    "name": "Calligrapher",
+    "status": "active",
+    "summary": "A lettering artist who writes beautiful hand-formed scripts for manuscripts, signage, and ceremonies—central to East Asian literati culture and European monastic scriptoria.",
+    "duties": "Practice scripts, layout compositions, write commissions, and teach workshops.",
+    "skills": "Stroke control, rhythm, ink consistency, layout design, patience.",
+    "tools": "Brushes, nibs, ink sticks, rice paper, guidelines, light tables.",
+    "regions": "China and Japan traditions, Islamic manuscript arts, Western formal hands.",
+    "category": "arts",
+    "eraPrimary": "ancient",
+    "originYear": -2000,
+    "originYearEnd": null,
+    "originLabel": "Early literate scribal arts",
+    "dateConfidence": "low",
+    "aliases": [
+      "lettering artist",
+      "scribe-artist (overlap)"
+    ],
+    "events": [
+      {
+        "year": 1450,
+        "label": "Print reduces manuscript demand",
+        "description": "Movable type shifts calligraphy toward art and ceremony rather than bulk copying in Europe.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Paleography and calligraphy histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "scribe",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "illustrator",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "choreographer",
+    "name": "Choreographer",
+    "status": "active",
+    "summary": "A dance maker who designs movement for stage, screen, and music videos—distinct from performers who execute steps created by others.",
+    "duties": "Create phrases, teach dancers, rehearse spacing, and align movement with music and narrative.",
+    "skills": "Spatial imagination, teaching clarity, collaboration with composers and directors, notation literacy.",
+    "tools": "Studio mirrors, video playback, dance notation systems, rehearsal schedules.",
+    "regions": "Ballet masters historically; Broadway, K-pop, and contemporary companies today.",
+    "category": "arts",
+    "eraPrimary": "early_modern",
+    "originYear": 1650,
+    "originYearEnd": null,
+    "originLabel": "Court ballet masters in Baroque Europe",
+    "dateConfidence": "medium",
+    "educationPath": "Dancer background, choreographic fellowships, commission portfolios.",
+    "modernSectors": "Ballet companies, musical theater, pop tours, film, competitive dance TV.",
+    "aliases": [
+      "dance maker",
+      "ballet master (historical title)"
+    ],
+    "events": [
+      {
+        "year": 1920,
+        "label": "Modern dance pioneers",
+        "description": "Graham and Duncan traditions assert choreographer as auteur separate from ballet hierarchy.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Choreography history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "dancer",
+        "type": "related"
+      },
+      {
+        "toSlug": "ballet-dancer",
+        "type": "related"
+      }
+    ]
+  }
+]

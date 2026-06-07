@@ -53,9 +53,10 @@ export default function AboutPage() {
       <section className="space-y-3">
         <h2 className="font-serif text-2xl font-semibold">Data sources</h2>
         <p className="leading-relaxed text-muted-foreground">
-          The catalog is seeded from curated showcase entries and Wikidata
-          occupation labels (CC0). We deduplicate by English slug and prefer
-          curated narratives where they exist.
+          The catalog has three layers: human-curated encyclopedia entries,
+          auto-enhanced Wikidata profiles (aliases, regions, field context), and
+          lightweight stubs for the long tail. We deduplicate by English slug and
+          prefer curated narratives where they exist.
         </p>
       </section>
     </div>

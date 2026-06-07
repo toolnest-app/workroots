@@ -1,0 +1,1870 @@
+[
+  {
+    "slug": "athlete",
+    "name": "Athlete",
+    "status": "active",
+    "summary": "A competitor who trains body and mind for organized sport—elevated from amateur Greek games to global professional leagues with sponsorship and broadcast billions.",
+    "duties": "Follow training plans, compete in events, maintain eligibility, represent sponsors, and recover from injury.",
+    "skills": "Discipline, sport-specific technique, teamwork, media composure, nutrition awareness.",
+    "tools": "Sport-specific gear, timing systems, video analysis, recovery equipment.",
+    "regions": "Olympic circuits, national leagues, collegiate systems worldwide.",
+    "category": "sports",
+    "eraPrimary": "ancient",
+    "originYear": -776,
+    "originYearEnd": null,
+    "originLabel": "Ancient Olympic competition",
+    "dateConfidence": "low",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1896,
+        "label": "Modern Olympics revival",
+        "description": "Pierre de Coubertin's Athens games relaunch international amateur sport structures.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "coach",
+        "type": "related"
+      },
+      {
+        "toSlug": "sports-agent",
+        "type": "related"
+      },
+      {
+        "toSlug": "athletic-trainer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Youth academies, collegiate programs, national team pipelines.",
+    "modernSectors": "Professional leagues, Olympics, endurance events, action sports."
+  },
+  {
+    "slug": "referee",
+    "name": "Referee",
+    "status": "active",
+    "summary": "An on-field official who enforces rules and manages player safety—professionalized as leagues codified standards and video review changed accountability.",
+    "duties": "Start and stop play, issue penalties, consult assistants, write reports, and manage confrontations.",
+    "skills": "Rule mastery, positioning, decisiveness, fitness, conflict de-escalation.",
+    "tools": "Whistle, cards, flags, radio headsets, VAR monitors.",
+    "regions": "FIFA football, NBA, NFL, rugby unions globally.",
+    "category": "sports",
+    "eraPrimary": "industrial",
+    "originYear": 1863,
+    "originYearEnd": null,
+    "originLabel": "Codified association football officiating",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2018,
+        "label": "VAR adoption",
+        "description": "Video assistant referees spread from top leagues to major tournaments.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "umpire",
+        "type": "related"
+      },
+      {
+        "toSlug": "coach",
+        "type": "related"
+      },
+      {
+        "toSlug": "sports-journalist",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Federation certification ladders, fitness tests, seminar rules updates.",
+    "modernSectors": "Professional leagues, amateur associations, tournament contractors."
+  },
+  {
+    "slug": "sports-agent",
+    "name": "Sports Agent",
+    "status": "active",
+    "summary": "A representative who negotiates player contracts, endorsements, and transfers—emerged as free agency and TV money turned athletic talent into major legal and financial assets.",
+    "duties": "Negotiate deals, market clients, manage brand partnerships, and advise on career moves.",
+    "skills": "Contract law literacy, networking, persuasion, salary cap rules, ethics.",
+    "tools": "Agency CRM, contract templates, league CBA documents, data analytics.",
+    "regions": "NFL, NBA, European football, cricket IPL economies.",
+    "category": "sports",
+    "eraPrimary": "modern",
+    "originYear": 1960,
+    "originYearEnd": null,
+    "originLabel": "Player representation in pro leagues",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1995,
+        "label": "Bosman ruling effects",
+        "description": "EU football labor mobility increases agent leverage in transfer markets.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "talent-agent",
+        "type": "related"
+      },
+      {
+        "toSlug": "lawyer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Sports law courses, league agent certification, MBA optional.",
+    "modernSectors": "Player agencies, marketing boutiques, transfer advisory."
+  },
+  {
+    "slug": "esports-player",
+    "name": "Esports Player",
+    "status": "active",
+    "summary": "A professional competitor in organized video-game tournaments—turned hobbyist LAN parties into salaried roster spots with coaches, analysts, and global streaming audiences.",
+    "duties": "Scrims, VOD review, tournament travel, stream obligations, and team communications.",
+    "skills": "Mechanical skill, game sense, teamwork, stress tolerance, brand presence.",
+    "tools": "Gaming PC, peripherals, team voice comms, analytics dashboards.",
+    "regions": "South Korea, China, North America, Europe esports hubs.",
+    "category": "sports",
+    "eraPrimary": "modern",
+    "originYear": 2000,
+    "originYearEnd": null,
+    "originLabel": "Early professional gaming leagues",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2011,
+        "label": "League of Legends esports",
+        "description": "Riot's structured league model mainstreames esports careers and franchising.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "game-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "video-game-tester",
+        "type": "related"
+      },
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Ranked ladder grinding, academy teams, org tryouts.",
+    "modernSectors": "Franchised leagues, streaming, brand sponsorship, collegiate esports."
+  },
+  {
+    "slug": "game-designer",
+    "name": "Game Designer",
+    "status": "active",
+    "summary": "A creator who defines rules, levels, and player experiences for tabletop and digital games—professionalized as arcades and home consoles created dedicated design roles.",
+    "duties": "Write design docs, prototype mechanics, balance economies, playtest, and iterate with engineering and art.",
+    "skills": "Systems thinking, narrative sense, UX empathy, spreadsheet modeling, collaboration.",
+    "tools": "Paper prototypes, Unity/Unreal, Miro boards, analytics telemetry.",
+    "regions": "Silicon Valley studios, Japanese publishers, indie global communities.",
+    "category": "sports",
+    "eraPrimary": "modern",
+    "originYear": 1970,
+    "originYearEnd": null,
+    "originLabel": "Arcade and tabletop hobby commercialization",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2007,
+        "label": "Mobile and indie boom",
+        "description": "App stores and digital distribution lower barriers for small design teams.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "board-game-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "software-developer",
+        "type": "related"
+      },
+      {
+        "toSlug": "esports-player",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Game design degrees, modding communities, studio internships.",
+    "modernSectors": "AAA studios, mobile F2P, tabletop publishers, serious games."
+  },
+  {
+    "slug": "jockey",
+    "name": "Jockey",
+    "status": "active",
+    "summary": "A lightweight rider who pilots racehorses at flat or jump tracks—occupation shaped by British turf culture and now globalized from Dubai to Hong Kong circuits.",
+    "duties": "Ride morning works, study form, race tactically, weigh in, and report to trainers.",
+    "skills": "Balance, race reading, whip regulation compliance, fitness, horsemanship.",
+    "tools": "Racing silks, saddle, goggles, weighing scales.",
+    "regions": "UK, Ireland, Kentucky, Japan, Australia racing jurisdictions.",
+    "category": "sports",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "English turf match racing",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Parimutuel betting growth",
+        "description": "Legal wagering systems expand purses and professionalize jockey careers.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "racehorse-trainer",
+        "type": "related"
+      },
+      {
+        "toSlug": "stablehand",
+        "type": "related"
+      },
+      {
+        "toSlug": "bookmaker",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Racing school apprenticeships, exercise rider progression.",
+    "modernSectors": "Flat racing, jumps, quarter horse, international ship-ins."
+  },
+  {
+    "slug": "sports-commentator",
+    "name": "Sports Commentator",
+    "status": "active",
+    "summary": "A broadcast voice who narrates live play and supplies analysis—born with radio sports and now split between traditional TV booths and streaming co-commentary.",
+    "duties": "Research teams, call action, fill dead air, interview guests, and sync with production.",
+    "skills": "Quick description, storytelling, neutrality or color persona, stat recall.",
+    "tools": "Headset, monitor, stat feeds, telestrator (TV).",
+    "regions": "BBC, ESPN, Sky, regional radio sports networks.",
+    "category": "sports",
+    "eraPrimary": "industrial",
+    "originYear": 1921,
+    "originYearEnd": null,
+    "originLabel": "Radio baseball and boxing broadcasts",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1979,
+        "label": "ESPN launch",
+        "description": "24-hour sports cable multiplies commentator roles and highlight formats.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "sports-journalist",
+        "type": "related"
+      },
+      {
+        "toSlug": "radio-broadcaster",
+        "type": "related"
+      },
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Broadcast journalism, former player credibility, demo reels.",
+    "modernSectors": "TV, radio, streaming, podcast recap shows."
+  },
+  {
+    "slug": "sports-medicine-physician",
+    "name": "Sports Medicine Physician",
+    "status": "active",
+    "summary": "A doctor specializing in athletic injuries and performance health—field formalized as team physicians became standard in professional and collegiate sport.",
+    "duties": "Diagnose injuries, clear return-to-play, coordinate surgery referrals, and advise on load management.",
+    "skills": "Orthopedics, concussion protocols, communication with coaches, evidence-based rehab.",
+    "tools": "MRI orders, sideline assessment kits, injection supplies.",
+    "regions": "Team medical staffs, Olympic delegations, private sports clinics.",
+    "category": "sports",
+    "eraPrimary": "modern",
+    "originYear": 1950,
+    "originYearEnd": null,
+    "originLabel": "Team physician roles in pro sport",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1990,
+        "label": "ACL reconstruction advances",
+        "description": "Arthroscopic surgery improvements reshape career longevity narratives.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "physiotherapist",
+        "type": "related"
+      },
+      {
+        "toSlug": "athletic-trainer",
+        "type": "related"
+      },
+      {
+        "toSlug": "surgeon",
+        "type": "related"
+      }
+    ],
+    "educationPath": "MD, family or ortho residency, sports fellowship, team physician certs.",
+    "modernSectors": "Pro teams, universities, endurance medicine, youth safety programs."
+  },
+  {
+    "slug": "athletic-trainer",
+    "name": "Athletic Trainer",
+    "status": "active",
+    "summary": "A certified practitioner who provides sideline care, taping, and rehab coordination—distinct from personal trainers, embedded in schools and pro locker rooms.",
+    "duties": "Evaluate acute injuries, implement rehab plans, maintain hydration, and document incidents.",
+    "skills": "Emergency care, anatomy, communication with physicians, recordkeeping.",
+    "tools": "Medical kits, ice baths, modalities, EMR systems.",
+    "regions": "NCAA, NFL, NHS sport partnerships, high school athletics.",
+    "category": "sports",
+    "eraPrimary": "modern",
+    "originYear": 1950,
+    "originYearEnd": null,
+    "originLabel": "Certified athletic training profession",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1990,
+        "label": "NATA certification growth",
+        "description": "Licensure spreads, distinguishing athletic trainers from fitness coaches.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "coach",
+        "type": "related"
+      },
+      {
+        "toSlug": "sports-medicine-physician",
+        "type": "related"
+      },
+      {
+        "toSlug": "physiotherapist",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Athletic training degree, BOC exam, state licensure.",
+    "modernSectors": "Schools, pros, performing arts, industrial onsite programs."
+  },
+  {
+    "slug": "umpire",
+    "name": "Umpire",
+    "status": "active",
+    "summary": "A baseball or cricket official who judges balls, strikes, and dismissals—title distinct from referee in North American diamond sports and Commonwealth cricket.",
+    "duties": "Call pitches, rule on plays at bases, manage ejections, and file incident reports.",
+    "skills": "Rules precision, positioning, crew communication, heat tolerance.",
+    "tools": "Mask, indicator, brush, radio.",
+    "regions": "MLB, NPB, ICC member nations.",
+    "category": "sports",
+    "eraPrimary": "industrial",
+    "originYear": 1846,
+    "originYearEnd": null,
+    "originLabel": "Knickerbocker Rules baseball officiating",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2014,
+        "label": "Expanded MLB replay",
+        "description": "Manager challenges and replay centers change umpire accountability.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "referee",
+        "type": "related"
+      },
+      {
+        "toSlug": "baseball-player",
+        "type": "related"
+      },
+      {
+        "toSlug": "cricketer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Umpire schools, minor league advancement, fitness standards.",
+    "modernSectors": "Professional baseball, cricket boards, amateur leagues."
+  },
+  {
+    "slug": "professional-golfer",
+    "name": "Professional Golfer",
+    "status": "active",
+    "summary": "A touring player who earns prize money and endorsements on golf circuits—from Scottish links professionals to modern PGA and LPGA global schedules.",
+    "duties": "Practice, compete in tournaments, manage travel, fulfill sponsor appearances.",
+    "skills": "Swing consistency, course management, putting, mental game, etiquette.",
+    "tools": "Club bag, launch monitor (practice), caddie collaboration, yardage books.",
+    "regions": "Scotland origins, PGA Tour, DP World Tour, Asian circuits.",
+    "category": "sports",
+    "eraPrimary": "early_modern",
+    "originYear": 1750,
+    "originYearEnd": null,
+    "originLabel": "Scottish links playing professionals",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1916,
+        "label": "PGA of America founded",
+        "description": "Organized pro tournaments and teaching structures expand golf careers.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "caddie",
+        "type": "related"
+      },
+      {
+        "toSlug": "sports-agent",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Junior competition, college golf, Q-school or tour cards.",
+    "modernSectors": "Tours, teaching pros, course design overlap, senior circuits."
+  },
+  {
+    "slug": "boxer",
+    "name": "Boxer",
+    "status": "active",
+    "summary": "A fighter who competes in gloved striking bouts under weight classes—codified in Marquess of Queensberry rules and still a major pay-per-view athletic profession.",
+    "duties": "Train camps, make weight, fight rounds, recover, and manage promotional obligations.",
+    "skills": "Footwork, punching technique, defense, conditioning, corner trust.",
+    "tools": "Gloves, wraps, mouthguard, heavy bag, ring.",
+    "regions": "Global; historic hubs in U.S., Mexico, UK, Philippines.",
+    "category": "sports",
+    "eraPrimary": "industrial",
+    "originYear": 1867,
+    "originYearEnd": null,
+    "originLabel": "Queensberry rules modern boxing",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1920,
+        "label": "Radio fight broadcasts",
+        "description": "National audiences monetize heavyweight bouts and regional gyms.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "wrestler",
+        "type": "related"
+      },
+      {
+        "toSlug": "referee",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Amateur clubs, Golden Gloves, promoter development deals.",
+    "modernSectors": "Pro cards, Olympics amateur, fitness boxing crossover."
+  },
+  {
+    "slug": "wrestler",
+    "name": "Wrestler",
+    "status": "active",
+    "summary": "A grappler competing in folkstyle, freestyle, or professional entertainment circuits—ancient Olympic discipline now split between amateur mats and scripted spectacle.",
+    "duties": "Drill takedowns, compete matches, cut weight, or perform choreographed shows.",
+    "skills": "Balance, leverage, showmanship (pro), injury awareness.",
+    "tools": "Singlets, headgear, wrestling shoes, ring ropes (pro).",
+    "regions": "Iran, Russia, U.S. colleges, Japanese puroresu, WWE.",
+    "category": "sports",
+    "eraPrimary": "ancient",
+    "originYear": -708,
+    "originYearEnd": null,
+    "originLabel": "Ancient Olympic wrestling",
+    "dateConfidence": "low",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1980,
+        "label": "Pro wrestling cable boom",
+        "description": "National TV expands entertainment wrestling as distinct career path.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "boxer",
+        "type": "related"
+      },
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "coach",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "tennis-player",
+    "name": "Tennis Player",
+    "status": "active",
+    "summary": "A racket sport competitor on tour or club circuit—professionalized after Open Era allowed prize money and global ranking systems in the 1970s.",
+    "duties": "Train, travel the tour, play matches, manage endorsements, and peak for Grand Slams.",
+    "skills": "Stroke production, court movement, tactics, mental resilience.",
+    "tools": "Rackets, stringing preferences, hawk-eye challenges, fitness team.",
+    "regions": "Wimbledon tradition, ATP/WTA worldwide.",
+    "category": "sports",
+    "eraPrimary": "industrial",
+    "originYear": 1874,
+    "originYearEnd": null,
+    "originLabel": "Lawn tennis codification",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1968,
+        "label": "Open Era begins",
+        "description": "Amateur-only Grand Slam restrictions end, professionalizing tennis deeply.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "umpire",
+        "type": "related"
+      },
+      {
+        "toSlug": "sports-agent",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "cricketer",
+    "name": "Cricketer",
+    "status": "active",
+    "summary": "A bat-and-ball player in multi-day, one-day, or T20 formats—imperial export game now dominated economically by Indian Premier League scale.",
+    "duties": "Bat, bowl, field, tour internationally, and adhere to board contracts.",
+    "skills": "Hand-eye coordination, endurance (Test), tactical awareness, teamwork.",
+    "tools": "Bat, ball, pads, helmets, analytics for opposition.",
+    "regions": "England, India, Australia, Caribbean, Pakistan.",
+    "category": "sports",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "English village cricket",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2008,
+        "label": "IPL launch",
+        "description": "Franchise T20 league transforms player earnings and calendar.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "umpire",
+        "type": "related"
+      },
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "sports-journalist",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "footballer",
+    "name": "Footballer",
+    "status": "active",
+    "summary": "An association football player—world's most visible athlete role with billion-dollar transfer markets and youth academy pipelines on every continent.",
+    "duties": "Train, play league and cup matches, represent national team, and maintain commercial image.",
+    "skills": "Ball control, tactical discipline, fitness, teamwork, set-piece execution.",
+    "tools": "Boots, GPS vests, video opposition analysis.",
+    "regions": "Global; Europe's top five leagues as economic center.",
+    "category": "sports",
+    "eraPrimary": "industrial",
+    "originYear": 1863,
+    "originYearEnd": null,
+    "originLabel": "FA rules and organized clubs",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1995,
+        "label": "Bosman ruling",
+        "description": "Free agency within EU reshapes club-player power balance.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "referee",
+        "type": "related"
+      },
+      {
+        "toSlug": "coach",
+        "type": "related"
+      },
+      {
+        "toSlug": "sports-agent",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "basketball-player",
+    "name": "Basketball Player",
+    "status": "active",
+    "summary": "A five-on-five court competitor whose professional archetype was defined by the NBA and globalized through Olympic Dream Teams and social media highlights.",
+    "duties": "Run plays, defend, shoot, travel season schedule, and participate in community marketing.",
+    "skills": "Shooting, passing, lateral quickness, court vision, pick-and-roll reads.",
+    "tools": "Sneakers, shooting machines, practice facility, wearables.",
+    "regions": "U.S. NBA epicenter, EuroLeague, growing Africa and Asia leagues.",
+    "category": "sports",
+    "eraPrimary": "modern",
+    "originYear": 1891,
+    "originYearEnd": null,
+    "originLabel": "Naismith's Springfield gym game",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1992,
+        "label": "Dream Team Barcelona",
+        "description": "NBA stars in Olympics accelerate global basketball popularity.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "referee",
+        "type": "related"
+      },
+      {
+        "toSlug": "coach",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "baseball-player",
+    "name": "Baseball Player",
+    "status": "active",
+    "summary": "A diamond sport athlete in pitching, hitting, or fielding roles—rooted in American professional leagues and exported to Japan and Latin America as elite career path.",
+    "duties": "Game preparation, execute plays, minor-league development, and injury prevention (pitchers).",
+    "skills": "Hand-eye timing, arm mechanics, situational awareness, clubhouse culture.",
+    "tools": "Bat, glove, cleats, pitch tracking tech.",
+    "regions": "MLB, NPB, KBO, Caribbean academies.",
+    "category": "sports",
+    "eraPrimary": "industrial",
+    "originYear": 1846,
+    "originYearEnd": null,
+    "originLabel": "Organized club baseball in New York",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1947,
+        "label": "Jackie Robinson integrates MLB",
+        "description": "Racial integration transforms league talent pool and social significance.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "umpire",
+        "type": "related"
+      },
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "sports-agent",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "ice-hockey-player",
+    "name": "Ice Hockey Player",
+    "status": "active",
+    "summary": "A skater or goaltender in fast ice hockey—Canadian national passion exported to NHL markets in U.S., Nordic countries, and Eastern Europe.",
+    "duties": "Shift play, check and shoot, goalie crease defense, travel cold-weather schedule.",
+    "skills": "Skating edges, puck handling, physicality, line chemistry.",
+    "tools": "Skates, sticks, pads, helmets, video systems.",
+    "regions": "Canada, U.S. NHL, KHL, Swedish elite leagues.",
+    "category": "sports",
+    "eraPrimary": "industrial",
+    "originYear": 1875,
+    "originYearEnd": null,
+    "originLabel": "Indoor ice hockey in Montreal",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1917,
+        "label": "NHL formation",
+        "description": "Major professional league structure anchors North American hockey careers.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "referee",
+        "type": "related"
+      },
+      {
+        "toSlug": "coach",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "marathon-runner",
+    "name": "Marathon Runner",
+    "status": "active",
+    "summary": "An endurance athlete racing 42.195 km—occupation mythologized from Pheidippides legend to Abbott World Marathon Majors prize pools.",
+    "duties": "Periodized mileage, race strategy, recovery, and sponsor appearances.",
+    "skills": "Aerobic capacity, pacing discipline, nutrition, injury prevention.",
+    "tools": "Racing shoes, GPS watch, foam roller, altitude camps.",
+    "regions": "Boston, London, Berlin, Tokyo, Chicago majors; East African training camps.",
+    "category": "sports",
+    "eraPrimary": "modern",
+    "originYear": 1896,
+    "originYearEnd": null,
+    "originLabel": "Olympic marathon restoration",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2019,
+        "label": "Super shoe era",
+        "description": "Carbon-plated footwear debates reshape records and equipment rules.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "cyclist",
+        "type": "related"
+      },
+      {
+        "toSlug": "coach",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "cyclist",
+    "name": "Cyclist",
+    "status": "active",
+    "summary": "A bicycle racer in road, track, or mountain disciplines—Tour de France culture turned pedal sport into team-sponsored endurance enterprise.",
+    "duties": "Train zones, race tactically, maintain bikes, and submit anti-doping controls.",
+    "skills": "Cadence, drafting, climbing, sprint timing, mechanical basics.",
+    "tools": "Race bike, power meter, team radio, turbo trainer.",
+    "regions": "Europe road classics, velodromes, global UCI calendar.",
+    "category": "sports",
+    "eraPrimary": "industrial",
+    "originYear": 1868,
+    "originYearEnd": null,
+    "originLabel": "Early velocipede road races",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1903,
+        "label": "First Tour de France",
+        "description": "Grand tour model creates cycling's premier professional stage.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "mechanic",
+        "type": "related"
+      },
+      {
+        "toSlug": "marathon-runner",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "swimmer",
+    "name": "Swimmer",
+    "status": "active",
+    "summary": "A pool or open-water racer whose strokes are timed to hundredths of seconds—Olympic showcase sport with year-round club and collegiate pathways.",
+    "duties": "Lane practices, race meets, dryland training, and meet officiating compliance.",
+    "skills": "Stroke efficiency, turns, breathing patterns, race pacing.",
+    "tools": "Goggles, caps, blocks, underwater cameras.",
+    "regions": "U.S. swim clubs, Australian institutes, European federations.",
+    "category": "sports",
+    "eraPrimary": "modern",
+    "originYear": 1896,
+    "originYearEnd": null,
+    "originLabel": "Modern Olympic swimming events",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2008,
+        "label": "Tech suit era",
+        "description": "Polyurethane suits prompt FINA regulation changes after record waves.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "coach",
+        "type": "related"
+      },
+      {
+        "toSlug": "referee",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "gymnast",
+    "name": "Gymnast",
+    "status": "active",
+    "summary": "An acrobatic athlete on apparatus or floor—Soviet and later Chinese systems professionalized rigor now mirrored in NCAA and elite WAG/MAG circuits.",
+    "duties": "Skill upgrades, routine composition, competition, and strict body maintenance.",
+    "skills": "Strength, flexibility, air awareness, artistry, fear management.",
+    "tools": "Apparatus, chalk, crash mats, video review.",
+    "regions": "Romania, U.S., China, Japan elite programs.",
+    "category": "sports",
+    "eraPrimary": "modern",
+    "originYear": 1896,
+    "originYearEnd": null,
+    "originLabel": "Olympic artistic gymnastics",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1976,
+        "label": "Perfect 10 spotlight",
+        "description": "Nadia Comăneci score captivates global TV and expands gymnastics popularity.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "coach",
+        "type": "related"
+      },
+      {
+        "toSlug": "figure-skater",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "figure-skater",
+    "name": "Figure Skater",
+    "status": "active",
+    "summary": "A performer-athlete who jumps and spins on ice—Winter Olympic glamour role blending athletics, music, and costume design.",
+    "duties": "Practice elements, compete programs, work with choreographers, maintain boots and blades.",
+    "skills": "Edge control, jump rotation, performance expression, resilience after falls.",
+    "tools": "Boots, blades, rink ice time, video replay.",
+    "regions": "Russia, Canada, Japan, U.S. ISU circuit.",
+    "category": "sports",
+    "eraPrimary": "modern",
+    "originYear": 1908,
+    "originYearEnd": null,
+    "originLabel": "Olympic figure skating inclusion",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2002,
+        "label": "Scoring reform",
+        "description": "IJS points system replaces 6.0 judging after Salt Lake controversy.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "gymnast",
+        "type": "related"
+      },
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "coach",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "race-car-driver",
+    "name": "Race Car Driver",
+    "status": "active",
+    "summary": "A motorsport competitor piloting formula, stock, or endurance cars—dangerous spectacle turned engineering team sport with global F1 and NASCAR audiences.",
+    "duties": "Simulator work, qualify, race, debrief telemetry, and sponsor duties.",
+    "skills": "Reflexes, spatial awareness, fitness, technical feedback, risk judgment.",
+    "tools": "Race car, HANS device, helmet, telemetry laptop.",
+    "regions": "Monaco, Indianapolis, Le Mans, rally stages worldwide.",
+    "category": "sports",
+    "eraPrimary": "industrial",
+    "originYear": 1894,
+    "originYearEnd": null,
+    "originLabel": "Paris–Rouen motor competition",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1950,
+        "label": "F1 World Championship",
+        "description": "Formula One formalizes premier open-wheel professional class.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "mechanic",
+        "type": "related"
+      },
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "sports-agent",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "bullfighter",
+    "name": "Bullfighter",
+    "status": "declining",
+    "summary": "A matador who performs ceremonial passes and kills in the Spanish corrida—deeply ritualized profession facing animal-welfare bans in many regions.",
+    "duties": "Train with capes, face bulls in ring, execute faena, and maintain tradition patronage.",
+    "skills": "Courage, footwork, cape geometry, showmanship, injury recovery.",
+    "tools": "Suit of lights, muleta, sword, banderillas.",
+    "regions": "Spain, Mexico, southern France, Peru.",
+    "category": "sports",
+    "eraPrimary": "early_modern",
+    "originYear": 1700,
+    "originYearEnd": null,
+    "originLabel": "Codified Spanish bullfighting spectacle",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2010,
+        "label": "Catalonia ban",
+        "description": "Regional prohibitions shrink arenas and debate profession's future.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "circus-performer",
+        "type": "related"
+      },
+      {
+        "toSlug": "rancher",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "fencing-master",
+    "name": "Fencing Master",
+    "status": "active",
+    "summary": "An instructor in swordplay disciplines—descended from duel culture and Olympic foil, épée, and sabre competition with formal pedagogy certificates.",
+    "duties": "Teach footwork, drill bouts, choreograph safety, and prepare competitors.",
+    "skills": "Bladework, tactics, refereeing, pedagogy, history.",
+    "tools": "Mask, jacket, electric scoring box, piste.",
+    "regions": "France, Italy, Olympic training centers, university clubs.",
+    "category": "sports",
+    "eraPrimary": "early_modern",
+    "originYear": 1500,
+    "originYearEnd": null,
+    "originLabel": "Renaissance rapier schools",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1896,
+        "label": "Olympic fencing",
+        "description": "Modern Games include fencing as enduring elite amateur/pro pathway.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "coach",
+        "type": "related"
+      },
+      {
+        "toSlug": "soldier",
+        "type": "related"
+      },
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "archery-instructor",
+    "name": "Archery Instructor",
+    "status": "active",
+    "summary": "A teacher of bow shooting for sport, hunting ethics, or recreation—revived as Olympic precision event and youth camp staple after medieval martial decline.",
+    "duties": "Fit equipment, teach form, run ranges safely, and score competitions.",
+    "skills": "Biomechanics, range safety, equipment tuning, calm coaching.",
+    "tools": "Recurve or compound bows, targets, backstops, clickers.",
+    "regions": "Korea Olympic centers, U.S. ranges, traditional bowyers.",
+    "category": "sports",
+    "eraPrimary": "ancient",
+    "originYear": -3000,
+    "originYearEnd": null,
+    "originLabel": "Bowmanship as martial and hunt skill",
+    "dateConfidence": "low",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1972,
+        "label": "Olympic archery return",
+        "description": "Munich Games restore archery as televised target discipline.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "archer",
+        "type": "related"
+      },
+      {
+        "toSlug": "coach",
+        "type": "related"
+      },
+      {
+        "toSlug": "fencing-master",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "sports-journalist",
+    "name": "Sports Journalist",
+    "status": "active",
+    "summary": "A reporter who covers games, transfers, and scandals—specialized press box culture from newspaper beats to digital breaking push alerts.",
+    "duties": "Attend events, interview sources, write stories, post social updates, and fact-check.",
+    "skills": "Fast writing, network sourcing, stats literacy, ethics under team pressure.",
+    "tools": "Laptop, press credential, camera, Twitter/X, transcription apps.",
+    "regions": "Global sports desks; league media partnerships.",
+    "category": "sports",
+    "eraPrimary": "industrial",
+    "originYear": 1850,
+    "originYearEnd": null,
+    "originLabel": "Newspaper sports sections",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1979,
+        "label": "ESPN era",
+        "description": "Cable highlights change deadline rhythm and personality-driven coverage.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "journalist",
+        "type": "related"
+      },
+      {
+        "toSlug": "sports-commentator",
+        "type": "related"
+      },
+      {
+        "toSlug": "photographer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "stadium-usher",
+    "name": "Stadium Usher",
+    "status": "active",
+    "summary": "An event staffer who seats guests, checks tickets, and manages crowd flow—part of the live-spectacle workforce scaling with megastadium construction.",
+    "duties": "Scan tickets, direct aisles, enforce bag policies, assist emergencies, and report disturbances.",
+    "skills": "Customer service, conflict calm, stadium layout knowledge, standing stamina.",
+    "tools": "Scanner, radio, vest uniform, flashlight.",
+    "regions": "MLB, NFL, Premier League, Olympic venues.",
+    "category": "sports",
+    "eraPrimary": "industrial",
+    "originYear": 1900,
+    "originYearEnd": null,
+    "originLabel": "Early 20th-century ballpark expansion",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2000,
+        "label": "Digital ticketing",
+        "description": "Mobile passes change gate workflows and usher fraud-check roles.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "ticket-broker",
+        "type": "related"
+      },
+      {
+        "toSlug": "event-planner",
+        "type": "related"
+      },
+      {
+        "toSlug": "police-officer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "ticket-broker",
+    "name": "Ticket Broker",
+    "status": "active",
+    "summary": "A reseller who buys and sells event seats on secondary markets—legal gray profession shaped by StubHub-era transparency and artist anti-scalping policies.",
+    "duties": "Source inventory, price dynamically, fulfill orders, and manage chargeback risk.",
+    "skills": "Market timing, platform algorithms, customer service, compliance navigation.",
+    "tools": "Exchange APIs, pricing bots, verified fan programs.",
+    "regions": "U.S. concerts and sports, UK touts, global resale platforms.",
+    "category": "sports",
+    "eraPrimary": "modern",
+    "originYear": 1980,
+    "originYearEnd": null,
+    "originLabel": "Street scalping professionalization",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2000,
+        "label": "Online resale platforms",
+        "description": "eBay and StubHub legitimize secondary ticket marketplaces at scale.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "stadium-usher",
+        "type": "related"
+      },
+      {
+        "toSlug": "impresario",
+        "type": "related"
+      },
+      {
+        "toSlug": "event-planner",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "sports-marketing-manager",
+    "name": "Sports Marketing Manager",
+    "status": "active",
+    "summary": "A brand strategist who sells sponsorships, ticket packages, and fan engagement—grew as leagues commercialized naming rights and digital content rights.",
+    "duties": "Pitch sponsors, activate campaigns, manage CRM segments, and measure attribution.",
+    "skills": "Partnership sales, creative briefing, data analytics, league compliance.",
+    "tools": "CRM, sponsorship decks, social dashboards, CRM fan tokens.",
+    "regions": "League offices, agency sports practices, club commercial departments.",
+    "category": "sports",
+    "eraPrimary": "modern",
+    "originYear": 1970,
+    "originYearEnd": null,
+    "originLabel": "Stadium naming rights era",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1990,
+        "label": "Global brand deals",
+        "description": "Nike-Jordan model expands athlete-brand co-marketing templates.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "marketing-manager",
+        "type": "related"
+      },
+      {
+        "toSlug": "sports-agent",
+        "type": "related"
+      },
+      {
+        "toSlug": "impresario",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Sports management degrees, league marketing rotations.",
+    "modernSectors": "Teams, leagues, agencies, apparel sponsors."
+  },
+  {
+    "slug": "equipment-manager",
+    "name": "Equipment Manager",
+    "status": "active",
+    "summary": "A locker-room logistics specialist who maintains uniforms, gear, and travel trunks—unsung enabler of pro team readiness on road trips.",
+    "duties": "Laundry, repair gear, pack trunks, track inventory, and prep practice equipment.",
+    "skills": "Organization, sewing basics, vendor relationships, discretion.",
+    "tools": "Sewing machine, helmet tools, barcode inventory, travel cases.",
+    "regions": "MLB clubhouses, NFL, NHL, college athletics.",
+    "category": "sports",
+    "eraPrimary": "modern",
+    "originYear": 1950,
+    "originYearEnd": null,
+    "originLabel": "Professional team support staffs",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1980,
+        "label": "Equipment specialization",
+        "description": "Growing staff sizes formalize equipment manager as career track.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "athletic-trainer",
+        "type": "related"
+      },
+      {
+        "toSlug": "coach",
+        "type": "related"
+      },
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "racehorse-trainer",
+    "name": "Racehorse Trainer",
+    "status": "active",
+    "summary": "A stable manager who conditions thoroughbreds for racing—combining horsemanship, veterinary judgment, and betting-market reputation.",
+    "duties": "Design workouts, enter races, manage grooms, liaise with owners and vets.",
+    "skills": "Horse reading, training periodization, regulatory paperwork, owner communication.",
+    "tools": "Stopwatch, starting gates, vet records, racing forms.",
+    "regions": "Kentucky, Newmarket, Chantilly, Middle Eastern turf.",
+    "category": "sports",
+    "eraPrimary": "early_modern",
+    "originYear": 1700,
+    "originYearEnd": null,
+    "originLabel": "English thoroughbred racing stables",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Racing commission regulation",
+        "description": "State racing boards standardize licensing for trainers and medication rules.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "jockey",
+        "type": "related"
+      },
+      {
+        "toSlug": "stablehand",
+        "type": "related"
+      },
+      {
+        "toSlug": "veterinarian",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "stablehand",
+    "name": "Stablehand",
+    "status": "active",
+    "summary": "A barn worker who feeds, mucks, and exercises horses—entry rung of racing and equestrian economies with dawn-shift physical labor.",
+    "duties": "Muck stalls, groom coats, hot-walk horses, and assist farriers.",
+    "skills": "Horse handling, stamina, early hours, injury awareness.",
+    "tools": "Forks, brushes, tack, wheelbarrows.",
+    "regions": "Racing yards, show barns, polo clubs worldwide.",
+    "category": "sports",
+    "eraPrimary": "medieval",
+    "originYear": 1200,
+    "originYearEnd": null,
+    "originLabel": "Manorial and tournament stables",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Professional racing barns",
+        "description": "Commercial stables employ dedicated grooms at scale beyond estate staff.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "racehorse-trainer",
+        "type": "related"
+      },
+      {
+        "toSlug": "jockey",
+        "type": "related"
+      },
+      {
+        "toSlug": "saddler",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "bookmaker",
+    "name": "Bookmaker",
+    "status": "active",
+    "summary": "An odds-setter who accepts wagers on sporting outcomes—legalized betting shops and mobile apps transformed underground turf accountants into regulated corporations.",
+    "duties": "Price markets, manage liability, pay winners, comply with AML, and market promotions.",
+    "skills": "Probability, risk trading, customer acquisition, regulatory compliance.",
+    "tools": "Trading screens, risk dashboards, shop terminals, mobile apps.",
+    "regions": "UK betting shops, Las Vegas, Australian TAB, online global operators.",
+    "category": "sports",
+    "eraPrimary": "industrial",
+    "originYear": 1850,
+    "originYearEnd": null,
+    "originLabel": "Trackside and street bookmaking",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2018,
+        "label": "U.S. sports betting legalization wave",
+        "description": "PASPA repeal opens state-licensed mobile wagering markets.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "jockey",
+        "type": "related"
+      },
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "statistician",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "video-game-tester",
+    "name": "Video Game Tester",
+    "status": "active",
+    "summary": "A quality-assurance worker who hunts bugs and verifies fixes before game releases—often entry path into studios though glamorized beyond repetitive regression work.",
+    "duties": "Execute test cases, log defects, reproduce crashes, verify patches, and sign off builds.",
+    "skills": "Attention to detail, documentation, patience, basic technical literacy.",
+    "tools": "Bug trackers, dev kits, capture software, test matrices.",
+    "regions": "Game studios in North America, Japan, Eastern Europe.",
+    "category": "sports",
+    "eraPrimary": "modern",
+    "originYear": 1980,
+    "originYearEnd": null,
+    "originLabel": "Console cartridge QA labs",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2000,
+        "label": "AAA production scale",
+        "description": "Larger teams formalize QA departments and localization testing.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "game-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "software-developer",
+        "type": "related"
+      },
+      {
+        "toSlug": "esports-player",
+        "type": "related"
+      }
+    ],
+    "educationPath": "QA certificates, studio temp contracts, portfolio bug reports.",
+    "modernSectors": "AAA, indie, mobile, localization vendors."
+  },
+  {
+    "slug": "board-game-designer",
+    "name": "Board Game Designer",
+    "status": "active",
+    "summary": "A creator of tabletop rules and components—revived by Kickstarter and convention culture after mid-century TV diverted family game nights.",
+    "duties": "Prototype mechanics, playtest groups, pitch publishers, and manage art production.",
+    "skills": "Probability intuition, theme integration, blind testing, Kickstarter marketing.",
+    "tools": "Cardstock prototypes, meeples, Tabletop Simulator, crowdfunding pages.",
+    "regions": "Essen Spiel, U.S. designer cons, global Kickstarter backers.",
+    "category": "sports",
+    "eraPrimary": "modern",
+    "originYear": 1995,
+    "originYearEnd": null,
+    "originLabel": "German Eurogame renaissance",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2009,
+        "label": "Kickstarter board boom",
+        "description": "Crowdfunding lets designers bypass traditional publishers.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "game-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "publisher",
+        "type": "related"
+      },
+      {
+        "toSlug": "illustrator",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "chess-grandmaster",
+    "name": "Chess Grandmaster",
+    "status": "active",
+    "summary": "An elite chess player holding FIDE grandmaster title—ancient court game now supported by engines, streaming, and classical tournament prize funds.",
+    "duties": "Study openings, compete classical and rapid events, coach students, and create content.",
+    "skills": "Calculation, pattern memory, endurance, psychological stamina, preparation.",
+    "tools": "Chess engines, databases, digital boards, streaming setup.",
+    "regions": "Soviet school tradition, Norway (Carlsen era), global online arenas.",
+    "category": "sports",
+    "eraPrimary": "medieval",
+    "originYear": 600,
+    "originYearEnd": null,
+    "originLabel": "Persian and Indian chaturanga lineage",
+    "dateConfidence": "low",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1972,
+        "label": "Fischer-Spassky spotlight",
+        "description": "Cold War match globalizes chess as spectator mind sport.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "tutor",
+        "type": "related"
+      },
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "game-designer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "caddie",
+    "name": "Caddie",
+    "status": "active",
+    "summary": "A golfer's bag carrier and course advisor who reads greens and manages clubs—Scottish links tradition now including professional tour loops earning percentage of purses.",
+    "duties": "Carry bag, clean clubs, advise yardages, read greens, and maintain player morale.",
+    "skills": "Course knowledge, physical fitness, interpersonal tact, math.",
+    "tools": "Yardage book, towel, rangefinder (where allowed), golf bag.",
+    "regions": "Scottish links, PGA Tour loops, resort guest caddie programs.",
+    "category": "sports",
+    "eraPrimary": "early_modern",
+    "originYear": 1700,
+    "originYearEnd": null,
+    "originLabel": "Scottish links caddie loops",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1983,
+        "label": "Caddie association organizing",
+        "description": "Tour caddies negotiate standards and share contract norms.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "professional-golfer",
+        "type": "related"
+      },
+      {
+        "toSlug": "athlete",
+        "type": "related"
+      },
+      {
+        "toSlug": "coach",
+        "type": "related"
+      }
+    ]
+  }
+]

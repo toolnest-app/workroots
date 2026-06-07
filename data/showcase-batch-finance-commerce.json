@@ -1,0 +1,1908 @@
+[
+  {
+    "slug": "banker",
+    "name": "Banker",
+    "status": "active",
+    "summary": "A financier who accepts deposits, extends credit, and manages payment systems—the institutional backbone of commercial exchange from medieval benches to global capital markets.",
+    "duties": "Evaluate loan risk, manage accounts, comply with regulation, advise clients on treasury, and oversee branch or trading operations.",
+    "skills": "Credit analysis, relationship management, regulatory literacy, liquidity planning, fraud detection.",
+    "tools": "Ledger systems, vaults, wire networks, core banking software, risk models.",
+    "regions": "Italian city-states, London, New York, Hong Kong, and every modern banking hub.",
+    "category": "finance",
+    "eraPrimary": "medieval",
+    "originYear": 1200,
+    "originYearEnd": null,
+    "originLabel": "Medieval money-changer benches (banca)",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1694,
+        "label": "Bank of England charter",
+        "description": "Central banking models spread, anchoring national credit and note issuance.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "money-changer",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "investment-banker",
+        "type": "related"
+      },
+      {
+        "toSlug": "accountant",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Finance degree, banking exams, compliance training, graduate programs.",
+    "modernSectors": "Retail banking, corporate banking, central banks, development finance."
+  },
+  {
+    "slug": "stock-trader",
+    "name": "Stock Trader",
+    "status": "active",
+    "summary": "A market operator who buys and sells equity securities for profit—evolving from open-outcry exchange floors to algorithmic desks that price companies in milliseconds.",
+    "duties": "Analyze issuers, execute orders, manage positions, monitor news flow, and report P&L.",
+    "skills": "Market timing, risk control, pattern recognition, emotional discipline, compliance awareness.",
+    "tools": "Trading terminals, order books, Bloomberg screens, co-location servers.",
+    "regions": "Amsterdam, London, New York, Tokyo, Shanghai—global listed markets.",
+    "category": "finance",
+    "eraPrimary": "early_modern",
+    "originYear": 1602,
+    "originYearEnd": null,
+    "originLabel": "Dutch East India Company share trading",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1971,
+        "label": "NASDAQ electronic market",
+        "description": "Screen-based trading accelerates volume and democratizes access to equities.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "stockbroker",
+        "type": "related"
+      },
+      {
+        "toSlug": "commodity-trader",
+        "type": "related"
+      },
+      {
+        "toSlug": "hedge-fund-manager",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Finance or economics degree, Series licenses, prop-desk apprenticeship.",
+    "modernSectors": "Investment banks, hedge funds, proprietary trading, retail brokerages."
+  },
+  {
+    "slug": "insurance-agent",
+    "name": "Insurance Agent",
+    "status": "active",
+    "summary": "A seller of risk-transfer contracts who helps households and firms hedge fire, liability, health, and life contingencies—rooted in marine underwriters and Lloyd's coffee-house deals.",
+    "duties": "Assess client needs, quote premiums, bind policies, handle renewals, and process claims referrals.",
+    "skills": "Needs analysis, persuasion, product knowledge, underwriting basics, ethics.",
+    "tools": "Policy forms, actuarial tables, CRM systems, comparative raters.",
+    "regions": "London marine market, U.S. mutuals, European bancassurance, Asian life giants.",
+    "category": "finance",
+    "eraPrimary": "early_modern",
+    "originYear": 1688,
+    "originYearEnd": null,
+    "originLabel": "Lloyd's marine insurance gatherings",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1752,
+        "label": "Franklin fire mutual",
+        "description": "Benjamin Franklin's Philadelphia contribution fund popularizes property insurance in America.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "underwriter",
+        "type": "related"
+      },
+      {
+        "toSlug": "actuary",
+        "type": "related"
+      },
+      {
+        "toSlug": "reinsurance-specialist",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Insurance licensing exams, continuing education, carrier product schools.",
+    "modernSectors": "Life, P&C, health, commercial lines, independent and captive agencies."
+  },
+  {
+    "slug": "real-estate-agent",
+    "name": "Real Estate Agent",
+    "status": "active",
+    "summary": "A licensed intermediary who markets land and buildings, negotiates sales and leases, and guides clients through title and financing—professionalized as urban property markets exploded in the 19th century.",
+    "duties": "List properties, host showings, draft offers, coordinate inspections, and close transactions.",
+    "skills": "Negotiation, local market knowledge, marketing, contract literacy, client counseling.",
+    "tools": "MLS databases, lockboxes, drones for photography, e-signature platforms.",
+    "regions": "Americas, Europe, Middle East, Asia-Pacific property markets.",
+    "category": "finance",
+    "eraPrimary": "industrial",
+    "originYear": 1850,
+    "originYearEnd": null,
+    "originLabel": "Urban brokerage and land speculation booms",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1908,
+        "label": "REALTOR trademark",
+        "description": "National Association of Real Estate Boards codifies professional standards in the U.S.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "mortgage-broker",
+        "type": "related"
+      },
+      {
+        "toSlug": "appraiser",
+        "type": "related"
+      },
+      {
+        "toSlug": "auctioneer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Pre-licensing courses, state exams, broker sponsorship, CE credits.",
+    "modernSectors": "Residential, commercial, industrial, vacation rentals, property management overlap."
+  },
+  {
+    "slug": "venture-capitalist",
+    "name": "Venture Capitalist",
+    "status": "active",
+    "summary": "An equity investor who funds early-stage companies in exchange for ownership and governance rights—crystallized in Silicon Valley after World War II as technology commercialization accelerated.",
+    "duties": "Source deals, conduct due diligence, negotiate term sheets, join boards, and manage portfolio exits.",
+    "skills": "Pattern recognition, founder coaching, valuation, sector thesis building, network leverage.",
+    "tools": "Cap tables, data rooms, term-sheet templates, CRM, portfolio dashboards.",
+    "regions": "Silicon Valley, Boston, Tel Aviv, London, Bangalore, Shenzhen.",
+    "category": "finance",
+    "eraPrimary": "modern",
+    "originYear": 1946,
+    "originYearEnd": null,
+    "originLabel": "American Research and Development Corporation era",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1995,
+        "label": "Dot-com venture wave",
+        "description": "Internet startups attract institutional VC scale and global copycat funds.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "private-equity-analyst",
+        "type": "related"
+      },
+      {
+        "toSlug": "investment-banker",
+        "type": "related"
+      },
+      {
+        "toSlug": "financial-advisor",
+        "type": "related"
+      }
+    ],
+    "educationPath": "MBA, operator experience, angel investing, VC associate programs.",
+    "modernSectors": "Seed funds, growth equity, corporate venture, government innovation programs."
+  },
+  {
+    "slug": "auditor",
+    "name": "Auditor",
+    "status": "active",
+    "summary": "An independent examiner who tests financial records for accuracy and compliance—descended from medieval account scrutiny and now governed by statutory audit regimes after industrial scandals.",
+    "duties": "Plan audits, test controls, sample transactions, issue opinions, and report fraud risks.",
+    "skills": "Accounting standards, skepticism, sampling, documentation, stakeholder communication.",
+    "tools": "Working papers, audit software, confirmations, data analytics scripts.",
+    "regions": "Big Four networks, national firms, government audit offices worldwide.",
+    "category": "finance",
+    "eraPrimary": "industrial",
+    "originYear": 1850,
+    "originYearEnd": null,
+    "originLabel": "Joint-stock company account certification",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2002,
+        "label": "Sarbanes-Oxley Act",
+        "description": "U.S. reforms tighten auditor independence and internal-control attestation after Enron.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "accountant",
+        "type": "related"
+      },
+      {
+        "toSlug": "tax-advisor",
+        "type": "related"
+      },
+      {
+        "toSlug": "comptroller",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Accounting degree, CPA or chartered accountant exams, firm training.",
+    "modernSectors": "Public company audit, internal audit, government, nonprofit assurance."
+  },
+  {
+    "slug": "marketing-manager",
+    "name": "Marketing Manager",
+    "status": "active",
+    "summary": "A commercial strategist who positions products, plans campaigns, and measures demand—emerging with mass production and advertising agencies as firms competed for national consumer attention.",
+    "duties": "Define segments, set budgets, brief creative teams, launch channels, and report ROI.",
+    "skills": "Brand strategy, analytics, copy judgment, vendor management, consumer psychology.",
+    "tools": "CRM, ad platforms, survey tools, marketing automation, attribution models.",
+    "regions": "U.S. consumer goods pioneers, global FMCG, digital-native brands.",
+    "category": "finance",
+    "eraPrimary": "industrial",
+    "originYear": 1900,
+    "originYearEnd": null,
+    "originLabel": "Mass-market advertising and brand management",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1995,
+        "label": "Digital marketing era",
+        "description": "Search and display ads shift spend from print and broadcast to measurable online funnels.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "merchant",
+        "type": "related"
+      },
+      {
+        "toSlug": "shopkeeper",
+        "type": "related"
+      },
+      {
+        "toSlug": "auctioneer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Marketing or business degree, agency rotations, analytics certifications.",
+    "modernSectors": "CPG, tech, retail, B2B SaaS, entertainment, nonprofit fundraising."
+  },
+  {
+    "slug": "investment-banker",
+    "name": "Investment Banker",
+    "status": "active",
+    "summary": "A corporate finance specialist who underwrites securities, advises mergers, and structures deals—institutionalized when railroads and industrials needed huge public capital raises.",
+    "duties": "Build pitch books, model valuations, run due diligence, syndicate offerings, and negotiate covenants.",
+    "skills": "Financial modeling, presentation, stamina, regulatory navigation, client politics.",
+    "tools": "Excel, PowerPoint, data rooms, deal tombstones, league tables.",
+    "regions": "Wall Street, City of London, Frankfurt, Hong Kong, Dubai IFC.",
+    "category": "finance",
+    "eraPrimary": "industrial",
+    "originYear": 1860,
+    "originYearEnd": null,
+    "originLabel": "Railroad and industrial securities underwriting",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1933,
+        "label": "Glass-Steagall separation",
+        "description": "U.S. law splits commercial and investment banking until late-20th-century repeal debates.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "banker",
+        "type": "related"
+      },
+      {
+        "toSlug": "stockbroker",
+        "type": "related"
+      },
+      {
+        "toSlug": "venture-capitalist",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Top-tier finance MBA, analyst programs, licensing exams.",
+    "modernSectors": "M&A advisory, equity and debt capital markets, restructuring, FIG."
+  },
+  {
+    "slug": "commodity-trader",
+    "name": "Commodity Trader",
+    "status": "active",
+    "summary": "A dealer in standardized goods—grain, metals, oil, cotton—who hedges producers and speculates on supply shocks, with roots in warehouse receipts and Chicago pit trading.",
+    "duties": "Monitor supply chains, execute futures and forwards, manage basis risk, and settle deliveries.",
+    "skills": "Macro awareness, logistics knowledge, contract law, position sizing, weather and geopolitics reading.",
+    "tools": "Futures terminals, warehouse receipts, charter-party data, satellite crop imagery.",
+    "regions": "Chicago, Rotterdam, Singapore, Geneva trading houses.",
+    "category": "finance",
+    "eraPrimary": "industrial",
+    "originYear": 1848,
+    "originYearEnd": null,
+    "originLabel": "Chicago Board of Trade grain contracts",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1973,
+        "label": "Oil futures launch",
+        "description": "Energy contracts globalize commodity hedging beyond agricultural pits.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "stock-trader",
+        "type": "related"
+      },
+      {
+        "toSlug": "merchant",
+        "type": "related"
+      },
+      {
+        "toSlug": "wholesaler",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Economics, commodities house training, FCM licensing.",
+    "modernSectors": "Agriculture, energy, metals, soft commodities, merchant trading firms."
+  },
+  {
+    "slug": "stockbroker",
+    "name": "Stockbroker",
+    "status": "active",
+    "summary": "A registered representative who executes securities orders for clients and may advise on portfolios—once a floor clerk shouting bids, now often a remote advisor behind a screen.",
+    "duties": "Take client orders, recommend allocations, maintain suitability records, and settle trades.",
+    "skills": "Product knowledge, compliance, relationship building, market color, documentation.",
+    "tools": "Brokerage platforms, order tickets, client statements, KYC systems.",
+    "regions": "New York, London, Mumbai, São Paulo retail and institutional channels.",
+    "category": "finance",
+    "eraPrimary": "industrial",
+    "originYear": 1792,
+    "originYearEnd": null,
+    "originLabel": "Buttonwood Agreement broker circle",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1975,
+        "label": "U.S. commission deregulation",
+        "description": "Negotiated rates end fixed commissions, reshaping retail brokerage economics.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "stock-trader",
+        "type": "related"
+      },
+      {
+        "toSlug": "financial-advisor",
+        "type": "related"
+      },
+      {
+        "toSlug": "investment-banker",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Series 7 and state exams, firm training, CFA optional.",
+    "modernSectors": "Full-service wirehouses, discount brokers, RIAs, bank brokerage."
+  },
+  {
+    "slug": "actuary",
+    "name": "Actuary",
+    "status": "active",
+    "summary": "A quantitative specialist who prices insurance and pension risk using mortality and event statistics—one of the oldest formal \"data science\" professions, tied to life tables since the 17th century.",
+    "duties": "Build models, set reserves, certify solvency, advise on product design, and testify on liabilities.",
+    "skills": "Probability, programming, regulation, communication of uncertainty, business judgment.",
+    "tools": "Actuarial software, mortality tables, stochastic simulators, Excel and R.",
+    "regions": "British life offices, North American insurers, global consulting firms.",
+    "category": "finance",
+    "eraPrimary": "early_modern",
+    "originYear": 1693,
+    "originYearEnd": null,
+    "originLabel": "Life annuity and mortality table science",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1948,
+        "label": "Society of Actuaries growth",
+        "description": "Professional exams standardize credentialing across life, health, and pension practice.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "insurance-agent",
+        "type": "related"
+      },
+      {
+        "toSlug": "underwriter",
+        "type": "related"
+      },
+      {
+        "toSlug": "statistician",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Math or actuarial science degree, SOA or IFoA exam series.",
+    "modernSectors": "Life and health insurance, pensions, enterprise risk, government programs."
+  },
+  {
+    "slug": "mortgage-broker",
+    "name": "Mortgage Broker",
+    "status": "active",
+    "summary": "An intermediary who matches borrowers with lenders and packages home-loan applications—surged with securitized mortgage markets and online rate shopping in the late 20th century.",
+    "duties": "Collect financial documents, shop lender programs, explain terms, and shepherd closings.",
+    "skills": "Credit guidelines, disclosure rules, client education, pipeline management.",
+    "tools": "Loan origination systems, credit pulls, automated underwriting engines.",
+    "regions": "United States, UK, Australia, Canada residential markets.",
+    "category": "finance",
+    "eraPrimary": "modern",
+    "originYear": 1970,
+    "originYearEnd": null,
+    "originLabel": "Secondary mortgage market intermediation",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2008,
+        "label": "Subprime crisis scrutiny",
+        "description": "Broker compensation and underwriting standards face intense regulatory reform.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "real-estate-agent",
+        "type": "related"
+      },
+      {
+        "toSlug": "banker",
+        "type": "related"
+      },
+      {
+        "toSlug": "appraiser",
+        "type": "related"
+      }
+    ],
+    "educationPath": "NMLS licensing, lender overlays training, compliance CE.",
+    "modernSectors": "Residential purchase and refinance, non-QM niches, correspondent lending."
+  },
+  {
+    "slug": "pawnbroker",
+    "name": "Pawnbroker",
+    "status": "active",
+    "summary": "A collateral lender who advances cash against personal goods and sells unredeemed pledges—an ancient bridge between money-changing and consumer credit for households without bank access.",
+    "duties": "Appraise items, write pawn tickets, store collateral, collect interest, and retail forfeits.",
+    "skills": "Valuation of jewelry and electronics, loss prevention, regulatory compliance, haggling.",
+    "tools": "Scales, testers, safes, ticketing systems, retail display cases.",
+    "regions": "Europe, Americas, Southeast Asia—ubiquitous in dense urban districts.",
+    "category": "finance",
+    "eraPrimary": "medieval",
+    "originYear": 1100,
+    "originYearEnd": null,
+    "originLabel": "Montes pietatis charitable pawn foundations",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1872,
+        "label": "British Pawnbrokers Act",
+        "description": "Statutory frameworks balance consumer protection with licensed lending.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "money-changer",
+        "type": "related"
+      },
+      {
+        "toSlug": "jeweler",
+        "type": "related"
+      },
+      {
+        "toSlug": "appraiser",
+        "type": "related"
+      }
+    ],
+    "educationPath": "State pawnbroker licenses, appraisal courses, AML training.",
+    "modernSectors": "High-street pawn, online collateral lending, buy-sell-trade overlap."
+  },
+  {
+    "slug": "money-changer",
+    "name": "Money Changer",
+    "status": "declining",
+    "summary": "A street or booth operator who converts currencies and tests coin authenticity—essential before widespread banks and still visible at borders, bazaars, and tourist districts.",
+    "duties": "Quote exchange rates, count and verify notes, manage float, and hedge overnight positions.",
+    "skills": "Mental arithmetic, counterfeit detection, multilingual service, rate monitoring.",
+    "tools": "Scales, counterfeit pens, UV lamps, rate boards, cash drawers.",
+    "regions": "Medieval fairs, Ottoman sarrafs, modern airport kiosks and forex shops.",
+    "category": "finance",
+    "eraPrimary": "medieval",
+    "originYear": 600,
+    "originYearEnd": null,
+    "originLabel": "Sarrafs and medieval exchange tables",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1999,
+        "label": "Euro cash introduction",
+        "description": "Single currency reduces intra-European changer demand while global travel sustains booths.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "banker",
+        "type": "successor"
+      },
+      {
+        "toSlug": "currency-dealer",
+        "type": "related"
+      },
+      {
+        "toSlug": "merchant",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "merchant",
+    "name": "Merchant",
+    "status": "active",
+    "summary": "A trader who buys goods wholesale and resells for margin—historically the class that financed expeditions, stocked ports, and organized the first long-distance commercial networks.",
+    "duties": "Source inventory, negotiate freight, manage credit to buyers, insure cargo, and balance books.",
+    "skills": "Negotiation, logistics, accounting, market intelligence, risk appetite.",
+    "tools": "Bills of lading, letters of credit, sample cases, ledgers, now ERP systems.",
+    "regions": "Mediterranean republics, Hanseatic League, Indian Ocean, global trade today.",
+    "category": "finance",
+    "eraPrimary": "medieval",
+    "originYear": 800,
+    "originYearEnd": null,
+    "originLabel": "Long-distance caravan and maritime trade",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1498,
+        "label": "Oceanic trade routes",
+        "description": "Portuguese and later European routes reshape spice and textile merchant geographies.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "wholesaler",
+        "type": "related"
+      },
+      {
+        "toSlug": "importer",
+        "type": "related"
+      },
+      {
+        "toSlug": "factor",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Apprenticeship in trade houses, business school, family firm training.",
+    "modernSectors": "Import-export, distribution, commodity houses, e-commerce sourcing."
+  },
+  {
+    "slug": "wholesaler",
+    "name": "Wholesaler",
+    "status": "active",
+    "summary": "A middle-tier distributor who aggregates goods from producers and sells in bulk to retailers—critical as factories outpaced local artisan supply in industrial cities.",
+    "duties": "Warehouse inventory, price lists, delivery routes, credit terms, and returns handling.",
+    "skills": "Inventory turns, route planning, B2B sales, category management.",
+    "tools": "Warehouses, forklifts, barcodes, EDI ordering, cold-chain logistics.",
+    "regions": "Industrial Europe and North America; global FMCG supply chains.",
+    "category": "finance",
+    "eraPrimary": "industrial",
+    "originYear": 1850,
+    "originYearEnd": null,
+    "originLabel": "Factory-to-retail distribution houses",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1970,
+        "label": "Containerized logistics",
+        "description": "Standard containers lower freight cost and enable global wholesale networks.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "merchant",
+        "type": "related"
+      },
+      {
+        "toSlug": "shopkeeper",
+        "type": "related"
+      },
+      {
+        "toSlug": "importer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Business or supply-chain programs, distributor trainee roles.",
+    "modernSectors": "Food service, hardware, pharmaceuticals, cash-and-carry clubs."
+  },
+  {
+    "slug": "importer",
+    "name": "Importer",
+    "status": "active",
+    "summary": "A specialist in bringing foreign goods through customs, tariffs, and compliance—a role sharpened as colonial trade companies and later container ports globalized supply.",
+    "duties": "Classify HS codes, arrange freight, pay duties, manage brokers, and clear regulatory holds.",
+    "skills": "Customs law, Incoterms, supplier vetting, currency hedging, documentation.",
+    "tools": "Customs entries, bonds, freight forwarder portals, compliance databases.",
+    "regions": "Port cities worldwide—Rotterdam, Los Angeles, Singapore, Lagos.",
+    "category": "finance",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "Chartered company import monopolies",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1947,
+        "label": "GATT tariff rounds",
+        "description": "Multilateral trade talks reshape import duty structures for postwar growth.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "exporter",
+        "type": "related"
+      },
+      {
+        "toSlug": "merchant",
+        "type": "related"
+      },
+      {
+        "toSlug": "customs-officer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "International business, customs broker license, trade compliance certs.",
+    "modernSectors": "Consumer goods, industrial inputs, food, automotive parts."
+  },
+  {
+    "slug": "exporter",
+    "name": "Exporter",
+    "status": "active",
+    "summary": "A trader who ships domestic products abroad, navigating quotas, phytosanitary rules, and payment risk—paired with importers to complete the circular flow of world commerce.",
+    "duties": "Find overseas buyers, prepare export docs, arrange logistics, and secure payment instruments.",
+    "skills": "Market entry strategy, documentation, cultural fluency, credit insurance knowledge.",
+    "tools": "Commercial invoices, certificates of origin, letters of credit, freight quotes.",
+    "regions": "Manufacturing hubs exporting to global demand centers.",
+    "category": "finance",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "Colonial commodity export trades",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1955,
+        "label": "Export credit agencies",
+        "description": "Government-backed insurers help firms sell capital goods into emerging markets.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "importer",
+        "type": "related"
+      },
+      {
+        "toSlug": "merchant",
+        "type": "related"
+      },
+      {
+        "toSlug": "ship-chandler",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Trade finance courses, export management programs, language skills.",
+    "modernSectors": "Agriculture, machinery, software services, textiles, energy equipment."
+  },
+  {
+    "slug": "factor",
+    "name": "Factor",
+    "status": "declining",
+    "summary": "A commission agent who sold goods on consignment for producers—especially in cotton and dry goods—before integrated retailers absorbed their credit and distribution functions.",
+    "duties": "Receive shipments, market samples, extend buyer credit, remit proceeds minus commission.",
+    "skills": "Sample selling, credit judgment, correspondence, warehouse coordination.",
+    "tools": "Showrooms, swatch books, ledgers, rail receipts.",
+    "regions": "Antebellum U.S. South, British textile districts, European commission houses.",
+    "category": "finance",
+    "eraPrimary": "industrial",
+    "originYear": 1800,
+    "originYearEnd": null,
+    "originLabel": "Commission houses in plantation and factory trade",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1920,
+        "label": "Vertical retail integration",
+        "description": "Department stores and branded manufacturers reduce reliance on independent factors.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "merchant",
+        "type": "related"
+      },
+      {
+        "toSlug": "wholesaler",
+        "type": "related"
+      },
+      {
+        "toSlug": "textile-worker",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "underwriter",
+    "name": "Underwriter",
+    "status": "active",
+    "summary": "A risk evaluator who decides whether to accept insurance or securities offerings and at what price—named for Lloyd's members writing their names under policy shares.",
+    "duties": "Analyze applications, set terms and exclusions, price risk, and monitor portfolio concentrations.",
+    "skills": "Risk selection, data interpretation, negotiation, regulatory compliance.",
+    "tools": "Underwriting manuals, catastrophe models, credit scores, submission platforms.",
+    "regions": "Insurance carriers, investment banks, mortgage lenders globally.",
+    "category": "finance",
+    "eraPrimary": "early_modern",
+    "originYear": 1688,
+    "originYearEnd": null,
+    "originLabel": "Lloyd's subscription underwriting",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1992,
+        "label": "Catastrophe modeling",
+        "description": "Hurricane Andrew accelerates computational disaster risk pricing in property lines.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "insurance-agent",
+        "type": "related"
+      },
+      {
+        "toSlug": "actuary",
+        "type": "related"
+      },
+      {
+        "toSlug": "investment-banker",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Insurance designations (AU, CPCU), bank credit training.",
+    "modernSectors": "P&C, life, health, mortgage, securities IPO desks."
+  },
+  {
+    "slug": "credit-analyst",
+    "name": "Credit Analyst",
+    "status": "active",
+    "summary": "A lender-side researcher who grades borrower financial health and recommends limits—institutionalized as bond rating agencies and bank credit departments matured.",
+    "duties": "Spread financials, build projections, write memos, monitor covenants, and flag downgrades.",
+    "skills": "Accounting analysis, industry research, writing, skepticism, spreadsheet modeling.",
+    "tools": "Rating methodologies, 10-K filings, credit models, Bloomberg.",
+    "regions": "Commercial banks, rating agencies, corporate treasury teams.",
+    "category": "finance",
+    "eraPrimary": "industrial",
+    "originYear": 1900,
+    "originYearEnd": null,
+    "originLabel": "Moody's manual and bank credit departments",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1936,
+        "label": "Regulated bank ratings use",
+        "description": "U.S. rules embed external ratings in capital requirements for bond holdings.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "banker",
+        "type": "related"
+      },
+      {
+        "toSlug": "auditor",
+        "type": "related"
+      },
+      {
+        "toSlug": "financial-advisor",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Finance degree, CFA or CRC, bank credit academy.",
+    "modernSectors": "Commercial lending, municipal finance, corporate bonds, fintech underwriting."
+  },
+  {
+    "slug": "financial-advisor",
+    "name": "Financial Advisor",
+    "status": "active",
+    "summary": "A planner who helps households and executives invest, insure, and retire—professionalized as defined-contribution pensions shifted investment decisions to individuals.",
+    "duties": "Assess goals, propose allocations, implement accounts, rebalance, and document suitability.",
+    "skills": "Holistic planning, empathy, compliance, tax-aware investing, estate basics.",
+    "tools": "Financial planning software, CRM, portfolio dashboards, risk questionnaires.",
+    "regions": "North America, UK, Australia wealth management markets.",
+    "category": "finance",
+    "eraPrimary": "modern",
+    "originYear": 1970,
+    "originYearEnd": null,
+    "originLabel": "Retail mutual fund and IRA advisory channels",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2016,
+        "label": "Fiduciary rule debates",
+        "description": "U.S. policy fights sharpen distinction between advice and product sales.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "stockbroker",
+        "type": "related"
+      },
+      {
+        "toSlug": "insurance-agent",
+        "type": "related"
+      },
+      {
+        "toSlug": "tax-advisor",
+        "type": "related"
+      }
+    ],
+    "educationPath": "CFP certification, Series 65, firm supervision programs.",
+    "modernSectors": "RIAs, wirehouses, insurance-based planning, family offices."
+  },
+  {
+    "slug": "hedge-fund-manager",
+    "name": "Hedge Fund Manager",
+    "status": "active",
+    "summary": "A portfolio principal who pursues absolute returns with flexible strategies—popularized in the 1950s–60s as wealthy investors sought market-neutral and leveraged approaches.",
+    "duties": "Raise capital, design strategy, hire analysts, risk-manage books, and report to LPs.",
+    "skills": "Alpha generation, risk systems, investor relations, legal structuring.",
+    "tools": "Prime brokerage, risk dashboards, alt-data feeds, legal side letters.",
+    "regions": "Greenwich, New York, London, Singapore fund clusters.",
+    "category": "finance",
+    "eraPrimary": "modern",
+    "originYear": 1949,
+    "originYearEnd": null,
+    "originLabel": "Jones hedge fund partnership model",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1998,
+        "label": "LTCM crisis",
+        "description": "Leverage and liquidity lessons reshape prime-broker oversight of hedge funds.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "stock-trader",
+        "type": "related"
+      },
+      {
+        "toSlug": "venture-capitalist",
+        "type": "related"
+      },
+      {
+        "toSlug": "private-equity-analyst",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Top finance pedigree, trading floor experience, legal and ops team.",
+    "modernSectors": "Long-short equity, macro, quant, multi-strategy, crypto funds."
+  },
+  {
+    "slug": "private-equity-analyst",
+    "name": "Private Equity Analyst",
+    "status": "active",
+    "summary": "A deal professional who evaluates leveraged buyouts and portfolio company improvements—boomed as pension funds sought private market returns beyond public equities.",
+    "duties": "Screen targets, build LBO models, support diligence, monitor KPIs, and draft IC memos.",
+    "skills": "Modeling, operational due diligence, PowerPoint, interview synthesis.",
+    "tools": "Excel LBO templates, data rooms, management presentations.",
+    "regions": "New York, London, Hong Kong buyout shops.",
+    "category": "finance",
+    "eraPrimary": "modern",
+    "originYear": 1976,
+    "originYearEnd": null,
+    "originLabel": "KKR-era leveraged buyout industry",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2007,
+        "label": "Record buyout boom",
+        "description": "Cheap debt fuels mega-deals before global financial crisis repricing.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "venture-capitalist",
+        "type": "related"
+      },
+      {
+        "toSlug": "investment-banker",
+        "type": "related"
+      },
+      {
+        "toSlug": "auditor",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Investment banking analyst program, MBA, PE associate track.",
+    "modernSectors": "Buyouts, growth equity, infrastructure, secondaries funds."
+  },
+  {
+    "slug": "tax-advisor",
+    "name": "Tax Advisor",
+    "status": "active",
+    "summary": "A specialist who structures transactions and filings to meet statutory tax obligations efficiently—grew complex as income taxes and corporate codes spread in the 20th century.",
+    "duties": "Prepare returns, plan entity structures, research code, represent clients in disputes.",
+    "skills": "Tax law, accounting, research, discretion, cross-border treaty knowledge.",
+    "tools": "Tax prep software, research databases, engagement letters.",
+    "regions": "Every jurisdiction with formal revenue authority.",
+    "category": "finance",
+    "eraPrimary": "modern",
+    "originYear": 1913,
+    "originYearEnd": null,
+    "originLabel": "Modern income tax administration era",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1986,
+        "label": "Major reform cycles",
+        "description": "Periodic tax overhauls create advisory surges in corporate and personal planning.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "accountant",
+        "type": "related"
+      },
+      {
+        "toSlug": "auditor",
+        "type": "related"
+      },
+      {
+        "toSlug": "financial-advisor",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Accounting or law degree, CPA or EA, LL.M. in tax optional.",
+    "modernSectors": "Public accounting, law firms, in-house corporate tax, family offices."
+  },
+  {
+    "slug": "collections-agent",
+    "name": "Collections Agent",
+    "status": "active",
+    "summary": "A recovery specialist who pursues overdue debts by phone, letter, and legal escalation—institutionalized as consumer credit cards and medical billing expanded delinquency workflows.",
+    "duties": "Contact debtors, negotiate payment plans, document calls, and refer legal accounts.",
+    "skills": "Negotiation under stress, regulation (FDCPA), empathy, persistence, recordkeeping.",
+    "tools": "Dialers, collection software, skip-trace databases, payment portals.",
+    "regions": "U.S., UK, emerging markets with consumer credit growth.",
+    "category": "finance",
+    "eraPrimary": "modern",
+    "originYear": 1950,
+    "originYearEnd": null,
+    "originLabel": "Retail credit and third-party collection agencies",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1977,
+        "label": "Fair Debt Collection Practices Act",
+        "description": "U.S. law sets behavioral rules that shape collector scripts and compliance departments.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "credit-analyst",
+        "type": "related"
+      },
+      {
+        "toSlug": "banker",
+        "type": "related"
+      },
+      {
+        "toSlug": "lawyer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "cashier",
+    "name": "Cashier",
+    "status": "active",
+    "summary": "A point-of-sale worker who rings purchases, handles cash, and balances tills—ubiquitous once fixed-price retail replaced haggling in department stores and supermarkets.",
+    "duties": "Scan items, process payments, issue receipts, reconcile drawers, assist returns.",
+    "skills": "Accuracy, speed, customer service, basic arithmetic, loss prevention awareness.",
+    "tools": "Registers, barcode scanners, card terminals, self-checkout kiosks.",
+    "regions": "Global retail, food service, entertainment venues.",
+    "category": "finance",
+    "eraPrimary": "industrial",
+    "originYear": 1870,
+    "originYearEnd": null,
+    "originLabel": "Department store cash desk culture",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1990,
+        "label": "Barcode POS adoption",
+        "description": "Scanner checkout becomes default in supermarkets worldwide.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "shopkeeper",
+        "type": "related"
+      },
+      {
+        "toSlug": "bookkeeper",
+        "type": "related"
+      },
+      {
+        "toSlug": "clerk",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "shopkeeper",
+    "name": "Shopkeeper",
+    "status": "active",
+    "summary": "The owner-operator of a retail storefront who selects stock, serves customers, and keeps neighborhood commerce alive—from colonial general stores to modern specialty boutiques.",
+    "duties": "Order inventory, set prices, open and close shop, hire help, and manage local relationships.",
+    "skills": "Merchandising, bookkeeping, community trust, supplier negotiation.",
+    "tools": "Shelves, scales, ledgers, POS tablets, signage.",
+    "regions": "Village markets, urban high streets, emerging-economy micro-retail.",
+    "category": "finance",
+    "eraPrimary": "medieval",
+    "originYear": 1000,
+    "originYearEnd": null,
+    "originLabel": "Permanent urban shop stalls",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1960,
+        "label": "Supermarket concentration",
+        "description": "Chain grocery scale pressures independent grocers while niches survive.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "merchant",
+        "type": "related"
+      },
+      {
+        "toSlug": "cashier",
+        "type": "related"
+      },
+      {
+        "toSlug": "wholesaler",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Family trade apprenticeship, small-business courses.",
+    "modernSectors": "Convenience, specialty food, hardware, neighborhood services."
+  },
+  {
+    "slug": "auctioneer",
+    "name": "Auctioneer",
+    "status": "active",
+    "summary": "A fast-talking sale caller who converts competitive bids into binding contracts—used for livestock, art, foreclosures, and increasingly online timed auctions.",
+    "duties": "Catalog lots, conduct bidding, authenticate hammer prices, and settle with buyers.",
+    "skills": "Chant rhythm, crowd reading, legal disclaimers, valuation instincts.",
+    "tools": "Gavel, bid paddles, online auction platforms, catalogues.",
+    "regions": "British country sales, American farm auctions, global art houses.",
+    "category": "finance",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "Municipal and estate public auctions",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1995,
+        "label": "eBay marketplace",
+        "description": "Digital auctions democratize peer-to-peer bidding beyond live rooms.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "appraiser",
+        "type": "related"
+      },
+      {
+        "toSlug": "real-estate-agent",
+        "type": "related"
+      },
+      {
+        "toSlug": "antiquarian",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Auctioneer license schools, specialty appraisal training.",
+    "modernSectors": "Art, livestock, industrial equipment, charity, foreclosure sales."
+  },
+  {
+    "slug": "appraiser",
+    "name": "Appraiser",
+    "status": "active",
+    "summary": "A certified valuer who estimates fair market worth of property, gems, or collectibles—critical wherever lenders, insurers, and courts require independent worth opinions.",
+    "duties": "Inspect assets, research comparables, write defensible reports, and testify if needed.",
+    "skills": "Valuation methods, photography, report writing, ethics, specialty knowledge.",
+    "tools": "Measuring devices, comp databases, USPAP standards, gem testers.",
+    "regions": "Real estate boards, auction houses, insurance claims globally.",
+    "category": "finance",
+    "eraPrimary": "industrial",
+    "originYear": 1900,
+    "originYearEnd": null,
+    "originLabel": "Professional appraisal societies",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1989,
+        "label": "USPAP standardization",
+        "description": "Uniform Standards professionalize appraisal practice in U.S. mortgage markets.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "real-estate-agent",
+        "type": "related"
+      },
+      {
+        "toSlug": "auctioneer",
+        "type": "related"
+      },
+      {
+        "toSlug": "pawnbroker",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Licensed appraiser coursework, designations (MAI, ASA).",
+    "modernSectors": "Residential and commercial real estate, personal property, litigation support."
+  },
+  {
+    "slug": "bond-trader",
+    "name": "Bond Trader",
+    "status": "active",
+    "summary": "A fixed-income dealer who prices government and corporate debt—central to war finance and infrastructure funding since tradable bonds replaced informal court loans.",
+    "duties": "Quote bid-ask spreads, manage duration risk, execute client orders, and watch central-bank policy.",
+    "skills": "Macroeconomics, yield curve math, relative value, fast execution.",
+    "tools": "Electronic trading platforms, Bloomberg, risk limits, repo desks.",
+    "regions": "New York, London, Tokyo government and credit desks.",
+    "category": "finance",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "Venetian and Dutch government bond markets",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1971,
+        "label": "Floating exchange rates",
+        "description": "Currency volatility increases hedging demand and sovereign bond trading volumes.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "stock-trader",
+        "type": "related"
+      },
+      {
+        "toSlug": "investment-banker",
+        "type": "related"
+      },
+      {
+        "toSlug": "treasurer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Finance degree, sales and trading rotations, Series licenses.",
+    "modernSectors": "Sell-side desks, asset managers, central bank open-market operations overlap."
+  },
+  {
+    "slug": "forex-trader",
+    "name": "Forex Trader",
+    "status": "active",
+    "summary": "A currency market participant who trades FX pairs for hedging or speculation—exploded after Bretton Woods fixed rates ended and electronic platforms democratized access.",
+    "duties": "Monitor central banks, execute spot and forward trades, manage leverage, and report exposures.",
+    "skills": "Macro news reaction, technical analysis, risk limits, multilingual news scanning.",
+    "tools": "FX platforms, news wires, algo execution, position blotters.",
+    "regions": "London, Singapore, New York interbank and retail FX.",
+    "category": "finance",
+    "eraPrimary": "modern",
+    "originYear": 1973,
+    "originYearEnd": null,
+    "originLabel": "Post-Bretton Woods floating currencies",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1996,
+        "label": "Retail FX platforms",
+        "description": "Online brokers open currency trading to non-institutional participants.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "currency-dealer",
+        "type": "related"
+      },
+      {
+        "toSlug": "commodity-trader",
+        "type": "related"
+      },
+      {
+        "toSlug": "money-changer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Economics, bank markets training, risk management courses.",
+    "modernSectors": "Banks, hedge funds, corporate treasury, retail brokerages."
+  },
+  {
+    "slug": "commodities-broker",
+    "name": "Commodities Broker",
+    "status": "active",
+    "summary": "An intermediary who executes futures and options orders for hedgers and speculators—evolved from pit runners to FCM desks linked to global exchanges.",
+    "duties": "Take client orders, explain margin, route fills, and ensure exchange compliance.",
+    "skills": "Contract specs, margin math, client education, fast phone presence.",
+    "tools": "Order routing systems, margin monitors, exchange rulebooks.",
+    "regions": "Chicago, New York, London commodity brokerages.",
+    "category": "finance",
+    "eraPrimary": "industrial",
+    "originYear": 1860,
+    "originYearEnd": null,
+    "originLabel": "Grain pit brokerage after Civil War",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2010,
+        "label": "Electronic pit decline",
+        "description": "Open-outcry floors close as screen trading dominates commodity execution.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "commodity-trader",
+        "type": "related"
+      },
+      {
+        "toSlug": "stockbroker",
+        "type": "related"
+      },
+      {
+        "toSlug": "merchant",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Series 3 license, FCM training programs.",
+    "modernSectors": "FCMs, introducing brokers, hedging advisory for producers."
+  },
+  {
+    "slug": "reinsurance-specialist",
+    "name": "Reinsurance Specialist",
+    "status": "active",
+    "summary": "A professional who insures insurance companies, spreading catastrophic losses across global balance sheets—matured in Swiss and Bermuda hubs after mega-disaster lessons.",
+    "duties": "Structure treaties, price cat exposures, negotiate facultative covers, and model accumulations.",
+    "skills": "Actuarial collaboration, contract drafting, relationship with cedents.",
+    "tools": "Catastrophe models, treaty wordings, portfolio monitoring systems.",
+    "regions": "Zurich, Munich, London, Bermuda reinsurance markets.",
+    "category": "finance",
+    "eraPrimary": "industrial",
+    "originYear": 1848,
+    "originYearEnd": null,
+    "originLabel": "Swiss Re and Cologne Re foundations",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2001,
+        "label": "September 11 losses",
+        "description": "Terror and casualty reinsurance pricing and exclusions reshape global treaties.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "underwriter",
+        "type": "related"
+      },
+      {
+        "toSlug": "actuary",
+        "type": "related"
+      },
+      {
+        "toSlug": "insurance-agent",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Actuarial or underwriting track, reinsurance academies.",
+    "modernSectors": "Property cat, life reinsurance, ILS and cat bonds."
+  },
+  {
+    "slug": "bill-collector",
+    "name": "Bill Collector",
+    "status": "declining",
+    "summary": "A door-to-door or office worker who demanded payment on installment accounts—common before auto-debit and credit bureaus centralized delinquency handling.",
+    "duties": "Visit debtors, record promises to pay, accept partial payments, and report skips.",
+    "skills": "Persistence, local knowledge, tact, handwritten ledger accuracy.",
+    "tools": "Collection books, receipt pads, street directories.",
+    "regions": "Urban industrial districts with hire-purchase shops.",
+    "category": "finance",
+    "eraPrimary": "industrial",
+    "originYear": 1890,
+    "originYearEnd": null,
+    "originLabel": "Installment credit and tallymen",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1950,
+        "label": "Phone collection agencies",
+        "description": "Centralized dial operations begin replacing per-route walkers in many markets.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "collections-agent",
+        "type": "successor"
+      },
+      {
+        "toSlug": "shopkeeper",
+        "type": "related"
+      },
+      {
+        "toSlug": "tax-collector",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "comptroller",
+    "name": "Comptroller",
+    "status": "active",
+    "summary": "A senior financial officer who oversees accounting, reporting, and internal controls—title used in corporations and governments alike for the chief fiscal watchdog role.",
+    "duties": "Certify financial statements, manage controller staff, liaise with auditors, enforce policies.",
+    "skills": "GAAP/IFRS, leadership, systems oversight, regulatory filings.",
+    "tools": "ERP general ledgers, consolidation software, SOX control matrices.",
+    "regions": "U.S. public companies, municipal finance offices.",
+    "category": "finance",
+    "eraPrimary": "industrial",
+    "originYear": 1800,
+    "originYearEnd": null,
+    "originLabel": "Anglo-American public accountancy offices",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2002,
+        "label": "SOX officer certifications",
+        "description": "CEO and CFO sign-offs elevate comptroller and controller accountability.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "accountant",
+        "type": "related"
+      },
+      {
+        "toSlug": "auditor",
+        "type": "related"
+      },
+      {
+        "toSlug": "treasurer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "CPA, controller career ladder, MBA optional.",
+    "modernSectors": "Fortune 500, universities, cities and states, nonprofits."
+  },
+  {
+    "slug": "treasurer",
+    "name": "Treasurer",
+    "status": "active",
+    "summary": "An officer responsible for liquidity, banking relationships, and sometimes investor relations—distinct from accounting yet central to payroll, debt, and cash investment policy.",
+    "duties": "Forecast cash, manage debt covenants, invest surpluses, oversee payments and FX hedges.",
+    "skills": "Cash modeling, banking negotiation, debt markets, risk policy.",
+    "tools": "Treasury workstations, payment hubs, debt schedules.",
+    "regions": "Corporate HQs, nonprofits, municipal governments.",
+    "category": "finance",
+    "eraPrimary": "early_modern",
+    "originYear": 1500,
+    "originYearEnd": null,
+    "originLabel": "City and guild treasury offices",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1980,
+        "label": "Money market innovation",
+        "description": "New instruments and sweeps professionalize corporate cash management.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "banker",
+        "type": "related"
+      },
+      {
+        "toSlug": "bond-trader",
+        "type": "related"
+      },
+      {
+        "toSlug": "comptroller",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Finance degree, CTP certification, banking rotations.",
+    "modernSectors": "Corporate treasury, public finance, hospital systems."
+  },
+  {
+    "slug": "currency-dealer",
+    "name": "Currency Dealer",
+    "status": "active",
+    "summary": "A wholesale trader in banknotes and coins for collectors, banks, and travelers—overlapping with numismatics and central-bank distribution channels.",
+    "duties": "Source scarce denominations, authenticate notes, price inventories, and ship insured parcels.",
+    "skills": "Grading standards, anti-counterfeit knowledge, market pricing, logistics.",
+    "tools": "Loupe, UV lights, price guides, banknote sleeves.",
+    "regions": "Major financial centers and airport duty-free networks.",
+    "category": "finance",
+    "eraPrimary": "modern",
+    "originYear": 1970,
+    "originYearEnd": null,
+    "originLabel": "Collectible and wholesale banknote trade",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2002,
+        "label": "Euro note launch",
+        "description": "Currency changeovers create dealer demand for legacy note inventory.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "money-changer",
+        "type": "related"
+      },
+      {
+        "toSlug": "forex-trader",
+        "type": "related"
+      },
+      {
+        "toSlug": "banker",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "merchant-banker",
+    "name": "Merchant Banker",
+    "status": "declining",
+    "summary": "A private partnership banker who combined trade finance, acceptance bills, and venture stakes—prototype of modern investment banking before retail deposit giants absorbed many houses.",
+    "duties": "Discount trade bills, advise family firms, place private securities, and syndicate risky ventures.",
+    "skills": "Relationship banking, trade law, discretion, international correspondence.",
+    "tools": "Acceptance stamps, partner ledgers, telex, club deals.",
+    "regions": "City of London, Hamburg, Hong Kong historic houses.",
+    "category": "finance",
+    "eraPrimary": "early_modern",
+    "originYear": 1700,
+    "originYearEnd": null,
+    "originLabel": "Private merchant banking partnerships",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1986,
+        "label": "Big Bang deregulation",
+        "description": "London reforms accelerate consolidation into universal banking groups.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "merchant",
+        "type": "related"
+      },
+      {
+        "toSlug": "investment-banker",
+        "type": "successor"
+      },
+      {
+        "toSlug": "banker",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "loan-officer",
+    "name": "Loan Officer",
+    "status": "active",
+    "summary": "A frontline lender who interviews borrowers and packages credit applications for approval—standard role in banks and credit unions as consumer and commercial lending scaled with branch networks.",
+    "duties": "Take applications, verify income, explain products, submit to underwriting, and close loans.",
+    "skills": "Interviewing, credit guideline knowledge, sales ethics, documentation accuracy.",
+    "tools": "Loan origination systems, credit reports, disclosure forms, e-sign platforms.",
+    "regions": "U.S. banks, credit unions, mortgage shops, development finance institutions.",
+    "category": "finance",
+    "eraPrimary": "industrial",
+    "originYear": 1900,
+    "originYearEnd": null,
+    "originLabel": "Branch banking consumer lending desks",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2008,
+        "label": "Mortgage crisis reforms",
+        "description": "Ability-to-repay rules and QM standards reshape loan officer compensation and compliance.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "banker",
+        "type": "related"
+      },
+      {
+        "toSlug": "mortgage-broker",
+        "type": "related"
+      },
+      {
+        "toSlug": "credit-analyst",
+        "type": "related"
+      }
+    ],
+    "educationPath": "NMLS licensing for mortgages, bank training programs, SAFE Act compliance.",
+    "modernSectors": "Retail banking, mortgage, SBA lending, auto finance."
+  }
+]

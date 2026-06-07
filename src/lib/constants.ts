@@ -1,4 +1,4 @@
-import type { EraPrimary, OccupationStatus } from "@/db/schema";
+import type { ContentTier, EraPrimary, OccupationStatus } from "@/db/schema";
 
 export const ERA_LABELS: Record<EraPrimary, string> = {
   ancient: "Ancient",
@@ -15,6 +15,33 @@ export const STATUS_LABELS: Record<OccupationStatus, string> = {
   extinct: "Extinct",
   regional: "Regional",
 };
+
+export const CONTENT_TIER_LABELS: Record<ContentTier, string> = {
+  curated: "Curated",
+  enhanced: "Enhanced",
+  stub: "Stub",
+};
+
+/** Homepage featured order — all must exist in showcase.json */
+export const FEATURED_SLUGS = [
+  "blacksmith",
+  "software-developer",
+  "scribe",
+  "surgeon",
+  "samurai",
+  "carpenter",
+  "physician",
+  "sailor",
+  "farmer",
+  "electrician",
+  "midwife",
+  "actor",
+  "lawyer",
+  "sea-captain",
+  "film-director",
+  "steelworker",
+  "telegraph-operator",
+] as const;
 
 export const ERA_ORDER: EraPrimary[] = [
   "ancient",

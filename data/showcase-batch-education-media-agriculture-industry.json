@@ -1,0 +1,1123 @@
+[
+  {
+    "slug": "professor",
+    "name": "Professor",
+    "status": "active",
+    "summary": "A senior academic who teaches advanced students and conducts research—evolving from medieval university masters into the modern tenure-track faculty role.",
+    "duties": "Lecture, mentor graduate students, publish research, serve on committees, and secure grants.",
+    "skills": "Subject expertise, pedagogy, writing, peer review, public speaking.",
+    "tools": "Lecture halls, journals, lab equipment, LMS platforms, citation databases.",
+    "regions": "Universities worldwide; roots in Bologna, Paris, and Oxford medieval faculties.",
+    "category": "education",
+    "eraPrimary": "medieval",
+    "originYear": 1200,
+    "originYearEnd": null,
+    "originLabel": "Medieval university masters",
+    "dateConfidence": "medium",
+    "educationPath": "Doctoral degrees, postdoctoral fellowships, tenure review processes.",
+    "modernSectors": "Research universities, liberal arts colleges, professional schools, think tanks.",
+    "aliases": [
+      "lecturer (UK overlap)",
+      "faculty member"
+    ],
+    "events": [
+      {
+        "year": 1800,
+        "label": "Research university model",
+        "description": "German research ideals spread professorial expectations beyond teaching alone.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "University history surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "teacher",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "librarian",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "tutor",
+    "name": "Tutor",
+    "status": "active",
+    "summary": "An educator who instructs individuals or small groups outside mass classrooms—from aristocratic household teachers to modern test-prep coaches.",
+    "duties": "Customize lessons, assess progress, assign practice, and communicate with parents or sponsors.",
+    "skills": "Adaptability, patience, subject mastery, scheduling, feedback.",
+    "tools": "Textbooks, worksheets, video calls, whiteboards, practice exams.",
+    "regions": "Global; prominent in Britain, East Asia cram schools, and elite households historically.",
+    "category": "education",
+    "eraPrimary": "ancient",
+    "originYear": -400,
+    "originYearEnd": null,
+    "originLabel": "Greek and Roman private instruction",
+    "dateConfidence": "low",
+    "educationPath": "Degrees plus tutoring experience; certification for school-adjacent roles.",
+    "modernSectors": "Private tutoring agencies, online platforms, homeschooling support, university writing centers.",
+    "aliases": [
+      "private tutor",
+      "governess (historical household)"
+    ],
+    "events": [
+      {
+        "year": 2000,
+        "label": "Online tutoring",
+        "description": "Video platforms globalize one-to-one instruction beyond local markets.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "History of education references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "teacher",
+        "type": "related"
+      },
+      {
+        "toSlug": "professor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "school-principal",
+    "name": "School Principal",
+    "status": "active",
+    "summary": "The lead administrator of a school who manages staff, safety, budgets, and community relations—descended from headmasters of local grammar schools.",
+    "duties": "Hire teachers, enforce policy, handle discipline, report to districts, and shape school culture.",
+    "skills": "Leadership, conflict resolution, budgeting, regulatory compliance, community engagement.",
+    "tools": "Scheduling systems, safety plans, evaluation rubrics, board meeting agendas.",
+    "regions": "Public and private school systems worldwide.",
+    "category": "education",
+    "eraPrimary": "modern",
+    "originYear": 1850,
+    "originYearEnd": null,
+    "originLabel": "Professionalized public school administration",
+    "dateConfidence": "medium",
+    "educationPath": "Teaching experience plus principal licensure and graduate education programs.",
+    "modernSectors": "K-12 public districts, charter networks, independent schools.",
+    "aliases": [
+      "headmaster",
+      "headteacher"
+    ],
+    "events": [
+      {
+        "year": 1965,
+        "label": "Federal education expansion",
+        "description": "US Great Society programs increase centralized accountability for principals.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "School administration histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "teacher",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "archivist",
+    "name": "Archivist",
+    "status": "active",
+    "summary": "A specialist who preserves, catalogs, and provides access to historical records—cousin to librarians but focused on unpublished primary sources.",
+    "duties": "Appraise collections, arrange finding aids, digitize fragile items, and advise researchers.",
+    "skills": "Cataloging standards, preservation science, reference interviewing, project management.",
+    "tools": "Acid-free boxes, digitization scanners, DAM systems, climate-controlled stacks.",
+    "regions": "National archives, universities, corporations, and religious institutions globally.",
+    "category": "education",
+    "eraPrimary": "modern",
+    "originYear": 1790,
+    "originYearEnd": null,
+    "originLabel": "National archives in revolutionary France and successors",
+    "dateConfidence": "medium",
+    "educationPath": "Archival studies graduate programs, certification through professional societies.",
+    "modernSectors": "Government archives, university special collections, museum back offices, corporate records.",
+    "aliases": [
+      "records manager (overlap)",
+      "keeper of archives"
+    ],
+    "events": [
+      {
+        "year": 1896,
+        "label": "Society of American Archivists roots",
+        "description": "Professional standards formalize archivist training in the 20th century.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Archival profession histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "librarian",
+        "type": "related"
+      },
+      {
+        "toSlug": "scribe",
+        "type": "predecessor"
+      }
+    ]
+  },
+  {
+    "slug": "coach",
+    "name": "Coach",
+    "status": "active",
+    "summary": "An instructor who develops athletic skill, fitness, and teamwork—evolving from informal trainers into credentialed school and professional staff.",
+    "duties": "Plan practices, teach technique, manage game strategy, and safeguard player health protocols.",
+    "skills": "Motivation, sport-specific tactics, injury awareness, communication with athletes and parents.",
+    "tools": "Stopwatch, playbook boards, video analysis, training cones, wearable trackers.",
+    "regions": "School sports worldwide; professional club staff in football, basketball, cricket, and more.",
+    "category": "education",
+    "eraPrimary": "modern",
+    "originYear": 1860,
+    "originYearEnd": null,
+    "originLabel": "Organized school athletics in Britain and US colleges",
+    "dateConfidence": "medium",
+    "educationPath": "Coaching certifications, CPR and safety training, prior playing experience.",
+    "modernSectors": "High school athletics, collegiate programs, professional clubs, private academies.",
+    "aliases": [
+      "athletic coach",
+      "trainer (overlap)"
+    ],
+    "events": [
+      {
+        "year": 1896,
+        "label": "Modern Olympics revival",
+        "description": "International sport elevates specialized coaching careers.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sports history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "teacher",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "academic",
+    "name": "Academic",
+    "status": "active",
+    "summary": "A scholar employed in higher education or research institutes who advances knowledge through study and publication—broader than professor titles alone.",
+    "duties": "Conduct studies, write papers, peer-review colleagues, teach when assigned, and attend conferences.",
+    "skills": "Critical thinking, methodology design, grant writing, collaboration, teaching.",
+    "tools": "Laboratories, datasets, statistical software, academic networks, preprint servers.",
+    "regions": "Global university and institute employment since medieval faculties expanded.",
+    "category": "education",
+    "eraPrimary": "medieval",
+    "originYear": 1100,
+    "originYearEnd": null,
+    "originLabel": "Scholastic communities in medieval universities",
+    "dateConfidence": "low",
+    "educationPath": "Advanced degrees, postdoctoral appointments, fellowship competitions.",
+    "modernSectors": "Universities, national labs, policy institutes, industry R&D liaison roles.",
+    "aliases": [
+      "scholar",
+      "researcher"
+    ],
+    "events": [
+      {
+        "year": 1665,
+        "label": "Journal publishing",
+        "description": "Philosophical Transactions and successors institutionalize scholarly communication.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "History of science and scholarship",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "professor",
+        "type": "related"
+      },
+      {
+        "toSlug": "librarian",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "editor",
+    "name": "Editor",
+    "status": "active",
+    "summary": "A publishing professional who shapes manuscripts and news copy for clarity, accuracy, and style—from newspaper desks to book imprints.",
+    "duties": "Revise drafts, fact-check, manage deadlines, coordinate with writers and designers, and enforce house style.",
+    "skills": "Language mastery, diplomacy, news judgment, project scheduling, legal sensitivity.",
+    "tools": "Track changes, style guides, CMS, proof marks, Slack workflows.",
+    "regions": "Publishing capitals: New York, London, Tokyo, Mumbai.",
+    "category": "media",
+    "eraPrimary": "industrial",
+    "originYear": 1700,
+    "originYearEnd": null,
+    "originLabel": "Periodical and newspaper editorial desks",
+    "dateConfidence": "medium",
+    "educationPath": "Journalism or English degrees, newsroom apprenticeships, literary editing portfolios.",
+    "modernSectors": "Newspapers, magazines, book publishers, digital media, technical documentation.",
+    "aliases": [
+      "copy editor",
+      "managing editor"
+    ],
+    "events": [
+      {
+        "year": 1833,
+        "label": "Penny press editing",
+        "description": "High-volume newsrooms professionalize fast copy editing for mass readers.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Publishing industry histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "journalist",
+        "type": "related"
+      },
+      {
+        "toSlug": "printer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "publisher",
+    "name": "Publisher",
+    "status": "active",
+    "summary": "An entrepreneur or executive who finances and distributes books, periodicals, or digital media—combining editorial judgment with business risk.",
+    "duties": "Acquire titles, set print runs, market releases, manage rights, and oversee editorial staff.",
+    "skills": "Market sense, negotiation, budgeting, branding, copyright literacy.",
+    "tools": "Contracts, ISBN systems, marketing analytics, distribution networks, royalty statements.",
+    "regions": "Global trade publishing; historic centers in Frankfurt, London, and New York.",
+    "category": "media",
+    "eraPrimary": "early_modern",
+    "originYear": 1450,
+    "originYearEnd": null,
+    "originLabel": "Printer-publishers after Gutenberg era",
+    "dateConfidence": "medium",
+    "educationPath": "Publishing programs, editorial career progression, entrepreneurship.",
+    "modernSectors": "Trade books, academic presses, independent imprints, digital-first publishers.",
+    "aliases": [
+      "imprint manager",
+      "press director"
+    ],
+    "events": [
+      {
+        "year": 1800,
+        "label": "Copyright expansion",
+        "description": "Statutory copyright frameworks shape publisher business models in Europe and America.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Book trade histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "printer",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "editor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "radio-broadcaster",
+    "name": "Radio Broadcaster",
+    "status": "declining",
+    "summary": "A voice professional who delivered news, drama, and music over AM and FM radio—dominant mass medium before television and streaming.",
+    "duties": "Read scripts, interview guests, operate boards, time segments to network clocks, and maintain station logs.",
+    "skills": "Clear diction, improvisation, audio mixing basics, regulatory compliance, audience rapport.",
+    "tools": "Microphones, mixing consoles, cart machines, later digital playout systems.",
+    "regions": "US network radio golden age, BBC traditions, local stations worldwide 1920s–2000s.",
+    "category": "media",
+    "eraPrimary": "modern",
+    "originYear": 1920,
+    "originYearEnd": null,
+    "originLabel": "Commercial radio station era",
+    "dateConfidence": "high",
+    "aliases": [
+      "radio announcer",
+      "disk jockey",
+      "DJ"
+    ],
+    "events": [
+      {
+        "year": 1926,
+        "label": "Network radio",
+        "description": "NBC and successors nationalize programming and broadcaster careers.",
+        "sortOrder": 1
+      },
+      {
+        "year": 1950,
+        "label": "Television competition",
+        "description": "TV draws advertisers while radio pivots to music formats and local talk.",
+        "sortOrder": 2
+      }
+    ],
+    "sources": [
+      {
+        "title": "Broadcasting museum archives",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "journalist",
+        "type": "related"
+      },
+      {
+        "toSlug": "news-anchor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "film-director",
+    "name": "Film Director",
+    "status": "active",
+    "summary": "A creative lead who interprets scripts and guides actors and crew to produce motion pictures—born with nickelodeons and matured in Hollywood and world cinema.",
+    "duties": "Block scenes, direct performances, collaborate with cinematographers, supervise edits, and align vision with producers.",
+    "skills": "Storytelling, leadership, visual composition, budget awareness, negotiation.",
+    "tools": "Shot lists, monitors, megaphones historically; digital playback and previz today.",
+    "regions": "Hollywood, Bollywood, Nollywood, European art cinema, East Asian studios.",
+    "category": "media",
+    "eraPrimary": "modern",
+    "originYear": 1895,
+    "originYearEnd": null,
+    "originLabel": "Public cinema screenings after Lumière era",
+    "dateConfidence": "high",
+    "educationPath": "Film school, assistant director ladders, independent short film portfolios.",
+    "modernSectors": "Studios, streaming originals, advertising, music videos, documentary.",
+    "aliases": [
+      "movie director",
+      "helmer"
+    ],
+    "events": [
+      {
+        "year": 1927,
+        "label": "Sound film",
+        "description": "Talkies reshape directing craft and studio employment.",
+        "sortOrder": 1
+      },
+      {
+        "year": 2007,
+        "label": "Streaming platforms",
+        "description": "Netflix-era distribution opens new directing markets beyond theatrical release.",
+        "sortOrder": 2
+      }
+    ],
+    "sources": [
+      {
+        "title": "Film history textbooks",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "photographer",
+        "type": "related"
+      },
+      {
+        "toSlug": "journalist",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "cartoonist",
+    "name": "Cartoonist",
+    "status": "active",
+    "summary": "An artist who tells stories or jokes through sequential drawings—flourishing in newspapers, comics pages, and animation studios.",
+    "duties": "Sketch characters, write gags or plots, meet page deadlines, and adapt styles for print or digital.",
+    "skills": "Drawing, pacing, satire, consistency, self-editing under deadline.",
+    "tools": "Ink pens, Bristol board, tablets, Photoshop, animation rigs.",
+    "regions": "US newspaper strips, Franco-Belgian bande dessinée, Japanese manga industries.",
+    "category": "media",
+    "eraPrimary": "industrial",
+    "originYear": 1840,
+    "originYearEnd": null,
+    "originLabel": "Satirical prints and early comic weeklies",
+    "dateConfidence": "medium",
+    "educationPath": "Art school, portfolio development, syndicate or webcomic audiences.",
+    "modernSectors": "Newspapers, webcomics, animation studios, graphic novels, editorial cartoons.",
+    "aliases": [
+      "comic artist",
+      "comic strip artist"
+    ],
+    "events": [
+      {
+        "year": 1895,
+        "label": "Newspaper comic sections",
+        "description": "Yellow Kid era popularizes daily comic strips as employment for cartoonists.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Comics history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "editor",
+        "type": "related"
+      },
+      {
+        "toSlug": "journalist",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "news-anchor",
+    "name": "News Anchor",
+    "status": "active",
+    "summary": "A television presenter who delivers news bulletins to camera—combining journalistic sourcing with performance skills in the broadcast era.",
+    "duties": "Read teleprompter copy, conduct live interviews, coordinate with producers, and maintain composure during breaking events.",
+    "skills": "Clear delivery, journalistic ethics, improvisation, appearance management, teamwork in control rooms.",
+    "tools": "Teleprompter, IFB earpieces, studio cameras, ENPS-style rundown systems.",
+    "regions": "National networks and local TV markets since mid-20th century.",
+    "category": "media",
+    "eraPrimary": "modern",
+    "originYear": 1948,
+    "originYearEnd": null,
+    "originLabel": "Early television news programming",
+    "dateConfidence": "high",
+    "educationPath": "Journalism or communications degrees, reporter-to-anchor career path.",
+    "modernSectors": "Broadcast TV, cable news, streaming news channels, podcast video simulcasts.",
+    "aliases": [
+      "news presenter",
+      "anchorman"
+    ],
+    "events": [
+      {
+        "year": 1963,
+        "label": "JFK assassination coverage",
+        "description": "Extended live TV news cements anchor as national authority figure in US media.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Broadcast journalism histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "journalist",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "radio-broadcaster",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "winemaker",
+    "name": "Winemaker",
+    "status": "active",
+    "summary": "A vintner who ferments grapes into wine—elevating household craft into estate, cooperative, and industrial winery careers.",
+    "duties": "Manage harvest, control fermentation, blend batches, barrel-age, and ensure sanitation and labeling compliance.",
+    "skills": "Enology, tasting, microbiology basics, vineyard coordination, marketing for estates.",
+    "tools": "Crush pads, fermenters, hydrometers, oak barrels, bottling lines.",
+    "regions": "Mediterranean antiquity to Bordeaux, Napa, Rioja, and New World regions.",
+    "category": "agriculture",
+    "eraPrimary": "ancient",
+    "originYear": -4000,
+    "originYearEnd": null,
+    "originLabel": "Early viticulture in Transcaucasia and Mediterranean",
+    "dateConfidence": "low",
+    "educationPath": "Enology degrees, cellar apprenticeships, sommelier-adjacent training.",
+    "modernSectors": "Estate wineries, cooperatives, bulk wine production, hospitality tie-ins.",
+    "aliases": [
+      "vintner",
+      "oenologist"
+    ],
+    "events": [
+      {
+        "year": 1860,
+        "label": "Phylloxera crisis",
+        "description": "Vine pest devastates European vineyards, reshaping rootstock science and labor.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Viticulture archaeology",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "brewer",
+        "type": "related"
+      },
+      {
+        "toSlug": "farmer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "beekeeper",
+    "name": "Beekeeper",
+    "status": "active",
+    "summary": "An apiarist who tends honey bee colonies for honey, wax, and pollination services—practiced from ancient Egypt to modern migratory commercial operations.",
+    "duties": "Inspect hives, manage queens, harvest honey, treat pests, and contract pollination to orchards.",
+    "skills": "Insect behavior reading, seasonal planning, gentle handling, small business operations.",
+    "tools": "Smoker, hive tool, protective veil, extractors, migratory truck racks.",
+    "regions": "Worldwide; commercial pollination hubs in US almond country and Europe.",
+    "category": "agriculture",
+    "eraPrimary": "ancient",
+    "originYear": -2400,
+    "originYearEnd": null,
+    "originLabel": "Beekeeping in ancient Egyptian tomb art",
+    "dateConfidence": "low",
+    "educationPath": "Apprenticeship, beekeeping associations, agricultural extension courses.",
+    "modernSectors": "Honey retail, pollination services, wax products, hobbyist markets.",
+    "aliases": [
+      "apiarist",
+      "honey farmer"
+    ],
+    "events": [
+      {
+        "year": 2006,
+        "label": "Colony collapse concern",
+        "description": "Bee die-offs raise scientific and economic attention to commercial beekeeping.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Apiculture history surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "farmer",
+        "type": "related"
+      },
+      {
+        "toSlug": "orchardist",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "orchardist",
+    "name": "Orchardist",
+    "status": "active",
+    "summary": "A grower who cultivates fruit and nut trees on a commercial scale—specializing beyond general field cropping in perennial horticulture.",
+    "duties": "Prune trees, manage irrigation, spray for pests responsibly, harvest, and grade produce for market.",
+    "skills": "Horticulture, equipment operation, seasonal labor coordination, postharvest handling.",
+    "tools": "Ladders, pruning saws, tractors, sprayers, cold storage rooms.",
+    "regions": "Apple regions of Washington, citrus belts, olive groves in Mediterranean climates.",
+    "category": "agriculture",
+    "eraPrimary": "ancient",
+    "originYear": -2000,
+    "originYearEnd": null,
+    "originLabel": "Domesticated fruit tree cultivation",
+    "dateConfidence": "low",
+    "educationPath": "Horticulture programs, family farm apprenticeship, cooperative extension.",
+    "modernSectors": "Fresh fruit packing, cider supply, export orchards, agri-tourism.",
+    "aliases": [
+      "fruit grower",
+      "horticulturalist"
+    ],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Refrigerated rail",
+        "description": "Cold chain shipping expands orchard markets far from growing regions.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Horticultural history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "farmer",
+        "type": "related"
+      },
+      {
+        "toSlug": "beekeeper",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "dairy-farmer",
+    "name": "Dairy Farmer",
+    "status": "active",
+    "summary": "A livestock producer who raises cattle or other mammals primarily for milk—anchoring butter, cheese, and fluid milk supply chains.",
+    "duties": "Milk herds, manage breeding, maintain barns, monitor animal health, and meet sanitation regulations.",
+    "skills": "Animal husbandry, equipment maintenance, record keeping, early-morning discipline.",
+    "tools": "Milking machines, bulk tanks, hay balers, veterinary supplies.",
+    "regions": "Wisconsin, Netherlands, New Zealand, Punjab, and pastoral dairy regions globally.",
+    "category": "agriculture",
+    "eraPrimary": "ancient",
+    "originYear": -4000,
+    "originYearEnd": null,
+    "originLabel": "Neolithic domestication of dairy animals",
+    "dateConfidence": "medium",
+    "educationPath": "Agricultural degrees, cooperative extension, on-farm family training.",
+    "modernSectors": "Fluid milk, cheese plants, organic dairy, robotic milking operations.",
+    "aliases": [
+      "dairyman",
+      "milk producer"
+    ],
+    "events": [
+      {
+        "year": 1870,
+        "label": "Centrifugal cream separation",
+        "description": "Industrial dairy technology scales butter and milk processing beyond farm churns.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dairy industry histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "farmer",
+        "type": "related"
+      },
+      {
+        "toSlug": "rancher",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "rancher",
+    "name": "Rancher",
+    "status": "active",
+    "summary": "A livestock owner who raises cattle or sheep on rangeland—especially associated with American West open-range traditions and modern feedlot finishing.",
+    "duties": "Rotate pastures, brand or tag stock, arrange sales, manage water rights, and oversee cow-calf operations.",
+    "skills": "Horsemanship, range ecology, finance, veterinary coordination, drought planning.",
+    "tools": "Pickup trucks, stock trailers, fencing, branding irons, RFID tags.",
+    "regions": "US Great Plains, Texas, Argentina pampas, Australian stations.",
+    "category": "agriculture",
+    "eraPrimary": "modern",
+    "originYear": 1860,
+    "originYearEnd": null,
+    "originLabel": "Open-range cattle era in American West",
+    "dateConfidence": "medium",
+    "educationPath": "Agricultural college, family ranch apprenticeship, grazing management courses.",
+    "modernSectors": "Beef production, wool, land stewardship contracts, agritourism ranches.",
+    "aliases": [
+      "cattle rancher",
+      "stockman"
+    ],
+    "events": [
+      {
+        "year": 1880,
+        "label": "Barbed wire fencing",
+        "description": "Enclosure ends open-range era and redefines ranch labor and land law.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Western ranching histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "shepherd",
+        "type": "related"
+      },
+      {
+        "toSlug": "butcher",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "sharecropper",
+    "name": "Sharecropper",
+    "status": "extinct",
+    "summary": "A tenant farmer who paid rent as a share of the crop rather than cash—widespread in post-emancipation US South and other landlord-tenant regimes.",
+    "duties": "Plant landlord-assigned crops, maintain fields, deliver agreed share of harvest, and often buy supplies on credit.",
+    "skills": "Row cropping, debt navigation, endurance, family labor coordination.",
+    "tools": "Mule plow, hoe, sacks, weigh scales at gin or market.",
+    "regions": "US South 1870s–1940s peak; parallels in Latin America and Asia.",
+    "category": "agriculture",
+    "eraPrimary": "industrial",
+    "originYear": 1865,
+    "originYearEnd": 1950,
+    "originLabel": "Reconstruction-era Southern tenancy systems",
+    "dateConfidence": "medium",
+    "aliases": [
+      "tenant farmer (overlap)",
+      "crofter (regional)"
+    ],
+    "events": [
+      {
+        "year": 1930,
+        "label": "Depression and mechanization",
+        "description": "Crop price collapse and tractors displace many marginal tenant farms.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Agricultural labor histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "farmer",
+        "type": "predecessor"
+      }
+    ]
+  },
+  {
+    "slug": "textile-worker",
+    "name": "Textile Worker",
+    "status": "declining",
+    "summary": "An operator in mills who spun, wove, or finished cloth—central to industrial revolution factory life and still present in export garment hubs.",
+    "duties": "Tend looms or sewing lines, meet piece rates, maintain quality checks, and follow safety rules in noisy plants.",
+    "skills": "Machine tending, speed under repetition, basic maintenance, collective organizing historically.",
+    "tools": "Power looms, sewing machines, cutting tables; historically spinning jenny lines.",
+    "regions": "Lancashire, Lowell mills, Bangladesh and Vietnam garment zones today.",
+    "category": "industry",
+    "eraPrimary": "industrial",
+    "originYear": 1760,
+    "originYearEnd": null,
+    "originLabel": "Mechanized textile mills in Britain",
+    "dateConfidence": "high",
+    "aliases": [
+      "mill hand",
+      "garment worker"
+    ],
+    "events": [
+      {
+        "year": 1911,
+        "label": "Triangle Shirtwaist fire",
+        "description": "Disaster spotlights sweatshop conditions and labor reform in US cities.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Labor history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "weaver",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "factory-worker",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "factory-worker",
+    "name": "Factory Worker",
+    "status": "active",
+    "summary": "A wage laborer in manufacturing plants who operates machinery or assembles products—defining figure of industrial urbanization.",
+    "duties": "Staff production lines, hit output targets, report defects, and follow safety procedures.",
+    "skills": "Consistency, teamwork, basic troubleshooting, shift stamina.",
+    "tools": "Assembly tools, conveyor systems, PPE, MES dashboards in modern plants.",
+    "regions": "Industrial cities worldwide since 18th-century mills; major Asian manufacturing belts today.",
+    "category": "industry",
+    "eraPrimary": "industrial",
+    "originYear": 1760,
+    "originYearEnd": null,
+    "originLabel": "Factory system in British industrialization",
+    "dateConfidence": "high",
+    "educationPath": "On-the-job training, vocational certifications, apprenticeship programs.",
+    "modernSectors": "Automotive, electronics, food processing, pharmaceuticals, aerospace suppliers.",
+    "aliases": [
+      "production worker",
+      "operative"
+    ],
+    "events": [
+      {
+        "year": 1914,
+        "label": "Assembly line diffusion",
+        "description": "Ford methods spread segmented tasks and high-volume employment patterns.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Industrial revolution surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "textile-worker",
+        "type": "related"
+      },
+      {
+        "toSlug": "assembly-worker",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "steelworker",
+    "name": "Steelworker",
+    "status": "declining",
+    "summary": "A metalworker in integrated mills or foundries who produced structural steel—iconic to Pittsburgh, Ruhr, and Tangshan industrial landscapes.",
+    "duties": "Tend furnaces, cast ingots, roll beams, and work in extreme heat with strict safety protocols.",
+    "skills": "Heat tolerance, crane signaling, union solidarity traditions, hazard awareness.",
+    "tools": "Bessemer converters historically; BOF vessels, ladles, rolling mills, hard hats.",
+    "regions": "US Rust Belt, Germany, China, India steel corridors.",
+    "category": "industry",
+    "eraPrimary": "industrial",
+    "originYear": 1850,
+    "originYearEnd": null,
+    "originLabel": "Mass steel after Bessemer process",
+    "dateConfidence": "high",
+    "aliases": [
+      "steelmaker",
+      "ironworker (related trade)"
+    ],
+    "events": [
+      {
+        "year": 1950,
+        "label": "Basic oxygen steelmaking",
+        "description": "New furnace technology changes mill employment and global competition.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Steel industry histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "miner",
+        "type": "related"
+      },
+      {
+        "toSlug": "blacksmith",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "machinist",
+    "name": "Machinist",
+    "status": "active",
+    "summary": "A precision metalworker who cuts parts on lathes and mills—bridging craft toolmaking and modern CNC manufacturing.",
+    "duties": "Read blueprints, set up machines, measure tolerances, and produce jigs, shafts, and custom components.",
+    "skills": "Trigonometry, micrometer reading, CNC programming, problem solving, safety focus.",
+    "tools": "Lathe, milling machine, calipers, CNC controllers, cutting fluid.",
+    "regions": "Machine shops in industrial districts worldwide; aerospace and automotive suppliers.",
+    "category": "industry",
+    "eraPrimary": "industrial",
+    "originYear": 1800,
+    "originYearEnd": null,
+    "originLabel": "Mechanized tool shops in early factories",
+    "dateConfidence": "medium",
+    "educationPath": "Machinist apprenticeships, trade school, CNC certification courses.",
+    "modernSectors": "Job shops, defense contractors, medical device manufacturing, prototyping labs.",
+    "aliases": [
+      "toolmaker",
+      "CNC operator"
+    ],
+    "events": [
+      {
+        "year": 1970,
+        "label": "CNC adoption",
+        "description": "Computer numeric control shifts machinist work toward programming and setup.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Manufacturing trade histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "mechanic",
+        "type": "related"
+      },
+      {
+        "toSlug": "factory-worker",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "chemical-operator",
+    "name": "Chemical Plant Operator",
+    "status": "active",
+    "summary": "A technician who runs reactors and distillation units in chemical, petrochemical, and pharmaceutical plants—emerging with industrial chemistry giants.",
+    "duties": "Monitor control panels, sample batches, adjust flows, log readings, and execute emergency shutdowns.",
+    "skills": "Process awareness, safety discipline, instrumentation literacy, shift handoffs.",
+    "tools": "DCS consoles, PPE, gas detectors, sampling ports, lockout-tagout kits.",
+    "regions": "US Gulf Coast, Rhine chemical corridor, Singapore Jurong, Saudi petrochemical sites.",
+    "category": "industry",
+    "eraPrimary": "industrial",
+    "originYear": 1850,
+    "originYearEnd": null,
+    "originLabel": "Synthetic dye and acid industrial scale production",
+    "dateConfidence": "medium",
+    "educationPath": "Process technology associate degrees, operator certification, on-site training.",
+    "modernSectors": "Petrochemicals, plastics, fertilizers, bulk pharma intermediates.",
+    "aliases": [
+      "process operator",
+      "plant operator"
+    ],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Industrial organic chemistry",
+        "description": "BASF-era coal-tar chemistry expands operator employment in large continuous plants.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Chemical industry histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "factory-worker",
+        "type": "related"
+      },
+      {
+        "toSlug": "miner",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "assembly-worker",
+    "name": "Assembly Worker",
+    "status": "active",
+    "summary": "A production employee who repetitively joins components on a line—crystallized by automobile and electronics mass manufacturing.",
+    "duties": "Install parts per sequence, torque fasteners, run functional tests, and escalate defects.",
+    "skills": "Hand dexterity, pace keeping, quality vigilance, ergonomic awareness.",
+    "tools": "Power drivers, jigs, conveyor pallets, andon cords, ESD straps for electronics.",
+    "regions": "Detroit, Toyota-city supply chains, maquiladora zones, Shenzhen electronics corridors.",
+    "category": "industry",
+    "eraPrimary": "modern",
+    "originYear": 1913,
+    "originYearEnd": null,
+    "originLabel": "Moving assembly line at Ford Highland Park",
+    "dateConfidence": "high",
+    "educationPath": "Employer training, vocational basics, safety orientations.",
+    "modernSectors": "Automotive final assembly, consumer electronics, appliance plants, aerospace subassembly.",
+    "aliases": [
+      "line worker",
+      "production assembler"
+    ],
+    "events": [
+      {
+        "year": 1913,
+        "label": "Ford assembly line",
+        "description": "Highland Park plant divides labor into sequential assembly tasks.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Automotive labor histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "factory-worker",
+        "type": "related"
+      },
+      {
+        "toSlug": "mechanic",
+        "type": "related"
+      }
+    ]
+  }
+]

@@ -4,6 +4,8 @@ import { HomeHero } from "@/components/home-hero";
 import { EraTimeline } from "@/components/era-timeline";
 import { OccupationCard } from "@/components/occupation-card";
 import {
+  countCuratedOccupations,
+  countEnhancedOccupations,
   getFeaturedSlugs,
   getOccupationBySlug,
   getSiteStats,
@@ -14,8 +16,10 @@ export default async function HomePage() {
     return <SetupNotice />;
   }
 
-  const [stats, slugs] = await Promise.all([
+  const [stats, curatedCount, enhancedCount, slugs] = await Promise.all([
     getSiteStats(),
+    countCuratedOccupations(),
+    countEnhancedOccupations(),
     getFeaturedSlugs(),
   ]);
   const featured = (
@@ -24,7 +28,11 @@ export default async function HomePage() {
 
   return (
     <div className="space-y-14">
-      <HomeHero totalRoles={stats.totalRoles} />
+      <HomeHero
+        totalRoles={stats.totalRoles}
+        curatedCount={curatedCount}
+        enhancedCount={enhancedCount}
+      />
 
       <section className="space-y-4">
         <div className="flex items-end justify-between gap-4">
@@ -62,6 +70,7 @@ export default async function HomePage() {
                   eraPrimary={entry.occupation.eraPrimary}
                   originYear={entry.occupation.originYear}
                   originLabel={entry.occupation.originLabel}
+                  contentTier={entry.occupation.contentTier}
                 />
               )
           )}

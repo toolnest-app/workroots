@@ -9,9 +9,11 @@ export function SetupNotice() {
       </p>
       <pre className="mt-3 overflow-x-auto rounded-lg bg-stone-900 p-3 text-xs text-stone-100">
         {`npm run db:push
-psql $DATABASE_URL -f drizzle/manual/001_search.sql
+npx tsx scripts/run-sql-file.ts drizzle/manual/001_search.sql
+npx tsx scripts/run-sql-file.ts drizzle/manual/002_enhanced_tier.sql
 npm run import:showcase
-npm run import:wikidata`}
+npm run import:wikidata
+npm run enrich:stubs`}
       </pre>
     </div>
   );

@@ -1,0 +1,2104 @@
+[
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1956,
+        "label": "Grand Canyon mid-air",
+        "description": "Disaster accelerates federal radar ATC modernization in United States.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "pilot",
+        "type": "related"
+      },
+      {
+        "toSlug": "flight-dispatcher",
+        "type": "related"
+      },
+      {
+        "toSlug": "aviation-meteorologist",
+        "type": "related"
+      }
+    ],
+    "slug": "air-traffic-controller",
+    "name": "Air Traffic Controller",
+    "status": "active",
+    "summary": "A specialist who sequences aircraft takeoffs, landings, and en-route separation using radar and radio—turning crowded skies into orderly flow from tower cabs to oceanic centers.",
+    "duties": "Issue clearances, monitor separation minima, coordinate with adjacent sectors, manage weather diversions, log incidents.",
+    "skills": "Spatial reasoning, stress tolerance, phraseology precision, rapid prioritization.",
+    "tools": "Radar scopes, STARS/ERAM systems, headsets, flight strips digitally or paper.",
+    "regions": "FAA, Eurocontrol, and national ANSP facilities at major airports worldwide.",
+    "category": "aviation",
+    "eraPrimary": "modern",
+    "originYear": 1930,
+    "originLabel": "Early radio-equipped airport control towers",
+    "dateConfidence": "high",
+    "aliases": [
+      "ATC",
+      "controller"
+    ],
+    "eventYear": 1956,
+    "eventLabel": "Grand Canyon mid-air",
+    "eventDescription": "Disaster accelerates federal radar ATC modernization in United States.",
+    "educationPath": "FAA Academy or national ATC school, ongoing simulator checks.",
+    "modernSectors": "Tower, TRACON, en-route centers, military control, private contract towers."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1955,
+        "label": "Jet age maintenance",
+        "description": "Turbine engines and pressurized hulls raise specialization and tooling standards.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "mechanic",
+        "type": "related"
+      },
+      {
+        "toSlug": "aerospace-engineer",
+        "type": "related"
+      },
+      {
+        "toSlug": "pilot",
+        "type": "related"
+      }
+    ],
+    "slug": "aircraft-mechanic",
+    "name": "Aircraft Mechanic",
+    "status": "active",
+    "summary": "A technician who inspects, repairs, and certifies airframes and engines to keep aircraft airworthy—licensed A&P or equivalent under strict regulatory traceability.",
+    "duties": "Perform scheduled inspections, troubleshoot systems, replace components, sign logbooks, follow airworthiness directives.",
+    "skills": "Hydraulics, avionics basics, sheet metal, regulatory literacy, safety discipline.",
+    "tools": "Torque wrenches, borescope, maintenance manuals, work order systems.",
+    "regions": "Airline MRO hangars, general aviation shops, military depots globally.",
+    "category": "aviation",
+    "eraPrimary": "modern",
+    "originYear": 1920,
+    "originLabel": "Civil aviation maintenance licensing",
+    "dateConfidence": "medium",
+    "aliases": [
+      "A&P mechanic",
+      "airframe technician"
+    ],
+    "eventYear": 1955,
+    "eventLabel": "Jet age maintenance",
+    "eventDescription": "Turbine engines and pressurized hulls raise specialization and tooling standards.",
+    "educationPath": "FAA Part 147 schools, apprenticeships, IA authorization for inspectors.",
+    "modernSectors": "Airlines, cargo, MRO contractors, business aviation, defense contractors."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1977,
+        "label": "Integrated briefing",
+        "description": "Automated flight service and centralized weather units streamline pilot briefings.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "meteorologist",
+        "type": "related"
+      },
+      {
+        "toSlug": "air-traffic-controller",
+        "type": "related"
+      },
+      {
+        "toSlug": "flight-dispatcher",
+        "type": "related"
+      }
+    ],
+    "slug": "aviation-meteorologist",
+    "name": "Aviation Meteorologist",
+    "status": "active",
+    "summary": "A forecaster focused on ceiling, visibility, icing, and winds for flight safety—briefing dispatchers and controllers with TAFs and SIGMETs tailored to aviation.",
+    "duties": "Issue terminal forecasts, monitor convective weather, staff CWSU desks at centers, advise on diversions.",
+    "skills": "Synoptic analysis, radar interpretation, ICAO phraseology, time-critical communication.",
+    "tools": "AWIPS, TAF editors, lightning mappers, METAR/TAF databases.",
+    "regions": "National weather services co-located with ATC; airline meteorology hubs.",
+    "category": "aviation",
+    "eraPrimary": "modern",
+    "originYear": 1930,
+    "originLabel": "Weather bureau airport forecast offices",
+    "dateConfidence": "medium",
+    "aliases": [
+      "flight forecaster",
+      "CWSU meteorologist"
+    ],
+    "eventYear": 1977,
+    "eventLabel": "Integrated briefing",
+    "eventDescription": "Automated flight service and centralized weather units streamline pilot briefings.",
+    "educationPath": "Meteorology degree, aviation weather certification modules.",
+    "modernSectors": "FAA CWSU, airlines, private briefing providers, military weather flights."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1978,
+        "label": "Deregulation hiring waves",
+        "description": "U.S. airline competition expands hiring and changes service models.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "pilot",
+        "type": "related"
+      },
+      {
+        "toSlug": "ramp-agent",
+        "type": "related"
+      }
+    ],
+    "slug": "flight-attendant",
+    "name": "Flight Attendant",
+    "status": "active",
+    "summary": "A cabin crew member who ensures passenger safety and service aloft—from preflight briefings to emergency evacuations and hospitality on long-haul jets.",
+    "duties": "Demonstrate safety equipment, serve meals, manage conflicts, assist medical events, secure cabin for landing.",
+    "skills": "CRM teamwork, first aid, conflict de-escalation, multilingual service, grooming standards.",
+    "tools": "Safety demo kit, galley equipment, PA system, restraint policies.",
+    "regions": "Global airlines; profession feminized and unionized differently by country.",
+    "category": "aviation",
+    "eraPrimary": "modern",
+    "originYear": 1930,
+    "originLabel": "Airline steward roles on passenger liners",
+    "dateConfidence": "high",
+    "aliases": [
+      "steward",
+      "cabin crew"
+    ],
+    "eventYear": 1978,
+    "eventLabel": "Deregulation hiring waves",
+    "eventDescription": "U.S. airline competition expands hiring and changes service models.",
+    "educationPath": "Airline training academies, safety drills, CPR certification.",
+    "modernSectors": "Passenger airlines, business aviation, charter, VIP government jets."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2001,
+        "label": "Post-9/11 security overlays",
+        "description": "Dispatch integrates new security protocols and airspace closures into planning.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "pilot",
+        "type": "related"
+      },
+      {
+        "toSlug": "air-traffic-controller",
+        "type": "related"
+      },
+      {
+        "toSlug": "aviation-meteorologist",
+        "type": "related"
+      }
+    ],
+    "slug": "flight-dispatcher",
+    "name": "Flight Dispatcher",
+    "status": "active",
+    "summary": "An airline operations controller who plans fuel, routes, and legality of flights jointly responsible with the captain—OC desks humming with weather and weight-balance math.",
+    "duties": "File flight plans, compute fuel, monitor en-route progress, authorize releases, re-route around storms.",
+    "skills": "Meteorology, aircraft performance, regulations, software fluency, shift stamina.",
+    "tools": "Dispatch software, ACARS messaging, weather charts, NOTAM feeds.",
+    "regions": "Airline operations centers in Dallas, Frankfurt, Dubai, and hub cities.",
+    "category": "aviation",
+    "eraPrimary": "modern",
+    "originYear": 1938,
+    "originLabel": "U.S. licensed aircraft dispatcher rules",
+    "dateConfidence": "high",
+    "aliases": [
+      "airline dispatcher",
+      "operations controller"
+    ],
+    "eventYear": 2001,
+    "eventLabel": "Post-9/11 security overlays",
+    "eventDescription": "Dispatch integrates new security protocols and airspace closures into planning.",
+    "educationPath": "Dispatcher certificate courses, airline type-specific training.",
+    "modernSectors": "Network airlines, cargo carriers, fractional jet operators."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2000,
+        "label": "Ground outsourcing",
+        "description": "Airlines contract ramp work to specialized handlers at many stations.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "baggage-handler",
+        "type": "related"
+      },
+      {
+        "toSlug": "aircraft-fueler",
+        "type": "related"
+      },
+      {
+        "toSlug": "flight-attendant",
+        "type": "related"
+      }
+    ],
+    "slug": "ramp-agent",
+    "name": "Ramp Agent",
+    "status": "active",
+    "summary": "A ground handler who marshals aircraft, loads bags, and connects ground power on the apron—high-visibility vest labor keeping turnarounds on schedule.",
+    "duties": "Guide aircraft parking, operate belt loaders, drive tugs, report FOD hazards, secure doors.",
+    "skills": "Team radio calls, safety around jet blast, physical endurance, winter deicing coordination.",
+    "tools": "Headset, marshalling wands, belt loader, baggage tug, chocks.",
+    "regions": "Every commercial airport; often outsourced to ground service companies.",
+    "category": "aviation",
+    "eraPrimary": "modern",
+    "originYear": 1950,
+    "originLabel": "Jet bridge and mass air travel ground ops",
+    "dateConfidence": "medium",
+    "aliases": [
+      "ground crew",
+      "baggage handler"
+    ],
+    "eventYear": 2000,
+    "eventLabel": "Ground outsourcing",
+    "eventDescription": "Airlines contract ramp work to specialized handlers at many stations.",
+    "educationPath": "Airport badging, GSE training, OSHA safety modules.",
+    "modernSectors": "Ground handlers, airlines, freight integrators, regional airports."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1990,
+        "label": "Hydrant fuel systems",
+        "description": "Underwing hydrants reduce truck traffic at large hubs.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "ramp-agent",
+        "type": "related"
+      },
+      {
+        "toSlug": "roughneck",
+        "type": "related"
+      }
+    ],
+    "slug": "aircraft-fueler",
+    "name": "Aircraft Fueler",
+    "status": "active",
+    "summary": "A ramp worker who refuels aircraft from hydrant carts or tankers—calculating uplift against temperature and weight limits with fire-safe procedures.",
+    "duties": "Connect hoses, monitor gallons, complete fuel tickets, conduct bonding, report spills.",
+    "skills": "Hazmat awareness, math for density, night ramp safety, communication with cockpit.",
+    "tools": "Fuel truck or hydrant cart, meters, bonding cables, PPE.",
+    "regions": "Commercial airports; military POL units parallel role.",
+    "category": "aviation",
+    "eraPrimary": "modern",
+    "originYear": 1940,
+    "originLabel": "Aviation gasoline and jet-A logistics",
+    "dateConfidence": "medium",
+    "aliases": [
+      "line fuel technician",
+      "refueler"
+    ],
+    "eventYear": 1990,
+    "eventLabel": "Hydrant fuel systems",
+    "eventDescription": "Underwing hydrants reduce truck traffic at large hubs.",
+    "educationPath": "Fuel farm training, fire safety, airport security badge.",
+    "modernSectors": "Fuel consortiums, FBOs, airline contracted fueling."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1995,
+        "label": "Glass cockpit era",
+        "description": "Integrated displays shift maintenance toward software and databus diagnostics.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "aircraft-mechanic",
+        "type": "related"
+      },
+      {
+        "toSlug": "electrician",
+        "type": "related"
+      },
+      {
+        "toSlug": "aerospace-engineer",
+        "type": "related"
+      }
+    ],
+    "slug": "avionics-technician",
+    "name": "Avionics Technician",
+    "status": "active",
+    "summary": "A specialist who installs and repairs aircraft electronic navigation, communication, and flight-control systems—glass cockpits demanding software as much as soldering.",
+    "duties": "Test transponders, repair wiring harnesses, update FMS databases, calibrate autopilot, document STC mods.",
+    "skills": "Electronics, schematic reading, regulatory paperwork, troubleshooting intermittent faults.",
+    "tools": "Multimeter, avionics bench, pitot-static test set, laptop loaders.",
+    "regions": "Repair stations at airports; OEM service centers.",
+    "category": "aviation",
+    "eraPrimary": "modern",
+    "originYear": 1945,
+    "originLabel": "Postwar radio navigation maintenance trades",
+    "dateConfidence": "medium",
+    "aliases": [
+      "avionics mechanic",
+      "radio technician (aircraft)"
+    ],
+    "eventYear": 1995,
+    "eventLabel": "Glass cockpit era",
+    "eventDescription": "Integrated displays shift maintenance toward software and databus diagnostics.",
+    "educationPath": "Avionics programs, manufacturer type courses, FCC elements optional.",
+    "modernSectors": "MRO shops, business jet completions, military avionics depots."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2009,
+        "label": "Colgan rule impacts",
+        "description": "Airline hiring minimums reshape CFI as time-building career stage.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "pilot",
+        "type": "related"
+      },
+      {
+        "toSlug": "balloonist",
+        "type": "related"
+      }
+    ],
+    "slug": "flight-instructor",
+    "name": "Flight Instructor",
+    "status": "active",
+    "summary": "A certificated pilot who teaches others to fly—dual controls in small trainers through instrument and multi-engine ratings, building hours toward airline careers.",
+    "duties": "Demonstrate maneuvers, sign logbook endorsements, brief weather, enforce safety, prepare students for checkrides.",
+    "skills": "Pedagogy, patience, stick-and-rudder mastery, risk management narration.",
+    "tools": "Training aircraft, simulator, syllabus, FAA practical test standards.",
+    "regions": "Flight schools at municipal airports worldwide; university aviation programs.",
+    "category": "aviation",
+    "eraPrimary": "modern",
+    "originYear": 1929,
+    "originLabel": "Civilian pilot training regulation",
+    "dateConfidence": "high",
+    "aliases": [
+      "CFI",
+      "certified flight instructor"
+    ],
+    "eventYear": 2009,
+    "eventLabel": "Colgan rule impacts",
+    "eventDescription": "Airline hiring minimums reshape CFI as time-building career stage.",
+    "educationPath": "Commercial pilot certificate plus CFI, CFII, MEI add-ons.",
+    "modernSectors": "Part 61 and 141 schools, university aviation, airline pathway academies."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1978,
+        "label": "Modern sport ballooning",
+        "description": "FAI records and tourist economies sustain professional balloonist niche.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "pilot",
+        "type": "related"
+      },
+      {
+        "toSlug": "flight-instructor",
+        "type": "related"
+      },
+      {
+        "toSlug": "airship-rigger",
+        "type": "related"
+      }
+    ],
+    "slug": "balloonist",
+    "name": "Balloonist",
+    "status": "regional",
+    "summary": "An aeronaut who flies lighter-than-air craft by heating air or using gas lift—Montgolfier spectacles to modern sport and tourist rides at dawn.",
+    "duties": "Inflate envelope, read winds, navigate visually, land in open fields, pack and trailer equipment.",
+    "skills": "Weather judgment, burner management, passenger briefing, chase crew coordination.",
+    "tools": "Burner, propane tanks, wicker basket, anemometer, chase truck radio.",
+    "regions": "Albuquerque, Cappadocia, Loire Valley, festival circuits.",
+    "category": "aviation",
+    "eraPrimary": "industrial",
+    "originYear": 1783,
+    "originLabel": "Montgolfier brothers public ascents",
+    "dateConfidence": "high",
+    "aliases": [
+      "hot-air balloon pilot",
+      "aeronaut"
+    ],
+    "eventYear": 1978,
+    "eventLabel": "Modern sport ballooning",
+    "eventDescription": "FAI records and tourist economies sustain professional balloonist niche.",
+    "educationPath": "Balloon rating under aviation authority, ground crew apprenticeship.",
+    "modernSectors": "Tourism, advertising envelopes, festival competition, scientific payloads."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1937,
+        "label": "Hindenburg disaster",
+        "description": "Passenger airship travel collapses; riggers fade with lighter-than-air decline.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "rigger",
+        "type": "related"
+      },
+      {
+        "toSlug": "sailmaker",
+        "type": "related"
+      },
+      {
+        "toSlug": "balloonist",
+        "type": "related"
+      }
+    ],
+    "slug": "airship-rigger",
+    "name": "Airship Rigger",
+    "status": "extinct",
+    "summary": "A crew member who maintained dirigible envelopes, ballast, and mooring lines in the golden age of zeppelins—skilled height work largely ended by hydrogen disasters and WWII.",
+    "duties": "Patch gas cells, manage ballast, moor to masts, inspect ribs and engines on rigid ships.",
+    "skills": "Rope work at height, gas handling, puncture repair, meteorology for long voyages.",
+    "tools": "Mooring mast, gas valves, rigging knives, altimeters.",
+    "regions": "Germany, Britain, and U.S. naval air stations, 1900s–1930s peak.",
+    "category": "aviation",
+    "eraPrimary": "industrial",
+    "originYear": 1900,
+    "originLabel": "German rigid airship industry",
+    "dateConfidence": "high",
+    "aliases": [
+      "zeppelin crew",
+      "dirigible rigger"
+    ],
+    "eventYear": 1937,
+    "eventLabel": "Hindenburg disaster",
+    "eventDescription": "Passenger airship travel collapses; riggers fade with lighter-than-air decline."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1960,
+        "label": "Automation arrives",
+        "description": "Computer tracking supplants manual plotting in ATC and air defense.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "air-traffic-controller",
+        "type": "successor"
+      },
+      {
+        "toSlug": "gunner",
+        "type": "related"
+      }
+    ],
+    "slug": "radar-operator",
+    "name": "Radar Operator",
+    "status": "declining",
+    "summary": "A military or civil technician who interpreted raw radar returns before automation—tracking aircraft and weather echoes from Cold War bunkers to early ATC cabs.",
+    "duties": "Scope interpretation, plot tracks, report contacts, maintain set calibration, coordinate intercepts militarily.",
+    "skills": "Pattern recognition, radio procedure, electronics maintenance basics.",
+    "tools": "Plan position indicator scopes, IFF interrogators, log boards.",
+    "regions": "WWII and Cold War air defense chains; early civilian en-route centers.",
+    "category": "aviation",
+    "eraPrimary": "modern",
+    "originYear": 1940,
+    "originLabel": "Chain Home and wartime radar units",
+    "dateConfidence": "high",
+    "aliases": [
+      "scope operator",
+      "radar controller (historical)"
+    ],
+    "eventYear": 1960,
+    "eventLabel": "Automation arrives",
+    "eventDescription": "Computer tracking supplants manual plotting in ATC and air defense."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1987,
+        "label": "ARFF standards harmonized",
+        "description": "FAA and ICAO rules tighten response times and foam quantities.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "paramedic",
+        "type": "related"
+      },
+      {
+        "toSlug": "ramp-agent",
+        "type": "related"
+      }
+    ],
+    "slug": "airport-firefighter",
+    "name": "Airport Firefighter",
+    "status": "active",
+    "summary": "A rescue specialist trained for aircraft fuel fires and mass evacuation on runways—ARFF trucks with foam cannons staged under response-time regulations.",
+    "duties": "Drill monthly, respond to alerts, extricate occupants, apply agent on fuel fires, coordinate with ATC.",
+    "skills": "Hazmat foam tactics, high-speed truck operation, EMS, live-fire drills.",
+    "tools": "ARFF vehicle, proximity suits, hydraulic rescue tools, foam concentrate.",
+    "regions": "Certified airports per ICAO Category requirements worldwide.",
+    "category": "aviation",
+    "eraPrimary": "modern",
+    "originYear": 1950,
+    "originLabel": "Commercial jet airport crash rescue units",
+    "dateConfidence": "medium",
+    "aliases": [
+      "ARFF firefighter",
+      "crash crew"
+    ],
+    "eventYear": 1987,
+    "eventLabel": "ARFF standards harmonized",
+    "eventDescription": "FAA and ICAO rules tighten response times and foam quantities.",
+    "educationPath": "ARFF academy, aircraft familiarization, emergency medical training.",
+    "modernSectors": "Airport authority fire departments, contract ARFF, military airfields."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1979,
+        "label": "Deregulation safety oversight",
+        "description": "Inspector general and airline QA roles expand amid competitive maintenance outsourcing.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "aircraft-mechanic",
+        "type": "related"
+      },
+      {
+        "toSlug": "aerospace-engineer",
+        "type": "related"
+      },
+      {
+        "toSlug": "customs-officer",
+        "type": "related"
+      }
+    ],
+    "slug": "aircraft-inspector",
+    "name": "Aircraft Inspector",
+    "status": "active",
+    "summary": "A regulator or airline inspector who audits maintenance and airworthiness—FAA IA or national equivalent signing off annuals and overseeing compliance cultures.",
+    "duties": "Audit work cards, witness tests, investigate incidents, approve return to service, enforce ADs.",
+    "skills": "Regulatory mastery, forensic teardown judgment, interview technique, documentation rigor.",
+    "tools": "Maintenance records, borescope, checklists, enforcement manuals.",
+    "regions": "Civil aviation authorities; airline quality assurance departments.",
+    "category": "aviation",
+    "eraPrimary": "modern",
+    "originYear": 1926,
+    "originLabel": "Air Commerce Act inspection regime",
+    "dateConfidence": "high",
+    "aliases": [
+      "IA inspector",
+      "quality inspector (aviation)"
+    ],
+    "eventYear": 1979,
+    "eventLabel": "Deregulation safety oversight",
+    "eventDescription": "Inspector general and airline QA roles expand amid competitive maintenance outsourcing.",
+    "educationPath": "A&P with Inspection Authorization or authority examiner training.",
+    "modernSectors": "FAA FSDOs, EASA Part-M, airline QA, MRO audit firms."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2008,
+        "label": "Bag fee restructuring",
+        "description": "Checked-bag charges change volume patterns and handler workloads.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "ramp-agent",
+        "type": "related"
+      },
+      {
+        "toSlug": "longshoreman",
+        "type": "related"
+      }
+    ],
+    "slug": "baggage-handler",
+    "name": "Baggage Handler",
+    "status": "active",
+    "summary": "An airport worker who sorts and loads luggage into aircraft holds or carousels—physically demanding role central to mishandled-bag statistics and hub pressure.",
+    "duties": "Scan tags, build carts, load bins weight-balanced, deliver to carousels, report damaged items.",
+    "skills": "Speed, lifting safety, cold weather endurance, teamwork on narrow timelines.",
+    "tools": "Handheld scanners, belt loaders, tugs, sortation belts.",
+    "regions": "Hub airports globally; night-shift heavy at integrator hubs.",
+    "category": "aviation",
+    "eraPrimary": "modern",
+    "originYear": 1950,
+    "originLabel": "Checked baggage systems with jet travel",
+    "dateConfidence": "medium",
+    "aliases": [
+      "baggage clerk",
+      "ramp baggage"
+    ],
+    "eventYear": 2008,
+    "eventLabel": "Bag fee restructuring",
+    "eventDescription": "Checked-bag charges change volume patterns and handler workloads.",
+    "educationPath": "Airport badging, manual handling training.",
+    "modernSectors": "Airlines, ground handlers, freight integrators."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1980,
+        "label": "EMS helicopter expansion",
+        "description": "Air ambulance growth sustains helicopter maintenance specialty shops.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "aircraft-mechanic",
+        "type": "related"
+      },
+      {
+        "toSlug": "mechanic",
+        "type": "related"
+      }
+    ],
+    "slug": "helicopter-mechanic",
+    "name": "Helicopter Mechanic",
+    "status": "active",
+    "summary": "A maintainer specializing in rotorcraft dynamic components—tracking blade life, swashplate lubrication, and vibration signatures unlike fixed-wing shops.",
+    "duties": "Inspect rotor heads, balance blades, service turboshaft engines, comply with HIT checks, support field deployments.",
+    "skills": "Rotor theory, precision measurement, field expedient repairs, OEM bulletins.",
+    "tools": "Track and balance gear, blade carts, specialty torque tools.",
+    "regions": "Offshore oil, EMS bases, military flight lines, tour operators.",
+    "category": "aviation",
+    "eraPrimary": "modern",
+    "originYear": 1945,
+    "originLabel": "Postwar civil helicopter fleets",
+    "dateConfidence": "medium",
+    "aliases": [
+      "rotorcraft technician",
+      "helicopter A&P"
+    ],
+    "eventYear": 1980,
+    "eventLabel": "EMS helicopter expansion",
+    "eventDescription": "Air ambulance growth sustains helicopter maintenance specialty shops.",
+    "educationPath": "A&P with rotorcraft employer training, manufacturer courses.",
+    "modernSectors": "EMS, offshore, law enforcement, military MRO, tour operators."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2016,
+        "label": "Part 107 framework",
+        "description": "FAA Part 107 codifies commercial small drone operations in U.S.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "pilot",
+        "type": "related"
+      },
+      {
+        "toSlug": "surveyor",
+        "type": "related"
+      },
+      {
+        "toSlug": "photographer",
+        "type": "related"
+      }
+    ],
+    "slug": "drone-operator",
+    "name": "Drone Operator",
+    "status": "active",
+    "summary": "A remote pilot who flies unmanned aircraft for inspection, mapping, film, and delivery—new aviation workforce under evolving beyond-visual-line-of-sight rules.",
+    "duties": "Preflight checks, file waivers, capture imagery, maintain batteries, log flights, ensure airspace compliance.",
+    "skills": "RPAS regulations, photogrammetry basics, risk assessment, software mission planning.",
+    "tools": "UAS airframe, ground control station, geofencing apps, thermal payloads.",
+    "regions": "Construction sites, farms, film sets, utilities; regulatory regimes differ by country.",
+    "category": "aviation",
+    "eraPrimary": "contemporary",
+    "originYear": 2010,
+    "originLabel": "Civil small UAS commercialization",
+    "dateConfidence": "medium",
+    "aliases": [
+      "UAS pilot",
+      "remote pilot"
+    ],
+    "eventYear": 2016,
+    "eventLabel": "Part 107 framework",
+    "eventDescription": "FAA Part 107 codifies commercial small drone operations in U.S.",
+    "educationPath": "Remote pilot certificate, manufacturer training, BVLOS waivers advanced.",
+    "modernSectors": "Utilities inspection, agriculture, public safety, delivery pilots."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2000,
+        "label": "Minimum connection time pressure",
+        "description": "Hub banking schedules elevate ground crew chief as delay-cost gatekeeper.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "ramp-agent",
+        "type": "related"
+      },
+      {
+        "toSlug": "baggage-handler",
+        "type": "related"
+      },
+      {
+        "toSlug": "flight-dispatcher",
+        "type": "related"
+      }
+    ],
+    "slug": "ground-crew-chief",
+    "name": "Ground Crew Chief",
+    "status": "active",
+    "summary": "The ramp supervisor who coordinates turnaround teams—assigning fuelers, loaders, and pushback tugs to hit departure windows on congested airport gates.",
+    "duties": "Assign tasks, radio with cockpit and dispatch, enforce safety zones, report delays, train new ramp agents.",
+    "skills": "Turnaround metrics, leadership under time pressure, GSE logistics, incident reporting.",
+    "tools": "Ramp radio net, turnaround checklists, tablet delay codes, reflective vest leadership.",
+    "regions": "Hub airports for major airlines and ground handlers worldwide.",
+    "category": "aviation",
+    "eraPrimary": "modern",
+    "originYear": 1960,
+    "originLabel": "Jet age hub turnaround coordination",
+    "dateConfidence": "medium",
+    "aliases": [
+      "ramp supervisor",
+      "turnaround coordinator"
+    ],
+    "eventYear": 2000,
+    "eventLabel": "Minimum connection time pressure",
+    "eventDescription": "Hub banking schedules elevate ground crew chief as delay-cost gatekeeper.",
+    "educationPath": "Years as ramp agent, supervisor training, SMS awareness.",
+    "modernSectors": "Airline stations, ground handling companies, freight hubs."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1992,
+        "label": "Independent power producers",
+        "description": "Merchant plants and trading desks change operator incentives and metrics.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "nuclear-plant-technician",
+        "type": "related"
+      },
+      {
+        "toSlug": "boiler-operator",
+        "type": "related"
+      },
+      {
+        "toSlug": "nuclear-engineer",
+        "type": "related"
+      }
+    ],
+    "slug": "power-plant-operator",
+    "name": "Power Plant Operator",
+    "status": "active",
+    "summary": "A control-room technician who monitors boilers, turbines, and generators delivering grid electricity—balancing load, emissions, and safety interlocks 24/7.",
+    "duties": "Start/stop units, adjust megawatts, log parameters, respond to trips, coordinate with dispatch.",
+    "skills": "Thermodynamics intuition, DCS navigation, emergency procedures, teamwork shifts.",
+    "tools": "Distributed control system, vibration monitors, switchyard radios.",
+    "regions": "Coal, gas, hydro, and biomass plants on national grids worldwide.",
+    "category": "energy",
+    "eraPrimary": "industrial",
+    "originYear": 1882,
+    "originLabel": "Pearl Street and utility boiler houses",
+    "dateConfidence": "high",
+    "aliases": [
+      "plant operator",
+      "unit operator"
+    ],
+    "eventYear": 1992,
+    "eventLabel": "Independent power producers",
+    "eventDescription": "Merchant plants and trading desks change operator incentives and metrics.",
+    "educationPath": "Power plant technology degrees, NERC credentialing where required.",
+    "modernSectors": "Utilities, IPPs, cogeneration, district energy plants."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2003,
+        "label": "Northeast blackout",
+        "description": "Grid reliability scrutiny elevates line maintenance and vegetation management.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "electrician",
+        "type": "related"
+      },
+      {
+        "toSlug": "electrical-engineer",
+        "type": "related"
+      },
+      {
+        "toSlug": "substation-technician",
+        "type": "related"
+      }
+    ],
+    "slug": "lineworker",
+    "name": "Lineworker",
+    "status": "active",
+    "summary": "A utility climber who builds and repairs high-voltage transmission and distribution lines—storm chasers restoring power from bucket trucks and hot sticks.",
+    "duties": "Set poles, string conductor, splice cable, switch circuits, respond to outages.",
+    "skills": "Climbing or bucket operation, electrical safety, rigging, storm logistics.",
+    "tools": "Hot sticks, rubber gloves, bucket truck, climbing belts, fault locators.",
+    "regions": "Rural cooperatives to urban underground networks; hurricane belts intense.",
+    "category": "energy",
+    "eraPrimary": "industrial",
+    "originYear": 1890,
+    "originLabel": "Municipal electric street lighting lines",
+    "dateConfidence": "medium",
+    "aliases": [
+      "line electrician",
+      "powerline technician"
+    ],
+    "eventYear": 2003,
+    "eventLabel": "Northeast blackout",
+    "eventDescription": "Grid reliability scrutiny elevates line maintenance and vegetation management.",
+    "educationPath": "Lineworker apprenticeship, climbing school, CPR and pole-top rescue.",
+    "modernSectors": "IOUs, cooperatives, storm contractors, transmission developers."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2005,
+        "label": "Texas City lessons",
+        "description": "Major incidents reinforce operator training and sit-down procedures industry-wide.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "chemical-engineer",
+        "type": "related"
+      },
+      {
+        "toSlug": "chemical-operator",
+        "type": "related"
+      },
+      {
+        "toSlug": "roughneck",
+        "type": "related"
+      }
+    ],
+    "slug": "refinery-operator",
+    "name": "Refinery Operator",
+    "status": "active",
+    "summary": "A panel operator who runs distillation, cracking, and treating units converting crude into fuels—chemical plant discipline with flame and H2S ever present.",
+    "duties": "Monitor temperatures and pressures, switch units, take samples, execute startups/shutdowns, log permits.",
+    "skills": "Process awareness, alarm flooding calm, safety permit systems, shift handover clarity.",
+    "tools": "DCS consoles, gas detectors, flare management, P&ID binders.",
+    "regions": "U.S. Gulf Coast, Rotterdam, Singapore, Middle East export refineries.",
+    "category": "energy",
+    "eraPrimary": "industrial",
+    "originYear": 1860,
+    "originLabel": "Kerosene and lubricant refinery stills",
+    "dateConfidence": "medium",
+    "aliases": [
+      "process operator",
+      "board operator"
+    ],
+    "eventYear": 2005,
+    "eventLabel": "Texas City lessons",
+    "eventDescription": "Major incidents reinforce operator training and sit-down procedures industry-wide.",
+    "educationPath": "Process technology associate degree, on-site unit certifications.",
+    "modernSectors": "Petroleum refineries, chemical complexes, biofuel plants."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2014,
+        "label": "Shale repositioning",
+        "description": "Unconventional plays shift geologist focus to source rock and completion design.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "geologist",
+        "type": "related"
+      },
+      {
+        "toSlug": "mining-engineer",
+        "type": "related"
+      },
+      {
+        "toSlug": "well-logging-technician",
+        "type": "related"
+      }
+    ],
+    "slug": "petroleum-geologist",
+    "name": "Petroleum Geologist",
+    "status": "active",
+    "summary": "A subsurface specialist who maps reservoirs and advises drilling locations—balancing seismic interpretation with basin history to find oil and gas traps.",
+    "duties": "Interpret seismic, correlate wells, estimate reserves, work with engineers on field development.",
+    "skills": "Stratigraphy, geostatistics, software modeling, risk communication to investors.",
+    "tools": "Kingdom/Petrel, well logs, core samples, GIS.",
+    "regions": "Houston, Aberdeen, Perth, Abu Dhabi oil company headquarters.",
+    "category": "energy",
+    "eraPrimary": "modern",
+    "originYear": 1900,
+    "originLabel": "Spindletop and scientific wildcatting",
+    "dateConfidence": "medium",
+    "aliases": [
+      "exploration geologist",
+      "reservoir geologist"
+    ],
+    "eventYear": 2014,
+    "eventLabel": "Shale repositioning",
+    "eventDescription": "Unconventional plays shift geologist focus to source rock and completion design.",
+    "educationPath": "Geology degree, petroleum geology masters, software training.",
+    "modernSectors": "Majors, independents, service companies, carbon storage screening."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1979,
+        "label": "TMI training reforms",
+        "description": "Industry-wide simulator and procedural reforms follow Three Mile Island.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "nuclear-engineer",
+        "type": "related"
+      },
+      {
+        "toSlug": "power-plant-operator",
+        "type": "related"
+      }
+    ],
+    "slug": "nuclear-plant-technician",
+    "name": "Nuclear Plant Technician",
+    "status": "active",
+    "summary": "A radiation-aware maintainer or operations aide in nuclear stations—reactor auxiliaries, containment entries, and strict procedural compliance culture.",
+    "duties": "Operate auxiliary systems, perform surveillances, radiation surveys, support refueling outages.",
+    "skills": "Procedure adherence, RP fundamentals, valve lineups, outage stamina.",
+    "tools": "Dosimeters, hot cell tools, procedure binders, tagout systems.",
+    "regions": "France, U.S., Korea, China nuclear fleets; declining in some markets.",
+    "category": "energy",
+    "eraPrimary": "modern",
+    "originYear": 1950,
+    "originLabel": "Civilian power reactor operations",
+    "dateConfidence": "high",
+    "aliases": [
+      "nuclear technician",
+      "radiation protection technician (overlap)"
+    ],
+    "eventYear": 1979,
+    "eventLabel": "TMI training reforms",
+    "eventDescription": "Industry-wide simulator and procedural reforms follow Three Mile Island.",
+    "educationPath": "Nuclear tech programs, NRC-licensed operator pathways optional.",
+    "modernSectors": "PWR and BWR plants, outage contractors, fuel cycle facilities."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1977,
+        "label": "Dam safety act",
+        "description": "U.S. National Dam Safety Program professionalizes inspection and operations.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "hydrologist",
+        "type": "related"
+      },
+      {
+        "toSlug": "power-plant-operator",
+        "type": "related"
+      },
+      {
+        "toSlug": "civil-engineer",
+        "type": "related"
+      }
+    ],
+    "slug": "dam-operator",
+    "name": "Dam Operator",
+    "status": "active",
+    "summary": "A hydroelectric worker who controls spillways and turbines impounding rivers—flood season decisions balancing power revenue, recreation, and downstream safety.",
+    "duties": "Adjust gate flows, monitor embankments, schedule generation, inspect fish ladders, coordinate emergency releases.",
+    "skills": "Hydraulics, SCADA, emergency action plans, regulatory reporting.",
+    "tools": "Spillway controls, reservoir charts, piezometers, satellite phones in remote dams.",
+    "regions": "TVA, U.S. Bureau of Reclamation, Canada, Norway, Brazil hydro systems.",
+    "category": "energy",
+    "eraPrimary": "industrial",
+    "originYear": 1890,
+    "originLabel": "Municipal hydro and irrigation dams",
+    "dateConfidence": "medium",
+    "aliases": [
+      "hydro plant operator",
+      "reservoir operator"
+    ],
+    "eventYear": 1977,
+    "eventLabel": "Dam safety act",
+    "eventDescription": "U.S. National Dam Safety Program professionalizes inspection and operations.",
+    "educationPath": "Hydro operations training, FERC licensing familiarity, EAP drills.",
+    "modernSectors": "Federal and private hydro, pumped storage, multi-purpose reservoirs."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2010,
+        "label": "Shale boom hiring",
+        "description": "Horizontal drilling surge expands roughneck wages and turnover in U.S. basins.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "roustabout",
+        "type": "related"
+      },
+      {
+        "toSlug": "rig-manager",
+        "type": "related"
+      },
+      {
+        "toSlug": "miner",
+        "type": "related"
+      }
+    ],
+    "slug": "roughneck",
+    "name": "Roughneck",
+    "status": "active",
+    "summary": "A floor hand on a drilling rig who connects pipe, maintains mud pits, and works tongs in physically brutal shifts—core labor of oil and gas extraction.",
+    "duties": "Make/break connections, rack pipe, handle slips, assist casing runs, keep rig floor clean.",
+    "skills": "Strength, teamwork, hazard awareness, roughneck slang communication, rotation endurance.",
+    "tools": "Tongs, elevators, hard hat, rig floor winches, mud hoses.",
+    "regions": "Permian, North Sea, Middle East onshore fields; offshore platforms.",
+    "category": "energy",
+    "eraPrimary": "industrial",
+    "originYear": 1859,
+    "originLabel": "Pennsylvania cable-tool drilling crews",
+    "dateConfidence": "medium",
+    "aliases": [
+      "floor hand",
+      "rig crew"
+    ],
+    "eventYear": 2010,
+    "eventLabel": "Shale boom hiring",
+    "eventDescription": "Horizontal drilling surge expands roughneck wages and turnover in U.S. basins.",
+    "educationPath": "On-rig training, safety certifications, crane rigger cards offshore.",
+    "modernSectors": "Land rigs, offshore drillships, workover rigs."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2016,
+        "label": "Dakota Access protests",
+        "description": "Pipeline construction becomes high-visibility political and safety flashpoint.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "roughneck",
+        "type": "related"
+      },
+      {
+        "toSlug": "mechanic",
+        "type": "related"
+      },
+      {
+        "toSlug": "refinery-operator",
+        "type": "related"
+      }
+    ],
+    "slug": "pipeline-worker",
+    "name": "Pipeline Worker",
+    "status": "active",
+    "summary": "A welder, inspector, or laborer building and maintaining long-distance oil and gas pipelines—ROW clearing to hydrostatic testing across continents.",
+    "duties": "Weld joints, coat pipe, operate ditch machines, pig lines, repair leaks, patrol ROW.",
+    "skills": "Welding codes, heavy equipment, corrosion awareness, environmental compliance.",
+    "tools": "Sideboom, welding rig, pig launchers, coating ovens, ROW vehicles.",
+    "regions": "North American shale takeaway, Russian export lines, Middle East corridors.",
+    "category": "energy",
+    "eraPrimary": "industrial",
+    "originYear": 1865,
+    "originLabel": "Pennsylvania wooden and iron oil pipelines",
+    "dateConfidence": "medium",
+    "aliases": [
+      "pipeliner",
+      "line walker"
+    ],
+    "eventYear": 2016,
+    "eventLabel": "Dakota Access protests",
+    "eventDescription": "Pipeline construction becomes high-visibility political and safety flashpoint.",
+    "educationPath": "Welding certifications, operator qualifications, safety orientation.",
+    "modernSectors": "Transmission pipelines, gas distribution, CO2 transport emerging."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1980,
+        "label": "Offshore boom",
+        "description": "Deepwater development expands roustabout headcount and safety regimes.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "roughneck",
+        "type": "related"
+      },
+      {
+        "toSlug": "rig-manager",
+        "type": "related"
+      }
+    ],
+    "slug": "roustabout",
+    "name": "Roustabout",
+    "status": "active",
+    "summary": "A general laborer on drilling rigs and production sites who paints, moves pipe, and assists specialists—entry rung of offshore oil culture.",
+    "duties": "Deck maintenance, offload supply boats, assist crane ops, clean spills, support roughnecks.",
+    "skills": "Physical fitness, crane hand signals, offshore survival, multi-tasking.",
+    "tools": "Pressure washer, rig tools, PPE, cargo baskets offshore.",
+    "regions": "Gulf of Mexico platforms, North Sea, onshore fields globally.",
+    "category": "energy",
+    "eraPrimary": "industrial",
+    "originYear": 1901,
+    "originLabel": "Spindletop and rotary rig labor pools",
+    "dateConfidence": "medium",
+    "aliases": [
+      "oilfield laborer",
+      "lease hand"
+    ],
+    "eventYear": 1980,
+    "eventLabel": "Offshore boom",
+    "eventDescription": "Deepwater development expands roustabout headcount and safety regimes.",
+    "educationPath": "BOSIET offshore survival, rig floor promotion path.",
+    "modernSectors": "Offshore platforms, onshore drilling, production tank batteries."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2010,
+        "label": "Utility-scale solar farms",
+        "description": "Large project EPCs create installer crews distinct from residential integrators.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "electrician",
+        "type": "related"
+      },
+      {
+        "toSlug": "wind-turbine-technician",
+        "type": "related"
+      },
+      {
+        "toSlug": "energy-auditor",
+        "type": "related"
+      }
+    ],
+    "slug": "solar-installer",
+    "name": "Solar Installer",
+    "status": "active",
+    "summary": "A rooftop or utility-scale worker who mounts photovoltaic arrays and connects inverters—frontline job of the renewable transition under net-metering policy swings.",
+    "duties": "Lay racking, pull wire, commission inverters, comply with NEC, coordinate with inspectors.",
+    "skills": "Roof safety, DC electrical, array layout, customer education.",
+    "tools": "Impact drivers, conduit benders, multimeter, harness fall protection.",
+    "regions": "Sun Belt U.S., Germany, Australia, India solar parks.",
+    "category": "energy",
+    "eraPrimary": "contemporary",
+    "originYear": 2000,
+    "originLabel": "Grid-tied rooftop solar installers",
+    "dateConfidence": "medium",
+    "aliases": [
+      "PV installer",
+      "solar technician"
+    ],
+    "eventYear": 2010,
+    "eventLabel": "Utility-scale solar farms",
+    "eventDescription": "Large project EPCs create installer crews distinct from residential integrators.",
+    "educationPath": "NABCEP certification, electrician apprenticeship overlap.",
+    "modernSectors": "Residential integrators, utility EPC, commercial rooftops."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2005,
+        "label": "Offshore wind O&M",
+        "description": "European offshore farms create vessel-based technician specialization.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "solar-installer",
+        "type": "related"
+      },
+      {
+        "toSlug": "mechanic",
+        "type": "related"
+      },
+      {
+        "toSlug": "lineworker",
+        "type": "related"
+      }
+    ],
+    "slug": "wind-turbine-technician",
+    "name": "Wind Turbine Technician",
+    "status": "active",
+    "summary": "A climber who maintains megawatt turbines—gearbox oil changes at 80 meters, blade repairs, and SCADA fault chasing across wind farms.",
+    "duties": "Climb towers, troubleshoot generators, replace components, document OSHA climbs, respond to faults.",
+    "skills": "High-angle rescue, hydraulics, electrical, weather cancellation judgment.",
+    "tools": "Climb harness, torque tools, oil pumps, laptop SCADA interface.",
+    "regions": "U.S. Great Plains, North Sea offshore, China inner Mongolia.",
+    "category": "energy",
+    "eraPrimary": "contemporary",
+    "originYear": 1990,
+    "originLabel": "Utility-scale wind O&M teams",
+    "dateConfidence": "medium",
+    "aliases": [
+      "wind tech",
+      "turbine technician"
+    ],
+    "eventYear": 2005,
+    "eventLabel": "Offshore wind O&M",
+    "eventDescription": "European offshore farms create vessel-based technician specialization.",
+    "educationPath": "Wind tech programs, GWO safety modules, manufacturer training.",
+    "modernSectors": "Onshore farms, offshore SOVs, OEM service contracts."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1960,
+        "label": "Automatic combustion controls",
+        "description": "Automation reduces boiler rooms but licensed engineers remain in large plants.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "power-plant-operator",
+        "type": "related"
+      },
+      {
+        "toSlug": "marine-engineer",
+        "type": "related"
+      }
+    ],
+    "slug": "boiler-operator",
+    "name": "Boiler Operator",
+    "status": "declining",
+    "summary": "A stationary engineer who fired and tended steam boilers in factories, ships, and campuses—licensed pressure vessel watch before centralized utilities and automatic controls.",
+    "duties": "Stoke fuel, monitor steam pressure, blowdown, water treatment, log rounds.",
+    "skills": "Combustion tuning, water chemistry, safety valve knowledge, night rounds.",
+    "tools": "Steam gauges, soot blowers, coal shovel historically, modern BMS panels.",
+    "regions": "Industrial cities, hospitals, ships; role merges with plant operators.",
+    "category": "energy",
+    "eraPrimary": "industrial",
+    "originYear": 1850,
+    "originLabel": "Factory and marine boiler houses",
+    "dateConfidence": "medium",
+    "aliases": [
+      "stationary engineer",
+      "fireman (boiler)"
+    ],
+    "eventYear": 1960,
+    "eventLabel": "Automatic combustion controls",
+    "eventDescription": "Automation reduces boiler rooms but licensed engineers remain in large plants.",
+    "educationPath": "Stationary engineer license exams by horsepower class.",
+    "modernSectors": "Campus utilities, hospitals, legacy industrial sites."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2003,
+        "label": "Relay misoperation studies",
+        "description": "Blackout investigations drive relay testing career specialization.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "lineworker",
+        "type": "related"
+      },
+      {
+        "toSlug": "electrician",
+        "type": "related"
+      },
+      {
+        "toSlug": "grid-operator",
+        "type": "related"
+      }
+    ],
+    "slug": "substation-technician",
+    "name": "Substation Technician",
+    "status": "active",
+    "summary": "A utility worker who maintains transformers, breakers, and relays at grid nodes—switching outages and testing protection schemes keeping electrons routed.",
+    "duties": "Inspect bushings, test relays, oil samples, switch operations, upgrade SCADA RTUs.",
+    "skills": "High-voltage safety, relay theory, rigging heavy transformers, clearance coordination.",
+    "tools": "Hot sticks, relay test sets, SF6 handlers, substation blueprints.",
+    "regions": "Transmission owners on every continent; urban underground subs.",
+    "category": "energy",
+    "eraPrimary": "industrial",
+    "originYear": 1890,
+    "originLabel": "Early AC transmission substations",
+    "dateConfidence": "medium",
+    "aliases": [
+      "substation electrician",
+      "relay technician"
+    ],
+    "eventYear": 2003,
+    "eventLabel": "Relay misoperation studies",
+    "eventDescription": "Blackout investigations drive relay testing career specialization.",
+    "educationPath": "Utility apprenticeship, relay training courses, switching authorization.",
+    "modernSectors": "IOUs, transmission-only companies, industrial high-voltage yards."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2010,
+        "label": "Plastic pipe migration",
+        "description": "PE fusion dominates new service lines; leak survey tech modernizes.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "pipeline-worker",
+        "type": "related"
+      },
+      {
+        "toSlug": "lineworker",
+        "type": "related"
+      }
+    ],
+    "slug": "gas-utility-worker",
+    "name": "Gas Utility Worker",
+    "status": "active",
+    "summary": "A technician who installs and repairs natural gas distribution mains and service lines—leak survey, cathodic protection, and emergency shutdown response.",
+    "duties": "Fusion weld PE pipe, locate leaks, purge lines, relight appliances, mark utilities.",
+    "skills": "Combustible gas safety, excavation damage prevention, customer communication.",
+    "tools": "Flame ionization detectors, squeezing off tools, maps, barhole probes.",
+    "regions": "Urban gas networks in North America, Europe, East Asia.",
+    "category": "energy",
+    "eraPrimary": "industrial",
+    "originYear": 1820,
+    "originLabel": "Coal gas and later natural gas street lighting",
+    "dateConfidence": "medium",
+    "aliases": [
+      "gas fitter (utility)",
+      "gas serviceman"
+    ],
+    "eventYear": 2010,
+    "eventLabel": "Plastic pipe migration",
+    "eventDescription": "PE fusion dominates new service lines; leak survey tech modernizes.",
+    "educationPath": "Gas utility apprenticeship, operator qualification, plastic fusion certs.",
+    "modernSectors": "LDCs, contractor mains replacement programs, RNG interconnection."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2008,
+        "label": "Enhanced geothermal R&D",
+        "description": "EGS projects broaden technician skill sets beyond natural hydrothermal sites.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "power-plant-operator",
+        "type": "related"
+      },
+      {
+        "toSlug": "geologist",
+        "type": "related"
+      },
+      {
+        "toSlug": "solar-installer",
+        "type": "related"
+      }
+    ],
+    "slug": "geothermal-technician",
+    "name": "Geothermal Technician",
+    "status": "active",
+    "summary": "A maintainer of geothermal power plants or ground-source heat pump fields—working with brine chemistry, turbines, and loop circulation unlike other renewables.",
+    "duties": "Monitor wellhead pressures, service pumps, descale heat exchangers, track injection balances.",
+    "skills": "Corrosion awareness, binary cycle basics, HVAC loop fusion, remote site driving.",
+    "tools": "Brine sampling kits, scaling inhibitors, turbine lube systems, loop pressure gauges.",
+    "regions": "Iceland, Kenya Rift, California Geysers, building retrofit markets.",
+    "category": "energy",
+    "eraPrimary": "modern",
+    "originYear": 1960,
+    "originLabel": "Commercial geothermal flash plants",
+    "dateConfidence": "medium",
+    "aliases": [
+      "geothermal plant operator (overlap)",
+      "GSHP technician"
+    ],
+    "eventYear": 2008,
+    "eventLabel": "Enhanced geothermal R&D",
+    "eventDescription": "EGS projects broaden technician skill sets beyond natural hydrothermal sites.",
+    "educationPath": "Power plant or HVAC training, geothermal site O&M courses.",
+    "modernSectors": "Flash and binary plants, district heating, residential loop installers."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2010,
+        "label": "Macondo reforms",
+        "description": "Post-Deepwater Horizon, rig manager stop-work authority and well control training intensify.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "roughneck",
+        "type": "related"
+      },
+      {
+        "toSlug": "petroleum-geologist",
+        "type": "related"
+      },
+      {
+        "toSlug": "mining-engineer",
+        "type": "related"
+      }
+    ],
+    "slug": "rig-manager",
+    "name": "Rig Manager",
+    "status": "active",
+    "summary": "The drilling supervisor who commands rig floor safety and schedule—toolpusher or offshore OIM bridging company men and roughnecks with authority to stop jobs.",
+    "duties": "Direct drilling program, enforce JSAs, manage crews, liaise with company geologist, report progress.",
+    "skills": "Well control, leadership, regulatory paperwork, cost and time pressure balance.",
+    "tools": "Drilling reports, BOP test records, satellite comms, well control worksheets.",
+    "regions": "Global drilling contractors on land and offshore.",
+    "category": "energy",
+    "eraPrimary": "modern",
+    "originYear": 1920,
+    "originLabel": "Contract drilling supervision roles",
+    "dateConfidence": "medium",
+    "aliases": [
+      "toolpusher",
+      "drilling supervisor"
+    ],
+    "eventYear": 2010,
+    "eventLabel": "Macondo reforms",
+    "eventDescription": "Post-Deepwater Horizon, rig manager stop-work authority and well control training intensify.",
+    "educationPath": "Years on rig floor, well control certification, management training.",
+    "modernSectors": "Drilling contractors, operator company men pathways."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1980,
+        "label": "LWD expansion",
+        "description": "Logging-while-drilling complements wireline but wireline crews persist.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "petroleum-geologist",
+        "type": "related"
+      },
+      {
+        "toSlug": "roughneck",
+        "type": "related"
+      }
+    ],
+    "slug": "well-logging-technician",
+    "name": "Well Logging Technician",
+    "status": "active",
+    "summary": "A field specialist who lowers instruments into boreholes recording resistivity, porosity, and pressure—wireline trucks interpreting rocks for geologists.",
+    "duties": "Prepare tools, run logs, maintain radiation sources safely, transmit data to office interpreters.",
+    "skills": "Electronics troubleshooting, hoisting, hazmat for sources, real-time QC.",
+    "tools": "Wireline unit, gamma tools, pressure gauges, source handling casks.",
+    "regions": "Oil basins worldwide; service company crews mobilize globally.",
+    "category": "energy",
+    "eraPrimary": "modern",
+    "originYear": 1927,
+    "originLabel": "Electrical well logging commercialization",
+    "dateConfidence": "high",
+    "aliases": [
+      "wireline operator",
+      "logging engineer (field)"
+    ],
+    "eventYear": 1980,
+    "eventLabel": "LWD expansion",
+    "eventDescription": "Logging-while-drilling complements wireline but wireline crews persist.",
+    "educationPath": "Service company academies, radiation safety, electronics training.",
+    "modernSectors": "Schlumberger/Halliburton-style services, geothermal characterization."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2015,
+        "label": "AMI rollouts",
+        "description": "Advanced metering infrastructure eliminates most manual read jobs.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "gas-utility-worker",
+        "type": "related"
+      },
+      {
+        "toSlug": "lineworker",
+        "type": "related"
+      }
+    ],
+    "slug": "meter-reader",
+    "name": "Meter Reader",
+    "status": "declining",
+    "summary": "A utility worker who walked routes recording gas and electric meter dials—largely replaced by AMI radios yet persisting for inaccessible accounts.",
+    "duties": "Navigate routes, read dials, flag tampering, report dogs, interact with customers on complaints.",
+    "skills": "Route efficiency, dog awareness, handwriting accuracy historically, safety in yards.",
+    "tools": "Handheld entry device, route maps, dog spray, vehicle.",
+    "regions": "Suburban utility territories until smart meter rollouts.",
+    "category": "energy",
+    "eraPrimary": "industrial",
+    "originYear": 1890,
+    "originLabel": "Metered utility billing expansion",
+    "dateConfidence": "medium",
+    "aliases": [
+      "utility reader",
+      "route reader"
+    ],
+    "eventYear": 2015,
+    "eventLabel": "AMI rollouts",
+    "eventDescription": "Advanced metering infrastructure eliminates most manual read jobs."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2009,
+        "label": "Weatherization stimulus",
+        "description": "Federal efficiency funding expands auditor hiring temporarily.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "electrician",
+        "type": "related"
+      },
+      {
+        "toSlug": "solar-installer",
+        "type": "related"
+      },
+      {
+        "toSlug": "civil-engineer",
+        "type": "related"
+      }
+    ],
+    "slug": "energy-auditor",
+    "name": "Energy Auditor",
+    "status": "active",
+    "summary": "A building specialist who assesses insulation, HVAC, and usage patterns recommending efficiency upgrades—utility program foot soldier of decarbonization policy.",
+    "duties": "Blower door tests, inspect attics, model savings, write reports, explain rebate programs.",
+    "skills": "Building science, thermography, customer education, spreadsheet modeling.",
+    "tools": "Blower door, infrared camera, combustion analyzer, audit software.",
+    "regions": "Utility program territories, ESCO markets, EU renovation waves.",
+    "category": "energy",
+    "eraPrimary": "modern",
+    "originYear": 1970,
+    "originLabel": "Post-oil-shock conservation programs",
+    "dateConfidence": "medium",
+    "aliases": [
+      "home energy auditor",
+      "building performance analyst"
+    ],
+    "eventYear": 2009,
+    "eventLabel": "Weatherization stimulus",
+    "eventDescription": "Federal efficiency funding expands auditor hiring temporarily.",
+    "educationPath": "BPI or RESNET certifications, building science courses.",
+    "modernSectors": "Utilities, ESCOs, municipal climate offices, home inspection overlap."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1990,
+        "label": "Combined-cycle boom",
+        "description": "Gas turbine combined-cycle plants expand specialist mechanic demand.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "mechanic",
+        "type": "related"
+      },
+      {
+        "toSlug": "power-plant-operator",
+        "type": "related"
+      },
+      {
+        "toSlug": "mechanical-engineer",
+        "type": "related"
+      }
+    ],
+    "slug": "turbine-mechanic",
+    "name": "Turbine Mechanic",
+    "status": "active",
+    "summary": "A specialist who overhauls gas and steam turbines in power plants and refineries—precision alignment and blade work on machines spinning thousands of RPM.",
+    "duties": "Disassemble rotors, NDT blades, align couplings, reinstall bearings, performance test.",
+    "skills": "Precision measurement, vibration analysis, OEM manual adherence, rigging.",
+    "tools": "Dial indicators, laser alignment, overhead cranes, borescope.",
+    "regions": "Combined-cycle plants, refineries, independent overhaul shops.",
+    "category": "energy",
+    "eraPrimary": "modern",
+    "originYear": 1940,
+    "originLabel": "Industrial gas turbine maintenance shops",
+    "dateConfidence": "medium",
+    "aliases": [
+      "rotating equipment mechanic",
+      "turbine millwright"
+    ],
+    "eventYear": 1990,
+    "eventLabel": "Combined-cycle boom",
+    "eventDescription": "Gas turbine combined-cycle plants expand specialist mechanic demand.",
+    "educationPath": "Millwright apprenticeship, OEM turbine courses.",
+    "modernSectors": "Power plants, oil and gas compression, aerospace MRO overlap."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2015,
+        "label": "Accelerated retirements",
+        "description": "Cheap gas and renewables hasten coal operator workforce decline in West.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "power-plant-operator",
+        "type": "related"
+      },
+      {
+        "toSlug": "miner",
+        "type": "related"
+      },
+      {
+        "toSlug": "boiler-operator",
+        "type": "related"
+      }
+    ],
+    "slug": "coal-plant-operator",
+    "name": "Coal Plant Operator",
+    "status": "declining",
+    "summary": "A control-room worker specialized in pulverized coal boilers and ash handling—retiring cohort as plants close under climate policy though some retrofits linger.",
+    "duties": "Manage mills, sootblowers, SCR units, ash ponds compliance, coordinate fuel piles.",
+    "skills": "Coal combustion quirks, emissions compliance, legacy DCS, decommission planning.",
+    "tools": "Coal pile dozers, baghouse monitors, limestone slurry systems.",
+    "regions": "U.S. Midwest, Poland, India, China coal belts.",
+    "category": "energy",
+    "eraPrimary": "industrial",
+    "originYear": 1920,
+    "originLabel": "Utility coal steam stations",
+    "dateConfidence": "high",
+    "aliases": [
+      "coal-fired operator",
+      "steam plant operator (coal)"
+    ],
+    "eventYear": 2015,
+    "eventLabel": "Accelerated retirements",
+    "eventDescription": "Cheap gas and renewables hasten coal operator workforce decline in West.",
+    "educationPath": "Power plant operator training with coal-specific units.",
+    "modernSectors": "Legacy baseload plants, biomass conversions, retirement contractors."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2000,
+        "label": "RTO formation",
+        "description": "Independent system operators professionalize grid operator as market role.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "power-plant-operator",
+        "type": "related"
+      },
+      {
+        "toSlug": "lineworker",
+        "type": "related"
+      },
+      {
+        "toSlug": "substation-technician",
+        "type": "related"
+      }
+    ],
+    "slug": "grid-operator",
+    "name": "Grid Operator",
+    "status": "active",
+    "summary": "A balancing authority dispatcher who matches generation to load second-by-second—ISO control rooms preventing cascading blackouts with redispatch and reserves.",
+    "duties": "Monitor ACE, commit reserves, clear markets operationally, shed load if needed, coordinate outages.",
+    "skills": "Power flow intuition, market rules, calm during contingencies, communication with plant operators.",
+    "tools": "EMS screens, interchange schedules, satellite phones for black start drills.",
+    "regions": "PJM, ERCOT, National Grid control centers; national dispatch worldwide.",
+    "category": "energy",
+    "eraPrimary": "modern",
+    "originYear": 1927,
+    "originLabel": "Interconnected utility load dispatch centers",
+    "dateConfidence": "medium",
+    "aliases": [
+      "system operator",
+      "ISO dispatcher"
+    ],
+    "eventYear": 2000,
+    "eventLabel": "RTO formation",
+    "eventDescription": "Independent system operators professionalize grid operator as market role.",
+    "educationPath": "NERC certification, system operator training programs, shift mentorship.",
+    "modernSectors": "ISO/RTO control rooms, utility control centers, merchant trading floors adjacent."
+  }
+]

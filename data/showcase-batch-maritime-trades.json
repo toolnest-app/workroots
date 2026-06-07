@@ -1,0 +1,1121 @@
+[
+  {
+    "slug": "shipwright",
+    "name": "Shipwright",
+    "status": "active",
+    "summary": "A builder who constructs and repairs wooden or metal vessels—among the most consequential trades in maritime history from Viking longships to naval frigates.",
+    "duties": "Loft hull lines, frame timbers or weld plates, caulk seams, fit rigging attachments, and survey damage for repair.",
+    "skills": "Structural geometry, materials knowledge, teamwork in yards, safety around heavy lifts.",
+    "tools": "Adzes historically, rivet guns, cranes, lofting floors, CAD in modern yards.",
+    "regions": "Venice Arsenal, Baltic oak yards, Plymouth dockyards, modern Asian mega-yards.",
+    "category": "maritime",
+    "eraPrimary": "ancient",
+    "originYear": -2000,
+    "originYearEnd": null,
+    "originLabel": "Early plank-built seafaring hulls",
+    "dateConfidence": "low",
+    "educationPath": "Shipyard apprenticeships, naval architecture adjacent training, welding certifications.",
+    "modernSectors": "Naval shipyards, yacht builders, repair docks, offshore fabrication.",
+    "aliases": [
+      "shipbuilder",
+      "boatwright (smaller craft)"
+    ],
+    "events": [
+      {
+        "year": 1800,
+        "label": "Industrial iron hulls",
+        "description": "Steam and iron transform ship construction from artisan wood shops to capital-intensive yards.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Maritime technology histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "boat-builder",
+        "type": "related"
+      },
+      {
+        "toSlug": "carpenter",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "boat-builder",
+    "name": "Boat Builder",
+    "status": "active",
+    "summary": "A craft worker who builds smaller vessels—fishing boats, dinghies, and launches—often in family yards distinct from warship slipways.",
+    "duties": "Shape hulls, install engines or oarlocks, fiberglass or plank construction, and sea-trial fittings.",
+    "skills": "Hands-on fabrication, client consultation, weight balance, small-business operations.",
+    "tools": "Molds, planes, epoxy systems, outboard test tanks, trailer fittings.",
+    "regions": "Coastal villages, Maine lobster boat shops, Mediterranean fishing ports.",
+    "category": "maritime",
+    "eraPrimary": "ancient",
+    "originYear": -3000,
+    "originYearEnd": null,
+    "originLabel": "River and coastal small-craft traditions",
+    "dateConfidence": "low",
+    "educationPath": "Apprenticeship in yards, marine trade schools, composite certification courses.",
+    "modernSectors": "Custom yacht tenders, workboats, rowing shells, rental fleet maintenance.",
+    "aliases": [
+      "boatwright",
+      "skiff builder"
+    ],
+    "events": [
+      {
+        "year": 1950,
+        "label": "Fiberglass revolution",
+        "description": "GRP hulls democratize production beyond plank-on-frame shops.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Small craft maritime museums",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "shipwright",
+        "type": "related"
+      },
+      {
+        "toSlug": "fisherman",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "rigger",
+    "name": "Rigger",
+    "status": "declining",
+    "summary": "A specialist who installs and maintains a ship's masts, ropes, and sails—or modern crane and stage rigging with overlapping skills.",
+    "duties": "Splice rope, set up spars, tune standing rigging, load cargo slings, and inspect wear.",
+    "skills": "Knotcraft, height comfort, load calculation, maintenance scheduling, teamwork aloft.",
+    "tools": "Marlin spikes, shackles, winches, climbing harnesses, crane signals.",
+    "regions": "Age-of-sail navies and merchant fleets; modern port cargo and entertainment rigging.",
+    "category": "maritime",
+    "eraPrimary": "ancient",
+    "originYear": -1000,
+    "originYearEnd": null,
+    "originLabel": "Rope-spar systems on early sailing ships",
+    "dateConfidence": "low",
+    "aliases": [
+      "maritime rigger",
+      "bosun's mate (overlap)"
+    ],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Steam reduces sail crews",
+        "description": "Merchant sail fleets shrink though yacht rigging keeps skills alive.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Seafaring craft references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "sailmaker",
+        "type": "related"
+      },
+      {
+        "toSlug": "boatswain",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "longshoreman",
+    "name": "Longshoreman",
+    "status": "active",
+    "summary": "A dockworker who loads and unloads cargo ships—brutal hand-labor historically, now intertwined with container cranes and union halls.",
+    "duties": "Operate gear, stow containers, secure lashings, drive yard tractors, and follow safety rules in terminals.",
+    "skills": "Crane signaling, stamina, union dispatch literacy, hazard awareness, teamwork.",
+    "tools": "Twistlocks, spreaders, chassis, RFID gate systems, steel-toed boots.",
+    "regions": "Global container ports; ILA on US East Coast, ILWU on West Coast historically pivotal.",
+    "category": "maritime",
+    "eraPrimary": "industrial",
+    "originYear": 1800,
+    "originYearEnd": null,
+    "originLabel": "Manual stevedoring at industrial docks",
+    "dateConfidence": "medium",
+    "aliases": [
+      "docker (UK)",
+      "dockworker",
+      "stevedore (overlap)"
+    ],
+    "events": [
+      {
+        "year": 1956,
+        "label": "Containerization",
+        "description": "Standard boxes reshape dock labor and global trade geography.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dock labor histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "stevedore",
+        "type": "related"
+      },
+      {
+        "toSlug": "sailor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "stevedore",
+    "name": "Stevedore",
+    "status": "active",
+    "summary": "A firm or foreman class that manages cargo stowage in ships' holds—coordinating gangs of longshoremen for efficient port turnaround.",
+    "duties": "Plan stowage, direct gangs, liaise with ship officers, and ensure cargo integrity and safety.",
+    "skills": "Load planning, leadership, language of cargo marks, union negotiation, time pressure management.",
+    "tools": "Stowage plans, cargo manifests, radios, tally sheets, terminal operating systems.",
+    "regions": "Major entrepôt ports: Singapore, Rotterdam, Los Angeles/Long Beach.",
+    "category": "maritime",
+    "eraPrimary": "industrial",
+    "originYear": 1850,
+    "originYearEnd": null,
+    "originLabel": "Steamship-era discharge contractors",
+    "dateConfidence": "medium",
+    "aliases": [
+      "loading master",
+      "terminal supervisor"
+    ],
+    "events": [
+      {
+        "year": 1960,
+        "label": "Bulk and breakbulk specialization",
+        "description": "Oil, grain, and general cargo terminals employ specialized stevedoring firms.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Port economics histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "longshoreman",
+        "type": "related"
+      },
+      {
+        "toSlug": "sea-captain",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "harbor-pilot",
+    "name": "Harbor Pilot",
+    "status": "active",
+    "summary": "A licensed navigator who boards ships to guide them through dangerous inlets and harbors—combining local knowledge with liability for the largest vessels afloat.",
+    "duties": "Embark by ladder or helicopter, conn vessels through channels, advise masters on tides and traffic, and hand back at sea.",
+    "skills": "Shiphandling, bridge communication, tidal calculation, calm authority, night pilotage.",
+    "tools": "Pilot boats, portable pilot units, radar overlays, VTS radio, climbing gear.",
+    "regions": "Every major choke point: Panama approaches, Suez, Mississippi delta, English Channel.",
+    "category": "maritime",
+    "eraPrimary": "early_modern",
+    "originYear": 1500,
+    "originYearEnd": null,
+    "originLabel": "Licensed pilots in European port guilds",
+    "dateConfidence": "medium",
+    "educationPath": "Maritime academy, ship command experience, pilot apprenticeship and licensing exams.",
+    "modernSectors": "State pilot associations, compulsory pilotage districts, LNG mega-ship moves.",
+    "aliases": [
+      "maritime pilot",
+      "bar pilot (estuary)"
+    ],
+    "events": [
+      {
+        "year": 1989,
+        "label": "Exxon Valdez aftermath",
+        "description": "Environmental liability raises pilotage scrutiny in sensitive waterways worldwide.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Pilotage tradition references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "sea-captain",
+        "type": "related"
+      },
+      {
+        "toSlug": "ship-navigator",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "ship-navigator",
+    "name": "Ship Navigator",
+    "status": "active",
+    "summary": "An officer who determines position and plans ocean passages—evolving from astrolabe users to GPS watch officers on bridge teams.",
+    "duties": "Plot courses, maintain charts, compute celestial fixes historically, monitor electronics, and comply with COLREGS.",
+    "skills": "Mathematics, attention on watch, weather routing, collision avoidance rules, log discipline.",
+    "tools": "Sextants historically, ECDIS, radar ARPA, almanacs, passage planning software.",
+    "regions": "Merchant marine globally; navigation officers on every blue-water trade route.",
+    "category": "maritime",
+    "eraPrimary": "ancient",
+    "originYear": -500,
+    "originYearEnd": null,
+    "originLabel": "Phoenician and Greek celestial wayfinding",
+    "dateConfidence": "low",
+    "educationPath": "Maritime academy third officer pathway, STCW certifications, celestial competency exams.",
+    "modernSectors": "Container lines, tankers, cruise ships, research vessels.",
+    "aliases": [
+      "navigation officer",
+      "third officer (rank)"
+    ],
+    "events": [
+      {
+        "year": 1973,
+        "label": "GPS era approaches",
+        "description": "Satellite navigation gradually supplants celestial fixes for routine watchkeeping.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Navigation history textbooks",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "sailor",
+        "type": "related"
+      },
+      {
+        "toSlug": "harbor-pilot",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "merchant-mariner",
+    "name": "Merchant Mariner",
+    "status": "active",
+    "summary": "A licensed seafarer on commercial vessels distinct from naval crews—carrying world trade under flags of convenience and national registries.",
+    "duties": "Stand watches, maintain ship systems, handle cargo operations, and survive long contracts away from home.",
+    "skills": "STCW competencies, teamwork, isolation tolerance, safety drills, multilingual crews.",
+    "tools": "Immersion suits, GMDSS radios, engine room logs, mooring stations.",
+    "regions": "Global shipping lanes; Philippines, Ukraine, India major crew supply nations.",
+    "category": "maritime",
+    "eraPrimary": "medieval",
+    "originYear": 1200,
+    "originYearEnd": null,
+    "originLabel": "Hanseatic and Mediterranean merchant crews",
+    "dateConfidence": "medium",
+    "educationPath": "Maritime academies, rating pathways, endorsement upgrades.",
+    "modernSectors": "Bulk carriers, tankers, containers, offshore supply vessels.",
+    "aliases": [
+      "seafarer",
+      "able seaman (rating)"
+    ],
+    "events": [
+      {
+        "year": 1914,
+        "label": "Safety conventions",
+        "description": "Titanic disaster spurs international merchant safety rule development.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Merchant marine histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "sailor",
+        "type": "related"
+      },
+      {
+        "toSlug": "deckhand",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "deckhand",
+    "name": "Deckhand",
+    "status": "active",
+    "summary": "A junior sailor who handles lines, paints, and cargo on deck—the entry rung of seagoing careers on fishing boats and merchant ships alike.",
+    "duties": "Mooring, chipping rust, assist cargo, stand lookout, and clean spaces under bosun direction.",
+    "skills": "Knots, physical stamina, prompt obedience, basic maintenance, watchkeeping support.",
+    "tools": "Paint brushes, winches, hoses, PFDs, hand tools.",
+    "regions": "Coastal fisheries and global merchant fleets.",
+    "category": "maritime",
+    "eraPrimary": "ancient",
+    "originYear": -1000,
+    "originYearEnd": null,
+    "originLabel": "General deck labor on early traders",
+    "dateConfidence": "low",
+    "educationPath": "Sea time accumulation, rating certifications, maritime training institutes.",
+    "modernSectors": "Fishing vessels, tugs, ferries, offshore wind support boats.",
+    "aliases": [
+      "ordinary seaman",
+      "OS",
+      "deckie"
+    ],
+    "events": [
+      {
+        "year": 1950,
+        "label": "Mechanization on deck",
+        "description": "Hydraulic winches and self-unloaders change but do not end deckhand roles.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Seafaring labor ethnography",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "boatswain",
+        "type": "related"
+      },
+      {
+        "toSlug": "fisherman",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "boatswain",
+    "name": "Boatswain",
+    "status": "active",
+    "summary": "The senior deck petty officer who leads maintenance and cargo work—a title unchanged from Royal Navy tradition to modern merchant marine.",
+    "duties": "Supervise deck crew, maintain rigging and deck gear, run maintenance schedules, and train juniors.",
+    "skills": "Leadership, rigging knowledge, safety enforcement, conflict management aboard cramped ships.",
+    "tools": "Bosun's locker inventories, power tools, cargo securing gear, work lists.",
+    "regions": "Naval and merchant vessels worldwide; bosun pipes still symbolize the role.",
+    "category": "maritime",
+    "eraPrimary": "medieval",
+    "originYear": 1200,
+    "originYearEnd": null,
+    "originLabel": "Deck foremen on medieval cog and galley crews",
+    "dateConfidence": "low",
+    "aliases": [
+      "bosun",
+      "deck boss",
+      "boatswain's mate chain"
+    ],
+    "events": [
+      {
+        "year": 1800,
+        "label": "Navy rating codification",
+        "description": "Royal Navy formalizes petty officer structure including boatswain mates.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Naval rating histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "deckhand",
+        "type": "related"
+      },
+      {
+        "toSlug": "rigger",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "sea-captain",
+    "name": "Sea Captain",
+    "status": "active",
+    "summary": "The master of a merchant vessel with ultimate command authority at sea—legally responsible for ship, cargo, and crew from sail era to modern bridge.",
+    "duties": "Voyage planning, commercial liaison with owners, safety management, discipline, and emergency command.",
+    "skills": "Navigation, leadership, maritime law literacy, engineering overview, crisis judgment.",
+    "tools": "Bridge consoles, SMS manuals, charter parties, GMDSS distress kits.",
+    "regions": "Every ocean trade; captains hold licenses issued by flag states.",
+    "category": "maritime",
+    "eraPrimary": "ancient",
+    "originYear": -1000,
+    "originYearEnd": null,
+    "originLabel": "Merchant ship masters in Bronze Age trade",
+    "dateConfidence": "low",
+    "educationPath": "Officer license progression to master mariner unlimited, sea time, exams.",
+    "modernSectors": "Container, tanker, cruise, offshore, yacht charter captains.",
+    "aliases": [
+      "ship master",
+      "captain of the ship",
+      "skipper (informal)"
+    ],
+    "events": [
+      {
+        "year": 1912,
+        "label": "Titanic inquiry",
+        "description": "Disaster inquiries reinforce master responsibility doctrines in international law.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Merchant captaincy references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "first-mate",
+        "type": "related"
+      },
+      {
+        "toSlug": "naval-officer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "first-mate",
+    "name": "First Mate",
+    "status": "active",
+    "summary": "The second-in-command on a vessel who relieves the captain, oversees cargo, and leads deck officers—title also chief mate on merchant ships.",
+    "duties": "Cargo planning, watch supervision, safety officer tasks, crew discipline, and assuming command when needed.",
+    "skills": "Organizational leadership, stability calculations, personnel management, regulatory audits.",
+    "tools": "Cargo plans, muster lists, ISM checklists, bridge watch schedules.",
+    "regions": "Merchant and fishing fleets; chief officer rank on STCW licenses.",
+    "category": "maritime",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "Structured officer hierarchies on European merchants",
+    "dateConfidence": "medium",
+    "aliases": [
+      "chief mate",
+      "chief officer",
+      "first officer"
+    ],
+    "events": [
+      {
+        "year": 1978,
+        "label": "STCW standards",
+        "description": "International convention standardizes officer competencies including chief mate duties.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Merchant officer career guides",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "sea-captain",
+        "type": "related"
+      },
+      {
+        "toSlug": "ship-navigator",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "whaler",
+    "name": "Whaler",
+    "status": "extinct",
+    "summary": "A crew member on ships that hunted whales for oil and baleen—economically vital in the 19th century and morally condemned into extinction as an industry.",
+    "duties": "Track whales, man whaleboats, harpoon strikes, tow carcasses, render blubber on try-pots or factory ships.",
+    "skills": "Courage, small-boat seamanship, endurance, flensing knife work, seasonal migration knowledge.",
+    "tools": "Harpoon guns, lances, try-pots, factory flensing decks.",
+    "regions": "North Atlantic, South Pacific, Arctic; New Bedford and Nantucket historic hubs.",
+    "category": "maritime",
+    "eraPrimary": "industrial",
+    "originYear": 1700,
+    "originYearEnd": 1920,
+    "originLabel": "Open-boat pelagic whaling expansion",
+    "dateConfidence": "medium",
+    "aliases": [
+      "whaleman",
+      "whaling crew"
+    ],
+    "events": [
+      {
+        "year": 1859,
+        "label": "Petroleum rises",
+        "description": "Kerosene reduces economic dependence on whale oil lighting.",
+        "sortOrder": 1
+      },
+      {
+        "year": 1986,
+        "label": "Commercial moratorium",
+        "description": "IWC moratorium ends most commercial whaling fleets.",
+        "sortOrder": 2
+      }
+    ],
+    "sources": [
+      {
+        "title": "Whaling museum archives",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "sailor",
+        "type": "related"
+      },
+      {
+        "toSlug": "fisherman",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "ship-chandler",
+    "name": "Ship Chandler",
+    "status": "active",
+    "summary": "A supplier who provisions vessels with food, rope, paint, and spare parts—indispensable between voyages in every port district.",
+    "duties": "Stock warehouses, fill slop chest orders, deliver alongside ships, and manage credit with ship masters.",
+    "skills": "Inventory breadth, urgent logistics, multilingual orders, credit risk judgment.",
+    "tools": "Warehouse bins, delivery boats, ERP systems, bond stores for tax-free supply.",
+    "regions": "Port warehouse districts worldwide; chandlers row traditions in old harbors.",
+    "category": "maritime",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "Colonial port supply houses",
+    "dateConfidence": "medium",
+    "aliases": [
+      "marine supplier",
+      "chandlery proprietor"
+    ],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Steamship provisioning scale",
+        "description": "Larger crews and coal bunkering expand chandlery product lines.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Port commerce histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "sailor",
+        "type": "related"
+      },
+      {
+        "toSlug": "merchant-mariner",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "marine-engineer",
+    "name": "Marine Engineer",
+    "status": "active",
+    "summary": "An officer who operates and maintains ship propulsion and auxiliary machinery—from coal stokers to modern LNG dual-fuel plants.",
+    "duties": "Watch engine rooms, troubleshoot plants, oversee bunkering, maintain logs, and lead repair during port calls.",
+    "skills": "Thermodynamics, diesel and turbine literacy, safety culture, watch teamwork, pollution compliance.",
+    "tools": "Engine control rooms, oily water separators, diagnostic software, PPE in hot spaces.",
+    "regions": "Merchant fleets and naval engineering branches globally.",
+    "category": "maritime",
+    "eraPrimary": "industrial",
+    "originYear": 1800,
+    "originYearEnd": null,
+    "originLabel": "Steam engine rooms on early steamers",
+    "dateConfidence": "medium",
+    "educationPath": "Marine engineering degrees, EOOW certification, sea time as cadet.",
+    "modernSectors": "Container ships, cruise liners, offshore platforms, icebreakers.",
+    "aliases": [
+      "ship engineer",
+      "chief engineer (senior license)"
+    ],
+    "events": [
+      {
+        "year": 1955,
+        "label": "Diesel dominance",
+        "description": "Internal combustion and later slow-speed diesels define engineer officer careers.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Marine engineering histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "mechanic",
+        "type": "related"
+      },
+      {
+        "toSlug": "merchant-mariner",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "naval-architect",
+    "name": "Naval Architect",
+    "status": "active",
+    "summary": "A designer who engineers hull forms and stability for ships—merging physics, materials, and regulations for safe floating structures.",
+    "duties": "Model resistance, specify scantlings, oversee model tests, approve construction drawings, and sign stability books.",
+    "skills": "Hydrodynamics, structural analysis, classification society rules, CAD, project management.",
+    "tools": "CFD software, towing tanks, FEA, class society rule engines.",
+    "regions": "Classification societies, navy design bureaus, yacht design studios.",
+    "category": "maritime",
+    "eraPrimary": "industrial",
+    "originYear": 1760,
+    "originYearEnd": null,
+    "originLabel": "Systematic ship theory in Enlightenment Europe",
+    "dateConfidence": "medium",
+    "educationPath": "Naval architecture degrees, class society graduate programs.",
+    "modernSectors": "Commercial yards, defense design, offshore structures, superyacht studios.",
+    "aliases": [
+      "ship designer",
+      "marine architect"
+    ],
+    "events": [
+      {
+        "year": 1860,
+        "label": "Ironclad design races",
+        "description": "Armored warships accelerate formal naval architecture education.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Naval architecture textbooks",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "shipwright",
+        "type": "related"
+      },
+      {
+        "toSlug": "marine-engineer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "sailmaker",
+    "name": "Sailmaker",
+    "status": "declining",
+    "summary": "A craft worker who cuts and stitches sails for vessels—vital in age-of-sail navies and still present in racing yacht lofts.",
+    "duties": "Measure rigs, cut panels, sew seams, repair blowouts, and advise on sail inventories.",
+    "skills": "Textile knowledge, sewing precision, load path intuition, customer measurement visits.",
+    "tools": "Sewing palms, heavy machines, sailcloth rolls, spreader bars for loft floors.",
+    "regions": "Port sail lofts historically; modern high-tech membrane sailmakers in New Zealand and France.",
+    "category": "maritime",
+    "eraPrimary": "ancient",
+    "originYear": -500,
+    "originYearEnd": null,
+    "originLabel": "Woven sailcloth on ancient Mediterranean craft",
+    "dateConfidence": "low",
+    "aliases": [
+      "sail loft worker",
+      "canvas maker (overlap)"
+    ],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Steam displaces sail commerce",
+        "description": "Merchant sailmakers shrink though yacht racing sustains lofts.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sailmaking craft histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "rigger",
+        "type": "related"
+      },
+      {
+        "toSlug": "weaver",
+        "type": "predecessor"
+      }
+    ]
+  },
+  {
+    "slug": "ropemaker",
+    "name": "Ropemaker",
+    "status": "extinct",
+    "summary": "A manufacturer of cordage for rigging, anchors, and docks—central to seaports until synthetic fibers and steel wire replaced hemp at scale.",
+    "duties": "Spin yarns, lay ropes on long walks, treat tar, and supply chandlers with standardized lengths.",
+    "skills": "Fiber tension judgment, length measurement, tar application, strength testing.",
+    "tools": "Rope walks, spinning wheels, tarring vats, measuring reels.",
+    "regions": "Dockside ropewalks in Boston, Plymouth, and Baltic ports through 19th century.",
+    "category": "maritime",
+    "eraPrimary": "medieval",
+    "originYear": 1000,
+    "originYearEnd": null,
+    "originLabel": "Guild ropemakers serving port cities",
+    "dateConfidence": "medium",
+    "aliases": [
+      "cordwainer of rope (not shoes)",
+      "rope spinner"
+    ],
+    "events": [
+      {
+        "year": 1950,
+        "label": "Nylon synthetics",
+        "description": "Synthetic lines replace hemp and manila in most marine applications.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ropewalk museum exhibits",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "rigger",
+        "type": "successor"
+      },
+      {
+        "toSlug": "sailmaker",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "fishmonger",
+    "name": "Fishmonger",
+    "status": "active",
+    "summary": "A retail trader who sells fish and shellfish—bridging fishermen and urban consumers in markets from ancient agoras to supermarket seafood counters.",
+    "duties": "Source catch, ice displays, fillet to order, advise customers, and manage food safety temperatures.",
+    "skills": "Freshness judgment, knife work, customer service, early morning sourcing, inventory rotation.",
+    "tools": "Display ice, fillet knives, scales, refrigerated cases.",
+    "regions": "Coastal cities worldwide; Billingsgate and Tsukiji traditions famous.",
+    "category": "maritime",
+    "eraPrimary": "ancient",
+    "originYear": -500,
+    "originYearEnd": null,
+    "originLabel": "Urban fish markets in classical ports",
+    "dateConfidence": "low",
+    "educationPath": "Market apprenticeships, food safety certification, wholesale buying relationships.",
+    "modernSectors": "Street markets, supermarket seafood departments, restaurant supply.",
+    "aliases": [
+      "fish seller",
+      "seafood retailer"
+    ],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Refrigerated rail",
+        "description": "Inland cities gain daily fishmonger trade beyond coastal catch.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Fish market histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "fisherman",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "butcher",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "customs-officer",
+    "name": "Customs Officer",
+    "status": "active",
+    "summary": "A border official who inspects cargo and collects duties at ports and airports—enforcing tariff law since ancient transit tolls.",
+    "duties": "Examine manifests, search contraband, classify goods, assess duties, and facilitate trusted trader programs.",
+    "skills": "Regulatory knowledge, inspection technique, integrity, language skills, risk targeting.",
+    "tools": "X-ray scanners, drug detection kits, tariff databases, seal verification tools.",
+    "regions": "Customs houses at every major port; WCO harmonized system globally.",
+    "category": "maritime",
+    "eraPrimary": "ancient",
+    "originYear": -500,
+    "originYearEnd": null,
+    "originLabel": "Transit duties in ancient empires",
+    "dateConfidence": "low",
+    "educationPath": "Customs academies, law enforcement crossover, trade compliance courses.",
+    "modernSectors": "Port of entry inspection, brokerage liaison, anti-smuggling units.",
+    "aliases": [
+      "customs inspector",
+      "border revenue officer"
+    ],
+    "events": [
+      {
+        "year": 1947,
+        "label": "GATT trade rounds",
+        "description": "Postwar trade talks reshape tariff administration and customs modernization.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Customs administration histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "tax-collector",
+        "type": "related"
+      },
+      {
+        "toSlug": "longshoreman",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "marine-surveyor",
+    "name": "Marine Surveyor",
+    "status": "active",
+    "summary": "An independent inspector who assesses hull condition, damage, and cargo for insurers and buyers—impartial expertise in casualty and pre-purchase surveys.",
+    "duties": "Inspect plating, document damage, attend loading surveys, write reports for underwriters, and testify in disputes.",
+    "skills": "Corrosion recognition, report writing, classification rule literacy, negotiation neutrality.",
+    "tools": "Thickness gauges, moisture meters, drones, survey report templates.",
+    "regions": "Lloyd's surveyor traditions; global P&I club networks.",
+    "category": "maritime",
+    "eraPrimary": "industrial",
+    "originYear": 1760,
+    "originYearEnd": null,
+    "originLabel": "Hull insurance survey practices in Lloyd's coffee house era",
+    "dateConfidence": "medium",
+    "educationPath": "Naval architecture or marine experience, surveyor company training, class society pathways.",
+    "modernSectors": "P&I clubs, hull insurers, ship sale due diligence, casualty investigation.",
+    "aliases": [
+      "cargo surveyor",
+      "hull surveyor"
+    ],
+    "events": [
+      {
+        "year": 1834,
+        "label": "Lloyd's Register formalization",
+        "description": "Classification and survey institutions standardize hull inspection professions.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Marine insurance histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "naval-architect",
+        "type": "related"
+      },
+      {
+        "toSlug": "sea-captain",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "tugboat-captain",
+    "name": "Tugboat Captain",
+    "status": "active",
+    "summary": "A master of powerful small vessels that push and pull ships in harbors—precision shiphandling at slow speeds with enormous bollard pull.",
+    "duties": "Connect tow lines, maneuver assisted ships through locks and berths, coordinate VTS, and maintain tug readiness.",
+    "skills": "Shiphandling finesse, communication with pilots, engine knowledge, weather judgment in tight quarters.",
+    "tools": "Winches, z-drives, VHF, fendering, tow wires and synthetic hawsers.",
+    "regions": "Every major harbor; iconic competitions among skilled tug masters.",
+    "category": "maritime",
+    "eraPrimary": "industrial",
+    "originYear": 1830,
+    "originYearEnd": null,
+    "originLabel": "Steam tugs assisting sail and early steamers",
+    "dateConfidence": "medium",
+    "educationPath": "Tug company license progression, pilotage-adjacent experience, local knowledge apprenticeships.",
+    "modernSectors": "Harbor towage, offshore rig moves, salvage support, icebreaking assists.",
+    "aliases": [
+      "tug master",
+      "towboat captain"
+    ],
+    "events": [
+      {
+        "year": 1989,
+        "label": "Exxon Valdez tow response",
+        "description": "Salvage and tug operations gain public visibility in environmental disasters.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Harbor towage references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "harbor-pilot",
+        "type": "related"
+      },
+      {
+        "toSlug": "sea-captain",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "canal-lock-keeper",
+    "name": "Canal Lock Keeper",
+    "status": "declining",
+    "summary": "An operator who opens gates and valves to raise or lower boats through canal locks—once essential on inland waterways before automated controls.",
+    "duties": "Operate paddles, guide boats, maintain weed gates, sell passage tickets historically, and keep traffic logs.",
+    "skills": "Hydraulic intuition, customer patience, maintenance of wooden gates, seasonal ice management.",
+    "tools": "Windlass handles, gate keys, VHF, weed rakes, ticket books.",
+    "regions": "Panama Canal locks, Erie Canal heritage, European narrowboat networks.",
+    "category": "maritime",
+    "eraPrimary": "industrial",
+    "originYear": 1700,
+    "originYearEnd": null,
+    "originLabel": "Canal age lock staffing in Britain and France",
+    "dateConfidence": "medium",
+    "aliases": [
+      "lockmaster",
+      "lock operator"
+    ],
+    "events": [
+      {
+        "year": 1914,
+        "label": "Panama Canal opens",
+        "description": "Massive lock complexes employ specialized lock operating crews.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Canal heritage museum records",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "sea-captain",
+        "type": "related"
+      },
+      {
+        "toSlug": "railroad-conductor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "submarine-officer",
+    "name": "Submarine Officer",
+    "status": "active",
+    "summary": "A naval officer who commands or departments on submersible warships—elite community demanding engineering literacy and psychological stamina under confinement.",
+    "duties": "Drive ship, manage torpedo or missile departments, conduct dives, maintain nuclear propulsion watch where applicable.",
+    "skills": "Leadership, sonar interpretation, classified discipline, reactor or diesel plant knowledge, stress tolerance.",
+    "tools": "Periscopes historically, sonar stacks, fire control, reactor controls on SSBN/SSN classes.",
+    "regions": "US, UK, France, Russia, China, and other submarine-operating navies.",
+    "category": "maritime",
+    "eraPrimary": "modern",
+    "originYear": 1900,
+    "originYearEnd": null,
+    "originLabel": "Royal Navy Holland-class operational submarines",
+    "dateConfidence": "medium",
+    "educationPath": "Naval academy, submarine school, qualifying dives, department head pipelines.",
+    "modernSectors": "Attack submarines, ballistic missile patrols, research subs, private submersible tourism fringe.",
+    "aliases": [
+      "submariner",
+      "nuclear submarine officer"
+    ],
+    "events": [
+      {
+        "year": 1954,
+        "label": "USS Nautilus",
+        "description": "Nuclear propulsion extends submerged endurance and transforms submarine officer careers.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Submarine force histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "naval-officer",
+        "type": "related"
+      },
+      {
+        "toSlug": "marine-engineer",
+        "type": "related"
+      }
+    ]
+  }
+]

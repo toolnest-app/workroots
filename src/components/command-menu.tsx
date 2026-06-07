@@ -15,6 +15,9 @@ import { STATUS_LABELS } from "@/lib/constants";
 import { STATUS_STYLES } from "@/lib/status-styles";
 import type { OccupationStatus } from "@/db/schema";
 import { Badge } from "@/components/ui/badge";
+import { CuratedBadge } from "@/components/curated-badge";
+import { EnhancedBadge } from "@/components/enhanced-badge";
+import type { ContentTier } from "@/db/schema";
 import { cn } from "@/lib/utils";
 
 interface SearchResult {
@@ -22,6 +25,7 @@ interface SearchResult {
   name: string;
   summary: string;
   status: OccupationStatus;
+  contentTier?: ContentTier;
 }
 
 export function CommandMenu() {
@@ -100,15 +104,16 @@ export function CommandMenu() {
                     {r.summary}
                   </span>
                 </div>
-                <Badge
-                  variant="outline"
-                  className={cn(
-                    "ml-2 shrink-0 text-[10px]",
-                    STATUS_STYLES[r.status].badge
-                  )}
-                >
-                  {STATUS_LABELS[r.status]}
-                </Badge>
+                <div className="ml-2 flex shrink-0 items-center gap-1">
+                  {r.contentTier === "curated" && <CuratedBadge />}
+                  {r.contentTier === "enhanced" && <EnhancedBadge />}
+                  <Badge
+                    variant="outline"
+                    className={cn("text-[10px]", STATUS_STYLES[r.status].badge)}
+                  >
+                    {STATUS_LABELS[r.status]}
+                  </Badge>
+                </div>
               </CommandItem>
             ))}
           </CommandGroup>

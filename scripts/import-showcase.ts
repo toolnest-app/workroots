@@ -1,5 +1,5 @@
 import "dotenv/config";
-import { readFileSync } from "fs";
+import { readFileSync, readdirSync } from "fs";
 import { join } from "path";
 import { eq } from "drizzle-orm";
 import { getDb } from "../src/db";
@@ -53,11 +53,18 @@ interface ShowcaseEntry {
 
 async function main() {
   const db = getDb();
-  const raw = readFileSync(
-    join(process.cwd(), "data/showcase.json"),
-    "utf-8"
-  );
-  const entries = JSON.parse(raw) as ShowcaseEntry[];
+  const dataDir = join(process.cwd(), "data");
+  const dataFiles = [
+    "showcase.json",
+    "showcase-pilot.json",
+    ...readdirSync(dataDir)
+      .filter((f) => f.startsWith("showcase-batch-") && f.endsWith(".json"))
+      .sort(),
+  ];
+  const entries = dataFiles.flatMap((file) => {
+    const raw = readFileSync(join(process.cwd(), "data", file), "utf-8");
+    return JSON.parse(raw) as ShowcaseEntry[];
+  });
   const slugToId = new Map<string, number>();
 
   for (const entry of entries) {
@@ -88,6 +95,7 @@ async function main() {
         educationPath: entry.educationPath ?? null,
         modernSectors: entry.modernSectors ?? null,
         searchText,
+        contentTier: "curated",
         updatedAt: new Date(),
       })
       .onConflictDoUpdate({
@@ -109,6 +117,7 @@ async function main() {
           educationPath: entry.educationPath ?? null,
           modernSectors: entry.modernSectors ?? null,
           searchText,
+          contentTier: "curated",
           updatedAt: new Date(),
         },
       })

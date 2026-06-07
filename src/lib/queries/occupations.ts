@@ -1,4 +1,5 @@
 import { and, asc, desc, eq, sql, type SQL } from "drizzle-orm";
+import { FEATURED_SLUGS } from "@/lib/constants";
 import { getDb } from "@/db";
 import {
   occupationAliases,
@@ -31,12 +32,18 @@ export async function searchOccupations(q: string, limit = 20) {
       status: occupations.status,
       summary: occupations.summary,
       eraPrimary: occupations.eraPrimary,
+      contentTier: occupations.contentTier,
     })
     .from(occupations)
     .where(
       sql`${occupations.searchVector} @@ plainto_tsquery('english', ${trimmed})`
     )
     .orderBy(
+      sql`CASE ${occupations.contentTier}
+        WHEN 'curated' THEN 0
+        WHEN 'enhanced' THEN 1
+        ELSE 2
+      END`,
       desc(
         sql`ts_rank(${occupations.searchVector}, plainto_tsquery('english', ${trimmed}))`
       )
@@ -81,10 +88,18 @@ export async function listOccupations(filters: ListFilters = {}) {
         category: occupations.category,
         originYear: occupations.originYear,
         dateConfidence: occupations.dateConfidence,
+        contentTier: occupations.contentTier,
       })
       .from(occupations)
       .where(whereClause)
-      .orderBy(asc(occupations.name))
+      .orderBy(
+        sql`CASE ${occupations.contentTier}
+          WHEN 'curated' THEN 0
+          WHEN 'enhanced' THEN 1
+          ELSE 2
+        END`,
+        asc(occupations.name)
+      )
       .limit(pageSize)
       .offset(offset),
     db
@@ -151,14 +166,25 @@ export async function getOccupationBySlug(slug: string) {
 }
 
 export async function getFeaturedSlugs() {
-  return [
-    "blacksmith",
-    "software-developer",
-    "scribe",
-    "cooper",
-    "plague-doctor",
-    "telegraph-operator",
-  ];
+  return [...FEATURED_SLUGS];
+}
+
+export async function countCuratedOccupations() {
+  const db = getDb();
+  const [row] = await db
+    .select({ count: sql<number>`count(*)::int` })
+    .from(occupations)
+    .where(eq(occupations.contentTier, "curated"));
+  return row?.count ?? 0;
+}
+
+export async function countEnhancedOccupations() {
+  const db = getDb();
+  const [row] = await db
+    .select({ count: sql<number>`count(*)::int` })
+    .from(occupations)
+    .where(eq(occupations.contentTier, "enhanced"));
+  return row?.count ?? 0;
 }
 
 export async function countOccupations() {

@@ -1,0 +1,1120 @@
+[
+  {
+    "slug": "lawyer",
+    "name": "Lawyer",
+    "status": "active",
+    "summary": "A licensed legal professional who advises clients and advocates in disputes—evolving from Roman orators and medieval pleaders into modern bar-admitted attorneys.",
+    "duties": "Research precedent, draft contracts and briefs, represent clients in negotiations and court, and maintain ethical compliance.",
+    "skills": "Legal reasoning, writing, oral advocacy, client counseling, case management.",
+    "tools": "Law libraries, Westlaw-style databases, pleading templates, court e-filing systems.",
+    "regions": "Global legal professions; strong traditions in England, France, and US state bars.",
+    "category": "law",
+    "eraPrimary": "ancient",
+    "originYear": -500,
+    "originYearEnd": null,
+    "originLabel": "Advocates in Athenian and Roman forums",
+    "dateConfidence": "low",
+    "educationPath": "Law degrees, bar exams, continuing legal education, clerkships.",
+    "modernSectors": "Law firms, in-house counsel, legal aid, government, solo practice.",
+    "aliases": [
+      "attorney",
+      "counsel",
+      "advocate"
+    ],
+    "events": [
+      {
+        "year": 1800,
+        "label": "Professional bar associations",
+        "description": "Self-regulating bars standardize admission and ethics in many jurisdictions.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Legal profession histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "judge",
+        "type": "related"
+      },
+      {
+        "toSlug": "barrister",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "judge",
+    "name": "Judge",
+    "status": "active",
+    "summary": "An official who presides over courts, interprets law, and renders decisions—central to governance from tribal elders to constitutional benches.",
+    "duties": "Hear cases, rule on motions, instruct juries, write opinions, and manage courtroom procedure.",
+    "skills": "Impartiality, legal mastery, temperament, administrative leadership, clear writing.",
+    "tools": "Bench, gavel, court reporters, case management systems, law clerks.",
+    "regions": "Every state with courts; supreme courts in national capitals.",
+    "category": "law",
+    "eraPrimary": "ancient",
+    "originYear": -2000,
+    "originYearEnd": null,
+    "originLabel": "Temple and palace adjudication in early law codes",
+    "dateConfidence": "low",
+    "educationPath": "Prior legal career, judicial appointment or election, ongoing ethics training.",
+    "modernSectors": "Trial courts, appellate benches, administrative tribunals, international courts.",
+    "aliases": [
+      "justice (title)",
+      "magistrate (lower court overlap)"
+    ],
+    "events": [
+      {
+        "year": 1215,
+        "label": "Magna Carta",
+        "description": "Charter traditions influence independent judiciary concepts in English law.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Judicial history surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "lawyer",
+        "type": "related"
+      },
+      {
+        "toSlug": "magistrate",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "barrister",
+    "name": "Barrister",
+    "status": "active",
+    "summary": "A courtroom advocate in British-derived systems who speaks before higher courts—separated from solicitors who handle client intake and paperwork.",
+    "duties": "Plead in court, examine witnesses, write opinions, and take silk for senior leadership of the bar.",
+    "skills": "Oral argument, quick thinking, legal research, wig-and-gown courtroom decorum.",
+    "tools": "Briefs, law reports, chambers libraries, court lists.",
+    "regions": "England and Wales, Ireland, Australia, Hong Kong, and other common-law jurisdictions.",
+    "category": "law",
+    "eraPrimary": "medieval",
+    "originYear": 1300,
+    "originYearEnd": null,
+    "originLabel": "Inns of Court advocacy training in London",
+    "dateConfidence": "medium",
+    "educationPath": "Law degree, bar professional training, pupillage in chambers.",
+    "modernSectors": "Criminal and commercial chambers, appellate practice, public inquiries.",
+    "aliases": [
+      "QC/KC senior counsel",
+      "advocate (Scotland overlap)"
+    ],
+    "events": [
+      {
+        "year": 1600,
+        "label": "Inns of Court maturity",
+        "description": "Four Inns consolidate advocacy training for English barristers.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inns of Court histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "solicitor",
+        "type": "related"
+      },
+      {
+        "toSlug": "lawyer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "solicitor",
+    "name": "Solicitor",
+    "status": "active",
+    "summary": "A lawyer who manages client matters, drafts documents, and instructs barristers in split common-law professions—analogous to general practice attorneys elsewhere.",
+    "duties": "Advise clients, handle conveyancing and contracts, prepare cases for trial counsel, and manage firm operations.",
+    "skills": "Client service, transactional drafting, negotiation, matter budgeting, referral networks.",
+    "tools": "Precedent banks, due diligence checklists, CRM, e-conveyancing portals.",
+    "regions": "UK, Ireland, Australia; contrasts with unified bar in US.",
+    "category": "law",
+    "eraPrimary": "medieval",
+    "originYear": 1200,
+    "originYearEnd": null,
+    "originLabel": "Letters and petitions for manor and royal courts",
+    "dateConfidence": "low",
+    "educationPath": "Law degree, legal practice course, training contracts at firms.",
+    "modernSectors": "City firms, high street practices, government legal service, in-house.",
+    "aliases": [
+      "transactional lawyer (US parallel)"
+    ],
+    "events": [
+      {
+        "year": 1873,
+        "label": "Judicature Acts",
+        "description": "English court reforms clarify solicitor versus barrister roles in unified court structure.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Common law profession references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "barrister",
+        "type": "related"
+      },
+      {
+        "toSlug": "notary",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "prosecutor",
+    "name": "Prosecutor",
+    "status": "active",
+    "summary": "A government lawyer who brings criminal charges on behalf of the state—evolving from crown prosecutors and district attorneys into specialized advocacy offices.",
+    "duties": "Screen police cases, file charges, negotiate pleas, try cases, and protect victims' procedural rights.",
+    "skills": "Trial advocacy, ethics, investigation review, public accountability, resilience.",
+    "tools": "Evidence databases, grand jury procedures (US), charging standards manuals.",
+    "regions": "District attorneys in US counties, Crown Prosecution Service in UK, parquet in France.",
+    "category": "law",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "State prosecution in expanding royal courts",
+    "dateConfidence": "medium",
+    "educationPath": "Law degree, bar admission, prosecutor training academies.",
+    "modernSectors": "County DA offices, DOJ divisions, international tribunals, anticorruption units.",
+    "aliases": [
+      "district attorney (US)",
+      "Crown prosecutor (UK)"
+    ],
+    "events": [
+      {
+        "year": 1980,
+        "label": "Victim-centered reforms",
+        "description": "Many systems expand prosecutor victim liaison and domestic violence specialization.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Criminal justice histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "lawyer",
+        "type": "related"
+      },
+      {
+        "toSlug": "police-officer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "public-defender",
+    "name": "Public Defender",
+    "status": "active",
+    "summary": "A defense lawyer appointed to represent people who cannot afford counsel—institutionalized as a constitutional right in many democracies.",
+    "duties": "Interview clients in custody, investigate cases, negotiate pleas, and try matters with heavy caseloads.",
+    "skills": "Client rapport under stress, speedy triage, trial skills, empathy, systemic advocacy.",
+    "tools": "Investigator referrals, sentencing guidelines, misdemeanor and felony calendars.",
+    "regions": "US county defender offices, legal aid societies in UK and Europe.",
+    "category": "law",
+    "eraPrimary": "modern",
+    "originYear": 1963,
+    "originYearEnd": null,
+    "originLabel": "Gideon-era US right-to-counsel expansion",
+    "dateConfidence": "high",
+    "educationPath": "Law degree, criminal defense clinics, public defender training programs.",
+    "modernSectors": "Public defender offices, legal aid nonprofits, appellate defender units.",
+    "aliases": [
+      "legal aid defense counsel",
+      "court-appointed attorney"
+    ],
+    "events": [
+      {
+        "year": 1963,
+        "label": "Gideon v. Wainwright",
+        "description": "US Supreme Court requires states to provide counsel for indigent felony defendants.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Legal aid history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "lawyer",
+        "type": "related"
+      },
+      {
+        "toSlug": "prosecutor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "notary",
+    "name": "Notary",
+    "status": "active",
+    "summary": "An official who witnesses signatures, administers oaths, and certifies documents—descended from Roman notarii and still vital in civil-law property transfers.",
+    "duties": "Verify identity, witness signings, keep registers, authenticate copies, and refuse improper acts.",
+    "skills": "Attention to detail, fraud detection, procedural knowledge, impartiality.",
+    "tools": "Seal stamps, journals, ID verification systems, document archives.",
+    "regions": "Latin Europe, Louisiana, Latin America; less central in ordinary US practice.",
+    "category": "law",
+    "eraPrimary": "ancient",
+    "originYear": -100,
+    "originYearEnd": null,
+    "originLabel": "Roman notarii recording transactions",
+    "dateConfidence": "medium",
+    "aliases": [
+      "notary public",
+      "civil-law notary"
+    ],
+    "events": [
+      {
+        "year": 1800,
+        "label": "Codified civil law",
+        "description": "Napoleonic codes embed notaries in property and inheritance workflows across Europe.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Notarial history surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "solicitor",
+        "type": "related"
+      },
+      {
+        "toSlug": "registrar",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "bailiff",
+    "name": "Bailiff",
+    "status": "active",
+    "summary": "A court officer who maintains order, serves papers, and manages juries—also used for debt enforcement and estate officers in historical English usage.",
+    "duties": "Secure courtrooms, escort defendants, execute writs, and assist judges with jury logistics.",
+    "skills": "Authority, de-escalation, procedure knowledge, physical presence, paperwork accuracy.",
+    "tools": "Badges, service forms, radios, restraints when authorized.",
+    "regions": "Common-law court systems; high bailiff titles in Channel Islands and UK ceremonial roles.",
+    "category": "law",
+    "eraPrimary": "medieval",
+    "originYear": 1100,
+    "originYearEnd": null,
+    "originLabel": "Sheriff's and manor court officers in England",
+    "dateConfidence": "low",
+    "aliases": [
+      "court officer",
+      "marshal (US federal courts)"
+    ],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Professional court security",
+        "description": "Modern court buildings employ dedicated bailiff and security staffing models.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Court officer histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "sheriff",
+        "type": "related"
+      },
+      {
+        "toSlug": "judge",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "sheriff",
+    "name": "Sheriff",
+    "status": "active",
+    "summary": "A county law enforcement chief elected or appointed in many US jurisdictions—title surviving from Anglo-Saxon shire reeves who combined tax, court, and policing powers.",
+    "duties": "Operate jails, serve civil process, provide patrol in unincorporated areas, and coordinate with courts.",
+    "skills": "Law enforcement leadership, budgeting, politics, emergency response coordination.",
+    "tools": "Patrol fleets, jail facilities, warrants databases, body cameras.",
+    "regions": "United States counties especially; historical England and Commonwealth parallels.",
+    "category": "law",
+    "eraPrimary": "medieval",
+    "originYear": 900,
+    "originYearEnd": null,
+    "originLabel": "Anglo-Saxon shire reeve offices",
+    "dateConfidence": "medium",
+    "aliases": [
+      "high sheriff (UK ceremonial)",
+      "sheriff's deputy (rank)"
+    ],
+    "events": [
+      {
+        "year": 1850,
+        "label": "Frontier county policing",
+        "description": "US westward expansion embeds elected sheriffs in county governance mythology.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sheriff office histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "bailiff",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "police-officer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "magistrate",
+    "name": "Magistrate",
+    "status": "active",
+    "summary": "A judicial officer handling minor crimes, preliminary hearings, or civil small claims—below trial judges on many court ladders.",
+    "duties": "Set bail, approve warrants, hear misdemeanors, mediate minor disputes, and route serious cases upward.",
+    "skills": "Procedural efficiency, fairness, community awareness, stamina for high volume.",
+    "tools": "Bench manuals, scheduling systems, night court dockets.",
+    "regions": "England magistrates' benches, US lower courts, civil-law investigating magistrates historically.",
+    "category": "law",
+    "eraPrimary": "ancient",
+    "originYear": -500,
+    "originYearEnd": null,
+    "originLabel": "Magistrates in Roman republic administration",
+    "dateConfidence": "medium",
+    "aliases": [
+      "justice of the peace (overlap)",
+      "stipendiary magistrate"
+    ],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Professional magistracy",
+        "description": "Many jurisdictions train paid magistrates alongside lay benches.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Magistracy references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "judge",
+        "type": "related"
+      },
+      {
+        "toSlug": "constable",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "diplomat",
+    "name": "Diplomat",
+    "status": "active",
+    "summary": "A state representative who negotiates treaties, protects citizens abroad, and channels political communication between governments.",
+    "duties": "Report on foreign politics, negotiate agreements, host receptions, crisis-manage evacuations, and brief home capitals.",
+    "skills": "Languages, tact, writing cables, cultural fluency, discretion, endurance of posting hardships.",
+    "tools": "Embassy secure communications, diplomatic passports, negotiation texts, protocol guides.",
+    "regions": "Foreign ministries worldwide; Vienna Convention framework for missions.",
+    "category": "governance",
+    "eraPrimary": "ancient",
+    "originYear": -1200,
+    "originYearEnd": null,
+    "originLabel": "Egyptian and Hittite envoy exchanges",
+    "dateConfidence": "low",
+    "educationPath": "Foreign service exams, political science, area studies, language training.",
+    "modernSectors": "Embassies, consulates, UN missions, EU delegations, special envoys.",
+    "aliases": [
+      "foreign service officer",
+      "envoy"
+    ],
+    "events": [
+      {
+        "year": 1815,
+        "label": "Congress of Vienna",
+        "description": "Modern diplomatic corps professionalize after Napoleonic wars.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Diplomatic history surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "ambassador",
+        "type": "related"
+      },
+      {
+        "toSlug": "civil-servant",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "ambassador",
+    "name": "Ambassador",
+    "status": "active",
+    "summary": "The senior diplomatic representative of one state to another—bearing plenipotentiary authority and embodying ceremonial head-of-mission duties.",
+    "duties": "Lead embassies, advise host governments, present credentials, manage country teams, and represent head-of-state functions.",
+    "skills": "Leadership, high-level negotiation, political judgment, public speaking, crisis diplomacy.",
+    "tools": "Embassy staff, residence events, secure comms, policy clearance chains from capital.",
+    "regions": "Capital embassies globally; dean of diplomatic corps traditions in major cities.",
+    "category": "governance",
+    "eraPrimary": "medieval",
+    "originYear": 1200,
+    "originYearEnd": null,
+    "originLabel": "Resident ambassadors in Italian Renaissance statecraft",
+    "dateConfidence": "medium",
+    "aliases": [
+      "plenipotentiary",
+      "head of mission"
+    ],
+    "events": [
+      {
+        "year": 1961,
+        "label": "Vienna Convention",
+        "description": "Codifies ambassador immunities and embassy functions in international law.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ambassadorial history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "diplomat",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "mayor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "civil-servant",
+    "name": "Civil Servant",
+    "status": "active",
+    "summary": "A permanent government employee who administers policy without changing with every election—professionalized to reduce patronage in 19th-century reforms.",
+    "duties": "Implement regulations, process applications, brief elected officials, and manage public programs.",
+    "skills": "Procedure mastery, neutrality, writing, project management, stakeholder navigation.",
+    "tools": "Case management systems, policy memos, intranet knowledge bases, FOIA workflows.",
+    "regions": "Westminster systems, EU commissions, US federal and state bureaucracies.",
+    "category": "governance",
+    "eraPrimary": "industrial",
+    "originYear": 1850,
+    "originYearEnd": null,
+    "originLabel": "Northcote-Trevelyan merit reforms in Britain",
+    "dateConfidence": "medium",
+    "educationPath": "Public policy degrees, civil service exams, rotational graduate programs.",
+    "modernSectors": "Ministries, agencies, regulators, municipal administration, international orgs.",
+    "aliases": [
+      "public servant",
+      "bureaucrat (pejorative overlap)",
+      "mandarin (UK slang)"
+    ],
+    "events": [
+      {
+        "year": 1883,
+        "label": "US Pendleton Act",
+        "description": "Merit hiring reduces spoils appointments in US federal jobs.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Public administration histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "clerk",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "diplomat",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "mayor",
+    "name": "Mayor",
+    "status": "active",
+    "summary": "An elected or appointed head of a city government who sets local agendas and oversees municipal departments—from medieval commune leaders to modern metro executives.",
+    "duties": "Propose budgets, appoint managers, represent cities publicly, coordinate emergency response, and chair councils.",
+    "skills": "Politics, coalition building, media, fiscal oversight, community visibility.",
+    "tools": "City hall staff, council agendas, emergency operations centers, ribbon-cutting calendars.",
+    "regions": "Cities worldwide; strong mayor models in US and weak mayor/council-manager variants.",
+    "category": "governance",
+    "eraPrimary": "medieval",
+    "originYear": 1100,
+    "originYearEnd": null,
+    "originLabel": "Communal self-government in European towns",
+    "dateConfidence": "medium",
+    "aliases": [
+      "burgomaster",
+      "lord mayor (ceremonial UK cities)"
+    ],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Progressive municipal reform",
+        "description": "US reformers professionalize city departments under elected mayors or managers.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Urban government histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "legislator",
+        "type": "related"
+      },
+      {
+        "toSlug": "civil-servant",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "legislator",
+    "name": "Legislator",
+    "status": "active",
+    "summary": "A member of a lawmaking body who drafts, debates, and votes on statutes—embodying representative government in parliaments and congresses.",
+    "duties": "Sponsor bills, committee work, constituency service, oversight hearings, and coalition negotiation.",
+    "skills": "Public speaking, policy analysis, fundraising (where applicable), negotiation, stamina.",
+    "tools": "Bill drafting offices, committee rooms, voting boards, constituency offices.",
+    "regions": "Congresses, parliaments, state assemblies, city councils with lawmaking power.",
+    "category": "governance",
+    "eraPrimary": "ancient",
+    "originYear": -500,
+    "originYearEnd": null,
+    "originLabel": "Athenian and Roman deliberative assemblies",
+    "dateConfidence": "low",
+    "educationPath": "Varied backgrounds; law and policy experience common; election campaigns.",
+    "modernSectors": "National legislatures, provincial assemblies, supranational parliaments.",
+    "aliases": [
+      "lawmaker",
+      "parliamentarian",
+      "representative"
+    ],
+    "events": [
+      {
+        "year": 1789,
+        "label": "Modern constitutional legislatures",
+        "description": "US Congress and French revolutionary assemblies model elected lawmaking at scale.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Legislative history surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "lobbyist",
+        "type": "related"
+      },
+      {
+        "toSlug": "mayor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "lobbyist",
+    "name": "Lobbyist",
+    "status": "active",
+    "summary": "A professional advocate who persuades legislators and regulators on behalf of clients—named for waiting in legislative lobbies to influence votes.",
+    "duties": "Track bills, draft amendments, arrange meetings, build coalitions, and file disclosure reports.",
+    "skills": "Networking, policy detail, persuasion, ethics navigation, campaign finance literacy.",
+    "tools": "Bill trackers, disclosure filings, PAC contributions where legal, stakeholder maps.",
+    "regions": "Washington DC, Brussels, state capitals; regulated differently by jurisdiction.",
+    "category": "governance",
+    "eraPrimary": "modern",
+    "originYear": 1860,
+    "originYearEnd": null,
+    "originLabel": "Railroad and tariff lobbying in US capitals",
+    "dateConfidence": "medium",
+    "educationPath": "Political staff alumni networks, law degrees, issue advocacy apprenticeships.",
+    "modernSectors": "Trade associations, corporate government affairs, NGOs, consulting firms.",
+    "aliases": [
+      "government affairs director",
+      "advocacy professional"
+    ],
+    "events": [
+      {
+        "year": 1946,
+        "label": "US lobbying disclosure",
+        "description": "Federal registration requirements begin formalizing lobbyist transparency.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Interest group politics histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "legislator",
+        "type": "related"
+      },
+      {
+        "toSlug": "lawyer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "police-officer",
+    "name": "Police Officer",
+    "status": "active",
+    "summary": "A uniformed peace officer who enforces law, responds to emergencies, and investigates crimes—institutionalized as modern municipal police in the 19th century.",
+    "duties": "Patrol beats, answer calls, write reports, arrest suspects, testify in court, and engage communities.",
+    "skills": "De-escalation, report writing, physical fitness, legal knowledge, judgment under stress.",
+    "tools": "Radio, body camera, firearm where authorized, cruiser, databases.",
+    "regions": "City police globally; Peel's London model influential worldwide.",
+    "category": "law",
+    "eraPrimary": "industrial",
+    "originYear": 1829,
+    "originYearEnd": null,
+    "originLabel": "Metropolitan Police founding in London",
+    "dateConfidence": "high",
+    "educationPath": "Police academies, field training officers, continuing use-of-force training.",
+    "modernSectors": "Municipal PDs, county sheriffs, transit police, campus police.",
+    "aliases": [
+      "cop",
+      "constable (UK overlap)",
+      "peace officer"
+    ],
+    "events": [
+      {
+        "year": 1829,
+        "label": "Peelian principles",
+        "description": "Robert Peel's London force professionalizes preventive policing doctrine.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Policing history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "detective",
+        "type": "related"
+      },
+      {
+        "toSlug": "sheriff",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "detective",
+    "name": "Detective",
+    "status": "active",
+    "summary": "An investigator who specializes in gathering evidence for serious crimes—plainclothes counterparts to uniform patrol officers.",
+    "duties": "Interview witnesses, analyze evidence, serve warrants, build cases with prosecutors, and testify.",
+    "skills": "Interview technique, pattern recognition, report writing, patience, ethical evidence handling.",
+    "tools": "Forensic kits, case files, surveillance gear, lab submissions, interview rooms.",
+    "regions": "Police departments worldwide; Scotland Yard traditions influential in fiction and practice.",
+    "category": "law",
+    "eraPrimary": "industrial",
+    "originYear": 1842,
+    "originYearEnd": null,
+    "originLabel": "Detective branch at Scotland Yard",
+    "dateConfidence": "medium",
+    "educationPath": "Promotion from patrol, detective training schools, specialized fraud or homicide units.",
+    "modernSectors": "Homicide, fraud, cybercrime, narcotics, cold case units.",
+    "aliases": [
+      "investigator",
+      "plainclothes officer",
+      "sleuth (colloquial)"
+    ],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Forensic science",
+        "description": "Fingerprints and labs augment detective work in urban departments.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Criminal investigation histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "police-officer",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "prosecutor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "constable",
+    "name": "Constable",
+    "status": "extinct",
+    "summary": "A parish or hundred peace officer in pre-modern England who apprehended offenders and executed warrants—ancestor to modern policing titles still used in Commonwealth forces.",
+    "duties": "Raise hue and cry, transport prisoners, serve magistrate orders, and collect local rates in some eras.",
+    "skills": "Local knowledge, physical courage, rudimentary law literacy, community authority.",
+    "tools": "Staff, handcuffs historically, warrant papers, parish stocks.",
+    "regions": "Rural England and colonies through the 19th century; title persists in some modern police ranks.",
+    "category": "law",
+    "eraPrimary": "medieval",
+    "originYear": 1000,
+    "originYearEnd": 1850,
+    "originLabel": "Frankpledge and parish watch systems",
+    "dateConfidence": "low",
+    "aliases": [
+      "petty constable",
+      "watchman (overlap)"
+    ],
+    "events": [
+      {
+        "year": 1829,
+        "label": "Professional police replace watches",
+        "description": "Municipal forces supersede unpaid constable watches in many English cities.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "English policing antiquarian sources",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "police-officer",
+        "type": "successor"
+      },
+      {
+        "toSlug": "sheriff",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "prison-guard",
+    "name": "Prison Guard",
+    "status": "active",
+    "summary": "A corrections officer who supervises incarcerated people—managing safety and routines in jails and prisons since purpose-built penitentiaries.",
+    "duties": "Head counts, escort movement, break up conflicts, inspect cells, and document incidents.",
+    "skills": "De-escalation, vigilance, rules enforcement, emotional regulation, teamwork.",
+    "tools": "Keys, radios, restraints, surveillance monitors, body armor in high-security units.",
+    "regions": "National prison systems; Auburn and Pennsylvania models influenced global design.",
+    "category": "law",
+    "eraPrimary": "industrial",
+    "originYear": 1790,
+    "originYearEnd": null,
+    "originLabel": "Philadelphia Walnut Street penitentiary era",
+    "dateConfidence": "medium",
+    "educationPath": "Corrections academies, on-the-job training, crisis intervention certification.",
+    "modernSectors": "State prisons, county jails, federal BOP, private corrections contractors.",
+    "aliases": [
+      "corrections officer",
+      "warden (senior role)",
+      "screw (slang)"
+    ],
+    "events": [
+      {
+        "year": 1970,
+        "label": "Prisoners' rights era",
+        "description": "Courts and riots push procedural reforms and officer training standards.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Penology histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "police-officer",
+        "type": "related"
+      },
+      {
+        "toSlug": "bailiff",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "tax-collector",
+    "name": "Tax Collector",
+    "status": "active",
+    "summary": "A revenue official who assesses and gathers taxes for states—feared in history as Roman publicani and still central to modern revenue agencies.",
+    "duties": "Audit returns, issue assessments, enforce payment, educate taxpayers, and pursue delinquency cases.",
+    "skills": "Accounting literacy, negotiation, firmness, regulatory knowledge, customer service in voluntary compliance systems.",
+    "tools": "Assessment software, liens, audit checklists, call center systems.",
+    "regions": "National revenue services: IRS, HMRC, CRA, and municipal collectors.",
+    "category": "governance",
+    "eraPrimary": "ancient",
+    "originYear": -500,
+    "originYearEnd": null,
+    "originLabel": "Temple and royal tithe collectors in early states",
+    "dateConfidence": "low",
+    "educationPath": "Accounting degrees, revenue service training, enforcement certifications.",
+    "modernSectors": "Income tax authorities, customs, property tax offices, VAT administrations.",
+    "aliases": [
+      "revenue officer",
+      "exciseman (historical)",
+      "IRS agent (US)"
+    ],
+    "events": [
+      {
+        "year": 1913,
+        "label": "US income tax permanence",
+        "description": "16th Amendment era expands federal income tax administration employment.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Fiscal history surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "civil-servant",
+        "type": "related"
+      },
+      {
+        "toSlug": "accountant",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "coroner",
+    "name": "Coroner",
+    "status": "active",
+    "summary": "An official who investigates unexplained deaths—medieval crown officers evolved into medical examiner systems in many jurisdictions.",
+    "duties": "Scene investigations, order autopsies, hold inquests, determine manner of death, and testify.",
+    "skills": "Forensic awareness, impartiality, family sensitivity, legal procedure, report writing.",
+    "tools": "Investigation kits, death certificates, toxicology referrals, inquest records.",
+    "regions": "England coroner tradition; US mix of elected coroners and appointed medical examiners.",
+    "category": "law",
+    "eraPrimary": "medieval",
+    "originYear": 1100,
+    "originYearEnd": null,
+    "originLabel": "Crown coroners in Norman England",
+    "dateConfidence": "medium",
+    "educationPath": "Medical degree for MEs; law enforcement or medical backgrounds for coroners depending on jurisdiction.",
+    "modernSectors": "County coroner offices, regional medical examiner departments, mass disaster teams.",
+    "aliases": [
+      "medical examiner (variant system)",
+      "forensic pathologist (overlap)"
+    ],
+    "events": [
+      {
+        "year": 1950,
+        "label": "Medical examiner adoption",
+        "description": "US cities shift from lay coroners to physician-run death investigation.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Medicolegal death investigation histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "physician",
+        "type": "related"
+      },
+      {
+        "toSlug": "detective",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "registrar",
+    "name": "Registrar",
+    "status": "active",
+    "summary": "A civil records officer who registers births, deaths, marriages, and land titles—backbone of documentary statehood since parish registers.",
+    "duties": "Issue certificates, maintain indexes, officiate civil marriages where authorized, and prevent fraud.",
+    "skills": "Record keeping, customer service, legal requirements mastery, data accuracy.",
+    "tools": "Registration databases, vault archives, seal stamps, appointment scheduling.",
+    "regions": "Civil registration districts in UK; county recorders in US states.",
+    "category": "governance",
+    "eraPrimary": "early_modern",
+    "originYear": 1538,
+    "originYearEnd": null,
+    "originLabel": "Parish registers mandated in Tudor England",
+    "dateConfidence": "high",
+    "aliases": [
+      "recorder of deeds (property overlap)",
+      "civil registrar"
+    ],
+    "events": [
+      {
+        "year": 1837,
+        "label": "UK civil registration",
+        "description": "General Register Office centralizes vital records beyond parish church books.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Civil registration histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "notary",
+        "type": "related"
+      },
+      {
+        "toSlug": "civil-servant",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "city-manager",
+    "name": "City Manager",
+    "status": "active",
+    "summary": "A professional administrator hired to run municipal operations under elected councils—the council-manager form spreading in 20th-century US reform governments.",
+    "duties": "Oversee departments, prepare budgets, hire/fire staff, implement council policy, and manage infrastructure.",
+    "skills": "Public administration, finance, labor relations, political neutrality, long-range planning.",
+    "tools": "Capital improvement plans, performance dashboards, union contracts, council packets.",
+    "regions": "US council-manager cities; parallels in city chief executives globally.",
+    "category": "governance",
+    "eraPrimary": "modern",
+    "originYear": 1908,
+    "originYearEnd": null,
+    "originLabel": "Staunton and ICMA council-manager movement",
+    "dateConfidence": "high",
+    "educationPath": "MPA degrees, assistant manager career ladders, ICMA credentialing.",
+    "modernSectors": "Mid-size US cities, counties, special districts, municipal consulting.",
+    "aliases": [
+      "town manager",
+      "chief administrative officer"
+    ],
+    "events": [
+      {
+        "year": 1915,
+        "label": "ICMA founded",
+        "description": "International City Managers Association professionalizes the occupation.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Municipal reform histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "mayor",
+        "type": "related"
+      },
+      {
+        "toSlug": "civil-servant",
+        "type": "related"
+      }
+    ]
+  }
+]

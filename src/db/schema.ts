@@ -44,6 +44,12 @@ export const relationTypeEnum = pgEnum("relation_type", [
   "related",
 ]);
 
+export const contentTierEnum = pgEnum("content_tier", [
+  "curated",
+  "enhanced",
+  "stub",
+]);
+
 export const occupations = pgTable(
   "occupations",
   {
@@ -68,6 +74,8 @@ export const occupations = pgTable(
     modernSectors: text("modern_sectors"),
     searchText: text("search_text").notNull().default(""),
     searchVector: tsvector("search_vector"),
+    contentTier: contentTierEnum("content_tier").notNull().default("stub"),
+    wikidataId: text("wikidata_id"),
     createdAt: timestamp("created_at").defaultNow().notNull(),
     updatedAt: timestamp("updated_at").defaultNow().notNull(),
   },
@@ -76,6 +84,8 @@ export const occupations = pgTable(
     statusIdx: index("occupations_status_idx").on(t.status),
     eraIdx: index("occupations_era_idx").on(t.eraPrimary),
     categoryIdx: index("occupations_category_idx").on(t.category),
+    tierIdx: index("occupations_content_tier_idx").on(t.contentTier),
+    wikidataIdx: index("occupations_wikidata_id_idx").on(t.wikidataId),
   })
 );
 
@@ -149,3 +159,4 @@ export type Occupation = typeof occupations.$inferSelect;
 export type OccupationStatus = Occupation["status"];
 export type EraPrimary = Occupation["eraPrimary"];
 export type DateConfidence = Occupation["dateConfidence"];
+export type ContentTier = Occupation["contentTier"];

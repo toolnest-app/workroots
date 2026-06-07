@@ -14,6 +14,8 @@ npm run db:push
 psql "$DATABASE_URL" -f drizzle/manual/001_search.sql
 npm run import:showcase
 npm run import:wikidata
+npx tsx scripts/run-sql-file.ts drizzle/manual/002_enhanced_tier.sql
+npm run enrich:stubs
 npm run dev
 ```
 
@@ -35,6 +37,7 @@ Open http://localhost:3000
 | `npm test` | Unit tests (age display) |
 | `npm run import:showcase` | Curated roles + lineage |
 | `npm run import:wikidata` | Bulk Wikidata occupations |
+| `npm run enrich:stubs` | Upgrade stubs with Wikidata aliases, regions, fields |
 
 ## Docs
 

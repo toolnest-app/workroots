@@ -1,0 +1,1854 @@
+[
+  {
+    "slug": "jeweler",
+    "name": "Jeweler",
+    "status": "active",
+    "summary": "A craftsperson and merchant who cuts, sets, and sells precious metals and gems—anchoring luxury trade from medieval goldsmith guilds to global flagship boutiques.",
+    "duties": "Design pieces, bench-fabricate settings, appraise stones, repair heirlooms, and serve retail clients.",
+    "skills": "Stone setting, soldering, gemology basics, sales, design sense.",
+    "tools": "Bench pin, loupe, torch, rolling mill, display cases.",
+    "regions": "Amsterdam diamond district, Jaipur, New York 47th Street, Geneva.",
+    "category": "retail",
+    "eraPrimary": "medieval",
+    "originYear": 1100,
+    "originYearEnd": null,
+    "originLabel": "Goldsmith guild workshops",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1948,
+        "label": "GIA grading standards",
+        "description": "Standardized diamond reports reshape consumer trust and pricing transparency.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "goldsmith",
+        "type": "related"
+      },
+      {
+        "toSlug": "watchmaker",
+        "type": "related"
+      },
+      {
+        "toSlug": "pawnbroker",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Bench apprenticeship, GIA courses, design school.",
+    "modernSectors": "Fine jewelry, repair shops, e-commerce, custom bridal."
+  },
+  {
+    "slug": "cobbler",
+    "name": "Cobbler",
+    "status": "active",
+    "summary": "A shoemaker who repairs footwear and sometimes builds custom pairs—once a street-corner staple before mass manufacturing, still vital for quality resoling and heritage craft.",
+    "duties": "Replace soles and heels, stretch leather, stitch uppers, and advise on fit.",
+    "skills": "Leatherwork, lasting, customer measurement, quick turnaround.",
+    "tools": "Lasts, awls, sewing machine, edge irons, polish.",
+    "regions": "European villages, Middle Eastern suqs, urban repair alleys worldwide.",
+    "category": "retail",
+    "eraPrimary": "medieval",
+    "originYear": 900,
+    "originYearEnd": null,
+    "originLabel": "Guild cordwainers and street repair stalls",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1910,
+        "label": "Factory shoe dominance",
+        "description": "Mass production shrinks bespoke making but sustains repair niches.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "saddler",
+        "type": "related"
+      },
+      {
+        "toSlug": "leather-goods-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "tailor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "potter",
+    "name": "Potter",
+    "status": "active",
+    "summary": "A ceramic artisan who shapes clay into vessels and art on wheel or mold—one of humanity's oldest trades, from amphora workshops to studio pottery movements.",
+    "duties": "Wedging clay, throwing or molding forms, glazing, firing kilns, and selling wares.",
+    "skills": "Wheel control, glaze chemistry, kiln firing profiles, design aesthetics.",
+    "tools": "Potter's wheel, kiln, ribs, glazes, pug mill.",
+    "regions": "Greece, China, British studio pottery, Southwestern U.S. traditions.",
+    "category": "retail",
+    "eraPrimary": "ancient",
+    "originYear": -6000,
+    "originYearEnd": null,
+    "originLabel": "Neolithic fired clay vessels",
+    "dateConfidence": "low",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1920,
+        "label": "Studio pottery revival",
+        "description": "Bernard Leach and peers elevate craft pottery as fine art in the West.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "tile-setter",
+        "type": "related"
+      },
+      {
+        "toSlug": "sculptor",
+        "type": "related"
+      },
+      {
+        "toSlug": "glassblower",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "locksmith",
+    "name": "Locksmith",
+    "status": "active",
+    "summary": "A security tradesworker who installs, picks, and fabricates locks and keys—evolving from warded iron mechanisms to electronic access control in modern buildings.",
+    "duties": "Cut keys, rekey cylinders, open safes, install deadbolts, and program smart locks.",
+    "skills": "Mechanical aptitude, lock picking ethics, blueprint reading, customer trust.",
+    "tools": "Key machines, pick sets, pinning kits, drill jigs, code books.",
+    "regions": "Urban service trades globally; safe specialists in financial districts.",
+    "category": "retail",
+    "eraPrimary": "medieval",
+    "originYear": 800,
+    "originYearEnd": null,
+    "originLabel": "Warded lock and key craft",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1970,
+        "label": "Pin tumbler standardization",
+        "description": "Modular cylinder systems spread through residential and commercial hardware.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "ironmonger",
+        "type": "related"
+      },
+      {
+        "toSlug": "gunsmith",
+        "type": "related"
+      },
+      {
+        "toSlug": "clockmaker",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Locksmith apprenticeship, safe-tech certifications.",
+    "modernSectors": "Mobile residential, commercial access, automotive, forensic locksmithing."
+  },
+  {
+    "slug": "florist",
+    "name": "Florist",
+    "status": "active",
+    "summary": "A retailer and designer who arranges cut flowers and plants for ceremonies and daily gift-giving—professionalized as refrigerated supply chains extended bloom seasons.",
+    "duties": "Source stems, design bouquets, maintain coolers, deliver events, and advise on care.",
+    "skills": "Color harmony, wiring techniques, seasonality, customer occasions.",
+    "tools": "Cooler, floral foam, shears, ribbon, POS.",
+    "regions": "Dutch auction hubs feeding global flower districts.",
+    "category": "retail",
+    "eraPrimary": "industrial",
+    "originYear": 1850,
+    "originYearEnd": null,
+    "originLabel": "Urban flower stalls and conservatory trade",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1960,
+        "label": "Cold-chain distribution",
+        "description": "Jet freight and Dutch auctions globalize year-round rose and lily supply.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "event-planner",
+        "type": "related"
+      },
+      {
+        "toSlug": "wedding-planner",
+        "type": "related"
+      },
+      {
+        "toSlug": "shopkeeper",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Floral design courses, AIFD certification.",
+    "modernSectors": "Shops, weddings, corporate installs, grocery floral departments."
+  },
+  {
+    "slug": "gunsmith",
+    "name": "Gunsmith",
+    "status": "active",
+    "summary": "A precision mechanic who builds, repairs, and customizes firearms—descended from armorer guilds and still essential for hunting, sport shooting, and military maintenance.",
+    "duties": "Blueprint actions, bore barrels, fit stocks, troubleshoot malfunctions, and ensure safe function.",
+    "skills": "Machining, ballistics basics, wood checkering, regulatory compliance.",
+    "tools": "Lathe, headspace gauges, reamers, action wrenches, bore scopes.",
+    "regions": "American rural shops, European hunting estates, military arsenals.",
+    "category": "retail",
+    "eraPrimary": "early_modern",
+    "originYear": 1500,
+    "originYearEnd": null,
+    "originLabel": "Renaissance handgonne and arquebus workshops",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1968,
+        "label": "U.S. Gun Control Act",
+        "description": "Federal licensing reshapes who may operate commercial gunsmith businesses.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "machinist",
+        "type": "related"
+      },
+      {
+        "toSlug": "locksmith",
+        "type": "related"
+      },
+      {
+        "toSlug": "gunner",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "bookbinder",
+    "name": "Bookbinder",
+    "status": "declining",
+    "summary": "A finisher who sews signatures, attaches boards, and gilds volumes—cornerstone of publishing before perfect binding and ebooks, still prized for conservation and luxury editions.",
+    "duties": "Sew text blocks, case in covers, repair spines, tool leather, and advise on archival storage.",
+    "skills": "Sewing patterns, leather paring, gold tooling, paper chemistry.",
+    "tools": "Sewing frame, nipping press, finishing tools, guillotine.",
+    "regions": "European binderies, university conservation labs, fine press publishers.",
+    "category": "retail",
+    "eraPrimary": "medieval",
+    "originYear": 1200,
+    "originYearEnd": null,
+    "originLabel": "Monastic and university binderies",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1980,
+        "label": "Perfect binding dominance",
+        "description": "Adhesive paperbacks reduce hand-binding demand except at the luxury tier.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "printer",
+        "type": "related"
+      },
+      {
+        "toSlug": "stationer",
+        "type": "related"
+      },
+      {
+        "toSlug": "archivist",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "watchmaker",
+    "name": "Watchmaker",
+    "status": "active",
+    "summary": "A horologist who assembles, regulates, and restores mechanical timepieces—from parish clockmakers to Swiss atelier brands commanding collector premiums.",
+    "duties": "Disassemble movements, clean oils, replace parts, test timing, and advise on service intervals.",
+    "skills": "Micro-mechanics, patience, brand-specific training, customer education.",
+    "tools": "Loupe, staking set, timing machine, ultrasonic cleaner.",
+    "regions": "Geneva, Glashütte, Tokyo service centers, independent ateliers.",
+    "category": "retail",
+    "eraPrimary": "early_modern",
+    "originYear": 1500,
+    "originYearEnd": null,
+    "originLabel": "Portable spring-driven clocks",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1969,
+        "label": "Quartz crisis",
+        "description": "Electronic watches decimate mechanical production until luxury revival.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "clockmaker",
+        "type": "related"
+      },
+      {
+        "toSlug": "jeweler",
+        "type": "related"
+      },
+      {
+        "toSlug": "goldsmith",
+        "type": "related"
+      }
+    ],
+    "educationPath": "WOSTEP or brand academies, micro-mechanics courses.",
+    "modernSectors": "Authorized service, vintage restoration, independent haute horlogerie."
+  },
+  {
+    "slug": "goldsmith",
+    "name": "Goldsmith",
+    "status": "active",
+    "summary": "A precious-metal worker who alloys, casts, and fabricates gold jewelry and plate—guild-protected for centuries as monarchs and churches commissioned sacred and ceremonial metalwork.",
+    "duties": "Alloy metals, cast ingots, forge sheet, fabricate settings, and hallmark pieces.",
+    "skills": "Metallurgy, forging, filigree, assay awareness, design.",
+    "tools": "Crucibles, rolling mill, draw plates, chasing tools.",
+    "regions": "Benares, Florence, London Assay Office orbit, West African markets.",
+    "category": "retail",
+    "eraPrimary": "ancient",
+    "originYear": -2500,
+    "originYearEnd": null,
+    "originLabel": "Ancient Near Eastern gold work",
+    "dateConfidence": "low",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1300,
+        "label": "Hallmark statutes",
+        "description": "English assay marks formalize purity guarantees for gold trade.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "jeweler",
+        "type": "related"
+      },
+      {
+        "toSlug": "silversmith",
+        "type": "related"
+      },
+      {
+        "toSlug": "metallurgist",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "silversmith",
+    "name": "Silversmith",
+    "status": "active",
+    "summary": "An artisan who raises, casts, and engraves silver tableware and objects—defining domestic luxury in colonial America and Georgian England before stainless steel competed at table.",
+    "duties": "Raise vessels, solder handles, engrave crests, repair dents, and polish finishes.",
+    "skills": "Hammer raising, soldering, design proportion, antique authentication.",
+    "tools": "Stakes, hammers, pitch bowl, gravers, buffing wheels.",
+    "regions": "Sheffield, New England colonial shops, Mexican taxco tradition.",
+    "category": "retail",
+    "eraPrimary": "early_modern",
+    "originYear": 1400,
+    "originYearEnd": null,
+    "originLabel": "Renaissance plate and flatware workshops",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1840,
+        "label": "Electroplating",
+        "description": "Sheffield plate and later electroplate broaden affordable hollowware markets.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "goldsmith",
+        "type": "related"
+      },
+      {
+        "toSlug": "pewterer",
+        "type": "related"
+      },
+      {
+        "toSlug": "engraver",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "engraver",
+    "name": "Engraver",
+    "status": "active",
+    "summary": "A craftsman who incises text and imagery into metal, wood, or glass—essential for printing plates, firearms, trophies, and personalization long before laser machines.",
+    "duties": "Transfer designs, cut lines by hand or machine, proof prints, and touch up burrs.",
+    "skills": "Line control, typography, shading techniques, tool sharpening.",
+    "tools": "Burins, gravers, pantograph, laser engraver (modern).",
+    "regions": "Print shops, trophy houses, banknote bureaus, jewelry benches.",
+    "category": "retail",
+    "eraPrimary": "early_modern",
+    "originYear": 1450,
+    "originYearEnd": null,
+    "originLabel": "Copperplate engraving for prints",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1980,
+        "label": "Laser engraving adoption",
+        "description": "CAD-driven lasers supplement hand engraving in personalization shops.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "printer",
+        "type": "related"
+      },
+      {
+        "toSlug": "silversmith",
+        "type": "related"
+      },
+      {
+        "toSlug": "gunsmith",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "cabinetmaker",
+    "name": "Cabinetmaker",
+    "status": "active",
+    "summary": "A furniture builder who constructs case goods with joinery and veneer—distinct from rough carpentry by focus on finished interiors, drawers, and decorative wood matching.",
+    "duties": "Read shop drawings, mill lumber, cut joinery, apply finishes, and install built-ins.",
+    "skills": "Joinery, veneer matching, finishing, client consultation.",
+    "tools": "Table saw, hand planes, domino joiner, spray booth.",
+    "regions": "European ateliers, American Shaker tradition, Asian rosewood shops.",
+    "category": "retail",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "Renaissance case furniture shops",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1950,
+        "label": "Flat-pack furniture",
+        "description": "IKEA-style kits compete with bespoke cabinet shops in mass market segments.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "carpenter",
+        "type": "related"
+      },
+      {
+        "toSlug": "upholsterer",
+        "type": "related"
+      },
+      {
+        "toSlug": "architect",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "upholsterer",
+    "name": "Upholsterer",
+    "status": "active",
+    "summary": "A soft-goods installer who pads, springs, and fabrics seating—paired with cabinetmakers as parlors and offices demanded comfortable matched suites.",
+    "duties": "Strip old covers, repair frames, tie springs, cut fabric, and install trim.",
+    "skills": "Pattern cutting, sewing, ergonomics, fabric durability knowledge.",
+    "tools": "Staple gun, sewing machine, webbing stretcher, button press.",
+    "regions": "Furniture districts, automotive trim shops, marine interiors.",
+    "category": "retail",
+    "eraPrimary": "early_modern",
+    "originYear": 1700,
+    "originYearEnd": null,
+    "originLabel": "Georgian parlour upholstery trade",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1920,
+        "label": "Foam rubber adoption",
+        "description": "Polyurethane foam replaces horsehair in many residential seating lines.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "cabinetmaker",
+        "type": "related"
+      },
+      {
+        "toSlug": "saddler",
+        "type": "related"
+      },
+      {
+        "toSlug": "tailor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "saddler",
+    "name": "Saddler",
+    "status": "active",
+    "summary": "A leatherworker specializing in horse tack, harness, and saddles—critical to cavalry, agriculture, and sport riding before automobiles yet enduring in equestrian culture.",
+    "duties": "Fit saddles, stitch bridles, repair stirrup leathers, and customize tack.",
+    "skills": "Leather cutting, saddle tree fitting, stitching, equine anatomy.",
+    "tools": "Skiving knife, awl, saddle stand, leather punch.",
+    "regions": "Mongolian steppe, American West, European dressage ateliers.",
+    "category": "retail",
+    "eraPrimary": "ancient",
+    "originYear": -800,
+    "originYearEnd": null,
+    "originLabel": "Cavalry and chariot harness craft",
+    "dateConfidence": "low",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Automobile transition",
+        "description": "Motor transport shrinks working harness demand while sport riding sustains craft.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "cobbler",
+        "type": "related"
+      },
+      {
+        "toSlug": "leather-goods-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "racehorse-trainer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "basket-weaver",
+    "name": "Basket Weaver",
+    "status": "active",
+    "summary": "A maker who plaites reeds, willow, or cane into carrying and storage forms—among the oldest container crafts, still practiced in indigenous and artisan market traditions.",
+    "duties": "Harvest and soak materials, weave bases and sides, finish rims, and teach workshops.",
+    "skills": "Pattern rhythm, material preparation, dyeing, teaching.",
+    "tools": "Awls, soaking tubs, molds, knives.",
+    "regions": "Native American pueblos, African markets, European willow craft.",
+    "category": "retail",
+    "eraPrimary": "ancient",
+    "originYear": -8000,
+    "originYearEnd": null,
+    "originLabel": "Neolithic woven containers",
+    "dateConfidence": "low",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1970,
+        "label": "Craft fair revival",
+        "description": "Farmers markets and folk festivals sustain artisan basket income streams.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "weaver",
+        "type": "related"
+      },
+      {
+        "toSlug": "ropemaker",
+        "type": "related"
+      },
+      {
+        "toSlug": "potter",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "haberdasher",
+    "name": "Haberdasher",
+    "status": "declining",
+    "summary": "A retailer of men's furnishings—hats, gloves, ties, and notions—once a distinct high-street class before department stores and fast fashion absorbed the category.",
+    "duties": "Stock accessories, measure hats, advise on formal dress, and run seasonal displays.",
+    "skills": "Men's style, inventory curation, personal service, gift wrapping.",
+    "tools": "Hat blocks, tie racks, measuring tapes, display cases.",
+    "regions": "London Jermyn Street, New York Madison Avenue historic shops.",
+    "category": "retail",
+    "eraPrimary": "industrial",
+    "originYear": 1800,
+    "originYearEnd": null,
+    "originLabel": "Gentlemen's furnishing shops",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1960,
+        "label": "Casual dress shift",
+        "description": "Business casual reduces daily tie and hat demand in many markets.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "hatter",
+        "type": "related"
+      },
+      {
+        "toSlug": "glover",
+        "type": "related"
+      },
+      {
+        "toSlug": "mercer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "mercer",
+    "name": "Mercer",
+    "status": "extinct",
+    "summary": "A dealer in fine textiles and dry goods—especially silk and linen—whose shops were precursors to department stores in European commercial districts.",
+    "duties": "Import fabrics, maintain sample books, extend credit to tailors, and advise on weave quality.",
+    "skills": "Textile knowledge, import letters, credit judgment, fashion awareness.",
+    "tools": "Sample swatches, ledgers, bolts on shelves.",
+    "regions": "London Cheapside, Paris merceries, colonial port cities.",
+    "category": "retail",
+    "eraPrimary": "medieval",
+    "originYear": 1200,
+    "originYearEnd": null,
+    "originLabel": "Silk and linen retail guilds",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1850,
+        "label": "Department store rise",
+        "description": "Bon Marché-style emporiums absorb mercer assortments under one roof.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "draper",
+        "type": "related"
+      },
+      {
+        "toSlug": "tailor",
+        "type": "related"
+      },
+      {
+        "toSlug": "weaver",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "draper",
+    "name": "Draper",
+    "status": "declining",
+    "summary": "A cloth merchant selling yard goods by the bolt—backbone of local garment economies before ready-to-wear chains and online fabric retailers.",
+    "duties": "Stock wools and cottons, cut measures, advise dressmakers, manage seasonal inventory.",
+    "skills": "Fabric identification, measuring, trend spotting, bookkeeping.",
+    "tools": "Bolt racks, yardsticks, scissors, swatch cards.",
+    "regions": "British high streets, Indian textile bazaars, African wax-print shops.",
+    "category": "retail",
+    "eraPrimary": "medieval",
+    "originYear": 1100,
+    "originYearEnd": null,
+    "originLabel": "Wool and linen drapery stalls",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1970,
+        "label": "Fast fashion ascent",
+        "description": "Garment factories bypass home sewing and reduce yard-goods foot traffic.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "mercer",
+        "type": "related"
+      },
+      {
+        "toSlug": "dressmaker",
+        "type": "related"
+      },
+      {
+        "toSlug": "textile-worker",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "ironmonger",
+    "name": "Ironmonger",
+    "status": "declining",
+    "summary": "A hardware retailer stocking nails, tools, hinges, and household metalware—vital village trade before big-box home centers consolidated supply.",
+    "duties": "Order iron goods, advise builders, cut chain and rope, and manage credit accounts.",
+    "skills": "Product breadth, practical advice, inventory management.",
+    "tools": "Bins, scales, cutting tools, catalogues.",
+    "regions": "British villages, colonial American general hardware.",
+    "category": "retail",
+    "eraPrimary": "medieval",
+    "originYear": 1200,
+    "originYearEnd": null,
+    "originLabel": "Village iron and nail sellers",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1990,
+        "label": "Big-box hardware",
+        "description": "Warehouse home centers capture DIY and contractor volume from independents.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "blacksmith",
+        "type": "related"
+      },
+      {
+        "toSlug": "locksmith",
+        "type": "related"
+      },
+      {
+        "toSlug": "shopkeeper",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "cutler",
+    "name": "Cutler",
+    "status": "active",
+    "summary": "A blade maker and sharpener producing knives, scissors, and edged tools—named for Sheffield and Solingen districts that industrialized steel cutlery.",
+    "duties": "Forge or stamp blades, harden and temper, attach handles, sharpen and retail.",
+    "skills": "Heat treat, grinding angles, ergonomics, safety standards.",
+    "tools": "Grinders, forging hearth, honing stones, handle presses.",
+    "regions": "Sheffield, Solingen, Seki Japan, Thiers France.",
+    "category": "retail",
+    "eraPrimary": "medieval",
+    "originYear": 1200,
+    "originYearEnd": null,
+    "originLabel": "Guild cutlers in steel towns",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1850,
+        "label": "Stamped cutlery factories",
+        "description": "Mechanized production scales household knife sets globally.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "blacksmith",
+        "type": "related"
+      },
+      {
+        "toSlug": "butcher",
+        "type": "related"
+      },
+      {
+        "toSlug": "gunsmith",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "pewterer",
+    "name": "Pewterer",
+    "status": "declining",
+    "summary": "A worker in tin alloy tableware—tankards, plates, and spoons—common in households before porcelain and stainless replaced pewter at everyday meals.",
+    "duties": "Cast spins, turn pieces on lathe, solder handles, and polish surfaces.",
+    "skills": "Alloy control, lathe work, mold making, antique repair.",
+    "tools": "Spinning lathe, casting molds, solder irons.",
+    "regions": "England, Germany, colonial American taverns.",
+    "category": "retail",
+    "eraPrimary": "medieval",
+    "originYear": 1200,
+    "originYearEnd": null,
+    "originLabel": "Pewter guild production",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1800,
+        "label": "Ceramic competition",
+        "description": "Transfer-printed pottery and later stainless displace pewter from daily table use.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "silversmith",
+        "type": "related"
+      },
+      {
+        "toSlug": "candlemaker",
+        "type": "related"
+      },
+      {
+        "toSlug": "tavern-keeper",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "hatter",
+    "name": "Hatter",
+    "status": "declining",
+    "summary": "A hat maker and seller who blocked felt and straw forms—once mandatory social dress until mid-20th-century bareheads and casual caps shrank the trade.",
+    "duties": "Block hats, trim ribbons, fit customers, and repair sweatbands.",
+    "skills": "Blocking, steaming, style history, head measurement.",
+    "tools": "Hat blocks, steam kettle, iron, display heads.",
+    "regions": "London, Paris, New York millinery districts.",
+    "category": "retail",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "Felt and beaver hat workshops",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1960,
+        "label": "Hatless fashion",
+        "description": "Presidential and cultural shifts accelerate decline of daily men's hat wearing.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "milliner",
+        "type": "related"
+      },
+      {
+        "toSlug": "haberdasher",
+        "type": "related"
+      },
+      {
+        "toSlug": "mercer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "glover",
+    "name": "Glover",
+    "status": "declining",
+    "summary": "A specialist glove maker who cut leather to hand patterns—luxury accessory craft centered in Grenoble and Worcester until mass production and changing dress codes reduced demand.",
+    "duties": "Grade leather, cut tranks, sew seams, pair sizes, and finish cuffs.",
+    "skills": "Fine stitching, leather selection, sizing, fashion coordination.",
+    "tools": "Cutting knives, sewing clams, pressing irons.",
+    "regions": "France, England, Italy glove towns.",
+    "category": "retail",
+    "eraPrimary": "medieval",
+    "originYear": 1200,
+    "originYearEnd": null,
+    "originLabel": "Medieval chivalric glove trade",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1950,
+        "label": "Synthetic alternatives",
+        "description": "Nylon and later touch-screen needs reshape glove materials and markets.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "leather-goods-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "tailor",
+        "type": "related"
+      },
+      {
+        "toSlug": "haberdasher",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "tobacconist",
+    "name": "Tobacconist",
+    "status": "declining",
+    "summary": "A retailer of cured leaf, pipes, cigars, and later cigarettes—corner-shop fixture until health regulation and vaping shifted consumption patterns.",
+    "duties": "Curate blends, maintain humidors, advise cutters, and comply with age laws.",
+    "skills": "Product lore, humidity control, regulatory compliance, customer memory.",
+    "tools": "Humidors, cutters, scales, POS age verification.",
+    "regions": "Cuba, Virginia tobacco towns, European pipe shops.",
+    "category": "retail",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "Colonial tobacco roll and pipe shops",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1964,
+        "label": "Surgeon General warning",
+        "description": "U.S. health disclosures begin decades of declining smoking prevalence.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "shopkeeper",
+        "type": "related"
+      },
+      {
+        "toSlug": "merchant",
+        "type": "related"
+      },
+      {
+        "toSlug": "tavern-keeper",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "stationer",
+    "name": "Stationer",
+    "status": "active",
+    "summary": "A seller of paper, pens, ledgers, and office supplies—guild chartered in London to regulate the book trade's material side before big-box office chains.",
+    "duties": "Stock stationery, custom print orders, advise on office setups, and manage school season spikes.",
+    "skills": "Product range management, small print coordination, B2B service.",
+    "tools": "Shelves, copy center, binding equipment, e-commerce catalog.",
+    "regions": "University towns, business districts, suburban office retail.",
+    "category": "retail",
+    "eraPrimary": "medieval",
+    "originYear": 1300,
+    "originYearEnd": null,
+    "originLabel": "London Stationers' Company charter era",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1986,
+        "label": "Office superstore boom",
+        "description": "Staples-style chains consolidate corporate stationery purchasing.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "printer",
+        "type": "related"
+      },
+      {
+        "toSlug": "bookbinder",
+        "type": "related"
+      },
+      {
+        "toSlug": "scribe",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Retail management, print shop crossover training.",
+    "modernSectors": "Independent shops, campus stores, corporate facilities contracts."
+  },
+  {
+    "slug": "antiquarian",
+    "name": "Antiquarian",
+    "status": "active",
+    "summary": "A dealer in old books, maps, and collectible paper—scholar-merchant hybrid whose catalogs shaped historical bibliography before online marketplaces globalized rare inventory.",
+    "duties": "Source at auction, catalog items, authenticate editions, and advise collectors.",
+    "skills": "Bibliography, condition grading, negotiation, provenance research.",
+    "tools": "Reference libraries, catalogues, climate-controlled storage, online listings.",
+    "regions": "London, Paris, New York rare book trade.",
+    "category": "retail",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "Early printed book collectors' market",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1995,
+        "label": "ABE and online listings",
+        "description": "Internet marketplaces connect dealers and collectors beyond print catalog mailers.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "librarian",
+        "type": "related"
+      },
+      {
+        "toSlug": "archivist",
+        "type": "related"
+      },
+      {
+        "toSlug": "auctioneer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "clockmaker",
+    "name": "Clockmaker",
+    "status": "declining",
+    "summary": "A builder of domestic and tower clocks who cut gears and escapements—parent trade to watchmaking, diminished as quartz and phone timekeeping replaced hallway pendulums.",
+    "duties": "Fabricate movements, install dials, maintain tower clocks, and restore antiques.",
+    "skills": "Gear cutting, escapement theory, heavy installation rigging.",
+    "tools": "Lathe, depthing tool, bell ropes, lifting tackle.",
+    "regions": "Black Forest, Connecticut clock valleys, church tower commissions.",
+    "category": "retail",
+    "eraPrimary": "early_modern",
+    "originYear": 1400,
+    "originYearEnd": null,
+    "originLabel": "Town clock and domestic longcase shops",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1930,
+        "label": "Electric synchronous clocks",
+        "description": "Mains-powered clocks reduce mechanical household clock demand.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "watchmaker",
+        "type": "related"
+      },
+      {
+        "toSlug": "lighthouse-keeper",
+        "type": "related"
+      },
+      {
+        "toSlug": "mechanic",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "optician",
+    "name": "Optician",
+    "status": "active",
+    "summary": "A vision-care retailer who grinds lenses and fits eyeglasses—professionalized as refractive science and fashion frames turned spectacles into a health-and-style category.",
+    "duties": "Perform fittings, edge lenses, adjust frames, sell contacts, and verify prescriptions.",
+    "skills": "Facial measurement, lensometry, fashion advising, insurance billing.",
+    "tools": "Edger, phoropter (with doctor), frame warmers, UV boxes.",
+    "regions": "Global high streets and mall chains.",
+    "category": "retail",
+    "eraPrimary": "industrial",
+    "originYear": 1750,
+    "originYearEnd": null,
+    "originLabel": "Spectacle shops and lens grinders",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1959,
+        "label": "Plastic frames boom",
+        "description": "Injection-molded frames diversify styles and lower price points.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "physician",
+        "type": "related"
+      },
+      {
+        "toSlug": "shopkeeper",
+        "type": "related"
+      },
+      {
+        "toSlug": "pharmacist",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Opticianry degree or apprenticeship, ABO certification.",
+    "modernSectors": "Retail chains, ophthalmology clinics, online try-on hybrids."
+  },
+  {
+    "slug": "brush-maker",
+    "name": "Brush Maker",
+    "status": "declining",
+    "summary": "An artisan who drilled handles and knotted bristles for household, paint, and toiletry brushes—industrialized in factories yet surviving in specialty broom and art-brush niches.",
+    "duties": "Select bristle, drill stock, wire or epoxy tufts, trim shapes, and quality test.",
+    "skills": "Tufting, material pairing, production rhythm.",
+    "tools": "Drill press, tufting machine, trimming knives.",
+    "regions": "New England brush factories, German artisan brush towns.",
+    "category": "retail",
+    "eraPrimary": "industrial",
+    "originYear": 1850,
+    "originYearEnd": null,
+    "originLabel": "Mechanized bristle brush factories",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1950,
+        "label": "Synthetic filament",
+        "description": "Nylon bristles replace natural hog and horsehair in many product lines.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "painter",
+        "type": "related"
+      },
+      {
+        "toSlug": "factory-worker",
+        "type": "related"
+      },
+      {
+        "toSlug": "shopkeeper",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "comb-maker",
+    "name": "Comb Maker",
+    "status": "extinct",
+    "summary": "A craftsperson who cut teeth into horn, wood, or early celluloid for grooming—vanished as injection-molded plastic combs became disposable commodities.",
+    "duties": "Saw blanks, cut fine teeth, polish, and retail at market stalls.",
+    "skills": "Fine sawing, horn heating, symmetry.",
+    "tools": "Saw frames, horn molds, polishing wheels.",
+    "regions": "Comb-making valleys in France and New England.",
+    "category": "retail",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "Horn and boxwood comb workshops",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Celluloid combs",
+        "description": "Synthetic materials enable mass comb production and end artisan dominance.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "horn-worker",
+        "type": "related"
+      },
+      {
+        "toSlug": "hairdresser",
+        "type": "related"
+      },
+      {
+        "toSlug": "brush-maker",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "button-maker",
+    "name": "Button Maker",
+    "status": "extinct",
+    "summary": "A manufacturer of fasteners from bone, metal, and pearl—critical garment supply before zippers and plastic buttons consolidated in distant factories.",
+    "duties": "Turn blanks, drill holes, polish, and package assortments for haberdashers.",
+    "skills": "Lathe work, material sourcing, quality sorting.",
+    "tools": "Turning lathe, drills, tumbling barrels.",
+    "regions": "Birmingham, Rhode Island button valleys.",
+    "category": "retail",
+    "eraPrimary": "industrial",
+    "originYear": 1750,
+    "originYearEnd": null,
+    "originLabel": "Mother-of-pearl and bone button trade",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1930,
+        "label": "Plastic button dominance",
+        "description": "Bakelite and later resins replace natural materials at scale.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "tailor",
+        "type": "related"
+      },
+      {
+        "toSlug": "haberdasher",
+        "type": "related"
+      },
+      {
+        "toSlug": "textile-worker",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "lace-maker",
+    "name": "Lace Maker",
+    "status": "declining",
+    "summary": "A textile artist who knots or bobbins delicate openwork—luxury craft from Venetian punto in aria to Belgian machine lace that competed with hand traditions.",
+    "duties": "Follow patterns, repair heirloom lace, teach techniques, and sell yardage.",
+    "skills": "Bobbin control, patience, pattern reading, restoration.",
+    "tools": "Pillows, bobbins, pins, pattern prickings.",
+    "regions": "Bruges, Honiton, Alençon lace traditions.",
+    "category": "retail",
+    "eraPrimary": "early_modern",
+    "originYear": 1500,
+    "originYearEnd": null,
+    "originLabel": "Renaissance needle and bobbin lace",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1813,
+        "label": "Bobbinet machine lace",
+        "description": "Mechanized net undercuts hand lace in fashion trim markets.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "weaver",
+        "type": "related"
+      },
+      {
+        "toSlug": "dressmaker",
+        "type": "related"
+      },
+      {
+        "toSlug": "embroidery-artisan",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "tapestry-weaver",
+    "name": "Tapestry Weaver",
+    "status": "declining",
+    "summary": "A workshop artisan who wove narrative wall hangings on upright looms—medieval prestige art sustaining ateliers like Gobelins for state and museum commissions.",
+    "duties": "Interpret cartoons, blend yarns, weave slits, and repair historical pieces.",
+    "skills": "Color mixing, loom setup, patience, art-history literacy.",
+    "tools": "High-warp loom, bobbins, cartoon tracings.",
+    "regions": "Gobelins Paris, Aubusson, medieval guild halls.",
+    "category": "retail",
+    "eraPrimary": "medieval",
+    "originYear": 1100,
+    "originYearEnd": null,
+    "originLabel": "Romanesque and Gothic wall tapestry workshops",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1662,
+        "label": "Gobelins royal factory",
+        "description": "Louis XIV centralizes elite tapestry production in Paris.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "weaver",
+        "type": "related"
+      },
+      {
+        "toSlug": "painter",
+        "type": "related"
+      },
+      {
+        "toSlug": "set-designer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "stained-glass-artisan",
+    "name": "Stained Glass Artisan",
+    "status": "active",
+    "summary": "A glazier who cuts colored glass and leads came for windows—defining cathedral aesthetics and enduring in restoration and contemporary architectural art.",
+    "duties": "Cut glass to cartoons, lead up panels, solder, cement, and install protective glazing.",
+    "skills": "Glass cutting, lead came work, structural bracing, historic matching.",
+    "tools": "Glass cutter, lead knife, soldering iron, light table.",
+    "regions": "Gothic Europe, Arts and Crafts revival studios worldwide.",
+    "category": "retail",
+    "eraPrimary": "medieval",
+    "originYear": 1100,
+    "originYearEnd": null,
+    "originLabel": "Romanesque church glazed programs",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Tiffany studio peak",
+        "description": "Art nouveau opalescent glass expands secular stained-glass markets.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "glassblower",
+        "type": "related"
+      },
+      {
+        "toSlug": "mason",
+        "type": "related"
+      },
+      {
+        "toSlug": "architect",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "horn-worker",
+    "name": "Horn Worker",
+    "status": "extinct",
+    "summary": "A craftsperson who heated and pressed animal horn into combs, spoons, and translucent windows—supplanted by plastics and sheet glass in everyday goods.",
+    "duties": "Soak horn, press in molds, polish translucent panels, and finish edges.",
+    "skills": "Heat timing, mold alignment, finishing.",
+    "tools": "Press molds, polishing compounds, saws.",
+    "regions": "Horn comb districts of Europe and New England.",
+    "category": "retail",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "Horn comb and lantern pane trade",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Plastic substitution",
+        "description": "Celluloid and bakelite end mass horn consumer goods.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "comb-maker",
+        "type": "related"
+      },
+      {
+        "toSlug": "button-maker",
+        "type": "related"
+      },
+      {
+        "toSlug": "cutler",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "tile-setter",
+    "name": "Tile Setter",
+    "status": "active",
+    "summary": "A finisher who lays ceramic and stone surfaces on floors and walls—ancient mosaic craft scaled to suburban bathrooms and subway stations alike.",
+    "duties": "Prepare substrates, cut tile, mix mortar, grout, and waterproof wet areas.",
+    "skills": "Layout geometry, waterproofing, cutting, stamina.",
+    "tools": "Wet saw, trowels, levels, spacers.",
+    "regions": "Mediterranean mosaic sites, global construction trades.",
+    "category": "retail",
+    "eraPrimary": "ancient",
+    "originYear": -2000,
+    "originYearEnd": null,
+    "originLabel": "Mesopotamian glazed brick programs",
+    "dateConfidence": "low",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1950,
+        "label": "Mass ceramic tile production",
+        "description": "Factory-fired tiles make decorative surfaces affordable in middle-class housing.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "mason",
+        "type": "related"
+      },
+      {
+        "toSlug": "potter",
+        "type": "related"
+      },
+      {
+        "toSlug": "carpenter",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "mirror-maker",
+    "name": "Mirror Maker",
+    "status": "declining",
+    "summary": "A gilder who backed glass with mercury or silver amalgam to create reflectors—luxury bedroom and salon fixture before float-glass mirror factories automated the process.",
+    "duties": "Silver or aluminum coat glass, seal backing paint, cut sizes, and install frames.",
+    "skills": "Coating chemistry, glass handling, frame joinery.",
+    "tools": "Silvering baths, glass cutters, framing clamps.",
+    "regions": "Venetian mirror guilds, 19th-century American factories.",
+    "category": "retail",
+    "eraPrimary": "early_modern",
+    "originYear": 1500,
+    "originYearEnd": null,
+    "originLabel": "Venetian mercury mirror craft",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Float glass mirrors",
+        "description": "Industrial mirror plate lowers cost and spreads wall mirrors widely.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "glassblower",
+        "type": "related"
+      },
+      {
+        "toSlug": "cabinetmaker",
+        "type": "related"
+      },
+      {
+        "toSlug": "optician",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "musical-instrument-repairer",
+    "name": "Musical Instrument Repairer",
+    "status": "active",
+    "summary": "A technician who restores woodwinds, brass, strings, and keyboards—keeping school bands and symphony orchestras playable between factory production cycles.",
+    "duties": "Pad replacements, crack pinning, slide alignments, regulation, and play-testing.",
+    "skills": "Acoustics, precision fitting, patience, vendor parts knowledge.",
+    "tools": "Leak lights, dent balls, key clamps, tuning machines.",
+    "regions": "Music districts near conservatories and school systems.",
+    "category": "retail",
+    "eraPrimary": "industrial",
+    "originYear": 1850,
+    "originYearEnd": null,
+    "originLabel": "Factory instrument service shops",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1950,
+        "label": "School band boom",
+        "description": "Postwar music education expands repair shop demand across suburbs.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "luthier",
+        "type": "related"
+      },
+      {
+        "toSlug": "musician",
+        "type": "related"
+      },
+      {
+        "toSlug": "watchmaker",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "typefounder",
+    "name": "Typefounder",
+    "status": "extinct",
+    "summary": "A caster of metal printing types who sold fonts to pressmen—vanished as hot metal gave way to phototype and digital typography.",
+    "duties": "Cut punches, cast matrices, sort fonts, and ship cases to printers.",
+    "skills": "Punch cutting, alloy control, type design judgment.",
+    "tools": "Foundry kettle, matrices, sorting racks.",
+    "regions": "Garamond Paris, Caslon London, American type foundries.",
+    "category": "retail",
+    "eraPrimary": "early_modern",
+    "originYear": 1450,
+    "originYearEnd": null,
+    "originLabel": "Gutenberg-era movable type casting",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1960,
+        "label": "Phototype transition",
+        "description": "Film and digital fonts end commercial hot-metal typefounding.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "printer",
+        "type": "related"
+      },
+      {
+        "toSlug": "engraver",
+        "type": "related"
+      },
+      {
+        "toSlug": "publisher",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "rag-picker",
+    "name": "Rag Picker",
+    "status": "extinct",
+    "summary": "A street collector of textile scraps sold to paper mills—grim urban survival trade that fed rag-and-bone recycling economies before municipal waste systems.",
+    "duties": "Walk routes, sort fibers, sell to dealers, and avoid contamination.",
+    "skills": "Material sorting, route knowledge, negotiation under poverty.",
+    "tools": "Sacks, handcart, scales.",
+    "regions": "19th-century Paris, London, New York tenement districts.",
+    "category": "retail",
+    "eraPrimary": "industrial",
+    "originYear": 1800,
+    "originYearEnd": null,
+    "originLabel": "Urban rag-and-bone recycling",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Wood pulp paper",
+        "description": "Chemical pulp reduces dependence on rag fiber for newsprint.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "textile-worker",
+        "type": "related"
+      },
+      {
+        "toSlug": "printer",
+        "type": "related"
+      },
+      {
+        "toSlug": "factory-worker",
+        "type": "related"
+      }
+    ]
+  }
+]

@@ -115,6 +115,7 @@ export default async function JobsPage({ searchParams }: JobsPageProps) {
                   status={job.status}
                   eraPrimary={job.eraPrimary}
                   originYear={job.originYear}
+                  contentTier={job.contentTier}
                 />
               ))
             )}

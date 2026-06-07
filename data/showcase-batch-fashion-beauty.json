@@ -1,0 +1,1896 @@
+[
+  {
+    "slug": "fashion-designer",
+    "name": "Fashion Designer",
+    "status": "active",
+    "summary": "A creator of apparel lines who sketches silhouettes, selects fabrics, and directs runway presentations—professionalized in Paris couture houses and now spanning fast fashion to luxury ateliers.",
+    "duties": "Research trends, develop collections, fit samples, present seasons, and liaise with production.",
+    "skills": "Draping, illustration, textile knowledge, brand vision, deadline management.",
+    "tools": "Dress forms, CAD, mood boards, sample rooms.",
+    "regions": "Paris, Milan, New York, London, Lagos fashion weeks.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1850,
+    "originYearEnd": null,
+    "originLabel": "Charles Frederick Worth couture house",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1947,
+        "label": "Dior New Look",
+        "description": "Postwar silhouette revolution cements designer-as-celebrity model.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "tailor",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-illustrator",
+        "type": "related"
+      },
+      {
+        "toSlug": "textile-designer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Fashion school, atelier internships, competition prizes.",
+    "modernSectors": "Luxury houses, contemporary labels, costume, celebrity custom."
+  },
+  {
+    "slug": "fashion-model",
+    "name": "Fashion Model",
+    "status": "active",
+    "summary": "A professional wearer of garments for runway, editorial, and advertising—industrialized by agencies and magazine culture as the mobile mannequin of seasonal style.",
+    "duties": "Castings, fittings, walk runway, pose shoots, travel, and maintain book visibility.",
+    "skills": "Runway walk, posing, resilience, punctuality, personal branding.",
+    "tools": "Comp cards, digitals, heels, go-see maps, social portfolios.",
+    "regions": "Paris agencies, New York Fashion Week, emerging markets scouting.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1900,
+    "originYearEnd": null,
+    "originLabel": "Early fashion photography and mannequin parades",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1990,
+        "label": "Supermodel era",
+        "description": "Celebrity models negotiate multimillion contracts beyond runway day rates.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "fashion-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-photographer",
+        "type": "related"
+      },
+      {
+        "toSlug": "talent-agent",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Agency scouting, runway workshops, fitness discipline.",
+    "modernSectors": "Runway, e-commerce fit, fitness, influencer crossover."
+  },
+  {
+    "slug": "makeup-artist",
+    "name": "Makeup Artist",
+    "status": "active",
+    "summary": "A cosmetic applicator for beauty, fashion, film, and bridal clients—elevated from department counters to backstage teams at global fashion weeks.",
+    "duties": "Prep skin, execute looks, maintain kits, collaborate with stylists, and touch up sets.",
+    "skills": "Color theory, hygiene, speed, trend fluency, client consultation.",
+    "tools": "Brush sets, airbrush, palettes, sanitizers, LED mirrors.",
+    "regions": "Hollywood, K-beauty, Paris couture backstage, bridal markets.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1900,
+    "originYearEnd": null,
+    "originLabel": "Theatrical and Max Factor film cosmetics",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1990,
+        "label": "Celebrity MUA brands",
+        "description": "Named artists launch product lines and tutorial media empires.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "cosmetologist",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-stylist",
+        "type": "related"
+      },
+      {
+        "toSlug": "costume-designer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Beauty school, backstage assisting, certification courses.",
+    "modernSectors": "Editorial, bridal, SFX overlap, retail artistry, content creators."
+  },
+  {
+    "slug": "fashion-stylist",
+    "name": "Fashion Stylist",
+    "status": "active",
+    "summary": "A look curator who assembles outfits for shoots, celebrities, and retail campaigns—distinct from store clerks by editorial eye and pull-letter access to showrooms.",
+    "duties": "Source clothing, fit talent, coordinate returns, build mood boards, and on-set dressing.",
+    "skills": "Trend synthesis, networking, budgeting, diplomacy with houses, speed.",
+    "tools": "Pull letters, steamer, garment bags, Pinterest boards, rental accounts.",
+    "regions": "New York editorial, LA red carpet, European magazine culture.",
+    "category": "fashion",
+    "eraPrimary": "modern",
+    "originYear": 1960,
+    "originYearEnd": null,
+    "originLabel": "Magazine editorial styling emergence",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2000,
+        "label": "Celebrity stylist rise",
+        "description": "Red carpet economy professionalizes personal styling as standalone career.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "fashion-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "makeup-artist",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-photographer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Assistant years, fashion PR crossover, portfolio building.",
+    "modernSectors": "Editorial, advertising, personal styling, e-commerce lookbooks."
+  },
+  {
+    "slug": "perfumer",
+    "name": "Perfumer",
+    "status": "active",
+    "summary": "An artist-chemist who composes fragrances from essential oils and synthetics—Grasse tradition meets global luxury conglomerate labs creating signature scents.",
+    "duties": "Blend accords, evaluate maceration, brief marketing teams, and reformulate for compliance.",
+    "skills": "Olfactory memory, chemistry basics, creative brief interpretation, regulatory knowledge.",
+    "tools": "GC-MS, scent organ, blotters, formula databases.",
+    "regions": "Grasse, Geneva, New York fine fragrance houses.",
+    "category": "fashion",
+    "eraPrimary": "early_modern",
+    "originYear": 1700,
+    "originYearEnd": null,
+    "originLabel": "Grasse glove-perfume guild crossover",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1921,
+        "label": "No. 5 launch",
+        "description": "Chanel No. 5 popularizes designer-owned fragrance as fashion extension.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "fragrance-chemist",
+        "type": "related"
+      },
+      {
+        "toSlug": "cosmetic-chemist",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-designer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "ISIPCA or house schools, apprentice nose years.",
+    "modernSectors": "Fine fragrance, niche indie, home scent, celebrity licensing."
+  },
+  {
+    "slug": "cosmetologist",
+    "name": "Cosmetologist",
+    "status": "active",
+    "summary": "A licensed beauty practitioner covering hair, skin, and nails in salon settings—regulated profession as chemical services and sanitation rules professionalized beauty parlors.",
+    "duties": "Cut and color hair, perform facials and nails per scope, sanitize stations, and retail products.",
+    "skills": "Sanitation, chemical timing, client consultation, state law compliance.",
+    "tools": "Shears, color bowls, esthetic machines, autoclave.",
+    "regions": "U.S. state-licensed salons, European coiffeurs, Asian beauty chains.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1900,
+    "originYearEnd": null,
+    "originLabel": "Beauty parlor licensing movement",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1930,
+        "label": "Permanent wave popularity",
+        "description": "Chemical hair services expand salon revenue and training requirements.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "hairdresser",
+        "type": "related"
+      },
+      {
+        "toSlug": "makeup-artist",
+        "type": "related"
+      },
+      {
+        "toSlug": "esthetician",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Cosmetology license hours, board exams, CE credits.",
+    "modernSectors": "Full-service salons, suite rentals, cruise ship spas."
+  },
+  {
+    "slug": "hairdresser",
+    "name": "Hairdresser",
+    "status": "active",
+    "summary": "A hair cutter and stylist serving daily grooming and special events—from neighborhood barber-cosmetology overlap to session stylists on fashion shoots.",
+    "duties": "Consult on style, cut, color, blow-dry, and maintain client records.",
+    "skills": "Cutting geometry, color theory, conversation, time management.",
+    "tools": "Shears, clippers, foils, dryers, styling products.",
+    "regions": "Global high streets, session stylists in media capitals.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1800,
+    "originYearEnd": null,
+    "originLabel": "Urban hairdressing salons",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1960,
+        "label": "Vidal Sassoon revolution",
+        "description": "Wash-and-wear cuts link hairstyling to modernist fashion silhouettes.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "barber-surgeon",
+        "type": "related"
+      },
+      {
+        "toSlug": "cosmetologist",
+        "type": "related"
+      },
+      {
+        "toSlug": "wig-maker",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Salon apprenticeship, cosmetology license, advanced color certs.",
+    "modernSectors": "Salons, editorial session, film, platform education."
+  },
+  {
+    "slug": "manicurist",
+    "name": "Manicurist",
+    "status": "active",
+    "summary": "A nail care specialist who shapes, polishes, and extends nails—salon staple intensified by gel, acrylic, and nail-art social media trends.",
+    "duties": "Sanitize tools, shape nails, apply polish or extensions, and retail care products.",
+    "skills": "Fine motor control, design, sanitation, client comfort.",
+    "tools": "Files, UV lamps, acrylic monomer, nail art brushes.",
+    "regions": "Korean nail art studios, U.S. strip-mall salons, luxury hotel spas.",
+    "category": "fashion",
+    "eraPrimary": "modern",
+    "originYear": 1920,
+    "originYearEnd": null,
+    "originLabel": "Cutex and commercial nail lacquer era",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2010,
+        "label": "Instagram nail art",
+        "description": "Social media accelerates intricate design trends and indie product lines.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "nail-technician",
+        "type": "related"
+      },
+      {
+        "toSlug": "cosmetologist",
+        "type": "related"
+      },
+      {
+        "toSlug": "esthetician",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Nail tech license, manufacturer certification workshops.",
+    "modernSectors": "Nail salons, mobile services, editorial hand modeling overlap."
+  },
+  {
+    "slug": "esthetician",
+    "name": "Esthetician",
+    "status": "active",
+    "summary": "A skin-care therapist performing facials, hair removal, and non-medical treatments—bridging dermatology referrals and spa relaxation economies.",
+    "duties": "Analyze skin, perform treatments, recommend home care, document contraindications.",
+    "skills": "Anatomy basics, sanitation, machine protocols, sales without overpromising.",
+    "tools": "Steamers, microdermabrasion, wax, LED panels.",
+    "regions": "Day spas, medi-spa hybrids, resort wellness.",
+    "category": "fashion",
+    "eraPrimary": "modern",
+    "originYear": 1960,
+    "originYearEnd": null,
+    "originLabel": "Esthetics schools and spa industry",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2000,
+        "label": "Medi-spa growth",
+        "description": "Physician oversight models blend clinical and aesthetic services.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "cosmetologist",
+        "type": "related"
+      },
+      {
+        "toSlug": "makeup-artist",
+        "type": "related"
+      },
+      {
+        "toSlug": "physician",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Esthetician license, advanced machine certs.",
+    "modernSectors": "Spas, dermatology clinics, cruise ships, product brand educators."
+  },
+  {
+    "slug": "fashion-buyer",
+    "name": "Fashion Buyer",
+    "status": "active",
+    "summary": "A merchant who selects seasonal assortments for department stores and boutiques—power broker between designers and retail floors with OTB budgets.",
+    "duties": "Attend markets, negotiate terms, plan depth, analyze sell-through, and manage vendors.",
+    "skills": "Trend forecasting, margin math, negotiation, travel stamina.",
+    "tools": "OTB spreadsheets, PLM, market appointment calendars.",
+    "regions": "New York market week, European showrooms, Asian sourcing hubs.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1900,
+    "originYearEnd": null,
+    "originLabel": "Department store buying offices",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2000,
+        "label": "Fast fashion buying cycles",
+        "description": "Zara model compresses lead times and changes buyer decision rhythm.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "fashion-merchandiser",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "shopkeeper",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Fashion merchandising degree, assistant buyer track.",
+    "modernSectors": "Department stores, specialty chains, e-commerce private label."
+  },
+  {
+    "slug": "pattern-maker",
+    "name": "Pattern Maker",
+    "status": "active",
+    "summary": "A technical translator who turns designer sketches into graded paper or digital patterns—factory pipeline role essential for consistent fit at scale.",
+    "duties": "Draft blocks, digitize patterns, grade sizes, mark notches, and sample fit comments.",
+    "skills": "Flat pattern, draping, CAD, tolerance for iteration.",
+    "tools": "Pattern paper, Gerber/Lectra, rulers, muslin.",
+    "regions": "Garment districts NYC, LA, Bangladesh tech offices.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1850,
+    "originYearEnd": null,
+    "originLabel": "Tailoring systems scaled to factories",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1980,
+        "label": "CAD pattern adoption",
+        "description": "Computer grading speeds production in offshore manufacturing.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "tailor",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "dressmaker",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Patternmaking programs, factory apprenticeship.",
+    "modernSectors": "Brands, factories, costume shops, athletic wear."
+  },
+  {
+    "slug": "dressmaker",
+    "name": "Dressmaker",
+    "status": "active",
+    "summary": "A seamstress focused on women's custom garments and alterations—bridged home sewing and couture before ready-to-wear, still vital for formal and bridal work.",
+    "duties": "Measure clients, cut fabric, sew fittings, finish hems, and schedule alterations.",
+    "skills": "Sewing precision, fitting judgment, fabric behavior, client diplomacy.",
+    "tools": "Sewing machine, serger, irons, mannequin.",
+    "regions": "Urban alteration shops, bridal districts, home studios.",
+    "category": "fashion",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "Modiste and mantua-maker trades",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1960,
+        "label": "Ready-to-wear expansion",
+        "description": "Mass production shrinks custom dressmaking to formal niches.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "tailor",
+        "type": "related"
+      },
+      {
+        "toSlug": "pattern-maker",
+        "type": "related"
+      },
+      {
+        "toSlug": "custom-dressmaker",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "haute-couture-artisan",
+    "name": "Haute Couture Artisan",
+    "status": "active",
+    "summary": "A workshop specialist in Paris-certified couture houses executing hand beading, pleating, or featherwork—guardian of legally protected luxury garment construction standards.",
+    "duties": "Execute designer techniques, maintain atelier quality, mentor apprentices, and meet show deadlines.",
+    "skills": "Hand sewing excellence, material mastery, patience, discretion.",
+    "tools": "Needles, specialty pleating boards, feather mounts, toiles.",
+    "regions": "Paris couture ateliers, Chanel métiers d'art satellites.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1868,
+    "originYearEnd": null,
+    "originLabel": "Chambre Syndicale de la Haute Couture",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1945,
+        "label": "Postwar couture revival",
+        "description": "French industry protects artisan ateliers as national prestige export.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "fashion-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "embroidery-artisan",
+        "type": "related"
+      },
+      {
+        "toSlug": "lace-maker",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "textile-designer",
+    "name": "Textile Designer",
+    "status": "active",
+    "summary": "A creator of woven, printed, or knit patterns for apparel and interiors—feeds fashion collections from mills in Como, Lyon, and digital print-on-demand studios.",
+    "duties": "Develop repeats, colorways, liaise with mills, strike-offs, and archive libraries.",
+    "skills": "Repeat mechanics, color separation, trend research, CAD.",
+    "tools": "Loom samples, digital printers, swatch archives, Adobe suite.",
+    "regions": "Italian silk mills, Indian block print, digital print UK.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1750,
+    "originYearEnd": null,
+    "originLabel": "Mechanized textile printing",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1990,
+        "label": "Digital textile printing",
+        "description": "Short-run print tech enables micro-collection fabric experimentation.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "weaver",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "fabric-sourcer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Textile design degree, mill internships.",
+    "modernSectors": "Fashion brands, home decor, performance fabrics."
+  },
+  {
+    "slug": "fashion-photographer",
+    "name": "Fashion Photographer",
+    "status": "active",
+    "summary": "A lens specialist who shoots clothing narratives for magazines and campaigns—Richard Avedon-era glamour turned into multi-platform content production.",
+    "duties": "Interpret briefs, light sets, direct models, deliver selects, and manage usage rights.",
+    "skills": "Lighting, composition, casting eye, production logistics, retouch direction.",
+    "tools": "DSLR/medium format, strobes, tethering, mood references.",
+    "regions": "New York, Paris, Milan, Lagos creative scenes.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1900,
+    "originYearEnd": null,
+    "originLabel": "Fashion magazine photography",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2000,
+        "label": "Digital capture shift",
+        "description": "Film-to-digital transition speeds editorial turnaround and Instagram-era content.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "photographer",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-stylist",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-model",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Photo assisting, portfolio building, agency representation.",
+    "modernSectors": "Editorial, e-commerce, lookbooks, moving image campaigns."
+  },
+  {
+    "slug": "wardrobe-supervisor",
+    "name": "Wardrobe Supervisor",
+    "status": "active",
+    "summary": "A film and theater lead who manages costume inventory, continuity, and quick changes—backstage fashion discipline ensuring performers look correct in every take.",
+    "duties": "Break down scripts, budget wardrobe, supervise dressers, maintain continuity logs.",
+    "skills": "Organization, sewing repairs, union rules, collaboration with costume design.",
+    "tools": "Rack plans, continuity photos, sewing kits, laundry units.",
+    "regions": "Hollywood studios, Broadway, global location shoots.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1920,
+    "originYearEnd": null,
+    "originLabel": "Studio system wardrobe departments",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1950,
+        "label": "TV production scale",
+        "description": "Episodic television multiplies wardrobe supervisor career slots.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "costume-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-stylist",
+        "type": "related"
+      },
+      {
+        "toSlug": "dressmaker",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Costume PA progression, union wardrobe courses.",
+    "modernSectors": "Film, TV, theater, touring concerts."
+  },
+  {
+    "slug": "jewelry-designer",
+    "name": "Jewelry Designer",
+    "status": "active",
+    "summary": "A creator of wearable metal and gem compositions—spanning bench artisans to CAD-driven brands selling globally through e-commerce and flagship stores.",
+    "duties": "Sketch collections, prototype pieces, source stones, manage casting vendors, and market lines.",
+    "skills": "Design proportion, gemology basics, branding, production costing.",
+    "tools": "CAD Rhino/Matrix, wax carvers, render engines, sample vaults.",
+    "regions": "NYC Diamond District, Jaipur, Italian gold manufacturing.",
+    "category": "fashion",
+    "eraPrimary": "early_modern",
+    "originYear": 1500,
+    "originYearEnd": null,
+    "originLabel": "Renaissance goldsmith-designers",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2000,
+        "label": "CAD jewelry revolution",
+        "description": "Digital modeling and 3D printing democratize custom design workflows.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "jeweler",
+        "type": "related"
+      },
+      {
+        "toSlug": "goldsmith",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-designer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Jewelry design programs, bench apprenticeship, GIA electives.",
+    "modernSectors": "Fine jewelry, fashion jewelry, bespoke bridal, DTC brands."
+  },
+  {
+    "slug": "corsetier",
+    "name": "Corsetier",
+    "status": "declining",
+    "summary": "A specialist in structured undergarments who fitted steel-boned corsets—Victorian necessity eased by elastic and cultural rejection of extreme waist training.",
+    "duties": "Measure torso, draft patterns, fit bones, and adjust lacing tension.",
+    "skills": "Anatomy, engineering tension, discreet fitting, sewing strength.",
+    "tools": "Busks, boning, grommets, coutil fabric.",
+    "regions": "Paris, London Victorian trade, modern burlesque revival niche.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1850,
+    "originYearEnd": null,
+    "originLabel": "Victorian corset industry",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1920,
+        "label": "Flapper undergarment shift",
+        "description": "Boyish silhouettes and elastic girdles reduce everyday corset demand.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "dressmaker",
+        "type": "related"
+      },
+      {
+        "toSlug": "lingerie-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "haute-couture-artisan",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "lingerie-designer",
+    "name": "Lingerie Designer",
+    "status": "active",
+    "summary": "A designer of intimate apparel balancing fit engineering and aesthetics—industrialized as department store bra counters and global brands scaled sizing science.",
+    "duties": "Develop bra blocks, select lace, fit models, manage comfort testing, and plan lines.",
+    "skills": "Fit engineering, textile drape, sizing diversity, brand storytelling.",
+    "tools": "Bra pattern blocks, fit models, lab stretch tests.",
+    "regions": "France, UK, Colombia manufacturing, global brands.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1900,
+    "originYearEnd": null,
+    "originLabel": "Commercial brassiere industry",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1977,
+        "label": "Wonderbra marketing moment",
+        "description": "Mass lingerie campaigns elevate designer roles in intimate apparel.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "fashion-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "corsetier",
+        "type": "related"
+      },
+      {
+        "toSlug": "textile-designer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Fashion design with intimate focus, technical design programs.",
+    "modernSectors": "Brands, private label, adaptive lingerie startups."
+  },
+  {
+    "slug": "fashion-illustrator",
+    "name": "Fashion Illustrator",
+    "status": "active",
+    "summary": "An artist who renders garments for presentations and press—dominant before photography and resurging in digital sketching for pre-production and social content.",
+    "duties": "Illustrate looks, support design meetings, create marketing art, and archive season visuals.",
+    "skills": "Figure drawing, fabric indication, speed, digital and wet media.",
+    "tools": "Procreate, markers, watercolor, Wacom tablets.",
+    "regions": "Design studios, fashion schools, freelance editorial.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1900,
+    "originYearEnd": null,
+    "originLabel": "Fashion plate publishing",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2010,
+        "label": "Digital illustration tools",
+        "description": "Tablets and Instagram revive illustrator visibility alongside photography.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "illustrator",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-editor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "fashion-editor",
+    "name": "Fashion Editor",
+    "status": "active",
+    "summary": "A magazine or digital lead who shapes style coverage, cover choices, and critic voice—gatekeeper role challenged by influencers yet still central at legacy fashion titles.",
+    "duties": "Assign stories, edit copy, attend shows, negotiate credits, and plan issues.",
+    "skills": "Taste authority, writing, network, budget, cultural commentary.",
+    "tools": "CMS, show schedules, PR seating requests, social analytics.",
+    "regions": "Vogue orbit cities, Condé Nast, independent Substacks.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1892,
+    "originYearEnd": null,
+    "originLabel": "Vogue and fashion press institutionalization",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2009,
+        "label": "Bloggers front row",
+        "description": "Digital creators challenge editor monopoly on show access and narrative.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "editor",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-stylist",
+        "type": "related"
+      },
+      {
+        "toSlug": "journalist",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Journalism or fashion studies, editorial assistant ladder.",
+    "modernSectors": "Print, digital media, brand content studios, consulting."
+  },
+  {
+    "slug": "runway-coordinator",
+    "name": "Runway Coordinator",
+    "status": "active",
+    "summary": "A backstage logistics lead who schedules models, cues music, and manages quick changes during fashion shows—high-pressure production role behind every Fashion Week calendar slot.",
+    "duties": "Create lineup, manage dressing stations, sync with production, troubleshoot timing.",
+    "skills": "Calm under chaos, radio discipline, model management, designer diplomacy.",
+    "tools": "Lineup sheets, headsets, garment racks, show caller scripts.",
+    "regions": "NYFW, PFW, MFW, LFW production agencies.",
+    "category": "fashion",
+    "eraPrimary": "modern",
+    "originYear": 1980,
+    "originYearEnd": null,
+    "originLabel": "Professionalized fashion week production",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2000,
+        "label": "Livestream runway",
+        "description": "Broadcast deadlines add technical sync duties to backstage coordinators.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "fashion-model",
+        "type": "related"
+      },
+      {
+        "toSlug": "event-planner",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-designer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "beauty-influencer",
+    "name": "Beauty Influencer",
+    "status": "active",
+    "summary": "A content creator who monetizes makeup tutorials, reviews, and lifestyle aesthetics—new occupation born of YouTube and TikTok affiliate economies.",
+    "duties": "Film content, disclose sponsorships, engage community, and negotiate brand deals.",
+    "skills": "On-camera presence, editing, trend spotting, FTC compliance.",
+    "tools": "Ring lights, affiliate links, analytics dashboards, PR unboxing.",
+    "regions": "Global; LA and Seoul beauty content hubs.",
+    "category": "fashion",
+    "eraPrimary": "modern",
+    "originYear": 2006,
+    "originYearEnd": null,
+    "originLabel": "YouTube beauty guru emergence",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2020,
+        "label": "TikTok beauty virality",
+        "description": "Short-form algorithm spikes indie creator careers and product sellouts.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "makeup-artist",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-model",
+        "type": "related"
+      },
+      {
+        "toSlug": "radio-broadcaster",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Self-taught content, talent management, brand deal lawyers.",
+    "modernSectors": "Sponsored posts, owned brands, live shopping, podcasting."
+  },
+  {
+    "slug": "nail-technician",
+    "name": "Nail Technician",
+    "status": "active",
+    "summary": "A licensed nail professional overlapping manicurist scope with emphasis on technical enhancements and sanitation protocols in regulated salons.",
+    "duties": "Perform manicures, extensions, removals, and infection-control protocols.",
+    "skills": "Sculpting, chemistry safety, ergonomics, retail recommendation.",
+    "tools": "E-files, acrylic systems, ventilation, autoclave.",
+    "regions": "U.S. nail salons, UK NVQ-certified shops.",
+    "category": "fashion",
+    "eraPrimary": "modern",
+    "originYear": 1970,
+    "originYearEnd": null,
+    "originLabel": "Acrylic nail commercialization",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2015,
+        "label": "Gel polish mainstream",
+        "description": "Soak-off gels become default salon service driving tech specialization.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "manicurist",
+        "type": "related"
+      },
+      {
+        "toSlug": "cosmetologist",
+        "type": "related"
+      },
+      {
+        "toSlug": "beauty-school-instructor",
+        "type": "related"
+      }
+    ],
+    "educationPath": "State nail tech license, brand educator certifications.",
+    "modernSectors": "Salons, medi-spa nails, editorial session nails."
+  },
+  {
+    "slug": "wig-maker",
+    "name": "Wig Maker",
+    "status": "active",
+    "summary": "A artisan who knots human or synthetic hair into lace foundations—for theater, film, medical hair loss, and drag performance with distinct construction methods.",
+    "duties": "Knot hair, customize hairlines, style units, and maintain client fittings.",
+    "skills": "Ventilating knots, color blending, durability, discretion for medical clients.",
+    "tools": "Ventilating needle, lace caps, mannequin heads, steamers.",
+    "regions": "London West End, Hollywood SFX, medical wig boutiques.",
+    "category": "fashion",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "Court and theater periwig makers",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1960,
+        "label": "Synthetic fiber wigs",
+        "description": "Kanekalon and lace-front methods broaden affordable wig markets.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "hairdresser",
+        "type": "related"
+      },
+      {
+        "toSlug": "costume-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "makeup-artist",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "color-consultant",
+    "name": "Color Consultant",
+    "status": "active",
+    "summary": "An advisor who analyzes personal coloring to guide wardrobe and makeup palettes—popularized by seasonal color theory books and corporate image consulting.",
+    "duties": "Drape clients, explain palettes, advise shopping, and train retail staff.",
+    "skills": "Perception of undertone, teaching, diplomacy, wardrobe psychology.",
+    "tools": "Drape swatches, color wheels, style guides.",
+    "regions": "Image consulting firms, department store services.",
+    "category": "fashion",
+    "eraPrimary": "modern",
+    "originYear": 1980,
+    "originYearEnd": null,
+    "originLabel": "Seasonal color analysis movement",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2000,
+        "label": "Personal branding services",
+        "description": "Executive coaching packages integrate color with LinkedIn-era image.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "fashion-stylist",
+        "type": "related"
+      },
+      {
+        "toSlug": "makeup-artist",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-trend-forecaster",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "fragrance-chemist",
+    "name": "Fragrance Chemist",
+    "status": "active",
+    "summary": "A lab scientist who formulates stable scent compounds and ensures IFRA compliance—bridging creative briefs from perfumers with manufacturing reproducibility.",
+    "duties": "Prototype formulas, run stability tests, scale batches, document allergens.",
+    "skills": "Organic chemistry, GC analysis, regulatory databases, collaboration with marketing.",
+    "tools": "Lab reactors, GC-MS, IFRA standards library.",
+    "regions": "IFF, Givaudan, Firmenich global labs.",
+    "category": "fashion",
+    "eraPrimary": "modern",
+    "originYear": 1920,
+    "originYearEnd": null,
+    "originLabel": "Synthetic aroma chemical industry",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1973,
+        "label": "IFRA standards",
+        "description": "Industry self-regulation shapes chemist role in safe formulation.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "perfumer",
+        "type": "related"
+      },
+      {
+        "toSlug": "cosmetic-chemist",
+        "type": "related"
+      },
+      {
+        "toSlug": "chemist",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Chemistry degree, flavor and fragrance programs.",
+    "modernSectors": "Fine fragrance, personal care, home care R&D."
+  },
+  {
+    "slug": "custom-dressmaker",
+    "name": "Custom Dressmaker",
+    "status": "active",
+    "summary": "A bespoke garment maker serving individual clients with one-off fittings—premium tier above alterations, competing with couture on personalization without syndicate label.",
+    "duties": "Consult design, toile fittings, hand finishes, and delivery timelines.",
+    "skills": "Bespoke consultation, advanced sewing, luxury service.",
+    "tools": "Muslin, hand needles, premium fabrics, appointment calendar.",
+    "regions": "Bridal ateliers, bespoke districts, online made-to-measure hybrids.",
+    "category": "fashion",
+    "eraPrimary": "early_modern",
+    "originYear": 1700,
+    "originYearEnd": null,
+    "originLabel": "Modiste bespoke fitting culture",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2010,
+        "label": "Made-to-measure tech",
+        "description": "3D body scans and online configurators extend custom dressmaking reach.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "dressmaker",
+        "type": "related"
+      },
+      {
+        "toSlug": "tailor",
+        "type": "related"
+      },
+      {
+        "toSlug": "haute-couture-artisan",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "fashion-merchandiser",
+    "name": "Fashion Merchandiser",
+    "status": "active",
+    "summary": "A planner who allocates product to stores, sets floor presentation, and analyzes margin—connects buying decisions to customer-facing assortment performance.",
+    "duties": "Plan store sets, manage markdowns, track KPIs, coordinate visual teams.",
+    "skills": "Analytics, visual taste, cross-functional communication, inventory math.",
+    "tools": "ERP, planograms, heat maps, markdown simulators.",
+    "regions": "Retail chains, brand wholesale teams, e-commerce ops.",
+    "category": "fashion",
+    "eraPrimary": "modern",
+    "originYear": 1960,
+    "originYearEnd": null,
+    "originLabel": "Retail assortment planning science",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1990,
+        "label": "Fast fashion replenishment",
+        "description": "Weekly delivery models elevate merchandiser operational centrality.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "fashion-buyer",
+        "type": "related"
+      },
+      {
+        "toSlug": "shopkeeper",
+        "type": "related"
+      },
+      {
+        "toSlug": "marketing-manager",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Merchandising degrees, retail management trainee programs.",
+    "modernSectors": "Apparel chains, department stores, DTC planning."
+  },
+  {
+    "slug": "vintage-clothing-dealer",
+    "name": "Vintage Clothing Dealer",
+    "status": "active",
+    "summary": "A curator-seller of secondhand fashion by era—fueled by sustainability discourse and archival designer pieces commanding reseller premiums online.",
+    "duties": "Source inventory, authenticate labels, price, photograph listings, and ship globally.",
+    "skills": "Label history, condition grading, trend arbitrage, platform SEO.",
+    "tools": "Depop, eBay, racks, steamer, authentication guides.",
+    "regions": "Tokyo vintage, Brooklyn, Paris flea, global online resale.",
+    "category": "fashion",
+    "eraPrimary": "modern",
+    "originYear": 1960,
+    "originYearEnd": null,
+    "originLabel": "Counterculture thrift and boutique curation",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2020,
+        "label": "Resale platform boom",
+        "description": "The RealReal and Vinted normalize vintage dealing as full-time career.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "antiquarian",
+        "type": "related"
+      },
+      {
+        "toSlug": "shopkeeper",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-buyer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "fashion-pr-specialist",
+    "name": "Fashion PR Specialist",
+    "status": "active",
+    "summary": "A publicist who secures press seating, editorials, and celebrity dressing for labels—backstage gatekeeper of fashion's mutual publicity economy.",
+    "duties": "Write press releases, manage samples, pitch stories, crisis-manage, and track coverage.",
+    "skills": "Media relationships, writing, event timing, brand voice, crisis calm.",
+    "tools": "PR databases, sample logs, seating charts, coverage reports.",
+    "regions": "NY, Paris, London PR agencies representing designers.",
+    "category": "fashion",
+    "eraPrimary": "modern",
+    "originYear": 1970,
+    "originYearEnd": null,
+    "originLabel": "Designer press showroom culture",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2010,
+        "label": "Influencer PR pivot",
+        "description": "Digital creators join editors on PR seeding lists and front-row politics.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "fashion-editor",
+        "type": "related"
+      },
+      {
+        "toSlug": "talent-agent",
+        "type": "related"
+      },
+      {
+        "toSlug": "marketing-manager",
+        "type": "related"
+      }
+    ],
+    "educationPath": "PR or fashion communications degrees, agency internships.",
+    "modernSectors": "Designer PR, celebrity styling PR, in-house brand comms."
+  },
+  {
+    "slug": "clothing-alteration-specialist",
+    "name": "Clothing Alteration Specialist",
+    "status": "active",
+    "summary": "A sewist focused on resizing and repairing ready-to-wear—steady neighborhood trade as online sizing inconsistency and sustainability encourage fixing over discarding.",
+    "duties": "Hem pants, take in waists, replace zippers, and quote turnaround times.",
+    "skills": "Machine sewing, fitting judgment, quick estimation, customer service.",
+    "tools": "Industrial machine, serger, iron, pinning forms.",
+    "regions": "Dry cleaner add-ons, mall alteration kiosks, bridal shops.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1900,
+    "originYearEnd": null,
+    "originLabel": "Department store alteration rooms",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2020,
+        "label": "Resale alteration demand",
+        "description": "Thrift flipping trends increase tailoring of secondhand garments.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "tailor",
+        "type": "related"
+      },
+      {
+        "toSlug": "dressmaker",
+        "type": "related"
+      },
+      {
+        "toSlug": "laundress",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "fabric-sourcer",
+    "name": "Fabric Sourcer",
+    "status": "active",
+    "summary": "A supply-chain scout who finds mills and negotiates minimums for fashion brands—critical role as nearshoring and compliance audits reshape textile procurement.",
+    "duties": "Visit mills, evaluate quality, negotiate MOQs, track lead times, and document compliance.",
+    "skills": "Textile testing literacy, negotiation, logistics, sustainability standards.",
+    "tools": "Lab dip approvals, compliance portals, freight calculators.",
+    "regions": "Italy, China, Turkey, Portugal mill networks.",
+    "category": "fashion",
+    "eraPrimary": "modern",
+    "originYear": 1980,
+    "originYearEnd": null,
+    "originLabel": "Offshore apparel manufacturing boom",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2013,
+        "label": "Rana Plaza aftermath",
+        "description": "Factory safety scrutiny elevates sourcing transparency duties.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "textile-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "importer",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-designer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Textile science, sourcing trainee roles, compliance workshops.",
+    "modernSectors": "Brands, buying offices, sustainable material startups."
+  },
+  {
+    "slug": "fashion-trend-forecaster",
+    "name": "Fashion Trend Forecaster",
+    "status": "active",
+    "summary": "A researcher who predicts colors, silhouettes, and consumer moods seasons ahead—selling insight reports to brands from trend agencies like WGSN lineage.",
+    "duties": "Scan culture, compile reports, present to clients, and validate with data.",
+    "skills": "Cultural anthropology, visual research, presentation, humility about misses.",
+    "tools": "Trend platforms, runway archives, consumer survey data.",
+    "regions": "London, Paris, NYC trend agencies.",
+    "category": "fashion",
+    "eraPrimary": "modern",
+    "originYear": 1970,
+    "originYearEnd": null,
+    "originLabel": "Fashion forecasting consultancies",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 2000,
+        "label": "Fast fashion forecasting",
+        "description": "Compressed cycles demand continuous micro-trend updates not just seasonal books.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "fashion-buyer",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "textile-designer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Fashion studies, cultural research, agency analyst programs.",
+    "modernSectors": "Trend agencies, in-house strategy, retail planning."
+  },
+  {
+    "slug": "beauty-pageant-organizer",
+    "name": "Beauty Pageant Organizer",
+    "status": "active",
+    "summary": "A producer who runs competition logistics, judging, and sponsorship for pageants—contested cultural institution from Atlantic City spectacles to national broadcast events.",
+    "duties": "Book venues, recruit contestants, secure sponsors, manage judging, and ensure broadcast.",
+    "skills": "Event production, diplomacy, marketing, regulatory navigation, talent coaching.",
+    "tools": "Run-of-show, contracts, ticketing, teleprompter.",
+    "regions": "U.S. state pageants, Miss Universe franchise countries.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1921,
+    "originYearEnd": null,
+    "originLabel": "Miss America Atlantic City origins",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1968,
+        "label": "Protest at Miss America",
+        "description": "Feminist critique spurs evolution of organizer messaging and scholarship emphasis.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "event-planner",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-model",
+        "type": "related"
+      },
+      {
+        "toSlug": "talent-agent",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "embroidery-artisan",
+    "name": "Embroidery Artisan",
+    "status": "active",
+    "summary": "A needleworker who decorates fabric with thread, beads, or metallic wire—couture houses and regional folk traditions alike depend on hand embroidery ateliers.",
+    "duties": "Interpret designer artwork, select threads, execute stitches, and repair vintage pieces.",
+    "skills": "Stitch vocabulary, patience, color blending, magnification work.",
+    "tools": "Hoops, tambour hooks, beads, magnification lamps.",
+    "regions": "India zardozi, Haute couture Paris, Mexican folk blouses.",
+    "category": "fashion",
+    "eraPrimary": "medieval",
+    "originYear": 1000,
+    "originYearEnd": null,
+    "originLabel": "Opus anglicanum and court embroidery",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Machine embroidery competition",
+        "description": "Schiffli machines handle volume while hand work stays luxury tier.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "haute-couture-artisan",
+        "type": "related"
+      },
+      {
+        "toSlug": "lace-maker",
+        "type": "related"
+      },
+      {
+        "toSlug": "costume-designer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "leather-goods-designer",
+    "name": "Leather Goods Designer",
+    "status": "active",
+    "summary": "A creator of bags, belts, and small leather accessories—luxury houses treat leather goods as margin engines with dedicated design studios.",
+    "duties": "Sketch silhouettes, prototype patterns, select hides, and coordinate hardware.",
+    "skills": "Pattern engineering, hardware specs, brand codes, costing.",
+    "tools": "CAD, sample room, hide swatches, edge paint stations.",
+    "regions": "Florence, Paris maroquinerie, New York accessories brands.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1850,
+    "originYearEnd": null,
+    "originLabel": "Leather luggage and handbag houses",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1984,
+        "label": "It-bag marketing",
+        "description": "Designer handbag hype turns leather goods into flagship fashion revenue.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "saddler",
+        "type": "related"
+      },
+      {
+        "toSlug": "cobbler",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-designer",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Accessory design programs, atelier internships.",
+    "modernSectors": "Luxury maisons, contemporary brands, independent studios."
+  },
+  {
+    "slug": "milliner",
+    "name": "Milliner",
+    "status": "active",
+    "summary": "A hat designer and maker for fashion and occasion wear—distinct from generic hatters by focus on feminine formal headwear and runway sculptural pieces.",
+    "duties": "Block shapes, trim veils and feathers, fit clients, and produce showpieces.",
+    "skills": "Blocking, proportion for faces, material stiffening, trend awareness.",
+    "tools": "Hat blocks, steamers, sinamay, feathers, millinery wire.",
+    "regions": "Royal Ascot culture, Kentucky Derby, Paris couture accessories.",
+    "category": "fashion",
+    "eraPrimary": "early_modern",
+    "originYear": 1700,
+    "originYearEnd": null,
+    "originLabel": "Millinery as women's fashion accessory trade",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1950,
+        "label": "Everyday hat decline",
+        "description": "Casual dress shrinks daily millinery to occasion and runway niches.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "hatter",
+        "type": "related"
+      },
+      {
+        "toSlug": "fashion-designer",
+        "type": "related"
+      },
+      {
+        "toSlug": "costume-designer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "beauty-school-instructor",
+    "name": "Beauty School Instructor",
+    "status": "active",
+    "summary": "A licensed educator who trains cosmetology students in cutting, coloring, and sanitation—feeds the salon pipeline through accredited vocational programs.",
+    "duties": "Deliver curriculum, supervise clinic floor, assess competencies, and maintain accreditation records.",
+    "skills": "Pedagogy, technical mastery, state board prep, safety enforcement.",
+    "tools": "Syllabi, mannequin heads, clinic stations, LMS.",
+    "regions": "U.S. beauty academies, UK NVQ providers.",
+    "category": "fashion",
+    "eraPrimary": "modern",
+    "originYear": 1920,
+    "originYearEnd": null,
+    "originLabel": "Cosmetology school accreditation growth",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1990,
+        "label": "State hour requirements",
+        "description": "Standardized training hours formalize instructor credential pathways.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "cosmetologist",
+        "type": "related"
+      },
+      {
+        "toSlug": "teacher",
+        "type": "related"
+      },
+      {
+        "toSlug": "hairdresser",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Master educator license, industry experience years.",
+    "modernSectors": "Beauty academies, brand educator overlap, online theory courses."
+  },
+  {
+    "slug": "cosmetic-chemist",
+    "name": "Cosmetic Chemist",
+    "status": "active",
+    "summary": "A formulation scientist who develops skincare, haircare, and color cosmetics—turning lab batches into shelf-stable products under regulatory safety frameworks.",
+    "duties": "Prototype formulas, stability test, scale manufacturing, document INCI, support claims.",
+    "skills": "Emulsion chemistry, preservative systems, regulatory dossiers, scale-up.",
+    "tools": "Lab homogenizers, pH meters, stability chambers, PLM.",
+    "regions": "L'Oréal, Estée Lauder, indie contract labs.",
+    "category": "fashion",
+    "eraPrimary": "industrial",
+    "originYear": 1900,
+    "originYearEnd": null,
+    "originLabel": "Commercial cold cream and lipstick labs",
+    "dateConfidence": "medium",
+    "aliases": [],
+    "events": [
+      {
+        "year": 1976,
+        "label": "EU Cosmetics Directive",
+        "description": "Safety dossiers professionalize cosmetic chemist compliance role in Europe.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "chemist",
+        "type": "related"
+      },
+      {
+        "toSlug": "perfumer",
+        "type": "related"
+      },
+      {
+        "toSlug": "fragrance-chemist",
+        "type": "related"
+      }
+    ],
+    "educationPath": "Chemistry or cosmetic science degree, formulation internships.",
+    "modernSectors": "R&D labs, contract manufacturing, indie brand consulting."
+  }
+]

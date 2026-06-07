@@ -1,0 +1,1733 @@
+[
+  {
+    "slug": "carpenter",
+    "name": "Carpenter",
+    "status": "active",
+    "summary": "A woodworker who cuts, joins, and erects timber structures—from medieval cathedral scaffolding to modern house framing and finish carpentry.",
+    "duties": "Measure and cut lumber, assemble frames, install doors and trim, read plans, and repair wooden structures in buildings and ships.",
+    "skills": "Joinery, geometry, material selection, tool sharpening, blueprint literacy in modern work.",
+    "tools": "Hand saws, chisels, planes, mallets; modern circular saws, nail guns, laser levels.",
+    "regions": "Worldwide; essential in agrarian, maritime, and urban construction economies.",
+    "category": "craft",
+    "eraPrimary": "ancient",
+    "originYear": -3000,
+    "originYearEnd": null,
+    "originLabel": "Early timber construction in settled societies",
+    "dateConfidence": "low",
+    "educationPath": "Apprenticeship, trade school, or union carpenter training programs.",
+    "modernSectors": "Residential construction, commercial build-outs, set construction, heritage restoration.",
+    "aliases": [
+      "joiner",
+      "woodworker"
+    ],
+    "events": [
+      {
+        "year": 1800,
+        "label": "Industrial milling",
+        "description": "Machine-cut lumber standardizes dimensions and scales suburban housing.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Building construction histories",
+        "url": null,
+        "note": "Timber framing attested across ancient Egypt and Mesopotamia."
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "mason",
+        "type": "related"
+      },
+      {
+        "toSlug": "wheelwright",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "mason",
+    "name": "Mason",
+    "status": "active",
+    "summary": "A builder who lays stone, brick, or concrete to form walls, vaults, roads, and monuments—one of the oldest skilled construction trades.",
+    "duties": "Prepare mortar, set courses of brick or stone, build arches and foundations, interpret structural plans, and restore historic masonry.",
+    "skills": "Bond patterns, load awareness, mortar mixing, precision layout, safety on scaffolding.",
+    "tools": "Trowels, levels, plumb bobs, hammers; modern concrete mixers and laser alignment.",
+    "regions": "Global; dominant in Mediterranean, European, Islamic, and colonial architecture.",
+    "category": "craft",
+    "eraPrimary": "ancient",
+    "originYear": -4000,
+    "originYearEnd": null,
+    "originLabel": "Monumental stone architecture",
+    "dateConfidence": "low",
+    "educationPath": "Masonry apprenticeship and trade certification.",
+    "modernSectors": "Construction, infrastructure, monument conservation.",
+    "aliases": [
+      "stonemason",
+      "bricklayer"
+    ],
+    "events": [
+      {
+        "year": 1200,
+        "label": "Gothic building boom",
+        "description": "Cathedral programs employ large mason lodges across Europe.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Architectural history surveys",
+        "url": null,
+        "note": "Stone dressing predates written craft manuals."
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "carpenter",
+        "type": "related"
+      },
+      {
+        "toSlug": "miner",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "wheelwright",
+    "name": "Wheelwright",
+    "status": "extinct",
+    "summary": "A craft worker who built and repaired wooden wheels for carts, carriages, and early vehicles, combining carpentry with iron tire fitting.",
+    "duties": "Shape fellies and spokes, fit hubs, shrink iron tires onto rims, and maintain wagon fleets for farms and transport companies.",
+    "skills": "Wood bending, hub boring, ironwork coordination, vehicle dynamics.",
+    "tools": "Wheel lathe, travis, hoop driver, spoke shave.",
+    "regions": "Europe and North America through the early 20th century.",
+    "category": "craft",
+    "eraPrimary": "medieval",
+    "originYear": 1000,
+    "originYearEnd": null,
+    "originLabel": "Wheeled cart transport expansion",
+    "dateConfidence": "medium",
+    "aliases": [
+      "wagon maker"
+    ],
+    "events": [
+      {
+        "year": 1920,
+        "label": "Automobile dominance",
+        "description": "Rubber-tired motor vehicles replace horse-drawn wheel demand in cities.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Transport craft museums",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "carpenter",
+        "type": "related"
+      },
+      {
+        "toSlug": "blacksmith",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "tailor",
+    "name": "Tailor",
+    "status": "active",
+    "summary": "A maker and fitter of custom clothing who cuts fabric to measure—distinct from industrial garment workers in the bespoke tradition.",
+    "duties": "Take measurements, draft patterns, sew garments, alter finished clothing, and advise clients on textiles.",
+    "skills": "Pattern drafting, hand and machine sewing, fitting, textile knowledge.",
+    "tools": "Shears, needles, sewing machine, pressing iron, mannequin.",
+    "regions": "Urban centers worldwide; strong traditions in London, Naples, Hong Kong, and Delhi.",
+    "category": "craft",
+    "eraPrimary": "medieval",
+    "originYear": 1100,
+    "originYearEnd": null,
+    "originLabel": "Urban guild tailoring in medieval Europe",
+    "dateConfidence": "medium",
+    "educationPath": "Apprenticeship or fashion school programs.",
+    "modernSectors": "Bespoke menswear, bridal, costume, uniform tailoring.",
+    "aliases": [
+      "bespoke tailor",
+      "seamster"
+    ],
+    "events": [
+      {
+        "year": 1850,
+        "label": "Ready-made expansion",
+        "description": "Sized ready-to-wear competes with custom tailoring for middle-class buyers.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Textile guild records",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "weaver",
+        "type": "predecessor"
+      }
+    ]
+  },
+  {
+    "slug": "weaver",
+    "name": "Weaver",
+    "status": "declining",
+    "summary": "A textile worker who interlaces warp and weft threads on a loom to produce cloth—foundational to pre-industrial economies and still present in artisan and industrial mills.",
+    "duties": "Set up looms, monitor tension, repair broken threads, and meet cloth quality standards for household or commercial buyers.",
+    "skills": "Pattern reading, loom maintenance, fiber handling, color matching.",
+    "tools": "Hand loom, shuttle, heddles; modern power looms and Jacquard heads.",
+    "regions": "South Asia, Middle East, Europe, and industrial mill towns globally.",
+    "category": "craft",
+    "eraPrimary": "ancient",
+    "originYear": -5000,
+    "originYearEnd": null,
+    "originLabel": "Neolithic textile production",
+    "dateConfidence": "low",
+    "aliases": [
+      "loom operator",
+      "cloth maker"
+    ],
+    "events": [
+      {
+        "year": 1760,
+        "label": "Mechanized spinning and weaving",
+        "description": "Factory systems transform output in Britain and export globally.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Textile archaeology",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "tailor",
+        "type": "successor"
+      }
+    ]
+  },
+  {
+    "slug": "miller",
+    "name": "Miller",
+    "status": "declining",
+    "summary": "An operator of mills who grinds grain into flour using water, wind, or mechanical power—central to food supply chains before industrial food processing.",
+    "duties": "Receive grain, adjust millstones, bag flour, maintain machinery, and manage dust safety.",
+    "skills": "Grain grading, machinery tuning, bookkeeping, hydraulics or wind sail adjustment.",
+    "tools": "Millstones, bolters, waterwheels or turbines, modern roller mills.",
+    "regions": "Rural communities worldwide; windmill landscapes in Netherlands and grain belts in North America.",
+    "category": "food",
+    "eraPrimary": "ancient",
+    "originYear": -2000,
+    "originYearEnd": null,
+    "originLabel": "Early agrarian milling",
+    "dateConfidence": "low",
+    "aliases": [
+      "miller of grain",
+      "corn miller"
+    ],
+    "events": [
+      {
+        "year": 1880,
+        "label": "Roller milling",
+        "description": "Steel rollers produce consistent white flour at industrial scale.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Agricultural technology histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "baker",
+        "type": "related"
+      },
+      {
+        "toSlug": "farmer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "tanner",
+    "name": "Tanner",
+    "status": "declining",
+    "summary": "A worker who converts animal hides into leather through curing, soaking, and tanning agents—supplying material for shoes, saddles, and harnesses.",
+    "duties": "Flesh hides, treat with tannins or chemicals, stretch and finish leather, manage effluent and odor controls.",
+    "skills": "Chemistry awareness, hide grading, tool maintenance, regulatory compliance.",
+    "tools": "Tanning vats, fleshing knives, stretching frames; modern drum tanners.",
+    "regions": "Historic tannery districts in Morocco, Italy, and New England; global export today.",
+    "category": "craft",
+    "eraPrimary": "ancient",
+    "originYear": -1500,
+    "originYearEnd": null,
+    "originLabel": "Leather goods in Bronze Age trade",
+    "dateConfidence": "low",
+    "aliases": [
+      "leather dresser"
+    ],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Chrome tanning",
+        "description": "Faster chemical processes displace many traditional vegetable tanneries.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Leather craft surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "butcher",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "butcher",
+    "name": "Butcher",
+    "status": "active",
+    "summary": "A meat trade worker who slaughters, dresses, and cuts animals into retail portions—present from ancient market streets to modern cold-chain plants.",
+    "duties": "Break down carcasses, trim cuts, maintain hygiene standards, serve customers, and manage cold storage.",
+    "skills": "Knife work, food safety, customer service, inventory rotation.",
+    "tools": "Cleaver, boning knife, band saw, refrigeration, cutting blocks.",
+    "regions": "Worldwide wherever livestock and meat consumption exist.",
+    "category": "food",
+    "eraPrimary": "ancient",
+    "originYear": -3000,
+    "originYearEnd": null,
+    "originLabel": "Urban meat markets in early cities",
+    "dateConfidence": "low",
+    "educationPath": "Butchery apprenticeship or culinary meat fabrication training.",
+    "modernSectors": "Retail counters, wholesale packing, restaurant butchery programs.",
+    "aliases": [
+      "meat cutter",
+      "flesher"
+    ],
+    "events": [
+      {
+        "year": 1906,
+        "label": "Industrial meat inspection",
+        "description": "Urban packing plants spur standardized slaughter and regulation in the U.S.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Food trade histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "tanner",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "baker",
+    "name": "Baker",
+    "status": "active",
+    "summary": "A food worker who mixes, proofs, and bakes bread and pastries for households, institutions, and commercial supply.",
+    "duties": "Prepare dough, operate ovens, decorate goods, manage fermentation schedules, and maintain food safety.",
+    "skills": "Recipe scaling, fermentation control, time management, retail service.",
+    "tools": "Ovens, proofing cabinets, mixers, peels, rolling pins.",
+    "regions": "Global; every settled agricultural society.",
+    "category": "food",
+    "eraPrimary": "ancient",
+    "originYear": -3000,
+    "originYearEnd": null,
+    "originLabel": "Early grain baking in Mesopotamia and Egypt",
+    "dateConfidence": "low",
+    "educationPath": "Culinary school, apprenticeship, or in-house training.",
+    "modernSectors": "Retail bakeries, supermarket production, hotel pastry, artisan sourdough.",
+    "aliases": [
+      "bread maker",
+      "pastry baker"
+    ],
+    "events": [
+      {
+        "year": 1800,
+        "label": "Commercial bakeries",
+        "description": "Urbanization supports dedicated bakery chains and mechanized mixing.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Culinary archaeology",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "miller",
+        "type": "related"
+      },
+      {
+        "toSlug": "brewer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "printer",
+    "name": "Printer",
+    "status": "declining",
+    "summary": "A worker who reproduces text and images—first as a craft of movable type and later as an industrial and digital reproduction trade.",
+    "duties": "Set type or prepare plates, operate presses, check proofs, maintain ink systems, and manage print runs.",
+    "skills": "Typography, color matching, press mechanics, file prepress in modern work.",
+    "tools": "Composing stick, press, lithographic plates; digital RIP workflows today.",
+    "regions": "European print centers (Mainz, Venice), colonial presses, global publishing hubs.",
+    "category": "clerical",
+    "eraPrimary": "early_modern",
+    "originYear": 1450,
+    "originYearEnd": null,
+    "originLabel": "European movable-type printing",
+    "dateConfidence": "high",
+    "aliases": [
+      "pressman",
+      "compositor"
+    ],
+    "events": [
+      {
+        "year": 1455,
+        "label": "Gutenberg Bible",
+        "description": "Demonstrates durable movable-type book production in Europe.",
+        "sortOrder": 1
+      },
+      {
+        "year": 1900,
+        "label": "Offset lithography",
+        "description": "High-volume illustrated printing transforms newspapers and advertising.",
+        "sortOrder": 2
+      }
+    ],
+    "sources": [
+      {
+        "title": "Printing history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "scribe",
+        "type": "successor"
+      },
+      {
+        "toSlug": "typist",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "bookkeeper",
+    "name": "Bookkeeper",
+    "status": "active",
+    "summary": "A clerk who maintains financial records—ledgers, invoices, and reconciliations—for households, firms, and institutions.",
+    "duties": "Record transactions, reconcile accounts, prepare reports for accountants, and manage payroll data entry.",
+    "skills": "Numeracy, double-entry literacy, spreadsheet fluency, attention to detail.",
+    "tools": "Ledgers historically; accounting software and ERP modules today.",
+    "regions": "Commercial economies worldwide since medieval merchant houses.",
+    "category": "clerical",
+    "eraPrimary": "medieval",
+    "originYear": 1300,
+    "originYearEnd": null,
+    "originLabel": "Italian merchant accounting practices",
+    "dateConfidence": "medium",
+    "educationPath": "Associate degrees, bookkeeping certificates, on-the-job training.",
+    "modernSectors": "SMB finance, nonprofit admin, franchise back-office.",
+    "aliases": [
+      "accounts clerk"
+    ],
+    "events": [
+      {
+        "year": 1979,
+        "label": "Spreadsheet software",
+        "description": "VisiCalc and successors shift bookkeeping from paper ledgers to digital models.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Accounting history texts",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "clerk",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "accountant",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "secretary",
+    "name": "Secretary",
+    "status": "active",
+    "summary": "An administrative professional who manages correspondence, schedules, and office workflow—evolving from confidential clerks to executive support roles.",
+    "duties": "Draft letters, arrange meetings, maintain files, gatekeep communications, and coordinate travel.",
+    "skills": "Writing, discretion, software literacy, calendar management, stakeholder tact.",
+    "tools": "Typewriters historically; email, calendars, and collaboration suites today.",
+    "regions": "Government ministries, corporate offices, legal and medical practices globally.",
+    "category": "clerical",
+    "eraPrimary": "medieval",
+    "originYear": 1400,
+    "originYearEnd": null,
+    "originLabel": "Confidential clerks to nobility and merchants",
+    "dateConfidence": "low",
+    "educationPath": "Business administration courses and vocational office training.",
+    "modernSectors": "Corporate HQs, law firms, medical practices, nonprofits.",
+    "aliases": [
+      "administrative assistant",
+      "amanuensis (historical overlap)"
+    ],
+    "events": [
+      {
+        "year": 1960,
+        "label": "Office mechanization",
+        "description": "Photocopiers and dictation machines reshape secretarial workflows.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Office work histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "clerk",
+        "type": "related"
+      },
+      {
+        "toSlug": "typist",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "accountant",
+    "name": "Accountant",
+    "status": "active",
+    "summary": "A finance professional who prepares, audits, and interprets accounts—evolving from merchant reckoning to certified public practice and corporate finance.",
+    "duties": "Prepare financial statements, ensure tax compliance, advise on controls, and audit books.",
+    "skills": "Accounting standards, analytics, regulatory knowledge, client communication.",
+    "tools": "Ledgers, calculators, audit software, tax engines.",
+    "regions": "Global; professional bodies in UK, US, India, and beyond.",
+    "category": "clerical",
+    "eraPrimary": "early_modern",
+    "originYear": 1494,
+    "originYearEnd": null,
+    "originLabel": "Published double-entry treatises in Italy",
+    "dateConfidence": "high",
+    "educationPath": "Accounting degrees, CPA/chartered exams, continuing education.",
+    "modernSectors": "Public practice, corporate FP&A, government, forensic audit.",
+    "aliases": [
+      "CPA (US)",
+      "chartered accountant (UK)"
+    ],
+    "events": [
+      {
+        "year": 1854,
+        "label": "Professional institutes",
+        "description": "Formal accounting bodies emerge in Scotland and spread globally.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Accounting profession histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "bookkeeper",
+        "type": "predecessor"
+      }
+    ]
+  },
+  {
+    "slug": "physician",
+    "name": "Physician",
+    "status": "active",
+    "summary": "A trained healer who diagnoses illness and prescribes treatment—evolving from humoral theory and apprenticeship to evidence-based medical licensure.",
+    "duties": "Examine patients, order tests, prescribe therapies, coordinate care teams, and maintain clinical records.",
+    "skills": "Diagnosis, pharmacology, communication, ethics, continuous medical education.",
+    "tools": "Stethoscope, imaging systems, EHR software; historically lancets and herbals.",
+    "regions": "Global; institutional medicine rooted in Greek, Islamic, and European schools.",
+    "category": "medicine",
+    "eraPrimary": "ancient",
+    "originYear": -500,
+    "originYearEnd": null,
+    "originLabel": "Classical Greek medical treatises",
+    "dateConfidence": "medium",
+    "educationPath": "Medical school, residency, board certification.",
+    "modernSectors": "Hospitals, primary care, specialties, public health agencies.",
+    "aliases": [
+      "doctor",
+      "medical doctor"
+    ],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Scientific medicine",
+        "description": "Germ theory and laboratory science reshape training and hospitals.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "History of medicine surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "apothecary",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "midwife",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "midwife",
+    "name": "Midwife",
+    "status": "active",
+    "summary": "A birth attendant who supports labor, delivery, and postpartum care—one of humanity's oldest specialized roles, now split between traditional and certified practice.",
+    "duties": "Monitor pregnancies, assist deliveries, provide neonatal care, educate families, and refer complications to physicians.",
+    "skills": "Clinical assessment, calm under pressure, cultural sensitivity, emergency protocols.",
+    "tools": "Sterile kits, fetal dopplers, suturing supplies; historically hands and herbal aids.",
+    "regions": "Worldwide; strong community traditions in Africa, Latin America, and Europe.",
+    "category": "medicine",
+    "eraPrimary": "ancient",
+    "originYear": -2000,
+    "originYearEnd": null,
+    "originLabel": "Attested birth attendants in early societies",
+    "dateConfidence": "low",
+    "educationPath": "Certified nurse-midwife programs or traditional apprenticeship pathways.",
+    "modernSectors": "Hospitals, birth centers, home birth practices, public health.",
+    "aliases": [
+      "birth attendant",
+      "obstetrix (historical)"
+    ],
+    "events": [
+      {
+        "year": 1920,
+        "label": "Professional midwifery schools",
+        "description": "Formal training expands in Europe and North America amid medicalization debates.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Obstetric history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "nurse",
+        "type": "related"
+      },
+      {
+        "toSlug": "physician",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "apothecary",
+    "name": "Apothecary",
+    "status": "extinct",
+    "summary": "A preparer and seller of medicines and compounds before the modern split between pharmacists and physicians—central to early modern town commerce.",
+    "duties": "Compound tinctures and pills, advise on dosages, stock herbs and chemicals, and keep shop accounts.",
+    "skills": "Botanical knowledge, measurement, retail trade, basic diagnosis in some traditions.",
+    "tools": "Mortar and pestle, scales, jars, distillation apparatus.",
+    "regions": "European high streets and colonial ports through the 19th century.",
+    "category": "medicine",
+    "eraPrimary": "medieval",
+    "originYear": 1200,
+    "originYearEnd": null,
+    "originLabel": "Urban pharmacy shops in medieval Europe",
+    "dateConfidence": "medium",
+    "aliases": [
+      "pharmacist (successor title)",
+      "druggist"
+    ],
+    "events": [
+      {
+        "year": 1868,
+        "label": "Regulated pharmacy",
+        "description": "Many jurisdictions require formal qualifications, separating apothecary folklore from licensed pharmacy.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Pharmacy museum archives",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "physician",
+        "type": "successor"
+      },
+      {
+        "toSlug": "plague-doctor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "nurse",
+    "name": "Nurse",
+    "status": "active",
+    "summary": "A caregiver who tends the sick and injured in hospitals, homes, and battlefields—professionalized from religious and domestic service into licensed clinical practice.",
+    "duties": "Administer treatments, monitor vitals, coordinate care plans, educate patients, and document outcomes.",
+    "skills": "Clinical procedures, empathy, teamwork, infection control, advocacy.",
+    "tools": "IV lines, monitors, EHRs; historically basins, bandages, lanterns.",
+    "regions": "Global; Nightingale-era reforms spread standardized training.",
+    "category": "medicine",
+    "eraPrimary": "modern",
+    "originYear": 1860,
+    "originYearEnd": null,
+    "originLabel": "Modern nursing schools after Crimean War reforms",
+    "dateConfidence": "high",
+    "educationPath": "Nursing degrees, licensure exams, specialty certifications.",
+    "modernSectors": "Hospitals, home health, schools, military, public health.",
+    "aliases": [
+      "registered nurse",
+      "RN"
+    ],
+    "events": [
+      {
+        "year": 1860,
+        "label": "Nightingale training school",
+        "description": "Formal nursing education begins at St Thomas' Hospital, London.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nursing history timelines",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "midwife",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "knight",
+    "name": "Knight",
+    "status": "extinct",
+    "summary": "A mounted warrior granted land or pay in exchange for military service and feudal obligations—a defining medieval European institution, not a modern job title.",
+    "duties": "Train for combat, serve liege lords in war, administer estates, and uphold chivalric codes in court life.",
+    "skills": "Horsemanship, arms drill, tactics, heraldry, estate management.",
+    "tools": "Sword, lance, armor, warhorse, castle garrison equipment.",
+    "regions": "Medieval and early modern Europe; parallels in other warrior-elite systems.",
+    "category": "military",
+    "eraPrimary": "medieval",
+    "originYear": 800,
+    "originYearEnd": 1600,
+    "originLabel": "Carolingian and feudal cavalry elites",
+    "dateConfidence": "medium",
+    "aliases": [
+      "chevalier",
+      "mounted man-at-arms"
+    ],
+    "events": [
+      {
+        "year": 1450,
+        "label": "Gunpowder warfare",
+        "description": "Massed infantry and cannon reduce the strategic dominance of heavy cavalry.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Medieval military histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "archer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "archer",
+    "name": "Archer",
+    "status": "extinct",
+    "summary": "A soldier or hunter skilled with bow and arrow—decisive on medieval battlefields and in siege warfare before firearms dominance.",
+    "duties": "Loose volleys in formation, snipe in skirmishes, maintain bows and fletching, and train continuously for draw strength.",
+    "skills": "Aim, unit discipline, equipment care, fieldcraft.",
+    "tools": "Longbow, composite bow, crossbow, arrows, bracers.",
+    "regions": "England, Wales, East Asia, Middle East, and indigenous Americas.",
+    "category": "military",
+    "eraPrimary": "ancient",
+    "originYear": -3000,
+    "originYearEnd": null,
+    "originLabel": "Bow warfare in Bronze Age armies",
+    "dateConfidence": "low",
+    "aliases": [
+      "bowman",
+      "marksman (later overlap)"
+    ],
+    "events": [
+      {
+        "year": 1450,
+        "label": "Firearms adoption",
+        "description": "Handgonnes and arquebuses displace bow volleys in many European armies.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Military technology surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "knight",
+        "type": "related"
+      },
+      {
+        "toSlug": "gunner",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "sailor",
+    "name": "Sailor",
+    "status": "active",
+    "summary": "A seafarer who crews ships for fishing, trade, exploration, and naval service—one of the world's oldest wage occupations.",
+    "duties": "Handle rigging, navigate, maintain hull and engines, load cargo, and stand watches at sea.",
+    "skills": "Knotwork, weather reading, teamwork, mechanical repair, safety drills.",
+    "tools": "Sextant historically; modern radar, GPS, and diesel or sail systems.",
+    "regions": "Coastal and river economies worldwide.",
+    "category": "transport",
+    "eraPrimary": "ancient",
+    "originYear": -3000,
+    "originYearEnd": null,
+    "originLabel": "Early Bronze Age seafaring trade",
+    "dateConfidence": "low",
+    "educationPath": "Maritime academies, merchant marine licenses, naval training.",
+    "modernSectors": "Container shipping, fishing fleets, cruise lines, offshore energy.",
+    "aliases": [
+      "seaman",
+      "mariner"
+    ],
+    "events": [
+      {
+        "year": 1492,
+        "label": "Atlantic age of sail",
+        "description": "Transoceanic routes expand crew demand and navigation science.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Maritime archaeology and logs",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "fisherman",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "electrician",
+    "name": "Electrician",
+    "status": "active",
+    "summary": "A tradesperson who installs and maintains electrical power, lighting, and control systems—emerging with urban electrification in the late 19th century.",
+    "duties": "Wire buildings, troubleshoot circuits, read blueprints, ensure code compliance, and upgrade panels.",
+    "skills": "Circuit theory, safety codes, conduit bending, problem diagnosis.",
+    "tools": "Multimeter, wire strippers, conduit benders, insulated hand tools.",
+    "regions": "Industrialized and electrifying economies worldwide since ~1880.",
+    "category": "trade",
+    "eraPrimary": "industrial",
+    "originYear": 1880,
+    "originYearEnd": null,
+    "originLabel": "Commercial electric lighting installations",
+    "dateConfidence": "high",
+    "educationPath": "Electrical apprenticeship, journeyman licensing, continuing code education.",
+    "modernSectors": "Construction, maintenance, renewables, data centers.",
+    "aliases": [
+      "wireman",
+      "electrical fitter"
+    ],
+    "events": [
+      {
+        "year": 1893,
+        "label": "Grid expansion",
+        "description": "City-wide power distribution creates sustained demand for wiring trades.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Electrical trade histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "lamplighter",
+        "type": "successor"
+      }
+    ]
+  },
+  {
+    "slug": "mechanic",
+    "name": "Mechanic",
+    "status": "active",
+    "summary": "A repair specialist for machines—originally mill and steam equipment, now strongly associated with automobiles and industrial plant maintenance.",
+    "duties": "Diagnose faults, replace parts, tune engines, document repairs, and advise customers or operators.",
+    "skills": "Mechanical reasoning, tool proficiency, diagnostics, customer communication.",
+    "tools": "Wrenches, lifts, OBD scanners, torque wrenches.",
+    "regions": "Global wherever mechanized transport and industry exist.",
+    "category": "trade",
+    "eraPrimary": "industrial",
+    "originYear": 1800,
+    "originYearEnd": null,
+    "originLabel": "Industrial machine tending and repair",
+    "dateConfidence": "medium",
+    "educationPath": "Trade school, ASE certifications, manufacturer training.",
+    "modernSectors": "Auto repair, fleet maintenance, aviation MRO, factory upkeep.",
+    "aliases": [
+      "automobile mechanic",
+      "fitter"
+    ],
+    "events": [
+      {
+        "year": 1908,
+        "label": "Mass automobility",
+        "description": "Model T era expands neighborhood garages and mechanic employment.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Industrial labor histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "wheelwright",
+        "type": "predecessor"
+      }
+    ]
+  },
+  {
+    "slug": "pilot",
+    "name": "Pilot",
+    "status": "active",
+    "summary": "An aviator who commands aircraft for passenger, cargo, military, or agricultural operations—born in the 20th-century aviation industry.",
+    "duties": "Preflight checks, navigate airways, communicate with control, manage crew, and respond to emergencies.",
+    "skills": "Aeronautics, instrument flying, crew resource management, regulation literacy.",
+    "tools": "Flight deck instruments, autopilot, simulators, checklists.",
+    "regions": "Global hubs and regional carriers since the 1910s.",
+    "category": "transport",
+    "eraPrimary": "modern",
+    "originYear": 1910,
+    "originYearEnd": null,
+    "originLabel": "Early professional aviators after Wright flights",
+    "dateConfidence": "high",
+    "educationPath": "Flight school, ATP licensure, type ratings, simulator recurrent training.",
+    "modernSectors": "Airlines, cargo, charter, agriculture, military aviation.",
+    "aliases": [
+      "aviator",
+      "captain (airline rank)"
+    ],
+    "events": [
+      {
+        "year": 1958,
+        "label": "Jet passenger era",
+        "description": "Boeing 707 class jets mainstream intercontinental travel.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Aviation history museums",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "sailor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "journalist",
+    "name": "Journalist",
+    "status": "active",
+    "summary": "A gatherer and publisher of news and analysis for newspapers, broadcast, and digital platforms—professionalized alongside mass printing and telegraph wires.",
+    "duties": "Report facts, interview sources, verify claims, write stories, and meet ethical and legal standards.",
+    "skills": "Writing, research, media law awareness, multimedia production, speed under deadline.",
+    "tools": "Notebook, camera, CMS, social platforms; historically telegraph and typewriter.",
+    "regions": "Urban press centers worldwide; strong traditions in London, New York, and Delhi.",
+    "category": "media",
+    "eraPrimary": "industrial",
+    "originYear": 1830,
+    "originYearEnd": null,
+    "originLabel": "Penny press and mass newspaper markets",
+    "dateConfidence": "medium",
+    "educationPath": "Journalism degrees, newsroom apprenticeships, portfolio building.",
+    "modernSectors": "Digital news, broadcast, magazines, independent newsletters.",
+    "aliases": [
+      "reporter",
+      "correspondent"
+    ],
+    "events": [
+      {
+        "year": 1844,
+        "label": "Telegraph news wires",
+        "description": "Rapid long-distance reporting transforms national news desks.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Press history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "telegraph-operator",
+        "type": "related"
+      },
+      {
+        "toSlug": "printer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "photographer",
+    "name": "Photographer",
+    "status": "active",
+    "summary": "A image-maker who captures photographs for art, journalism, science, and commerce—emerging with chemical photography in the 19th century.",
+    "duties": "Compose shots, operate cameras, edit images, manage clients, and archive digital assets.",
+    "skills": "Lighting, composition, color grading, client direction, equipment maintenance.",
+    "tools": "Camera bodies, lenses, strobes, Lightroom; historically darkroom chemicals.",
+    "regions": "Global studios and freelance markets since daguerreotype era.",
+    "category": "media",
+    "eraPrimary": "industrial",
+    "originYear": 1839,
+    "originYearEnd": null,
+    "originLabel": "Public announcement of practical photography",
+    "dateConfidence": "high",
+    "educationPath": "Art school, assistantships, portfolio and business skills.",
+    "modernSectors": "Wedding, commercial, editorial, forensic, stock licensing.",
+    "aliases": [
+      "photog",
+      "camera operator"
+    ],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Mass-market cameras",
+        "description": "Kodak and competitors bring photography to amateur households.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Photography museum timelines",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "journalist",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "farmer",
+    "name": "Farmer",
+    "status": "active",
+    "summary": "A cultivator who grows crops and raises livestock for subsistence or market—among the oldest sustained occupations in human history.",
+    "duties": "Prepare soil, plant and harvest, manage herds, maintain equipment, and market produce.",
+    "skills": "Agronomy, animal husbandry, weather planning, machinery operation, business planning.",
+    "tools": "Plow, sickle, tractor, irrigation; historically oxen and hand tools.",
+    "regions": "Every agricultural region worldwide.",
+    "category": "agriculture",
+    "eraPrimary": "ancient",
+    "originYear": -8000,
+    "originYearEnd": null,
+    "originLabel": "Neolithic agricultural revolution",
+    "dateConfidence": "medium",
+    "educationPath": "Agricultural extension programs, family apprenticeship, agronomy degrees.",
+    "modernSectors": "Row crops, livestock, organic markets, agtech-managed farms.",
+    "aliases": [
+      "agriculturalist",
+      "husbandman"
+    ],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Mechanized farming",
+        "description": "Tractors and combines reshape labor per acre in industrialized countries.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Agricultural archaeology",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "shepherd",
+        "type": "related"
+      },
+      {
+        "toSlug": "miller",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "shepherd",
+    "name": "Shepherd",
+    "status": "declining",
+    "summary": "A pastoral worker who tends sheep—guiding flocks to pasture, guarding from predators, and producing wool and milk in pre-industrial and modern highlands.",
+    "duties": "Move flocks, assist lambing, shear wool, maintain enclosures, and sell animals at market.",
+    "skills": "Animal reading, terrain knowledge, dog handling, weather sense.",
+    "tools": "Crook, flute, sheepdogs, ATVs in modern hills.",
+    "regions": "Mediterranean, British Isles, Middle East, Andes, and New Zealand.",
+    "category": "agriculture",
+    "eraPrimary": "ancient",
+    "originYear": -6000,
+    "originYearEnd": null,
+    "originLabel": "Early pastoralism with domesticated sheep",
+    "dateConfidence": "low",
+    "aliases": [
+      "herdsman",
+      "pastoralist"
+    ],
+    "events": [
+      {
+        "year": 1800,
+        "label": "Enclosure and industrial wool",
+        "description": "Mechanized mills increase wool demand while reducing traditional open-field grazing.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Pastoral ethnography",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "farmer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "fisherman",
+    "name": "Fisherman",
+    "status": "active",
+    "summary": "A harvester of fish and shellfish from rivers, lakes, and seas—critical to coastal diets and trade since prehistoric times.",
+    "duties": "Deploy nets or lines, navigate small vessels, process catch, comply with quotas, and maintain gear.",
+    "skills": "Navigation, knotwork, species identification, safety at sea, market timing.",
+    "tools": "Nets, traps, rods, sonar; historically dugout canoes and weirs.",
+    "regions": "Coastal villages worldwide; major fleets in East Asia and North Atlantic.",
+    "category": "agriculture",
+    "eraPrimary": "ancient",
+    "originYear": -10000,
+    "originYearEnd": null,
+    "originLabel": "Coastal foraging and weir fishing",
+    "dateConfidence": "low",
+    "educationPath": "Deckhand apprenticeship, maritime safety certifications.",
+    "modernSectors": "Commercial trawling, aquaculture support, sport charter, subsistence fishing.",
+    "aliases": [
+      "fisher",
+      "angler (sport overlap)"
+    ],
+    "events": [
+      {
+        "year": 1950,
+        "label": "Industrial trawling",
+        "description": "Factory ships and diesel engines intensify harvests and depletion debates.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Maritime food histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "sailor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "teacher",
+    "name": "Teacher",
+    "status": "active",
+    "summary": "An educator who instructs learners in schools, temples, and tutoring contexts—formalized from clerical tutors to licensed classroom professionals.",
+    "duties": "Plan lessons, assess students, manage classrooms, communicate with families, and adapt materials.",
+    "skills": "Pedagogy, subject mastery, classroom management, empathy, assessment design.",
+    "tools": "Chalkboards historically; LMS, projectors, and tablets today.",
+    "regions": "Every literate society; temple schools in antiquity to modern public systems.",
+    "category": "education",
+    "eraPrimary": "ancient",
+    "originYear": -2000,
+    "originYearEnd": null,
+    "originLabel": "Temple and scribal schools in Mesopotamia",
+    "dateConfidence": "low",
+    "educationPath": "Teacher certification, subject degrees, continuing professional development.",
+    "modernSectors": "K-12 schools, universities, tutoring, corporate training.",
+    "aliases": [
+      "schoolmaster",
+      "instructor"
+    ],
+    "events": [
+      {
+        "year": 1800,
+        "label": "Common school movements",
+        "description": "Public education expansions professionalize teaching in Europe and North America.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "History of education surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "librarian",
+        "type": "related"
+      },
+      {
+        "toSlug": "scribe",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "librarian",
+    "name": "Librarian",
+    "status": "active",
+    "summary": "A curator of collections who organizes knowledge resources and helps readers navigate catalogs—from monastic scriptoria to public and digital libraries.",
+    "duties": "Catalog materials, assist research, manage lending, preserve archives, and teach information literacy.",
+    "skills": "Classification systems, reference interviewing, preservation, digital search, programming events.",
+    "tools": "Card catalogs historically; ILS software, scanners, databases today.",
+    "regions": "Universities, municipalities, and special collections worldwide.",
+    "category": "education",
+    "eraPrimary": "ancient",
+    "originYear": -600,
+    "originYearEnd": null,
+    "originLabel": "Great Library of Alexandria era institutions",
+    "dateConfidence": "low",
+    "educationPath": "MLIS degrees, archives certifications, subject specialization.",
+    "modernSectors": "Public libraries, academic libraries, law libraries, digital repositories.",
+    "aliases": [
+      "bibliothecary (historical)",
+      "archivist (related)"
+    ],
+    "events": [
+      {
+        "year": 1876,
+        "label": "ALA founded",
+        "description": "Professional library associations standardize training in the United States.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Library history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "teacher",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "gunner",
+    "name": "Gunner",
+    "status": "extinct",
+    "summary": "An artillery specialist who loaded and aimed cannon and early firearms in siege and field warfare—distinct from later technical ratings on naval vessels.",
+    "duties": "Prepare powder charges, aim bombard pieces, calculate range, and maintain artillery trains.",
+    "skills": "Ballistics intuition, teamwork under fire, equipment maintenance, drill discipline.",
+    "tools": "Cannons, mortars, gun carriages, sponges and rammers.",
+    "regions": "European and Ottoman siege warfare; shipboard gun crews globally.",
+    "category": "military",
+    "eraPrimary": "early_modern",
+    "originYear": 1400,
+    "originYearEnd": 1900,
+    "originLabel": "Gunpowder artillery corps",
+    "dateConfidence": "medium",
+    "aliases": [
+      "artilleryman",
+      "cannoneer"
+    ],
+    "events": [
+      {
+        "year": 1914,
+        "label": "Industrial artillery",
+        "description": "Railway guns and massed shelling transform battlefield gunnery into specialized corps.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Artillery museum records",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "archer",
+        "type": "successor"
+      },
+      {
+        "toSlug": "knight",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "candlemaker",
+    "name": "Candlemaker",
+    "status": "declining",
+    "summary": "A artisan who produced candles from tallow or wax for household and ecclesiastical light before widespread kerosene and electric lighting.",
+    "duties": "Render tallow, dip or mold wicks, scent and package candles, and supply chandlers' shops.",
+    "skills": "Wick sizing, temperature control, retail trade, fragrance blending in modern craft.",
+    "tools": "Dipping racks, molds, melting pots; boutique pour setups today.",
+    "regions": "Europe and colonies through the 19th century; niche craft markets now.",
+    "category": "craft",
+    "eraPrimary": "medieval",
+    "originYear": 500,
+    "originYearEnd": null,
+    "originLabel": "Tallow chandlery in Roman and medieval towns",
+    "dateConfidence": "medium",
+    "aliases": [
+      "chandler",
+      "wax chandler"
+    ],
+    "events": [
+      {
+        "year": 1850,
+        "label": "Kerosene lamps",
+        "description": "Mineral oil lamps reduce household candle demand in cities.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Domestic technology histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "lamplighter",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "glassblower",
+    "name": "Glassblower",
+    "status": "declining",
+    "summary": "A craft worker who shapes molten glass with a blowpipe into vessels, windows, and scientific apparatus.",
+    "duties": "Gather molten glass, blow and shape forms, anneal pieces, and finish rims and stems.",
+    "skills": "Heat timing, hand-eye coordination, design sense, teamwork in factory settings.",
+    "tools": "Blowpipe, marver, punty, glory hole furnace.",
+    "regions": "Venice, Bohemia, and industrial glass towns; studio art worldwide.",
+    "category": "craft",
+    "eraPrimary": "ancient",
+    "originYear": -100,
+    "originYearEnd": null,
+    "originLabel": "Roman and Syrian glassworking",
+    "dateConfidence": "medium",
+    "aliases": [
+      "glassmith",
+      "gaffer"
+    ],
+    "events": [
+      {
+        "year": 1903,
+        "label": "Machine glass",
+        "description": "Automated bottle machines compete with hand blowing for utilitarian ware.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Glass museum archives",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "candlemaker",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "miner",
+    "name": "Miner",
+    "status": "active",
+    "summary": "A underground or open-pit worker who extracts ore, coal, and minerals—dangerous labor central to industrial revolutions and still vital for modern supply chains.",
+    "duties": "Drill headings, shore tunnels, haul ore, operate ventilation systems, and follow safety protocols.",
+    "skills": "Geology basics, machinery operation, teamwork, hazard awareness, endurance.",
+    "tools": "Pick and shovel historically; continuous miners, drills, and haul trucks today.",
+    "regions": "Coal districts, Andean silver mines, African copper belts, Appalachian coalfields.",
+    "category": "industry",
+    "eraPrimary": "ancient",
+    "originYear": -4000,
+    "originYearEnd": null,
+    "originLabel": "Early copper and tin mining",
+    "dateConfidence": "low",
+    "educationPath": "Mining engineering programs, trade certifications, safety training.",
+    "modernSectors": "Coal, metals, rare earths, quarrying, potash.",
+    "aliases": [
+      "collier (coal)",
+      "pitman"
+    ],
+    "events": [
+      {
+        "year": 1760,
+        "label": "Industrial coal demand",
+        "description": "Steam engines and iron smelting intensify deep shaft mining in Britain.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mining heritage records",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "blacksmith",
+        "type": "related"
+      },
+      {
+        "toSlug": "mason",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "railroad-conductor",
+    "name": "Railroad Conductor",
+    "status": "active",
+    "summary": "A rail crew leader who manages train operations, tickets, and safety on passenger and freight runs—iconic to 19th-century mobility.",
+    "duties": "Signal departures, verify consist paperwork, assist passengers, coordinate with engineers, and enforce rail rules.",
+    "skills": "Procedure memorization, customer service, authority under schedule pressure, radio communication.",
+    "tools": "Lanterns and flags historically; radios, tablets, and ticketing systems today.",
+    "regions": "North America, Europe, India, and Japan rail networks.",
+    "category": "transport",
+    "eraPrimary": "industrial",
+    "originYear": 1830,
+    "originYearEnd": null,
+    "originLabel": "First public steam railroads",
+    "dateConfidence": "high",
+    "educationPath": "Railroad carrier training programs and federal certification (US).",
+    "modernSectors": "Freight railroads, commuter rail, tourist heritage lines.",
+    "aliases": [
+      "train conductor",
+      "guard (UK)"
+    ],
+    "events": [
+      {
+        "year": 1869,
+        "label": "Transcontinental rail",
+        "description": "US coast-to-coast line expands long-distance conductor employment.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Railroad museum histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "telegraph-operator",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "lighthouse-keeper",
+    "name": "Lighthouse Keeper",
+    "status": "extinct",
+    "summary": "A coastal warden who maintained lighthouses, lit beacons, and logged maritime weather—romanticized but often isolated government service.",
+    "duties": "Trim wicks or maintain lamps, polish lenses, rescue castaways when possible, and keep station logs.",
+    "skills": "Mechanical upkeep, watch discipline, Morse and later radio basics, endurance.",
+    "tools": "Fresnel lenses, oil lamps, fog signals, logbooks.",
+    "regions": "Atlantic and Pacific coastlines; British and US aid-to-navigation systems.",
+    "category": "transport",
+    "eraPrimary": "industrial",
+    "originYear": 1700,
+    "originYearEnd": null,
+    "originLabel": "Institutional lighthouse networks",
+    "dateConfidence": "medium",
+    "aliases": [
+      "lightkeeper",
+      "wickie"
+    ],
+    "events": [
+      {
+        "year": 1980,
+        "label": "Automation",
+        "description": "Solar-powered automated beacons replace most resident keepers.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Maritime heritage trusts",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "sailor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "lamplighter",
+    "name": "Lamplighter",
+    "status": "extinct",
+    "summary": "A municipal worker who lit and extinguished street gas lamps each dusk and dawn—an everyday urban job erased by electric street lighting.",
+    "duties": "Carry ladder and torch, open gas valves, clean mantles, report leaks, and maintain lamp posts on a route.",
+    "skills": "Route memory, punctuality, basic gas safety, climbing.",
+    "tools": "Ladder, lighting pole, gas key, mantles.",
+    "regions": "Gas-lit cities in Europe and North America, 19th century peak.",
+    "category": "urban",
+    "eraPrimary": "industrial",
+    "originYear": 1800,
+    "originYearEnd": null,
+    "originLabel": "Coal gas street lighting era",
+    "dateConfidence": "high",
+    "aliases": [
+      "leerie (Scotland)"
+    ],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Electric streetlights",
+        "description": "Municipal electrification ends most gas lamp rounds.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Urban infrastructure histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "electrician",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "candlemaker",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "switchboard-operator",
+    "name": "Switchboard Operator",
+    "status": "extinct",
+    "summary": "A telephone exchange worker who manually connected calls by plugging cables into switchboards—central to early 20th-century telecommunications offices.",
+    "duties": "Answer lines, patch connections, monitor trunk busy signals, and assist callers with long-distance bookings.",
+    "skills": "Manual dexterity, polite diction, rapid recall of codes, stress tolerance.",
+    "tools": "Cord switchboards, headsets, call logs.",
+    "regions": "Urban telephone exchanges worldwide, 1890s–1970s.",
+    "category": "communication",
+    "eraPrimary": "modern",
+    "originYear": 1890,
+    "originYearEnd": null,
+    "originLabel": "Manual telephone exchanges",
+    "dateConfidence": "high",
+    "aliases": [
+      "telephone operator",
+      "PBX operator"
+    ],
+    "events": [
+      {
+        "year": 1960,
+        "label": "Electronic switching",
+        "description": "Automated exchanges reduce manual cord boards in wealthy markets.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Telecom museum archives",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "telegraph-operator",
+        "type": "predecessor"
+      }
+    ]
+  },
+  {
+    "slug": "web-developer",
+    "name": "Web Developer",
+    "status": "active",
+    "summary": "A builder of websites and web applications who implements interfaces and server logic for browsers—distinct from general software roles in its HTTP-centric stack.",
+    "duties": "Implement UI components, build APIs, optimize performance, fix cross-browser bugs, and deploy sites.",
+    "skills": "HTML/CSS/JS, frameworks, accessibility, version control, basic security hygiene.",
+    "tools": "VS Code, Git, browsers, Node or edge runtimes, design handoff tools.",
+    "regions": "Global remote workforce since the 1990s commercial web.",
+    "category": "technology",
+    "eraPrimary": "contemporary",
+    "originYear": 1993,
+    "originYearEnd": null,
+    "originLabel": "Early public web after Mosaic browser era",
+    "dateConfidence": "high",
+    "educationPath": "CS degrees, bootcamps, self-taught portfolios.",
+    "modernSectors": "Agencies, SaaS, e-commerce, media, freelance.",
+    "aliases": [
+      "front-end developer",
+      "full-stack developer"
+    ],
+    "events": [
+      {
+        "year": 2006,
+        "label": "AJAX and Web 2.0",
+        "description": "Rich client apps blur line between documents and software on the web.",
+        "sortOrder": 1
+      },
+      {
+        "year": 2010,
+        "label": "Mobile-first web",
+        "description": "Responsive design becomes standard as smartphone traffic surges.",
+        "sortOrder": 2
+      }
+    ],
+    "sources": [
+      {
+        "title": "Web history timelines",
+        "url": "https://www.w3.org/",
+        "note": "Origin anchored to public web standards era."
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "software-developer",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "computer-programmer",
+        "type": "related"
+      }
+    ]
+  }
+]

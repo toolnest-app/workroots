@@ -1,0 +1,1209 @@
+[
+  {
+    "slug": "surgeon",
+    "name": "Surgeon",
+    "status": "active",
+    "summary": "A physician who performs operative procedures to treat injury, disease, and deformity—evolving from barber-surgeons and battlefield operators to highly specialized hospital consultants.",
+    "duties": "Assess patients, plan operations, perform surgery, manage postoperative care, and collaborate with anesthesia and nursing teams.",
+    "skills": "Anatomy, dexterity, crisis decision-making, sterile technique, communication with patients and staff.",
+    "tools": "Scalpels, clamps, sutures; modern laparoscopes, imaging guidance, robotic assistants.",
+    "regions": "Global hospital systems; roots in Greco-Roman, Islamic, and early modern European medicine.",
+    "category": "medicine",
+    "eraPrimary": "ancient",
+    "originYear": -500,
+    "originYearEnd": null,
+    "originLabel": "Classical surgical treatises",
+    "dateConfidence": "medium",
+    "educationPath": "Medical school, surgical residency, board certification and fellowships.",
+    "modernSectors": "Hospitals, trauma centers, outpatient surgery, academic medicine.",
+    "aliases": [
+      "operating surgeon",
+      "chirurgeon (historical)"
+    ],
+    "events": [
+      {
+        "year": 1846,
+        "label": "Anesthesia in surgery",
+        "description": "Ether and chloroform enable longer, more complex operations with patient unconsciousness.",
+        "sortOrder": 1
+      },
+      {
+        "year": 1867,
+        "label": "Antiseptic surgery",
+        "description": "Lister promotes carbolic acid methods, reducing postoperative infection deaths.",
+        "sortOrder": 2
+      }
+    ],
+    "sources": [
+      {
+        "title": "History of surgery references",
+        "url": null,
+        "note": "Professional surgery distinct from barber-surgeons by 18th century in many cities."
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "barber-surgeon",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "physician",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "barber-surgeon",
+    "name": "Barber-Surgeon",
+    "status": "extinct",
+    "summary": "A dual trade practitioner who cut hair, pulled teeth, and performed minor surgery—common in medieval and early modern Europe before medicine professionalized.",
+    "duties": "Bleed patients, amputate limbs, treat wounds, extract teeth, and provide grooming services in the same shop.",
+    "skills": "Knife work, wound care, customer trade, basic anatomy from apprenticeship.",
+    "tools": "Razors, bleeding bowls, saws, tooth keys, shop pole signage.",
+    "regions": "Europe from Middle Ages through the 18th century.",
+    "category": "medicine",
+    "eraPrimary": "medieval",
+    "originYear": 1100,
+    "originYearEnd": null,
+    "originLabel": "Guild barbers performing minor surgery",
+    "dateConfidence": "medium",
+    "aliases": [
+      "barber chirurgeon"
+    ],
+    "events": [
+      {
+        "year": 1745,
+        "label": "London Company split",
+        "description": "Barber-Surgeons Company separates barbers from surgeons in England.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Medical guild histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "surgeon",
+        "type": "successor"
+      },
+      {
+        "toSlug": "dentist",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "herbalist",
+    "name": "Herbalist",
+    "status": "declining",
+    "summary": "A healer who prepares plant-based remedies from roots, leaves, and barks—predating modern pharmacy and still practiced in traditional medicine systems.",
+    "duties": "Identify plants, compound teas and tinctures, advise clients on dosage, and document seasonal harvesting.",
+    "skills": "Botanical identification, formulation, listening, ethical sourcing.",
+    "tools": "Mortar and pestle, drying racks, scales, reference herbals.",
+    "regions": "China, India, Europe, Africa, and indigenous communities worldwide.",
+    "category": "medicine",
+    "eraPrimary": "ancient",
+    "originYear": -2000,
+    "originYearEnd": null,
+    "originLabel": "Early pharmacopeias in literate societies",
+    "dateConfidence": "low",
+    "aliases": [
+      "herb doctor",
+      "wise woman (historical overlap)"
+    ],
+    "events": [
+      {
+        "year": 1600,
+        "label": "Printed herbals spread",
+        "description": "Illustrated botanical manuals standardize recipes across regions.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ethnobotany surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "apothecary",
+        "type": "related"
+      },
+      {
+        "toSlug": "pharmacist",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "pharmacist",
+    "name": "Pharmacist",
+    "status": "active",
+    "summary": "A licensed professional who dispenses medicines, verifies prescriptions, and advises on drug safety—successor to the apothecary in regulated modern healthcare.",
+    "duties": "Fill prescriptions, check interactions, counsel patients, manage inventory, and compound specialty doses.",
+    "skills": "Pharmacology, attention to detail, regulatory compliance, patient communication.",
+    "tools": "Pill counters, compounding lab equipment, pharmacy management software.",
+    "regions": "Global; regulated practice in most industrialized health systems.",
+    "category": "medicine",
+    "eraPrimary": "modern",
+    "originYear": 1868,
+    "originYearEnd": null,
+    "originLabel": "Professional pharmacy regulation era",
+    "dateConfidence": "high",
+    "educationPath": "Pharmacy doctorate or equivalent national licensure programs.",
+    "modernSectors": "Retail pharmacies, hospital pharmacies, clinical research, mail-order fulfillment.",
+    "aliases": [
+      "chemist (UK retail)",
+      "druggist"
+    ],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Synthetic drugs",
+        "description": "Industrial pharmaceutical manufacturing shifts dispensing from hand-compounding to branded tablets.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Pharmacy profession histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "apothecary",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "physician",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "dentist",
+    "name": "Dentist",
+    "status": "active",
+    "summary": "A practitioner devoted to oral health who treats teeth and gums—split from barber-surgeons as dentistry became a distinct licensed field.",
+    "duties": "Examine mouths, fill cavities, extract teeth, fit prosthetics, and educate patients on hygiene.",
+    "skills": "Manual precision, radiograph reading, pain management, small-business management in private practice.",
+    "tools": "Dental drill, mirrors, forceps, X-ray sensors, CAD/CAM crown mills.",
+    "regions": "Urban professional practice worldwide since 18th-century specialization.",
+    "category": "medicine",
+    "eraPrimary": "early_modern",
+    "originYear": 1728,
+    "originYearEnd": null,
+    "originLabel": "Dedicated dental texts and teaching in France and beyond",
+    "dateConfidence": "medium",
+    "educationPath": "Dental school, licensure exams, continuing education.",
+    "modernSectors": "Private clinics, hospital dentistry, public health programs, orthodontics.",
+    "aliases": [
+      "dental surgeon",
+      "tooth drawer (historical)"
+    ],
+    "events": [
+      {
+        "year": 1840,
+        "label": "Dental college founding",
+        "description": "Formal schools emerge in Baltimore and spread professional standards.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dental museum archives",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "barber-surgeon",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "surgeon",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "paramedic",
+    "name": "Paramedic",
+    "status": "active",
+    "summary": "An emergency medical responder who provides advanced pre-hospital care—born from ambulance attendants and battlefield medicine into a credentialed profession.",
+    "duties": "Stabilize patients at scenes, administer drugs and airway support, coordinate with hospitals, and document incidents.",
+    "skills": "Triage, trauma protocols, calm leadership, radio communication, driving under pressure.",
+    "tools": "Defibrillator, airway kits, intravenous supplies, ambulance stretcher systems.",
+    "regions": "North America, Europe, Australia, and growing systems in Asia and Latin America.",
+    "category": "medicine",
+    "eraPrimary": "contemporary",
+    "originYear": 1970,
+    "originYearEnd": null,
+    "originLabel": "Advanced life support credentialing",
+    "dateConfidence": "high",
+    "educationPath": "EMT progression, paramedic certification, recurrent skills testing.",
+    "modernSectors": "Municipal EMS, private ambulance, event medical, air medical crews.",
+    "aliases": [
+      "EMT-paramedic",
+      "ambulance medic"
+    ],
+    "events": [
+      {
+        "year": 1966,
+        "label": "White Paper on trauma",
+        "description": "US reports on accidental death spur modern EMS system design.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Emergency medical services histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "combat-medic",
+        "type": "related"
+      },
+      {
+        "toSlug": "nurse",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "veterinarian",
+    "name": "Veterinarian",
+    "status": "active",
+    "summary": "A medical professional who diagnoses and treats animals—from royal stable physicians in antiquity to modern small-animal and livestock practice.",
+    "duties": "Examine animals, vaccinate herds, perform surgery, advise owners, and monitor food-supply health regulations.",
+    "skills": "Comparative anatomy, epidemiology, client education, regulatory documentation.",
+    "tools": "Stethoscope, vaccines, surgical packs, portable ultrasound, herd databases.",
+    "regions": "Global; formal schools from 18th-century Europe.",
+    "category": "medicine",
+    "eraPrimary": "early_modern",
+    "originYear": 1761,
+    "originYearEnd": null,
+    "originLabel": "First veterinary schools in France",
+    "dateConfidence": "high",
+    "educationPath": "Veterinary medical degrees and national licensing.",
+    "modernSectors": "Small-animal clinics, agriculture, public health inspection, research.",
+    "aliases": [
+      "vet",
+      "veterinary surgeon"
+    ],
+    "events": [
+      {
+        "year": 1884,
+        "label": "Bacteriology in animal disease",
+        "description": "Germ theory improves livestock plague control and food safety.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Veterinary college histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "physician",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "alchemist",
+    "name": "Alchemist",
+    "status": "extinct",
+    "summary": "A practitioner who sought to transform matter and compound elixirs—blending proto-chemistry, metallurgy, and medicine in early modern workshops.",
+    "duties": "Distill substances, assay ores, prepare tinctures, and document symbolic and practical experiments.",
+    "skills": "Furnace operation, careful measurement, record keeping, patron negotiation.",
+    "tools": "Alembics, crucibles, bellows, mortars, coded notebooks.",
+    "regions": "Islamic world, Renaissance Europe, and court laboratories.",
+    "category": "medicine",
+    "eraPrimary": "early_modern",
+    "originYear": 800,
+    "originYearEnd": null,
+    "originLabel": "Islamic and late medieval alchemical texts",
+    "dateConfidence": "low",
+    "aliases": [
+      "chymist",
+      "philosopher's stone seeker"
+    ],
+    "events": [
+      {
+        "year": 1661,
+        "label": "Chemistry emerges",
+        "description": "Boyle and successors recast practical chymistry apart from mystical transmutation goals.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "History of chemistry surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "apothecary",
+        "type": "related"
+      },
+      {
+        "toSlug": "herbalist",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "combat-medic",
+    "name": "Combat Medic",
+    "status": "active",
+    "summary": "A military health specialist who treats wounded soldiers under fire—descended from camp followers and surgeons' mates into trained corpsmen and medics.",
+    "duties": "Apply tourniquets, manage hemorrhage, evacuate casualties, maintain aid station supplies, and train troops in first aid.",
+    "skills": "Battlefield triage, trauma care, physical stamina, tactical communication.",
+    "tools": "IFAK kits, litters, IV fluids, chest seals; historically surgeon's kit and wagons.",
+    "regions": "Every major army; documented from ancient campaigns to modern conflicts.",
+    "category": "medicine",
+    "eraPrimary": "ancient",
+    "originYear": -500,
+    "originYearEnd": null,
+    "originLabel": "Campaign physicians with armies",
+    "dateConfidence": "low",
+    "educationPath": "Military medical training pipelines, combat lifesaver courses, nursing or medic MOS.",
+    "modernSectors": "Army, navy, air force medical corps, special operations support.",
+    "aliases": [
+      "field medic",
+      "corpsman"
+    ],
+    "events": [
+      {
+        "year": 1863,
+        "label": "Ambulance corps formalized",
+        "description": "Civil War-era systems accelerate organized battlefield evacuation.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Military medicine museums",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "surgeon",
+        "type": "related"
+      },
+      {
+        "toSlug": "paramedic",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "physiotherapist",
+    "name": "Physiotherapist",
+    "status": "active",
+    "summary": "A rehabilitation specialist who restores movement after injury or illness—rooted in massage and orthopedic gymnastics, now a licensed allied health profession.",
+    "duties": "Assess mobility, design exercise programs, apply manual therapy, and educate patients on recovery.",
+    "skills": "Biomechanics, empathy, exercise prescription, documentation for insurers.",
+    "tools": "Treatment tables, resistance bands, ultrasound units, gait analysis systems.",
+    "regions": "Global hospitals and sports clinics since late 19th-century formalization.",
+    "category": "medicine",
+    "eraPrimary": "modern",
+    "originYear": 1894,
+    "originYearEnd": null,
+    "originLabel": "Professional physiotherapy associations form",
+    "dateConfidence": "medium",
+    "educationPath": "Physiotherapy degrees, licensure, specialty certifications.",
+    "modernSectors": "Hospitals, sports teams, elder care, private clinics, home health.",
+    "aliases": [
+      "physical therapist (US)",
+      "PT"
+    ],
+    "events": [
+      {
+        "year": 1918,
+        "label": "Wartime rehabilitation",
+        "description": "Mass casualties from World War I expand institutional rehab demand.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rehabilitation history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "surgeon",
+        "type": "related"
+      },
+      {
+        "toSlug": "nurse",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "mortician",
+    "name": "Mortician",
+    "status": "active",
+    "summary": "A funeral professional who prepares deceased persons for burial or cremation—combining embalming science, grief services, and logistical coordination.",
+    "duties": "Embalm or prepare remains, arrange viewings, coordinate cemeteries, and support bereaved families.",
+    "skills": "Cosmetic restoration, regulatory compliance, tact, business operations.",
+    "tools": "Embalming machine, arterial tubes, caskets, hearses, refrigeration.",
+    "regions": "Industrialized funeral industries; professionalized in 19th-century America and Europe.",
+    "category": "medicine",
+    "eraPrimary": "industrial",
+    "originYear": 1860,
+    "originYearEnd": null,
+    "originLabel": "Civil War era embalming trade expansion",
+    "dateConfidence": "medium",
+    "educationPath": "Mortuary science programs, funeral director licensure, apprenticeship.",
+    "modernSectors": "Funeral homes, crematories, pre-need planning firms.",
+    "aliases": [
+      "undertaker",
+      "funeral director",
+      "embalmer"
+    ],
+    "events": [
+      {
+        "year": 1963,
+        "label": "Memorial broadcasting",
+        "description": "Televised state funerals raise public awareness of funeral directing as a profession.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Funeral industry histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "plague-doctor",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "radiographer",
+    "name": "Radiographer",
+    "status": "active",
+    "summary": "A technologist who produces medical imaging with X-rays and related modalities—emerging alongside radiology after Röntgen's discovery.",
+    "duties": "Position patients, operate imaging equipment, follow radiation safety protocols, and collaborate with radiologists.",
+    "skills": "Anatomy positioning, equipment calibration, patient reassurance, PACS workflow.",
+    "tools": "X-ray tubes, CT scanners, MRI consoles, lead shielding.",
+    "regions": "Hospital systems worldwide since early 20th century.",
+    "category": "medicine",
+    "eraPrimary": "modern",
+    "originYear": 1896,
+    "originYearEnd": null,
+    "originLabel": "Clinical X-ray adoption after 1895 discovery",
+    "dateConfidence": "high",
+    "educationPath": "Radiography degrees, ARRT-style certification, continuing education.",
+    "modernSectors": "Hospitals, outpatient imaging centers, mobile radiography, research.",
+    "aliases": [
+      "X-ray technologist",
+      "medical imaging technologist"
+    ],
+    "events": [
+      {
+        "year": 1972,
+        "label": "CT scanning",
+        "description": "Computed tomography adds cross-sectional imaging to technologist practice.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Radiology history timelines",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "surgeon",
+        "type": "related"
+      },
+      {
+        "toSlug": "physician",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "soldier",
+    "name": "Soldier",
+    "status": "active",
+    "summary": "A member of an organized fighting force who carries out military orders in war and peacekeeping—the generic backbone role behind countless specialized branches.",
+    "duties": "Train for combat, maintain equipment, follow command structure, patrol, and execute missions.",
+    "skills": "Discipline, marksmanship, teamwork, endurance, rules of engagement literacy.",
+    "tools": "Rifle, body armor, field pack, radios; historically spears, shields, muskets.",
+    "regions": "Every state with standing or conscript armies.",
+    "category": "military",
+    "eraPrimary": "ancient",
+    "originYear": -3000,
+    "originYearEnd": null,
+    "originLabel": "Early organized warfare",
+    "dateConfidence": "low",
+    "educationPath": "Basic training, specialty schools, NCO and officer pipelines.",
+    "modernSectors": "Army, marines, peacekeeping missions, gendarmerie.",
+    "aliases": [
+      "trooper",
+      "warrior (historical overlap)",
+      "private (rank)"
+    ],
+    "events": [
+      {
+        "year": 1914,
+        "label": "Industrial total war",
+        "description": "Mass conscription and trench systems redefine soldier experience in Europe.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Military history surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "infantry",
+        "type": "related"
+      },
+      {
+        "toSlug": "mercenary",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "infantry",
+    "name": "Infantry",
+    "status": "active",
+    "summary": "Foot soldiers who form the core of most armies—fighting with small arms and close weapons from phalanxes to modern rifle squads.",
+    "duties": "Advance on foot, hold ground, clear buildings, dig field fortifications, and coordinate with armor and air support.",
+    "skills": "Marksmanship, small-unit tactics, land navigation, physical fitness.",
+    "tools": "Rifles, machine guns, grenades, night vision; historically pikes and muskets.",
+    "regions": "Universal across armies; dominant before mechanized cavalry returns in combined arms.",
+    "category": "military",
+    "eraPrimary": "ancient",
+    "originYear": -2500,
+    "originYearEnd": null,
+    "originLabel": "Sumerian and Egyptian foot regiments",
+    "dateConfidence": "low",
+    "educationPath": "Military basic training and infantry school courses.",
+    "modernSectors": "Army infantry brigades, marine rifle companies, light infantry.",
+    "aliases": [
+      "foot soldier",
+      "rifleman"
+    ],
+    "events": [
+      {
+        "year": 1940,
+        "label": "Mechanized combined arms",
+        "description": "Tanks and radios integrate infantry into fast-moving battle groups.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Infantry doctrine histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "soldier",
+        "type": "related"
+      },
+      {
+        "toSlug": "musketeer",
+        "type": "predecessor"
+      }
+    ]
+  },
+  {
+    "slug": "cavalryman",
+    "name": "Cavalryman",
+    "status": "extinct",
+    "summary": "A mounted soldier who fought on horseback with lance, saber, or carbine—decisive for millennia until mechanized armor and aircraft replaced horse mobility.",
+    "duties": "Scout terrain, charge formations, pursue routed enemies, and escort officers and messengers.",
+    "skills": "Horsemanship, mounted combat, reconnaissance, animal care.",
+    "tools": "Saber, lance, carbine, saddle, remount lines.",
+    "regions": "Eurasian steppes, European armies, and US frontier cavalry.",
+    "category": "military",
+    "eraPrimary": "ancient",
+    "originYear": -1000,
+    "originYearEnd": null,
+    "originLabel": "Chariot and horse warfare complexes",
+    "dateConfidence": "medium",
+    "aliases": [
+      "horse soldier",
+      "dragoon",
+      "hussar (regiment type)"
+    ],
+    "events": [
+      {
+        "year": 1918,
+        "label": "Last great cavalry charges",
+        "description": "Machine guns and trenches end mass cavalry assaults on Western Front.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cavalry museum records",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "knight",
+        "type": "related"
+      },
+      {
+        "toSlug": "infantry",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "musketeer",
+    "name": "Musketeer",
+    "status": "extinct",
+    "summary": "An early modern infantry soldier armed with a smoothbore musket—firing in volleys before bayonet charges in European and colonial warfare.",
+    "duties": "Load paper cartridges, maintain fire discipline, fix bayonets, and maneuver in line formations.",
+    "skills": "Drill precision, tolerance for smoke and noise, bayonet fighting.",
+    "tools": "Matchlock or flintlock musket, bayonet, cartridge box.",
+    "regions": "Europe, Ottoman armies, and colonial campaigns 16th–19th centuries.",
+    "category": "military",
+    "eraPrimary": "early_modern",
+    "originYear": 1550,
+    "originYearEnd": null,
+    "originLabel": "Gunpowder infantry adoption",
+    "dateConfidence": "medium",
+    "aliases": [
+      "fusilier",
+      "arquebusier (earlier)"
+    ],
+    "events": [
+      {
+        "year": 1700,
+        "label": "Bayonet standardization",
+        "description": "Socket bayonets let musketeers fight as pseudo-pikemen without separate pike blocks.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Early modern military histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "infantry",
+        "type": "successor"
+      },
+      {
+        "toSlug": "gunner",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "grenadier",
+    "name": "Grenadier",
+    "status": "extinct",
+    "summary": "An elite infantry soldier originally trained to throw hand grenades over fortifications—later an honorific for tall, tough line companies.",
+    "duties": "Assault breaches, throw grenades, lead shock attacks, and maintain elite drill standards.",
+    "skills": "Courage under fire, accurate throwing, disciplined advance, intimidating presence.",
+    "tools": "Hand grenades, musket, short sword, distinctive headgear historically.",
+    "regions": "European armies especially 17th–19th centuries.",
+    "category": "military",
+    "eraPrimary": "early_modern",
+    "originYear": 1660,
+    "originYearEnd": null,
+    "originLabel": "Grenade companies in siege warfare",
+    "dateConfidence": "medium",
+    "aliases": [
+      "elite infantryman"
+    ],
+    "events": [
+      {
+        "year": 1800,
+        "label": "Elite status without grenades",
+        "description": "Many armies keep grenadier titles while abandoning thrown grenades in open battle.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Regimental history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "infantry",
+        "type": "related"
+      },
+      {
+        "toSlug": "sapper",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "sapper",
+    "name": "Sapper",
+    "status": "active",
+    "summary": "A combat engineer who breaches fortifications, clears mines, and builds field works—descended from miners and siege specialists in royal armies.",
+    "duties": "Dig trenches, disarm explosives, build bridges under fire, and advise commanders on obstacle breaching.",
+    "skills": "Explosives safety, field fortification, map reading, teamwork in high risk.",
+    "tools": "Pickaxes, demolition charges, mine detectors, bulldozers in modern engineer units.",
+    "regions": "Engineer corps in British, French, US, and many national armies.",
+    "category": "military",
+    "eraPrimary": "early_modern",
+    "originYear": 1600,
+    "originYearEnd": null,
+    "originLabel": "Siege mining and pioneer companies",
+    "dateConfidence": "medium",
+    "educationPath": "Combat engineer military occupational training.",
+    "modernSectors": "Army engineers, EOD teams, bridge companies, NATO sapper schools.",
+    "aliases": [
+      "combat engineer",
+      "pioneer"
+    ],
+    "events": [
+      {
+        "year": 1914,
+        "label": "Trench warfare",
+        "description": "Western Front entrenched systems make sappers essential for underground mines and breaching.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Military engineering histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "miner",
+        "type": "related"
+      },
+      {
+        "toSlug": "grenadier",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "artillery-officer",
+    "name": "Artillery Officer",
+    "status": "active",
+    "summary": "An officer who commands cannon crews and fire direction—evolving from gunner specialists into scientifically trained branches of modern armies.",
+    "duties": "Calculate trajectories, coordinate batteries, maintain guns, and integrate fires with maneuver units.",
+    "skills": "Ballistics math, leadership, map plotting, communications protocols.",
+    "tools": "Range tables, fire direction centers, howitzers, radar; historically quadrant and sponge.",
+    "regions": "Professional armies worldwide; royal artillery academies from 18th century.",
+    "category": "military",
+    "eraPrimary": "early_modern",
+    "originYear": 1700,
+    "originYearEnd": null,
+    "originLabel": "Institutional artillery schools in Europe",
+    "dateConfidence": "medium",
+    "educationPath": "Military academy, artillery officer basic course, fire direction certification.",
+    "modernSectors": "Army and marine artillery, air defense, naval gunnery coordination.",
+    "aliases": [
+      "gunner officer",
+      "artillerist"
+    ],
+    "events": [
+      {
+        "year": 1916,
+        "label": "Barrage tactics",
+        "description": "Industrial shell production makes artillery the dominant killer on Western Front.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Artillery corps histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "gunner",
+        "type": "predecessor"
+      },
+      {
+        "toSlug": "general",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "naval-officer",
+    "name": "Naval Officer",
+    "status": "active",
+    "summary": "A commissioned leader aboard warships who navigates, commands divisions, and executes fleet strategy—from age-of-sail lieutenants to modern nuclear sub captains.",
+    "duties": "Navigate vessels, lead divisions, manage watches, interpret orders, and maintain discipline at sea.",
+    "skills": "Seamanship, leadership, navigation, rules of engagement, engineering literacy on modern ships.",
+    "tools": "Charts, sextants historically; radar, sonar, combat information centers today.",
+    "regions": "Global naval powers; traditions in Britain, Spain, Netherlands, US, Japan.",
+    "category": "military",
+    "eraPrimary": "ancient",
+    "originYear": -500,
+    "originYearEnd": null,
+    "originLabel": "Organized galley and sail navies",
+    "dateConfidence": "low",
+    "educationPath": "Naval academies, officer candidate schools, bridge watchstanding qualifications.",
+    "modernSectors": "Surface fleet, submarines, naval aviation liaison, coast guard officer corps.",
+    "aliases": [
+      "ship's officer",
+      "lieutenant (rank example)"
+    ],
+    "events": [
+      {
+        "year": 1805,
+        "label": "Nelson era fleet battles",
+        "description": "Line-of-battle tactics peak before steam and ironclads transform naval command.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Naval history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "sailor",
+        "type": "related"
+      },
+      {
+        "toSlug": "privateer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "privateer",
+    "name": "Privateer",
+    "status": "extinct",
+    "summary": "A privately owned ship authorized by a government to attack enemy commerce during war—blurring the line between sailor, merchant, and pirate.",
+    "duties": "Cruise shipping lanes, capture prizes, bring vessels to admiralty courts, and avoid neutral violations.",
+    "skills": "Navigation, gunnery, prize law literacy, crew management, risk appetite.",
+    "tools": "Armed merchant hull, letters of marque, small arms, prize crews.",
+    "regions": "Atlantic and Caribbean during European wars; American Revolution and War of 1812 peaks.",
+    "category": "military",
+    "eraPrimary": "early_modern",
+    "originYear": 1500,
+    "originYearEnd": null,
+    "originLabel": "Letters of marque in Atlantic trade wars",
+    "dateConfidence": "medium",
+    "aliases": [
+      "corsair (regional)",
+      "buccaneer (overlap)"
+    ],
+    "events": [
+      {
+        "year": 1856,
+        "label": "Paris Declaration",
+        "description": "Many powers renounce privateering; standing navies replace commerce raiding licenses.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Maritime law histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "sailor",
+        "type": "related"
+      },
+      {
+        "toSlug": "naval-officer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "mercenary",
+    "name": "Mercenary",
+    "status": "active",
+    "summary": "A fighter paid for service outside patriotic conscription—ancient hoplite contractors to modern private military contractors advising and protecting clients.",
+    "duties": "Execute contracts for security, training, or combat; maintain unit cohesion; operate under client rules.",
+    "skills": "Weapons proficiency, languages, adaptability, contract discipline, risk assessment.",
+    "tools": "Small arms, tactical vehicles, communications; historically condottieri retinues.",
+    "regions": "Swiss pike blocks historically; global PMC presence in 20th–21st centuries.",
+    "category": "military",
+    "eraPrimary": "ancient",
+    "originYear": -700,
+    "originYearEnd": null,
+    "originLabel": "Paid hoplite and auxiliary service",
+    "dateConfidence": "low",
+    "aliases": [
+      "contract soldier",
+      "PMC operator (modern)"
+    ],
+    "events": [
+      {
+        "year": 1500,
+        "label": "Italian condottieri",
+        "description": "City-states hire captain companies as semi-professional armies.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mercenary studies references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "soldier",
+        "type": "related"
+      },
+      {
+        "toSlug": "knight",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "drill-instructor",
+    "name": "Drill Instructor",
+    "status": "active",
+    "summary": "A training non-commissioned officer who transforms recruits into disciplined soldiers through intensive drill—iconic in marine and army boot camps.",
+    "duties": "Lead physical training, teach customs and courtesies, enforce standards, and evaluate readiness.",
+    "skills": "Command voice, example-setting, stress management, instructional clarity.",
+    "tools": "Whistle, training schedules, obstacle courses, marksmanship ranges.",
+    "regions": "US marine corps and army traditions especially; parallels in many militaries.",
+    "category": "military",
+    "eraPrimary": "modern",
+    "originYear": 1917,
+    "originYearEnd": null,
+    "originLabel": "Mass mobilization training camps",
+    "dateConfidence": "medium",
+    "educationPath": "NCO promotion, drill instructor school, safety certifications.",
+    "modernSectors": "Recruit depots, officer candidate support, reserve training commands.",
+    "aliases": [
+      "drill sergeant (army)",
+      "DI"
+    ],
+    "events": [
+      {
+        "year": 1941,
+        "label": "WWII training expansion",
+        "description": "Millions of conscripts pass through standardized basic training pipelines.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Boot camp oral histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "soldier",
+        "type": "related"
+      },
+      {
+        "toSlug": "general",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "general",
+    "name": "General",
+    "status": "active",
+    "summary": "A senior commander who plans campaigns and leads large formations—title and role dating to republican Rome and continuing in modern joint staffs.",
+    "duties": "Set strategy, allocate forces, coordinate allies, and bear responsibility for operational outcomes.",
+    "skills": "Strategic thinking, staff leadership, logistics grasp, political communication.",
+    "tools": "Maps, staff sections, secure communications, intelligence fusion cells.",
+    "regions": "Staff commands in national capitals and theater headquarters worldwide.",
+    "category": "military",
+    "eraPrimary": "ancient",
+    "originYear": -500,
+    "originYearEnd": null,
+    "originLabel": "Roman generalship as institutional model",
+    "dateConfidence": "medium",
+    "educationPath": "Military academy, war college, joint professional military education.",
+    "modernSectors": "Army, joint chiefs structures, coalition commands, peacekeeping HQs.",
+    "aliases": [
+      "commanding general",
+      "field marshal (rank variant)"
+    ],
+    "events": [
+      {
+        "year": 1944,
+        "label": "Combined operations",
+        "description": "D-Day scale invasions require generals to integrate air, sea, and land components.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Military command biographies",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "artillery-officer",
+        "type": "related"
+      },
+      {
+        "toSlug": "knight",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "squire",
+    "name": "Squire",
+    "status": "extinct",
+    "summary": "A young attendant who served a knight by caring for armor and horses while training for knighthood—a medieval apprenticeship on the path to elite warrior status.",
+    "duties": "Maintain arms, accompany lords, train in horsemanship and combat, and manage camp logistics.",
+    "skills": "Horsemanship, armor care, courtesy, hunting, basic arms practice.",
+    "tools": "Horse tack, polishing kit, practice sword, shield.",
+    "regions": "Medieval and early modern European feudal societies.",
+    "category": "military",
+    "eraPrimary": "medieval",
+    "originYear": 1000,
+    "originYearEnd": null,
+    "originLabel": "Feudal military apprenticeship",
+    "dateConfidence": "medium",
+    "aliases": [
+      "page (earlier stage)",
+      "armiger"
+    ],
+    "events": [
+      {
+        "year": 1500,
+        "label": "Nobility transforms",
+        "description": "Standing armies and gunpowder reduce the knight-squire pathway in many states.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Chivalric literature and records",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "knight",
+        "type": "successor"
+      },
+      {
+        "toSlug": "cavalryman",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "samurai",
+    "name": "Samurai",
+    "status": "extinct",
+    "summary": "A warrior-retainer class in feudal Japan who served daimyo with swordsmanship, administration, and cultural refinement—legally abolished in the Meiji modernization.",
+    "duties": "Fight in clan armies, govern estates, advise lords, and embody bushido ideals in peace and war.",
+    "skills": "Kenjutsu, archery on horseback, literacy, loyalty politics, ritual decorum.",
+    "tools": "Katana, wakizashi, yumi bow, armor (yoroi), war banners.",
+    "regions": "Japan, especially Edo period domains until 1868.",
+    "category": "military",
+    "eraPrimary": "medieval",
+    "originYear": 1100,
+    "originYearEnd": 1868,
+    "originLabel": "Rise of bushi power through Kamakura and Edo eras",
+    "dateConfidence": "medium",
+    "aliases": [
+      "bushi",
+      "warrior-retainer"
+    ],
+    "events": [
+      {
+        "year": 1600,
+        "label": "Tokugawa peace",
+        "description": "Centuries of relative internal peace shift many samurai toward administration and arts.",
+        "sortOrder": 1
+      },
+      {
+        "year": 1868,
+        "label": "Meiji abolition",
+        "description": "Hairstyle and sword privileges end; western-style conscript army replaces samurai class.",
+        "sortOrder": 2
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japanese feudal histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "knight",
+        "type": "related"
+      },
+      {
+        "toSlug": "archer",
+        "type": "related"
+      }
+    ]
+  }
+]

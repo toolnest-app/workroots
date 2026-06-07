@@ -1,12 +1,11 @@
-import { AgeBadge } from "@/components/age-badge";
-import { LineageFlow } from "@/components/lineage-flow";
+import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { ERA_LABELS, STATUS_LABELS } from "@/lib/constants";
 import { STATUS_STYLES, ERA_STYLES } from "@/lib/status-styles";
-import type { DateConfidence, OccupationStatus } from "@/lib/occupation-age";
-import type { EraPrimary } from "@/db/schema";
+import type { EraPrimary, OccupationStatus } from "@/db/schema";
 import { cn } from "@/lib/utils";
+import { MapPin, BookOpen } from "lucide-react";
 
 interface Relation {
   type: "predecessor" | "successor" | "related";
@@ -19,50 +18,80 @@ interface DetailSidebarProps {
   status: OccupationStatus;
   eraPrimary: EraPrimary;
   category: string;
-  originYear: number | null;
-  originYearEnd: number | null;
-  originLabel: string | null;
-  dateConfidence: DateConfidence;
+  regions?: string;
   relations: Relation[];
-  currentName: string;
 }
 
-export function DetailSidebar(props: DetailSidebarProps) {
+export function DetailSidebar({
+  status,
+  eraPrimary,
+  category,
+  regions,
+  relations,
+}: DetailSidebarProps) {
+  const related = relations.slice(0, 6);
+
   return (
     <aside className="space-y-6 lg:sticky lg:top-24 lg:self-start">
-      <AgeBadge
-        status={props.status}
-        originYear={props.originYear}
-        originYearEnd={props.originYearEnd}
-        originLabel={props.originLabel}
-        dateConfidence={props.dateConfidence}
-      />
-      <div className="flex flex-wrap gap-2">
-        <Badge
-          variant="outline"
-          className={cn(STATUS_STYLES[props.status].badge)}
-        >
-          {STATUS_LABELS[props.status]}
-        </Badge>
-        <Badge
-          variant="outline"
-          className={cn(ERA_STYLES[props.eraPrimary].badge)}
-        >
-          {ERA_LABELS[props.eraPrimary]}
-        </Badge>
-        <Badge variant="secondary" className="capitalize">
-          {props.category}
-        </Badge>
+      <div className="rounded-xl border border-border/70 bg-muted/15 p-5">
+        <p className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
+          Archive record
+        </p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          <Badge
+            variant="outline"
+            className={cn(STATUS_STYLES[status].badge)}
+          >
+            {STATUS_LABELS[status]}
+          </Badge>
+          <Badge
+            variant="outline"
+            className={cn(ERA_STYLES[eraPrimary].badge)}
+          >
+            {ERA_LABELS[eraPrimary]}
+          </Badge>
+          <Badge variant="secondary" className="capitalize">
+            {category}
+          </Badge>
+        </div>
+        {regions && (
+          <div className="mt-4 flex gap-2 text-sm text-muted-foreground">
+            <MapPin className="mt-0.5 size-4 shrink-0 text-primary/70" />
+            <p className="leading-relaxed">{regions}</p>
+          </div>
+        )}
       </div>
-      <Separator />
-      <div>
-        <h2 className="mb-3 font-serif text-lg font-semibold">Lineage</h2>
-        <LineageFlow
-          currentName={props.currentName}
-          currentStatus={props.status}
-          relations={props.relations}
-        />
-      </div>
+
+      {related.length > 0 && (
+        <>
+          <Separator />
+          <div>
+            <div className="mb-3 flex items-center gap-2">
+              <BookOpen className="size-4 text-primary" />
+              <h2 className="font-serif text-lg font-semibold">
+                Explore nearby
+              </h2>
+            </div>
+            <ul className="space-y-2">
+              {related.map((rel) => (
+                <li key={`${rel.type}-${rel.slug}`}>
+                  <Link
+                    href={`/jobs/${rel.slug}`}
+                    className="group flex items-center justify-between rounded-lg border border-transparent px-3 py-2 text-sm transition-colors hover:border-border hover:bg-muted/40"
+                  >
+                    <span className="font-medium group-hover:text-primary">
+                      {rel.name}
+                    </span>
+                    <span className="text-[10px] capitalize text-muted-foreground">
+                      {rel.type}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </>
+      )}
     </aside>
   );
 }

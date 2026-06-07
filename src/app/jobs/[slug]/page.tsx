@@ -4,9 +4,13 @@ import { hasDatabase } from "@/db";
 import { SetupNotice } from "@/components/setup-notice";
 import { DetailSidebar } from "@/components/detail-sidebar";
 import { OccupationTimeline } from "@/components/occupation-timeline";
+import { OccupationHero } from "@/components/occupation-hero";
+import { OccupationFacts } from "@/components/occupation-facts";
+import { LineageFlow } from "@/components/lineage-flow";
 import { BreadcrumbsNav } from "@/components/breadcrumbs-nav";
 import { getOccupationBySlug } from "@/lib/queries/occupations";
 import { Separator } from "@/components/ui/separator";
+import { TierNotice } from "@/components/tier-notice";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -31,7 +35,7 @@ function ContentSection({
   children: React.ReactNode;
 }) {
   return (
-    <section className="space-y-3">
+    <section className="space-y-4">
       <h2 className="font-serif text-xl font-semibold tracking-tight">
         {title}
       </h2>
@@ -54,9 +58,10 @@ export default async function OccupationDetailPage({ params }: PageProps) {
   const { occupation, aliases, events, sources, relations } = data;
   const isActive =
     occupation.status === "active" || occupation.status === "declining";
+  const hasLineage = relations.length > 0;
 
   return (
-    <div>
+    <div className="space-y-8">
       <BreadcrumbsNav
         items={[
           { label: "Home", href: "/" },
@@ -65,22 +70,33 @@ export default async function OccupationDetailPage({ params }: PageProps) {
         ]}
       />
 
-      <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-12 xl:grid-cols-[minmax(0,1fr)_360px]">
-        <article className="min-w-0 space-y-8">
-          <header className="space-y-3 border-b border-border/60 pb-8">
-            <h1 className="font-serif text-4xl font-semibold tracking-tight md:text-5xl">
-              {occupation.name}
-            </h1>
-            {aliases.length > 0 && (
-              <p className="text-sm text-muted-foreground">
-                Also known as:{" "}
-                <span className="text-foreground">{aliases.join(", ")}</span>
-              </p>
-            )}
-            <p className="text-lg leading-relaxed text-foreground/90">
-              {occupation.summary}
-            </p>
-          </header>
+      <OccupationHero
+        name={occupation.name}
+        summary={occupation.summary}
+        aliases={aliases}
+        status={occupation.status}
+        eraPrimary={occupation.eraPrimary}
+        category={occupation.category}
+        contentTier={occupation.contentTier}
+        originYear={occupation.originYear}
+        originYearEnd={occupation.originYearEnd}
+        originLabel={occupation.originLabel}
+        dateConfidence={occupation.dateConfidence}
+      />
+
+      <TierNotice tier={occupation.contentTier} />
+
+      <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-12">
+        <article className="min-w-0 space-y-10">
+          {hasLineage && (
+            <ContentSection title="Lineage">
+              <LineageFlow
+                currentName={occupation.name}
+                currentStatus={occupation.status}
+                relations={relations}
+              />
+            </ContentSection>
+          )}
 
           {events.length > 0 && (
             <ContentSection title="Timeline">
@@ -88,66 +104,64 @@ export default async function OccupationDetailPage({ params }: PageProps) {
             </ContentSection>
           )}
 
-          {occupation.duties && (
-            <ContentSection title="Duties">
-              <p className="whitespace-pre-wrap text-foreground/85">
-                {occupation.duties}
-              </p>
-            </ContentSection>
-          )}
+          <OccupationFacts
+            duties={occupation.duties || undefined}
+            skills={occupation.skills || undefined}
+            tools={occupation.tools || undefined}
+          />
 
-          {occupation.skills && (
-            <ContentSection title="Skills">
-              <p className="whitespace-pre-wrap text-foreground/85">
-                {occupation.skills}
-              </p>
-            </ContentSection>
-          )}
-
-          {occupation.tools && (
-            <ContentSection title="Tools">
-              <p className="whitespace-pre-wrap text-foreground/85">
-                {occupation.tools}
-              </p>
-            </ContentSection>
-          )}
-
-          {occupation.regions && (
+          {occupation.regions && occupation.contentTier !== "curated" && (
             <ContentSection title="Regions">
               <p className="text-foreground/85">{occupation.regions}</p>
             </ContentSection>
           )}
 
           {isActive && (occupation.educationPath || occupation.modernSectors) && (
-            <ContentSection title="Today">
-              {occupation.educationPath && (
-                <p>
-                  <span className="font-medium text-foreground">Path in: </span>
-                  {occupation.educationPath}
-                </p>
-              )}
-              {occupation.modernSectors && (
-                <p className="mt-3">
-                  <span className="font-medium text-foreground">Sectors: </span>
-                  {occupation.modernSectors}
-                </p>
-              )}
-            </ContentSection>
+            <section className="rounded-xl border border-primary/15 bg-primary/5 p-6">
+              <h2 className="font-serif text-xl font-semibold tracking-tight">
+                Today
+              </h2>
+              <div className="mt-4 space-y-3 text-sm leading-relaxed md:text-base">
+                {occupation.educationPath && (
+                  <p>
+                    <span className="font-medium text-foreground">
+                      Path in:{" "}
+                    </span>
+                    <span className="text-foreground/85">
+                      {occupation.educationPath}
+                    </span>
+                  </p>
+                )}
+                {occupation.modernSectors && (
+                  <p>
+                    <span className="font-medium text-foreground">
+                      Sectors:{" "}
+                    </span>
+                    <span className="text-foreground/85">
+                      {occupation.modernSectors}
+                    </span>
+                  </p>
+                )}
+              </div>
+            </section>
           )}
 
           <Separator />
 
           <ContentSection title="Sources & uncertainty">
             {occupation.originLabel && (
-              <p className="mb-3 text-sm">
+              <p className="mb-4 rounded-lg bg-muted/30 px-4 py-3 text-sm text-foreground/85">
                 <span className="font-medium text-foreground">Origin note: </span>
                 {occupation.originLabel}
               </p>
             )}
             {sources.length > 0 ? (
-              <ul className="list-disc space-y-2 pl-5">
+              <ul className="space-y-3">
                 {sources.map((s) => (
-                  <li key={s.id}>
+                  <li
+                    key={s.id}
+                    className="rounded-lg border border-border/60 bg-card px-4 py-3 text-sm"
+                  >
                     {s.url ? (
                       <a
                         href={s.url}
@@ -163,7 +177,7 @@ export default async function OccupationDetailPage({ params }: PageProps) {
                       </span>
                     )}
                     {s.note ? (
-                      <span className="text-muted-foreground"> — {s.note}</span>
+                      <p className="mt-1 text-muted-foreground">{s.note}</p>
                     ) : null}
                   </li>
                 ))}
@@ -178,12 +192,8 @@ export default async function OccupationDetailPage({ params }: PageProps) {
           status={occupation.status}
           eraPrimary={occupation.eraPrimary}
           category={occupation.category}
-          originYear={occupation.originYear}
-          originYearEnd={occupation.originYearEnd}
-          originLabel={occupation.originLabel}
-          dateConfidence={occupation.dateConfidence}
+          regions={occupation.regions || undefined}
           relations={relations}
-          currentName={occupation.name}
         />
       </div>
     </div>

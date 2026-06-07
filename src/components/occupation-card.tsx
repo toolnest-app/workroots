@@ -13,6 +13,9 @@ import { buildAgeDisplay } from "@/lib/occupation-age";
 import type { EraPrimary, OccupationStatus } from "@/db/schema";
 import { cn } from "@/lib/utils";
 import { Clock } from "lucide-react";
+import { CuratedBadge } from "@/components/curated-badge";
+import { EnhancedBadge } from "@/components/enhanced-badge";
+import type { ContentTier } from "@/db/schema";
 
 interface OccupationCardProps {
   slug: string;
@@ -22,6 +25,7 @@ interface OccupationCardProps {
   eraPrimary: EraPrimary;
   originYear?: number | null;
   originLabel?: string | null;
+  contentTier?: ContentTier;
 }
 
 export function OccupationCard({
@@ -32,6 +36,7 @@ export function OccupationCard({
   eraPrimary,
   originYear = null,
   originLabel = null,
+  contentTier = "stub",
 }: OccupationCardProps) {
   const age = buildAgeDisplay({
     status,
@@ -64,6 +69,8 @@ export function OccupationCard({
             )}
           </div>
           <div className="flex flex-wrap gap-1.5 pt-1">
+            {contentTier === "curated" && <CuratedBadge />}
+            {contentTier === "enhanced" && <EnhancedBadge />}
             <Badge
               variant="outline"
               className={cn("text-[10px]", STATUS_STYLES[status].badge)}

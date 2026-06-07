@@ -1,0 +1,2116 @@
+[
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 313,
+        "label": "Constantine era",
+        "description": "Imperial toleration expands organized Christian priesthoods across the Roman world.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "bishop",
+        "type": "related"
+      },
+      {
+        "toSlug": "deacon",
+        "type": "related"
+      },
+      {
+        "toSlug": "theologian",
+        "type": "related"
+      }
+    ],
+    "slug": "priest",
+    "name": "Priest",
+    "status": "active",
+    "summary": "An ordained minister who leads worship, administers sacraments, and guides a religious community—central to Christian, Hindu, and many other temple traditions across millennia.",
+    "duties": "Celebrate liturgy, preach, perform baptisms and marriages, counsel parishioners, manage parish records, and oversee charitable works.",
+    "skills": "Theology, public speaking, pastoral care, ritual precision, community leadership.",
+    "tools": "Vestments, chalice and paten, lectionary, parish registers, later microphones and livestream kits.",
+    "regions": "Global Christianity; also Hindu and Zoroastrian priestly castes with distinct training.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": -2000,
+    "originLabel": "Early temple priesthoods of literate civilizations",
+    "dateConfidence": "low",
+    "aliases": [
+      "cleric",
+      "presbyter"
+    ],
+    "eventYear": 313,
+    "eventLabel": "Constantine era",
+    "eventDescription": "Imperial toleration expands organized Christian priesthoods across the Roman world.",
+    "educationPath": "Seminary, diaconal formation, denominational ordination exams.",
+    "modernSectors": "Parishes, hospitals, schools, military chaplaincies, missionary orders."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 529,
+        "label": "Benedictine rule",
+        "description": "Benedict of Nursia codifies Western monastic life around prayer and labor.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "nun",
+        "type": "related"
+      },
+      {
+        "toSlug": "friar",
+        "type": "related"
+      },
+      {
+        "toSlug": "hermit",
+        "type": "related"
+      }
+    ],
+    "slug": "monk",
+    "name": "Monk",
+    "status": "active",
+    "summary": "A man who vows poverty, chastity, and obedience within a cloistered or mendicant religious community—Benedictine, Buddhist, Orthodox, and countless other ascetic traditions.",
+    "duties": "Pray the hours, study scripture, perform manual labor, host guests, and maintain monastery discipline.",
+    "skills": "Contemplative prayer, obedience, literacy, craft or farming work, conflict mediation in community.",
+    "tools": "Habit, breviary, bells, scriptorium tools historically; modern retreat center systems.",
+    "regions": "Europe, East Asia, Ethiopia, Southeast Asian forest monasteries.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": -500,
+    "originLabel": "Early Buddhist and Jain monastic communities",
+    "dateConfidence": "medium",
+    "aliases": [
+      "brother",
+      "cenobite"
+    ],
+    "eventYear": 529,
+    "eventLabel": "Benedictine rule",
+    "eventDescription": "Benedict of Nursia codifies Western monastic life around prayer and labor.",
+    "educationPath": "Postulancy, novitiate, solemn vows; Buddhist vinaya training in respective schools.",
+    "modernSectors": "Monasteries, retreat houses, universities founded by orders, social service agencies."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 70,
+        "label": "Rabbinic Judaism consolidates",
+        "description": "Destruction of the Temple shifts authority toward scholars and synagogue leadership.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "cantor",
+        "type": "related"
+      },
+      {
+        "toSlug": "mohel",
+        "type": "related"
+      },
+      {
+        "toSlug": "theologian",
+        "type": "related"
+      }
+    ],
+    "slug": "rabbi",
+    "name": "Rabbi",
+    "status": "active",
+    "summary": "A Jewish teacher and legal interpreter who guides congregations in Torah, halakha, and lifecycle rituals—from Talmudic scholars to modern pulpit and campus rabbis.",
+    "duties": "Teach scripture, officiate Shabbat and holidays, counsel families, answer halakhic questions, and represent community institutions.",
+    "skills": "Hebrew and Aramaic, Talmudic reasoning, pastoral care, public speaking, communal diplomacy.",
+    "tools": "Siddur, humash, Talmud volumes, kosher supervision checklists, pastoral care records.",
+    "regions": "Diaspora communities worldwide; Israel; historical Eastern European yeshiva centers.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": -200,
+    "originLabel": "Second Temple and rabbinic academies",
+    "dateConfidence": "medium",
+    "aliases": [
+      "rav",
+      "rebbe (Hasidic overlap)"
+    ],
+    "eventYear": 70,
+    "eventLabel": "Rabbinic Judaism consolidates",
+    "eventDescription": "Destruction of the Temple shifts authority toward scholars and synagogue leadership.",
+    "educationPath": "Yeshiva, rabbinical seminary, denominational ordination and board certification.",
+    "modernSectors": "Synagogues, campus Hillel, chaplaincy, kashrut agencies, communal nonprofits."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1924,
+        "label": "Modern nation-state mosques",
+        "description": "National ministries and diaspora boards professionalize imam training and appointment.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "muezzin",
+        "type": "related"
+      },
+      {
+        "toSlug": "mullah",
+        "type": "related"
+      },
+      {
+        "toSlug": "chaplain",
+        "type": "related"
+      }
+    ],
+    "slug": "imam",
+    "name": "Imam",
+    "status": "active",
+    "summary": "A Muslim prayer leader who conducts salat, delivers khutbah, and often teaches Quranic interpretation—serving mosques from village jami to urban mega-masjids.",
+    "duties": "Lead daily and Friday prayers, teach Quran and fiqh, counsel congregants, coordinate mosque programs, sometimes issue guidance.",
+    "skills": "Tajweed recitation, Arabic, sermon craft, community mediation, knowledge of Islamic law schools.",
+    "tools": "Mushaf, microphone, prayer timetable charts, wudu facilities oversight.",
+    "regions": "Middle East, North Africa, South and Southeast Asia, European and American diaspora mosques.",
+    "category": "religion",
+    "eraPrimary": "medieval",
+    "originYear": 700,
+    "originLabel": "Early mosque leadership after the Rashidun era",
+    "dateConfidence": "medium",
+    "aliases": [
+      "prayer leader",
+      "khatib"
+    ],
+    "eventYear": 1924,
+    "eventLabel": "Modern nation-state mosques",
+    "eventDescription": "National ministries and diaspora boards professionalize imam training and appointment.",
+    "educationPath": "Madrasa or university Islamic studies, memorization of Quran, community appointment.",
+    "modernSectors": "Mosques, Islamic schools, prison and hospital chaplaincy, relief organizations."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1917,
+        "label": "Great War chaplaincy",
+        "description": "Mass mobilization expands professional military chaplain corps with rank and training standards.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "priest",
+        "type": "related"
+      },
+      {
+        "toSlug": "imam",
+        "type": "related"
+      },
+      {
+        "toSlug": "rabbi",
+        "type": "related"
+      }
+    ],
+    "slug": "chaplain",
+    "name": "Chaplain",
+    "status": "active",
+    "summary": "A clergy member or accredited spiritual caregiver attached to institutions—hospitals, prisons, militaries, and universities—ministering across faith boundaries in crisis.",
+    "duties": "Visit patients or inmates, lead memorials, provide sacraments or prayers, debrief trauma teams, advise ethics committees.",
+    "skills": "Interfaith literacy, crisis counseling, confidentiality, institutional navigation, grief support.",
+    "tools": "Chaplain badges, sacred texts multi-faith, on-call pagers, electronic health pastoral notes.",
+    "regions": "Military forces, NHS and VA hospitals, U.S. campus ministries, merchant fleets.",
+    "category": "religion",
+    "eraPrimary": "medieval",
+    "originYear": 800,
+    "originLabel": "Royal and military chapel priests",
+    "dateConfidence": "medium",
+    "aliases": [
+      "padre (military)",
+      "hospital chaplain"
+    ],
+    "eventYear": 1917,
+    "eventLabel": "Great War chaplaincy",
+    "eventDescription": "Mass mobilization expands professional military chaplain corps with rank and training standards.",
+    "educationPath": "Ordination or endorsement plus Clinical Pastoral Education (CPE).",
+    "modernSectors": "Armed forces, healthcare systems, corrections, higher education, disaster response."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1517,
+        "label": "Reformation pamphlet wars",
+        "description": "Theological dispute becomes mass print public sphere, reshaping scholar-pastor roles.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "professor",
+        "type": "related"
+      },
+      {
+        "toSlug": "priest",
+        "type": "related"
+      },
+      {
+        "toSlug": "canonist",
+        "type": "related"
+      }
+    ],
+    "slug": "theologian",
+    "name": "Theologian",
+    "status": "active",
+    "summary": "A scholar who systematically studies divine nature, revelation, and religious ethics—writing doctrine for universities, councils, and public debate from Augustine to liberation theology.",
+    "duties": "Research texts, teach seminarians, publish treatises, advise synods, engage philosophy and social questions.",
+    "skills": "Languages, logic, historical criticism, doctrinal synthesis, debate.",
+    "tools": "Critical editions, patristic corpora, journal databases, lecture halls.",
+    "regions": "Medieval Paris and Bologna; Protestant faculties; global divinity schools today.",
+    "category": "religion",
+    "eraPrimary": "medieval",
+    "originYear": 400,
+    "originLabel": "Patristic and scholastic university faculties",
+    "dateConfidence": "medium",
+    "aliases": [
+      "divinity scholar",
+      "dogmatician"
+    ],
+    "eventYear": 1517,
+    "eventLabel": "Reformation pamphlet wars",
+    "eventDescription": "Theological dispute becomes mass print public sphere, reshaping scholar-pastor roles.",
+    "educationPath": "Advanced degrees in theology, philosophy, or religious studies; ordination optional.",
+    "modernSectors": "Seminaries, universities, think tanks, denominational headquarters, publishing."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 325,
+        "label": "Council of Nicaea",
+        "description": "Ecumenical councils formalize bishop authority in creed and discipline.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "priest",
+        "type": "related"
+      },
+      {
+        "toSlug": "deacon",
+        "type": "related"
+      },
+      {
+        "toSlug": "canonist",
+        "type": "related"
+      }
+    ],
+    "slug": "bishop",
+    "name": "Bishop",
+    "status": "active",
+    "summary": "A senior Christian overseer who ordains clergy, guards doctrine, and administers a diocese—successor to apostolic oversight in Catholic, Orthodox, and Anglican structures.",
+    "duties": "Confirm and ordain, visit parishes, chair councils, manage property and justice tribunals, represent church in public.",
+    "skills": "Ecclesial law, fundraising, pastoral visibility, conflict resolution, multilingual diplomacy in global churches.",
+    "tools": "Crozier and miter, diocesan chancery, canonical tribunals, travel schedules.",
+    "regions": "Roman Catholic and Orthodox dioceses worldwide; Anglican communion; some Methodist oversight.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": 100,
+    "originLabel": "Early episcopal church organization",
+    "dateConfidence": "medium",
+    "aliases": [
+      "eparch (Orthodox)",
+      "ordinary"
+    ],
+    "eventYear": 325,
+    "eventLabel": "Council of Nicaea",
+    "eventDescription": "Ecumenical councils formalize bishop authority in creed and discipline.",
+    "educationPath": "Priestly career, theological doctorate common, papal or synodal appointment.",
+    "modernSectors": "Diocesan curia, ecumenical dialogues, charity boards, Vatican or synod service."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1967,
+        "label": "Permanent diaconate restored",
+        "description": "Second Vatican Council reinstates married permanent deacons in the Latin Church.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "priest",
+        "type": "related"
+      },
+      {
+        "toSlug": "bishop",
+        "type": "related"
+      }
+    ],
+    "slug": "deacon",
+    "name": "Deacon",
+    "status": "active",
+    "summary": "An ordained minister of service in many Christian churches—assisting at altar, proclaiming Gospel, and leading charity—revived as a permanent vocation beyond transitional diaconate.",
+    "duties": "Assist liturgy, visit sick, manage food pantries, baptize in some traditions, preach occasionally.",
+    "skills": "Liturgical service, charity administration, listening, boundary-aware pastoral care.",
+    "tools": "Dalmatic vestments, service rosters, outreach databases.",
+    "regions": "Catholic permanent diaconate strong in Americas; Anglican and Lutheran diaconal orders.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": 50,
+    "originLabel": "Acts of the Apostles diaconal ministry",
+    "dateConfidence": "medium",
+    "aliases": [
+      "diakonos",
+      "permanent deacon"
+    ],
+    "eventYear": 1967,
+    "eventLabel": "Permanent diaconate restored",
+    "eventDescription": "Second Vatican Council reinstates married permanent deacons in the Latin Church.",
+    "educationPath": "Diaconal formation programs, theology certificates, bishop ordination.",
+    "modernSectors": "Parishes, diocesan charity offices, hospital visitation teams."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1970,
+        "label": "Megachurch model",
+        "description": "Large multimedia congregations professionalize pastor as CEO-teacher hybrid.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "priest",
+        "type": "related"
+      },
+      {
+        "toSlug": "missionary",
+        "type": "related"
+      },
+      {
+        "toSlug": "wedding-officiant",
+        "type": "related"
+      }
+    ],
+    "slug": "pastor",
+    "name": "Pastor",
+    "status": "active",
+    "summary": "A Protestant congregational leader who preaches, teaches, and shepherds a local church—often bi-vocational in small communities and executive in megachurch settings.",
+    "duties": "Preach weekly, oversee staff, marry and bury members, visit homes, set vision and budget.",
+    "skills": "Homiletics, congregational governance, counseling, fundraising, media communication.",
+    "tools": "Pulpit Bible, church management software, counseling office, podcast gear.",
+    "regions": "North America, Korea, Africa, Latin American evangelical and mainline churches.",
+    "category": "religion",
+    "eraPrimary": "early_modern",
+    "originYear": 1520,
+    "originLabel": "Reformation parish preacher office",
+    "dateConfidence": "high",
+    "aliases": [
+      "minister",
+      "reverend"
+    ],
+    "eventYear": 1970,
+    "eventLabel": "Megachurch model",
+    "eventDescription": "Large multimedia congregations professionalize pastor as CEO-teacher hybrid.",
+    "educationPath": "Divinity school or Bible college, denominational ordination, continuing education.",
+    "modernSectors": "Congregations, campus ministries, broadcasting, parachurch nonprofits."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1930,
+        "label": "Amplified adhan",
+        "description": "Loudspeakers spread uniform call across growing urban skylines.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "imam",
+        "type": "related"
+      },
+      {
+        "toSlug": "cantor",
+        "type": "related"
+      }
+    ],
+    "slug": "muezzin",
+    "name": "Muezzin",
+    "status": "active",
+    "summary": "The mosque caller who recites the adhan summoning Muslims to prayer—once from minaret rooftops, now often amplified and sometimes pre-recorded in dense cities.",
+    "duties": "Perform adhan five times daily, maintain timing with solar prayer charts, assist imam with crowd flow on Fridays.",
+    "skills": "Melodic recitation, tajweed, punctuality, voice projection, modest public presence.",
+    "tools": "Minaret loudspeaker, prayer timetable, microphone, sometimes smartphone apps.",
+    "regions": "Islamic world from Morocco to Indonesia; diaspora mosques adapt to noise ordinances.",
+    "category": "religion",
+    "eraPrimary": "medieval",
+    "originYear": 700,
+    "originLabel": "Early mosque call to prayer tradition",
+    "dateConfidence": "medium",
+    "aliases": [
+      "muadhin",
+      "bilal (honorific tradition)"
+    ],
+    "eventYear": 1930,
+    "eventLabel": "Amplified adhan",
+    "eventDescription": "Loudspeakers spread uniform call across growing urban skylines.",
+    "educationPath": "Quranic recitation training, appointment by mosque board.",
+    "modernSectors": "Mosques, Islamic centers, occasionally broadcast for Eid celebrations."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1980,
+        "label": "Medical mohel training",
+        "description": "Professional boards combine urological standards with traditional practice.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "rabbi",
+        "type": "related"
+      },
+      {
+        "toSlug": "physician",
+        "type": "related"
+      }
+    ],
+    "slug": "mohel",
+    "name": "Mohel",
+    "status": "active",
+    "summary": "A Jewish ritual circumciser who performs brit milah on eighth-day infants—combining surgical skill with liturgical leadership and communal celebration.",
+    "duties": "Perform circumcision safely, recite blessings, educate parents, manage sterile kit, coordinate sandek honors.",
+    "skills": "Surgical technique, halakhic knowledge, calm bedside manner, infection control.",
+    "tools": "Sterile instruments, shield, anesthetic options where permitted, prayer book.",
+    "regions": "Global Jewish communities; training centers in Israel and North America.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": -1500,
+    "originLabel": "Biblical covenant of circumcision",
+    "dateConfidence": "low",
+    "aliases": [
+      "brit milah specialist"
+    ],
+    "eventYear": 1980,
+    "eventLabel": "Medical mohel training",
+    "eventDescription": "Professional boards combine urological standards with traditional practice.",
+    "educationPath": "Mohel training under rabbinic boards; medical background increasingly common.",
+    "modernSectors": "Synagogue networks, home ceremonies, hospital accommodations."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1990,
+        "label": "Revival movements",
+        "description": "Post-colonial cultural revival re-legitimizes shamanic practice in some nations.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "medicine-man",
+        "type": "related"
+      },
+      {
+        "toSlug": "herbalist",
+        "type": "related"
+      },
+      {
+        "toSlug": "druid",
+        "type": "related"
+      }
+    ],
+    "slug": "shaman",
+    "name": "Shaman",
+    "status": "regional",
+    "summary": "An indigenous spiritual intermediary who enters trance to heal, divine, and escort souls—central to Siberian, Amazonian, Korean mu, and many animist societies.",
+    "duties": "Lead rituals, diagnose spiritual illness, use drums or plants in ceremony, counsel community, preserve oral cosmology.",
+    "skills": "Trance induction, herbal knowledge, storytelling, dream interpretation, crisis ritual leadership.",
+    "tools": "Drum, rattle, mask, feather regalia, sacred plants where culturally appropriate.",
+    "regions": "Siberia, Mongolia, Korea, Amazon basin, Native North American nations selectively.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": -5000,
+    "originLabel": "Hunter-gatherer ritual specialists",
+    "dateConfidence": "low",
+    "aliases": [
+      "medicine person (related)",
+      "mudang (Korean overlap)"
+    ],
+    "eventYear": 1990,
+    "eventLabel": "Revival movements",
+    "eventDescription": "Post-colonial cultural revival re-legitimizes shamanic practice in some nations.",
+    "educationPath": "Apprenticeship, spirit calling initiation, community recognition.",
+    "modernSectors": "Cultural centers, eco-tourism ethics debates, wellness retreats with appropriation concerns."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 60,
+        "label": "Roman suppression",
+        "description": "Imperial campaigns target Druid centers on Anglesey and Gaulish sanctuaries.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "shaman",
+        "type": "related"
+      },
+      {
+        "toSlug": "oracle-priestess",
+        "type": "related"
+      }
+    ],
+    "slug": "druid",
+    "name": "Druid",
+    "status": "extinct",
+    "summary": "A learned priestly class in ancient Celtic societies who preserved oral law, conducted sacrifices, and advised chieftains—suppressed by Rome yet romanticized in modern neo-pagan revivals.",
+    "duties": "Memorize genealogies and law, perform seasonal rites, mediate disputes, teach novices in grove schools.",
+    "skills": "Oral memorization, astronomy for festivals, diplomacy, ritual leadership.",
+    "tools": "Oak groves, golden sickle folklore, oral verse, later reconstructed ritual kits.",
+    "regions": "Gaul, Britain, and Ireland before Romanization; modern revival groups worldwide.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": -400,
+    "originLabel": "Iron Age Celtic priestly orders",
+    "dateConfidence": "low",
+    "aliases": [
+      "Celtic priest",
+      "filí (Irish poet-priest overlap)"
+    ],
+    "eventYear": 60,
+    "eventLabel": "Roman suppression",
+    "eventDescription": "Imperial campaigns target Druid centers on Anglesey and Gaulish sanctuaries."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1950,
+        "label": "Temple administration reforms",
+        "description": "State temple boards and diaspora trusts professionalize priest appointments.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "priest",
+        "type": "related"
+      },
+      {
+        "toSlug": "guru",
+        "type": "related"
+      }
+    ],
+    "slug": "pujari",
+    "name": "Pujari",
+    "status": "active",
+    "summary": "A Hindu temple priest who performs puja offerings to deities—handling lamps, mantras, and prasad distribution in household shrines and major pilgrimage temples.",
+    "duties": "Conduct daily arati, bathe and dress murtis, recite Sanskrit mantras, distribute blessed food, maintain temple cleanliness.",
+    "skills": "Sanskrit chanting, ritual timing, deity-specific protocols, crowd management at festivals.",
+    "tools": "Bell, camphor lamp, conch, offering trays, tilaka supplies.",
+    "regions": "India, Nepal, Bali, diaspora mandirs in UK, US, and Caribbean.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": -800,
+    "originLabel": "Vedic fire ritual and temple Hinduism",
+    "dateConfidence": "low",
+    "aliases": [
+      "temple priest",
+      "archaka"
+    ],
+    "eventYear": 1950,
+    "eventLabel": "Temple administration reforms",
+    "eventDescription": "State temple boards and diaspora trusts professionalize priest appointments.",
+    "educationPath": "Agama shastra training, family priest lineages, temple seminaries.",
+    "modernSectors": "Mandirs, pilgrimage shrines, home ceremony services."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1959,
+        "label": "Diaspora institutions",
+        "description": "Exile rebuilds monasteries and teaching centers across India and the West.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "monk",
+        "type": "related"
+      },
+      {
+        "toSlug": "zen-master",
+        "type": "related"
+      },
+      {
+        "toSlug": "guru",
+        "type": "related"
+      }
+    ],
+    "slug": "lama",
+    "name": "Lama",
+    "status": "active",
+    "summary": "A Tibetan Buddhist teacher often holding monastic vows and recognized reincarnation lineage—guiding meditation, empowerments, and monastery administration.",
+    "duties": "Teach dharma, lead retreats, perform empowerments, manage monastery resources, represent tradition in exile or homeland.",
+    "skills": "Scholastic debate, meditation instruction, Tibetan language, ritual dance and music leadership.",
+    "tools": "Prayer beads, vajra and bell, thangka teaching aids, monastery accounting.",
+    "regions": "Tibet, Bhutan, Mongolia, Himalayan communities, global dharma centers.",
+    "category": "religion",
+    "eraPrimary": "medieval",
+    "originYear": 1000,
+    "originLabel": "Tibetan monastic scholasticism",
+    "dateConfidence": "medium",
+    "aliases": [
+      "rinpoche (honorific)",
+      "geshe (scholar degree)"
+    ],
+    "eventYear": 1959,
+    "eventLabel": "Diaspora institutions",
+    "eventDescription": "Exile rebuilds monasteries and teaching centers across India and the West.",
+    "educationPath": "Monastic curriculum culminating in geshe or equivalent; lineage recognition.",
+    "modernSectors": "Monasteries, retreat centers, publishing, humanitarian NGOs led by clergy."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1965,
+        "label": "Global guru movements",
+        "description": "Immigration and counterculture spread transnational guru-led organizations.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "pujari",
+        "type": "related"
+      },
+      {
+        "toSlug": "granthi",
+        "type": "related"
+      },
+      {
+        "toSlug": "lama",
+        "type": "related"
+      }
+    ],
+    "slug": "guru",
+    "name": "Guru",
+    "status": "active",
+    "summary": "A spiritual teacher in Hindu, Sikh, and broader South Asian traditions who transmits mantra, ethics, and liberation paths—from lineage acharyas to modern global movements.",
+    "duties": "Initiate disciples, teach scripture, oversee ashram life, counsel seekers, preside over festivals.",
+    "skills": "Scriptural exposition, meditation guidance, community building, often music or kirtan leadership.",
+    "tools": "Mala, scripture, altar, discourse hall, streaming platforms in modern movements.",
+    "regions": "India, Punjab, diaspora gurdwaras and ashrams, Western yoga-spirituality crossover.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": -600,
+    "originLabel": "Upanishadic teacher-disciple lineages",
+    "dateConfidence": "low",
+    "aliases": [
+      "spiritual master",
+      "satguru"
+    ],
+    "eventYear": 1965,
+    "eventLabel": "Global guru movements",
+    "eventDescription": "Immigration and counterculture spread transnational guru-led organizations.",
+    "educationPath": "Lineage initiation, ashram residency, scriptural mastery.",
+    "modernSectors": "Ashrams, yoga institutes, interfaith dialogues, philanthropy."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1880,
+        "label": "Teaching and nursing orders",
+        "description": "Industrial-era expansion places nuns at forefront of mass education and hospital care.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "monk",
+        "type": "related"
+      },
+      {
+        "toSlug": "vestal-virgin",
+        "type": "related"
+      },
+      {
+        "toSlug": "miko",
+        "type": "related"
+      }
+    ],
+    "slug": "nun",
+    "name": "Nun",
+    "status": "active",
+    "summary": "A woman who takes religious vows in Christian, Buddhist, or Jain communities—running schools, hospitals, and cloisters from medieval abbeys to global missionary orders.",
+    "duties": "Pray office, teach, nurse, administer institutions, mentor novices, perform manual labor per rule.",
+    "skills": "Contemplative discipline, education, healthcare historically, institutional management.",
+    "tools": "Habit, rosary or equivalent, classroom supplies, hospital ward tools historically.",
+    "regions": "Europe, Americas, Africa, East Asian Buddhist nunneries.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": 300,
+    "originLabel": "Early Christian consecrated virgins and abbeys",
+    "dateConfidence": "medium",
+    "aliases": [
+      "sister",
+      "bhikkhuni (Buddhist)"
+    ],
+    "eventYear": 1880,
+    "eventLabel": "Teaching and nursing orders",
+    "eventDescription": "Industrial-era expansion places nuns at forefront of mass education and hospital care.",
+    "educationPath": "Novitiate, solemn profession, professional degrees in teaching or nursing.",
+    "modernSectors": "Schools, hospitals, social services, contemplative monasteries."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1219,
+        "label": "Mission to Sultan",
+        "description": "Francis of Assisi models friar as itinerant peacemaker and preacher.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "monk",
+        "type": "related"
+      },
+      {
+        "toSlug": "missionary",
+        "type": "related"
+      },
+      {
+        "toSlug": "inquisitor",
+        "type": "related"
+      }
+    ],
+    "slug": "friar",
+    "name": "Friar",
+    "status": "active",
+    "summary": "A mendicant brother in orders like Franciscans, Dominicans, and Carmelites—preaching in towns, begging alms, and studying in universities unlike cloistered monks.",
+    "duties": "Preach, hear confessions where authorized, study theology, serve poor, travel between priories.",
+    "skills": "Homiletics, scholastic argument, poverty practice, urban pastoral work.",
+    "tools": "Hooded habit, portable breviary, begging bowl historically, study desk in convent.",
+    "regions": "Medieval European cities; global Catholic and Anglican mendicant presence.",
+    "category": "religion",
+    "eraPrimary": "medieval",
+    "originYear": 1209,
+    "originLabel": "Franciscan and Dominican foundations",
+    "dateConfidence": "high",
+    "aliases": [
+      "mendicant friar",
+      "preaching brother"
+    ],
+    "eventYear": 1219,
+    "eventLabel": "Mission to Sultan",
+    "eventDescription": "Francis of Assisi models friar as itinerant peacemaker and preacher.",
+    "educationPath": "Novitiate in order, theological studies, solemn vows.",
+    "modernSectors": "Parishes, universities founded by orders, justice and peace advocacy."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1972,
+        "label": "Lay catechist recognition",
+        "description": "Post-Vatican II documents elevate lay catechists as stable ministry.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "teacher",
+        "type": "related"
+      },
+      {
+        "toSlug": "missionary",
+        "type": "related"
+      },
+      {
+        "toSlug": "priest",
+        "type": "related"
+      }
+    ],
+    "slug": "catechist",
+    "name": "Catechist",
+    "status": "active",
+    "summary": "A teacher of basic Christian doctrine preparing converts and children for sacraments—lay or ordained, essential in missions where priests are scarce.",
+    "duties": "Lead catechism classes, prepare baptisms and confirmations, visit families, assist liturgy, train youth leaders.",
+    "skills": "Pedagogy, scripture simplification, patience, cultural adaptation in mission contexts.",
+    "tools": "Catechism textbooks, flannel boards historically, workbooks, parish schedules.",
+    "regions": "Catholic missions in Africa and Asia; parish schools worldwide.",
+    "category": "religion",
+    "eraPrimary": "early_modern",
+    "originYear": 1540,
+    "originLabel": "Tridentine and missionary instruction programs",
+    "dateConfidence": "medium",
+    "aliases": [
+      "religion teacher",
+      "Sunday school teacher (Protestant overlap)"
+    ],
+    "eventYear": 1972,
+    "eventLabel": "Lay catechist recognition",
+    "eventDescription": "Post-Vatican II documents elevate lay catechists as stable ministry.",
+    "educationPath": "Diocesan certification, catechetical institutes, safeguarding training.",
+    "modernSectors": "Parish programs, Catholic schools, RCIA teams, prison ministry."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1910,
+        "label": "Edinburgh conference",
+        "description": "World Missionary Conference signals coordinated global Protestant mission planning.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "pastor",
+        "type": "related"
+      },
+      {
+        "toSlug": "catechist",
+        "type": "related"
+      },
+      {
+        "toSlug": "friar",
+        "type": "related"
+      }
+    ],
+    "slug": "missionary",
+    "name": "Missionary",
+    "status": "active",
+    "summary": "A religious worker sent across cultures to evangelize, educate, and provide services—shaped by colonial expansion, indigenous agency debates, and modern short-term teams.",
+    "duties": "Preach, translate scripture, open schools and clinics, train local leaders, fundraise at home base.",
+    "skills": "Language acquisition, cultural humility, fundraising, resilience, partnership building.",
+    "tools": "Bible translation kits, motorcycles on rough roads, mission newsletters, vaccines historically.",
+    "regions": "Global South mission fields; sending societies in Europe and North America.",
+    "category": "religion",
+    "eraPrimary": "early_modern",
+    "originYear": 1549,
+    "originLabel": "Jesuit and Protestant overseas missions",
+    "dateConfidence": "high",
+    "aliases": [
+      "evangelist (overlap)",
+      "mission worker"
+    ],
+    "eventYear": 1910,
+    "eventLabel": "Edinburgh conference",
+    "eventDescription": "World Missionary Conference signals coordinated global Protestant mission planning.",
+    "educationPath": "Seminary or Bible college, cross-cultural training, sending agency appointment.",
+    "modernSectors": "NGO partnerships, church planting, Bible translation, medical missions."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1850,
+        "label": "Oxford Movement revival",
+        "description": "Anglo-Catholic restoration brings incense ceremonies back into Anglican worship.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "acolyte",
+        "type": "related"
+      },
+      {
+        "toSlug": "sacristan",
+        "type": "related"
+      },
+      {
+        "toSlug": "cantor",
+        "type": "related"
+      }
+    ],
+    "slug": "thurifer",
+    "name": "Thurifer",
+    "status": "regional",
+    "summary": "A ceremonial acolyte who swings the thurible of burning incense in liturgical processions—training youth and adults in high church choreography.",
+    "duties": "Light charcoal and incense, lead processions, coordinate with crucifer and boat bearer, maintain safe swing patterns.",
+    "skills": "Rhythm, attention to liturgical cues, fire safety, composure in formal worship.",
+    "tools": "Thurible, boat and spoon, charcoal, processional route knowledge.",
+    "regions": "Anglo-Catholic parishes, cathedrals, Orthodox and Catholic solemn liturgies.",
+    "category": "religion",
+    "eraPrimary": "medieval",
+    "originYear": 600,
+    "originLabel": "Imperial Byzantine and Western solemn liturgy",
+    "dateConfidence": "medium",
+    "aliases": [
+      "incense bearer"
+    ],
+    "eventYear": 1850,
+    "eventLabel": "Oxford Movement revival",
+    "eventDescription": "Anglo-Catholic restoration brings incense ceremonies back into Anglican worship.",
+    "educationPath": "Altar server training, mentorship under master of ceremonies.",
+    "modernSectors": "Cathedrals, collegiate chapels, televised liturgical broadcasts."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1960,
+        "label": "Vernacular liturgy shift",
+        "description": "Liturgical reform changes setup routines while sacristan role persists.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "thurifer",
+        "type": "related"
+      },
+      {
+        "toSlug": "acolyte",
+        "type": "related"
+      },
+      {
+        "toSlug": "churchwarden",
+        "type": "related"
+      }
+    ],
+    "slug": "sacristan",
+    "name": "Sacristan",
+    "status": "active",
+    "summary": "The caretaker of sacred vessels, vestments, and liturgical supplies who prepares the worship space before each service—unsung logistics behind public ritual.",
+    "duties": "Set altar, launder linens, inventory candles and wine, lock sacristy, assist clergy vesting.",
+    "skills": "Attention to detail, liturgical calendar knowledge, textile care, discreet reliability.",
+    "tools": "Sacristy safe, cruets, corporals, vestment closets, key rings.",
+    "regions": "Catholic, Orthodox, and Anglican churches worldwide.",
+    "category": "religion",
+    "eraPrimary": "medieval",
+    "originYear": 800,
+    "originLabel": "Monastic sacristy offices",
+    "dateConfidence": "medium",
+    "aliases": [
+      "sexton (overlap)",
+      "church caretaker"
+    ],
+    "eventYear": 1960,
+    "eventLabel": "Vernacular liturgy shift",
+    "eventDescription": "Liturgical reform changes setup routines while sacristan role persists.",
+    "educationPath": "On-site training, liturgical handbooks, safety protocols for candles.",
+    "modernSectors": "Parishes, shrines, monastery guest chapels."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1660,
+        "label": "Amsterdam cantorate",
+        "description": "Professional cantorial roles formalize in Western European Jewish communities.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "hazzan",
+        "type": "related"
+      },
+      {
+        "toSlug": "rabbi",
+        "type": "related"
+      },
+      {
+        "toSlug": "musician",
+        "type": "related"
+      }
+    ],
+    "slug": "cantor",
+    "name": "Cantor",
+    "status": "active",
+    "summary": "A liturgical singer who leads congregational prayer in Jewish and Christian traditions—from synagogue nusach to cathedral psalmody and Byzantine chant.",
+    "duties": "Lead responsive singing, prepare musical settings for readings, train choirs, preserve repertoire.",
+    "skills": "Sight-singing, modal systems, Hebrew or Church Slavonic pronunciation, service pacing.",
+    "tools": "Sheet music, pitch pipe, microphone, recording archives of tradition.",
+    "regions": "Synagogues, Orthodox churches, Catholic cathedrals, Lutheran parishes.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": -500,
+    "originLabel": "Temple and synagogue vocal leadership",
+    "dateConfidence": "low",
+    "aliases": [
+      "hazzan (Jewish)",
+      "precentor"
+    ],
+    "eventYear": 1660,
+    "eventLabel": "Amsterdam cantorate",
+    "eventDescription": "Professional cantorial roles formalize in Western European Jewish communities.",
+    "educationPath": "Cantorial schools, voice training, apprenticeship with senior cantor.",
+    "modernSectors": "Synagogues, cathedrals, recording liturgical music, teaching."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2000,
+        "label": "Destination wedding market",
+        "description": "Independent officiants build brands for travel ceremonies and custom rituals.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "pastor",
+        "type": "related"
+      },
+      {
+        "toSlug": "rabbi",
+        "type": "related"
+      },
+      {
+        "toSlug": "wedding-planner",
+        "type": "related"
+      }
+    ],
+    "slug": "wedding-officiant",
+    "name": "Wedding Officiant",
+    "status": "active",
+    "summary": "An authorized celebrant who solemnizes marriages—clergy, civil registrars, or licensed humanist officiants crafting legally binding vows in secular and sacred settings.",
+    "duties": "Meet couple for ceremony design, verify licenses, lead vows and rings, sign legal documents, coordinate with planners.",
+    "skills": "Public speaking, legal knowledge, cultural sensitivity, improvisation for outdoor contingencies.",
+    "tools": "Marriage register, microphone, ceremony scripts, portable altar kits.",
+    "regions": "Global; civil celebrants especially visible in Australia, US destination weddings.",
+    "category": "religion",
+    "eraPrimary": "modern",
+    "originYear": 1800,
+    "originLabel": "Civil registration of marriages",
+    "dateConfidence": "medium",
+    "aliases": [
+      "marriage celebrant",
+      "officiant"
+    ],
+    "eventYear": 2000,
+    "eventLabel": "Destination wedding market",
+    "eventDescription": "Independent officiants build brands for travel ceremonies and custom rituals.",
+    "educationPath": "Ordination or civil celebrant license, premarital counseling courses.",
+    "modernSectors": "Independent celebrancy, resort packages, courthouse, interfaith chapels."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 2010,
+        "label": "Personalized memorials",
+        "description": "Celebrant-led bespoke services expand beyond church defaults.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "mortician",
+        "type": "related"
+      },
+      {
+        "toSlug": "chaplain",
+        "type": "related"
+      },
+      {
+        "toSlug": "priest",
+        "type": "related"
+      }
+    ],
+    "slug": "funeral-celebrant",
+    "name": "Funeral Celebrant",
+    "status": "active",
+    "summary": "A ritual leader who crafts non-denominational or faith-specific funerals—eulogies, committal, and grief rituals complementing mortuary logistics.",
+    "duties": "Interview families, write eulogies, lead services at chapel or graveside, coordinate music and symbols.",
+    "skills": "Grief sensitivity, storytelling, ritual design, collaboration with funeral directors.",
+    "tools": "Service order scripts, portable speakers, memorial candles, ash-scattering permits.",
+    "regions": "UK civil celebrancy strong; growing secular funeral demand in US and Australia.",
+    "category": "religion",
+    "eraPrimary": "modern",
+    "originYear": 1970,
+    "originLabel": "Secular funeral and memorial movements",
+    "dateConfidence": "medium",
+    "aliases": [
+      "memorial officiant",
+      "celebrant of life"
+    ],
+    "eventYear": 2010,
+    "eventLabel": "Personalized memorials",
+    "eventDescription": "Celebrant-led bespoke services expand beyond church defaults.",
+    "educationPath": "Celebrant academies, grief counseling modules, denominational endorsement optional.",
+    "modernSectors": "Funeral homes, green burial sites, military honors teams, disaster memorials."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 390,
+        "label": "Temple closures",
+        "description": "Christian emperors suppress pagan oracles; Delphi fades as political institution.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "shaman",
+        "type": "related"
+      },
+      {
+        "toSlug": "vestal-virgin",
+        "type": "related"
+      },
+      {
+        "toSlug": "druid",
+        "type": "related"
+      }
+    ],
+    "slug": "oracle-priestess",
+    "name": "Oracle Priestess",
+    "status": "extinct",
+    "summary": "A woman who delivered prophetic counsel at ancient sanctuaries—most famously the Pythia at Delphi inhaling vapors and speaking Apollo's riddles to ambassadors and kings.",
+    "duties": "Enter trance, utter oracular responses, interpret signs with temple staff, maintain sanctuary rituals.",
+    "skills": "Trance endurance, poetic improvisation, political neutrality, memorized mythic frames.",
+    "tools": "Tripod stool, laurel branches, sacred spring, temple treasury records.",
+    "regions": "Greece, Anatolia, and Mediterranean oracle sites until late antiquity.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": -800,
+    "originLabel": "Archaic Greek sanctuary institutions",
+    "dateConfidence": "medium",
+    "aliases": [
+      "Pythia",
+      "sibyl (related)"
+    ],
+    "eventYear": 390,
+    "eventLabel": "Temple closures",
+    "eventDescription": "Christian emperors suppress pagan oracles; Delphi fades as political institution."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 394,
+        "label": "Order abolished",
+        "description": "Christian emperors end Vestal college; eternal flame extinguished.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "nun",
+        "type": "related"
+      },
+      {
+        "toSlug": "oracle-priestess",
+        "type": "related"
+      }
+    ],
+    "slug": "vestal-virgin",
+    "name": "Vestal Virgin",
+    "status": "extinct",
+    "summary": "A priestess of Vesta in Rome who tended the eternal flame and guarded state ritual purity—thirty years of vow-bound service with severe penalties for breach.",
+    "duties": "Maintain hearth fire, prepare mola salsa, participate in festivals, safeguard imperial wills deposit.",
+    "skills": "Ritual purity discipline, procession choreography, literacy for temple records.",
+    "tools": "Temple hearth, sieve for grain purification, white veils, temple keys.",
+    "regions": "Rome and Roman imperial cult centers, circa 700 BCE–394 CE.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": -700,
+    "originLabel": "Legendary founding of Roman Vestal college",
+    "dateConfidence": "low",
+    "aliases": [
+      "Vestal",
+      "priestess of Vesta"
+    ],
+    "eventYear": 394,
+    "eventLabel": "Order abolished",
+    "eventDescription": "Christian emperors end Vestal college; eternal flame extinguished."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1200,
+        "label": "Rule adaptations",
+        "description": "Monastic orders codify hermit life under obedience while preserving solitude.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "monk",
+        "type": "related"
+      },
+      {
+        "toSlug": "zen-master",
+        "type": "related"
+      }
+    ],
+    "slug": "hermit",
+    "name": "Hermit",
+    "status": "regional",
+    "summary": "An ascetic who withdraws to desert, forest, or cell for solitary prayer—inspiring monastic founders while persisting as authorized solitary vocation in some churches.",
+    "duties": "Pray, fast, manual labor, receive occasional visitors, write spiritual counsel when requested.",
+    "skills": "Self-sufficiency, contemplative discipline, resilience, simple craft or gardening.",
+    "tools": "Cell or cave shelter, scripture, garden tools, alms basket at door.",
+    "regions": "Egyptian desert fathers; Russian startsy; modern forest hermitages in Catholic canon law.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": 300,
+    "originLabel": "Christian desert asceticism",
+    "dateConfidence": "medium",
+    "aliases": [
+      "anchorite",
+      "solitary"
+    ],
+    "eventYear": 1200,
+    "eventLabel": "Rule adaptations",
+    "eventDescription": "Monastic orders codify hermit life under obedience while preserving solitude.",
+    "educationPath": "Years in monastery, bishop permission for canonical hermit life.",
+    "modernSectors": "Diocesan hermit approvals, retreat counseling by correspondence."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1999,
+        "label": "Revised Roman rite",
+        "description": "Vatican updates exorcism ritual and training norms for modern practice.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "priest",
+        "type": "related"
+      },
+      {
+        "toSlug": "chaplain",
+        "type": "related"
+      },
+      {
+        "toSlug": "shaman",
+        "type": "related"
+      }
+    ],
+    "slug": "exorcist",
+    "name": "Exorcist",
+    "status": "regional",
+    "summary": "A clergy specialist who prays over persons believed possessed by evil spirits—minor order historically, now rare diocesan appointee with medical discernment protocols.",
+    "duties": "Assess psychiatric vs spiritual claims, lead authorized rites, coordinate with physicians, document cases confidentially.",
+    "skills": "Theology of evil, pastoral courage, canon law, referral networks for mental health.",
+    "tools": "Ritual books, holy water, crucifix, medical referral contacts.",
+    "regions": "Catholic dioceses; charismatic Protestant deliverance ministries; global folklore overlaps.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": 100,
+    "originLabel": "Early church deliverance ministry",
+    "dateConfidence": "medium",
+    "aliases": [
+      "deliverance minister (Protestant)",
+      "minor order exorcist"
+    ],
+    "eventYear": 1999,
+    "eventLabel": "Revised Roman rite",
+    "eventDescription": "Vatican updates exorcism ritual and training norms for modern practice.",
+    "educationPath": "Priestly ordination, bishop appointment, psychology consultation training.",
+    "modernSectors": "Diocesan exorcist rosters, documented charismatic ministries, film-influenced demand spikes."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1983,
+        "label": "1983 Code promulgated",
+        "description": "Revised Latin code modernizes tribunal practice for global church.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "bishop",
+        "type": "related"
+      },
+      {
+        "toSlug": "lawyer",
+        "type": "related"
+      },
+      {
+        "toSlug": "theologian",
+        "type": "related"
+      }
+    ],
+    "slug": "canonist",
+    "name": "Canonist",
+    "status": "active",
+    "summary": "An expert in church law who advises bishops on marriage annulments, property, and discipline—parallel to civil jurists within ecclesiastical courts.",
+    "duties": "Draft decrees, judge tribunals, teach canon law, review parish policies for compliance.",
+    "skills": "Latin canon texts, procedural law, mediation, theology interface.",
+    "tools": "Code of Canon Law, tribunal case files, jurisprudence databases.",
+    "regions": "Roman Catholic curia; Orthodox and Anglican equivalents; university faculties.",
+    "category": "religion",
+    "eraPrimary": "medieval",
+    "originYear": 1100,
+    "originLabel": "Gratian's Decretum and scholastic canon law",
+    "dateConfidence": "high",
+    "aliases": [
+      "canon lawyer",
+      "ecclesiastical jurist"
+    ],
+    "eventYear": 1983,
+    "eventLabel": "1983 Code promulgated",
+    "eventDescription": "Revised Latin code modernizes tribunal practice for global church.",
+    "educationPath": "Licentiate in canon law (JCL), tribunal internships.",
+    "modernSectors": "Diocesan tribunals, Vatican dicasteries, Catholic universities."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1834,
+        "label": "Spanish abolition",
+        "description": "Last major inquisition structures dissolve amid liberal reforms.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "friar",
+        "type": "related"
+      },
+      {
+        "toSlug": "canonist",
+        "type": "related"
+      },
+      {
+        "toSlug": "bishop",
+        "type": "related"
+      }
+    ],
+    "slug": "inquisitor",
+    "name": "Inquisitor",
+    "status": "extinct",
+    "summary": "An official of medieval and early modern church tribunals who investigated heresy—feared for autos-da-fé yet also bureaucratic record-keeper of doctrinal enforcement.",
+    "duties": "Examine accusations, summon witnesses, recommend penance or secular handoff, maintain trial registers.",
+    "skills": "Theological argument, interrogation, legal procedure, language for cross-border cases.",
+    "tools": "Trial manuals, prison safe-conducts, indexed denunciation registers.",
+    "regions": "Iberia, Italy, papal states; Spanish colonies; later abolished.",
+    "category": "religion",
+    "eraPrimary": "medieval",
+    "originYear": 1184,
+    "originLabel": "Medieval episcopal inquisition procedures",
+    "dateConfidence": "high",
+    "aliases": [
+      "heretic investigator",
+      "dominican inquisitor"
+    ],
+    "eventYear": 1834,
+    "eventLabel": "Spanish abolition",
+    "eventDescription": "Last major inquisition structures dissolve amid liberal reforms."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1979,
+        "label": "Political clerical roles",
+        "description": "Revolution and conflict elevate mullah profiles in governance debates.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "imam",
+        "type": "related"
+      },
+      {
+        "toSlug": "theologian",
+        "type": "related"
+      }
+    ],
+    "slug": "mullah",
+    "name": "Mullah",
+    "status": "active",
+    "summary": "A learned Muslim cleric often trained in madrasa who teaches, leads prayer in smaller mosques, and advises on daily sharia questions—title usage varies by region.",
+    "duties": "Teach children Quran, lead prayers, officiate marriages and funerals, counsel on personal law.",
+    "skills": "Fiqh familiarity, Arabic, community trust, mediation in family disputes.",
+    "tools": "Madrasa classroom, prayer beads, local legal handbooks.",
+    "regions": "Central Asia, Iran, Afghanistan, South Asian villages.",
+    "category": "religion",
+    "eraPrimary": "medieval",
+    "originYear": 900,
+    "originLabel": "Madrasa-trained village clerics",
+    "dateConfidence": "medium",
+    "aliases": [
+      "Islamic scholar (local)",
+      "maulvi (South Asia)"
+    ],
+    "eventYear": 1979,
+    "eventLabel": "Political clerical roles",
+    "eventDescription": "Revolution and conflict elevate mullah profiles in governance debates.",
+    "educationPath": "Madrasa graduation, regional certification, sometimes university Islamic studies.",
+    "modernSectors": "Village mosques, Islamic schools, community arbitration."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1868,
+        "label": "Meiji shrine policy",
+        "description": "State Shinto era reorganizes priesthood before postwar secular separation.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "miko",
+        "type": "related"
+      },
+      {
+        "toSlug": "pujari",
+        "type": "related"
+      }
+    ],
+    "slug": "kannushi",
+    "name": "Kannushi",
+    "status": "active",
+    "summary": "A Shinto priest who tends shrines, performs purification and festival rites, and cares for kami enshrined—often hereditary in historic shrine families.",
+    "duties": "Conduct harai purification, officiate weddings and festivals, maintain shrine grounds, prepare offerings.",
+    "skills": "Ritual choreography, norito recitation, forestry and architecture basics for shrine upkeep.",
+    "tools": "Onusa wand, tamagushi offerings, shimenawa rope, white robes.",
+    "regions": "Japan; Shinto diaspora rare; shrine tourism economies.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": 500,
+    "originLabel": "Yamato shrine cult organization",
+    "dateConfidence": "low",
+    "aliases": [
+      "Shinto priest",
+      "guuji (chief priest)"
+    ],
+    "eventYear": 1868,
+    "eventLabel": "Meiji shrine policy",
+    "eventDescription": "State Shinto era reorganizes priesthood before postwar secular separation.",
+    "educationPath": "Kokugakuin or shrine apprenticeship, ritual licensure from Jinja Honcho.",
+    "modernSectors": "Shrines, wedding venues, festival committees, cultural preservation."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1925,
+        "label": "Gurdwara reform",
+        "description": "Sikh reform movements standardize granthi roles and gurdwara governance.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "guru",
+        "type": "related"
+      },
+      {
+        "toSlug": "cantor",
+        "type": "related"
+      },
+      {
+        "toSlug": "rabbi",
+        "type": "related"
+      }
+    ],
+    "slug": "granthi",
+    "name": "Granthi",
+    "status": "active",
+    "summary": "A Sikh custodian of the Guru Granth Sahib who leads gurdwara worship, recites gurbani, and maintains the scripture's honor as living guru.",
+    "duties": "Perform kirtan leadership, read hukam, manage prashad, maintain nishan sahib and gurdwara calendar.",
+    "skills": "Gurmukhi recitation, kirtan, seva ethos, community moderation.",
+    "tools": "Rumala coverings, chaur sahib, harmonium, tablas.",
+    "regions": "Punjab, UK, Canada, US, and global Sikh diaspora.",
+    "category": "religion",
+    "eraPrimary": "early_modern",
+    "originYear": 1604,
+    "originLabel": "Adi Granth installation at Harmandir Sahib",
+    "dateConfidence": "high",
+    "aliases": [
+      "gurdwara priest",
+      "scripture reader"
+    ],
+    "eventYear": 1925,
+    "eventLabel": "Gurdwara reform",
+    "eventDescription": "Sikh reform movements standardize granthi roles and gurdwara governance.",
+    "educationPath": "Gurdwara apprenticeship, kirtan training, Punjabi literacy.",
+    "modernSectors": "Gurdwaras, Sikh camps, chaplaincy in militaries and hospitals."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1950,
+        "label": "Western Zen transmission",
+        "description": "Japanese teachers establish centers in Americas and Europe.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "monk",
+        "type": "related"
+      },
+      {
+        "toSlug": "lama",
+        "type": "related"
+      },
+      {
+        "toSlug": "hermit",
+        "type": "related"
+      }
+    ],
+    "slug": "zen-master",
+    "name": "Zen Master",
+    "status": "active",
+    "summary": "A roshi who authorizes students in Zen Buddhist awakening practice—teaching through koans, meditation, and monastic discipline in Rinzai and Soto lineages.",
+    "duties": "Lead zazen, give dokusan interviews, conduct sesshin retreats, perform ordinations, manage temple.",
+    "skills": "Meditation guidance, koan curriculum, calligraphy or tea ceremony culturally, administrative humility.",
+    "tools": "Zafu, keisaku stick, incense, han wooden block, temple bell.",
+    "regions": "Japan, Korea (Seon), Vietnam, Western Zen centers.",
+    "category": "religion",
+    "eraPrimary": "medieval",
+    "originYear": 1200,
+    "originLabel": "Kamakura Zen institutionalization",
+    "dateConfidence": "medium",
+    "aliases": [
+      "roshi",
+      "Zen teacher"
+    ],
+    "eventYear": 1950,
+    "eventLabel": "Western Zen transmission",
+    "eventDescription": "Japanese teachers establish centers in Americas and Europe.",
+    "educationPath": "Years of monastic practice, dharma transmission in lineage.",
+    "modernSectors": "Zen centers, corporate mindfulness crossover, prison meditation programs."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1900,
+        "label": "Modern shrine staffing",
+        "description": "Shrine maiden becomes standardized part-time youth role more than trance medium.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "kannushi",
+        "type": "related"
+      },
+      {
+        "toSlug": "nun",
+        "type": "related"
+      },
+      {
+        "toSlug": "dancer",
+        "type": "related"
+      }
+    ],
+    "slug": "miko",
+    "name": "Miko",
+    "status": "regional",
+    "summary": "A Shinto shrine maiden who assists rituals, performs kagura dance, and sells omamori charms—historically oracular, now largely ceremonial and festival staff.",
+    "duties": "Assist kannushi, dance at festivals, sell charms, keep shrine shop, participate in purifications.",
+    "skills": "Dance, customer service, ritual assistance, costume maintenance.",
+    "tools": "Red hakama and white kosode, bells, omamori inventory, dance stage.",
+    "regions": "Japan; popular culture exports image globally.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": 300,
+    "originLabel": "Ancient female medium roles at shrines",
+    "dateConfidence": "low",
+    "aliases": [
+      "shrine maiden",
+      "virgin medium (historical)"
+    ],
+    "eventYear": 1900,
+    "eventLabel": "Modern shrine staffing",
+    "eventDescription": "Shrine maiden becomes standardized part-time youth role more than trance medium.",
+    "educationPath": "Shrine hiring and training; kagura schools for dance.",
+    "modernSectors": "Shrine tourism, festivals, anime-influenced cultural economy."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1834,
+        "label": "Poor Law shift",
+        "description": "Civil welfare reforms reduce vestry poor relief role; wardens focus on church fabric.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "sacristan",
+        "type": "related"
+      },
+      {
+        "toSlug": "pastor",
+        "type": "related"
+      },
+      {
+        "toSlug": "civil-servant",
+        "type": "related"
+      }
+    ],
+    "slug": "churchwarden",
+    "name": "Churchwarden",
+    "status": "active",
+    "summary": "A lay officer elected to maintain Anglican parish property, finances, and fabric—bridging congregation and clergy since medieval vestry governance.",
+    "duties": "Oversee building repairs, count offerings, run annual meetings, liaise with diocese, support visiting clergy.",
+    "skills": "Accounting basics, volunteer coordination, heritage building awareness, diplomacy.",
+    "tools": "Vestry minutes, keys to tower, inventory ledgers, health-and-safety checklists.",
+    "regions": "Church of England and Anglican communion worldwide.",
+    "category": "religion",
+    "eraPrimary": "medieval",
+    "originYear": 1200,
+    "originLabel": "Parish vestry officers",
+    "dateConfidence": "medium",
+    "aliases": [
+      "warden",
+      "fabric officer"
+    ],
+    "eventYear": 1834,
+    "eventLabel": "Poor Law shift",
+    "eventDescription": "Civil welfare reforms reduce vestry poor relief role; wardens focus on church fabric.",
+    "educationPath": "Parish induction, diocesan training for church trustees.",
+    "modernSectors": "Parish councils, cathedral close governance, heritage lottery grant projects."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1978,
+        "label": "AIRFA protections",
+        "description": "U.S. American Indian Religious Freedom Act supports ceremonial practice rights.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "shaman",
+        "type": "related"
+      },
+      {
+        "toSlug": "herbalist",
+        "type": "related"
+      },
+      {
+        "toSlug": "physician",
+        "type": "related"
+      }
+    ],
+    "slug": "medicine-man",
+    "name": "Medicine Man",
+    "status": "regional",
+    "summary": "A Indigenous North American healer and ritual specialist who treats illness through herbs, song, and ceremony—title imposed externally yet embraced variably by nations.",
+    "duties": "Diagnose spiritual and physical ailments, lead sweat lodge or healing songs, gather plants, counsel community.",
+    "skills": "Herbal pharmacopeia, ceremonial song, dream work, cultural protocol.",
+    "tools": "Drum, rattle, eagle feather, plant bundles, sweat lodge stones.",
+    "regions": "Plains, Southwest, Pacific Northwest nations; urban Native communities.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": -2000,
+    "originLabel": "Indigenous healing traditions",
+    "dateConfidence": "low",
+    "aliases": [
+      "healer",
+      "curandero (Latin overlap)"
+    ],
+    "eventYear": 1978,
+    "eventLabel": "AIRFA protections",
+    "eventDescription": "U.S. American Indian Religious Freedom Act supports ceremonial practice rights.",
+    "educationPath": "Elder apprenticeship, community recognition, dual training with Western medicine sometimes.",
+    "modernSectors": "Tribal health programs, cultural centers, VA Native healing initiatives."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1950,
+        "label": "Conservatory cantors",
+        "description": "American seminaries train hazzanim as combined musicians and clergy partners.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "cantor",
+        "type": "related"
+      },
+      {
+        "toSlug": "rabbi",
+        "type": "related"
+      },
+      {
+        "toSlug": "musician",
+        "type": "related"
+      }
+    ],
+    "slug": "hazzan",
+    "name": "Hazzan",
+    "status": "active",
+    "summary": "A professional Jewish cantor specializing in ornate liturgical music—leading High Holiday services with conservatory-trained voice in large synagogues.",
+    "duties": "Lead musaf and High Holiday piyyutim, teach choir, officiate alongside rabbi, preserve nusach traditions.",
+    "skills": "Bel canto or equivalent voice, Hebrew liturgy, modal improvisation, choir direction.",
+    "tools": "Sheet music archives, microphone, choir risers, recording equipment.",
+    "regions": "Ashkenazi large congregations; Sephardic parallel hazzanut styles in Mediterranean communities.",
+    "category": "religion",
+    "eraPrimary": "medieval",
+    "originYear": 700,
+    "originLabel": "Middle Eastern and Spanish cantorial art",
+    "dateConfidence": "medium",
+    "aliases": [
+      "chazzan",
+      "cantor (professional)"
+    ],
+    "eventYear": 1950,
+    "eventLabel": "Conservatory cantors",
+    "eventDescription": "American seminaries train hazzanim as combined musicians and clergy partners.",
+    "educationPath": "Cantorial seminary, voice degree, semicha partnership tracks in some movements.",
+    "modernSectors": "Large synagogues, concert stage, recording liturgical heritage."
+  },
+  {
+    "originYearEnd": null,
+    "sources": [
+      {
+        "title": "Occupational history references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "year": 1972,
+        "label": "Minor orders reform",
+        "description": "Lay ministries expand; altar serving becomes primary youth liturgical role.",
+        "sortOrder": 1
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "thurifer",
+        "type": "related"
+      },
+      {
+        "toSlug": "sacristan",
+        "type": "related"
+      },
+      {
+        "toSlug": "deacon",
+        "type": "related"
+      }
+    ],
+    "slug": "acolyte",
+    "name": "Acolyte",
+    "status": "active",
+    "summary": "A lay assistant in Christian worship who carries crosses, lights candles, and supports clergy—youth formation pathway and restored minor order in some traditions.",
+    "duties": "Process with cross, light altar candles, assist with book and water, serve at funerals and weddings.",
+    "skills": "Punctuality, reverence, teamwork, memorized service cues.",
+    "tools": "Processional cross, candle lighter, albs, service bulletin.",
+    "regions": "Catholic, Anglican, Lutheran parishes worldwide.",
+    "category": "religion",
+    "eraPrimary": "ancient",
+    "originYear": 200,
+    "originLabel": "Early church service assistants",
+    "dateConfidence": "medium",
+    "aliases": [
+      "altar server",
+      "server"
+    ],
+    "eventYear": 1972,
+    "eventLabel": "Minor orders reform",
+    "eventDescription": "Lay ministries expand; altar serving becomes primary youth liturgical role.",
+    "educationPath": "Parish server training, diocesan youth liturgy camps.",
+    "modernSectors": "Parishes, cathedrals, papal liturgies, televised masses."
+  }
+]

@@ -16,10 +16,7 @@ export function SearchBox({ initialQuery = "" }: { initialQuery?: string }) {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    if (query.trim().length < 2) {
-      setResults([]);
-      return;
-    }
+    if (query.trim().length < 2) return;
 
     const timer = setTimeout(async () => {
       setLoading(true);
@@ -35,6 +32,8 @@ export function SearchBox({ initialQuery = "" }: { initialQuery?: string }) {
     return () => clearTimeout(timer);
   }, [query]);
 
+  const displayResults = query.trim().length < 2 ? [] : results;
+
   return (
     <div className="w-full max-w-2xl">
       <Input
@@ -46,9 +45,9 @@ export function SearchBox({ initialQuery = "" }: { initialQuery?: string }) {
       {loading && (
         <p className="mt-2 text-sm text-stone-500">Searching…</p>
       )}
-      {results.length > 0 && (
+      {displayResults.length > 0 && (
         <ul className="mt-3 divide-y divide-stone-200 rounded-lg border border-stone-200 bg-white">
-          {results.map((r) => (
+          {displayResults.map((r) => (
             <li key={r.slug}>
               <Link
                 href={`/jobs/${r.slug}`}
