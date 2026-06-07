@@ -15,7 +15,9 @@ psql "$DATABASE_URL" -f drizzle/manual/001_search.sql
 npm run import:showcase
 npm run import:wikidata
 npx tsx scripts/run-sql-file.ts drizzle/manual/002_enhanced_tier.sql
+npx tsx scripts/run-sql-file.ts drizzle/manual/003_current_pressures.sql
 npm run enrich:stubs
+npm run import:pressures
 npm run dev
 ```
 
@@ -38,6 +40,7 @@ Open http://localhost:3000
 | `npm run import:showcase` | Curated roles + lineage |
 | `npm run import:wikidata` | Bulk Wikidata occupations |
 | `npm run enrich:stubs` | Upgrade stubs with Wikidata aliases, regions, fields |
+| `npm run import:pressures` | Curated AI & automation pressure assessments (pilot) |
 
 ## Docs
 

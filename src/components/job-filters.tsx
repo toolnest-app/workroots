@@ -12,10 +12,12 @@ import { X } from "lucide-react";
 
 interface JobFiltersProps {
   total: number;
+  pressureCount?: number;
   current: {
     q?: string;
     status?: OccupationStatus;
     era?: EraPrimary;
+    pressure?: boolean;
   };
 }
 
@@ -28,13 +30,16 @@ function buildHref(
   if (merged.q) params.set("q", merged.q);
   if (merged.status) params.set("status", merged.status);
   if (merged.era) params.set("era", merged.era);
+  if (merged.pressure) params.set("pressure", "1");
   const qs = params.toString();
   return qs ? `/jobs?${qs}` : "/jobs";
 }
 
-export function JobFilters({ total, current }: JobFiltersProps) {
+export function JobFilters({ total, pressureCount, current }: JobFiltersProps) {
   const router = useRouter();
-  const hasFilters = Boolean(current.status || current.era || current.q);
+  const hasFilters = Boolean(
+    current.status || current.era || current.q || current.pressure
+  );
 
   return (
     <div className="space-y-6 rounded-xl border border-border/80 bg-card p-5">
@@ -49,6 +54,31 @@ export function JobFilters({ total, current }: JobFiltersProps) {
       </div>
 
       <Separator />
+
+      {pressureCount != null && pressureCount > 0 && (
+        <div className="space-y-3">
+          <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+            Current wave
+          </p>
+          <Link
+            href={buildHref(current, {
+              pressure: current.pressure ? undefined : true,
+            })}
+            className={cn(
+              buttonVariants({
+                variant: current.pressure ? "default" : "outline",
+                size: "sm",
+              }),
+              "h-7 w-full justify-start text-xs"
+            )}
+          >
+            AI & automation pressures
+            <span className="ml-auto tabular-nums opacity-70">
+              {pressureCount}
+            </span>
+          </Link>
+        </div>
+      )}
 
       <div className="space-y-3">
         <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">

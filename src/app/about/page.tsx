@@ -59,6 +59,38 @@ export default function AboutPage() {
           prefer curated narratives where they exist.
         </p>
       </section>
+
+      <section className="space-y-3">
+        <h2 className="font-serif text-2xl font-semibold">Current pressures</h2>
+        <p className="leading-relaxed text-muted-foreground">
+          A pilot set of curated entries includes assessments of how the
+          contemporary AI and automation wave is affecting each role. These are
+          not predictions or risk scores — they describe task change, historical
+          parallels, and where human judgment still anchors the occupation.
+        </p>
+        <ul className="space-y-2 text-sm text-muted-foreground">
+          <li>
+            <strong className="text-foreground">Augmented</strong> — AI assists
+            core work; duties shift toward oversight and judgment.
+          </li>
+          <li>
+            <strong className="text-foreground">Displaced tasks</strong> —
+            routine work automated; headcount pressure in parts of the role.
+          </li>
+          <li>
+            <strong className="text-foreground">Transformed</strong> — daily
+            production reshaped by new tools.
+          </li>
+          <li>
+            <strong className="text-foreground">Resilient</strong> — physical
+            presence, licensure, or trust remain central.
+          </li>
+          <li>
+            <strong className="text-foreground">Emerging</strong> — new
+            specializations forming around AI systems.
+          </li>
+        </ul>
+      </section>
     </div>
   );
 }

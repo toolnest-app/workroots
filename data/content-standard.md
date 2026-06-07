@@ -202,6 +202,36 @@ Beauty — makeup artist, cosmetologist, hairdresser, esthetician, manicurist, p
 
 Business of fashion — fashion buyer, stylist, merchandiser, editor, photographer, PR specialist, trend forecaster
 
+## Current pressures (AI & automation pilot)
+
+Curated assessments live in `data/showcase-pressures.json`. Import with `npm run import:pressures` after running `drizzle/manual/003_current_pressures.sql`.
+
+### Impact types
+
+| Type | Meaning |
+|------|---------|
+| **augmented** | AI assists core work; role persists with shifting duties |
+| **displaced_tasks** | Routine tasks automated; headcount pressure in parts of the role |
+| **transformed** | Daily work changing materially as tools reshape production |
+| **resilient** | Physical presence, regulated judgment, or trust remain central |
+| **emerging** | New specializations forming around AI systems |
+
+### Required fields (pressure overlay)
+
+- `slug` — must match an existing curated occupation
+- `pressureType` — one of the types above
+- `pressureConfidence` — `high` \| `medium` \| `low`
+- `summary` — 2–4 sentences; encyclopedic, not predictive scoring
+- `event` (optional) — timeline row for a clear inflection point (e.g. generative AI adoption)
+- `sources` (optional) — at least one when confidence is not `high`; use note `Current pressures citation`
+
+### Voice
+
+- Describe **task change**, not job extinction prophecies
+- Compare to prior waves when useful (word processing, ATMs, CAD)
+- Prefer "shifting toward" over "will be replaced"
+- Active/contemporary roles only in the pilot; skip extinct entries unless illustrating historical parallel
+
 ## Review checklist
 
 Before merging new curated entries:

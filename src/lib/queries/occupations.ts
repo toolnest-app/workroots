@@ -1,4 +1,4 @@
-import { and, asc, desc, eq, sql, type SQL } from "drizzle-orm";
+import { and, asc, desc, eq, isNotNull, sql, type SQL } from "drizzle-orm";
 import { FEATURED_SLUGS } from "@/lib/constants";
 import { getDb } from "@/db";
 import {
@@ -16,6 +16,7 @@ export interface ListFilters {
   status?: OccupationStatus;
   era?: EraPrimary;
   category?: string;
+  pressure?: boolean;
   page?: number;
   pageSize?: number;
 }
@@ -67,6 +68,9 @@ export async function listOccupations(filters: ListFilters = {}) {
   if (filters.category) {
     conditions.push(eq(occupations.category, filters.category));
   }
+  if (filters.pressure) {
+    conditions.push(isNotNull(occupations.pressureType));
+  }
   if (filters.q?.trim()) {
     const q = filters.q.trim();
     conditions.push(
@@ -89,6 +93,7 @@ export async function listOccupations(filters: ListFilters = {}) {
         originYear: occupations.originYear,
         dateConfidence: occupations.dateConfidence,
         contentTier: occupations.contentTier,
+        pressureType: occupations.pressureType,
       })
       .from(occupations)
       .where(whereClause)
@@ -98,6 +103,7 @@ export async function listOccupations(filters: ListFilters = {}) {
           WHEN 'enhanced' THEN 1
           ELSE 2
         END`,
+        sql`CASE WHEN ${occupations.pressureType} IS NOT NULL THEN 0 ELSE 1 END`,
         asc(occupations.name)
       )
       .limit(pageSize)
@@ -184,6 +190,15 @@ export async function countEnhancedOccupations() {
     .select({ count: sql<number>`count(*)::int` })
     .from(occupations)
     .where(eq(occupations.contentTier, "enhanced"));
+  return row?.count ?? 0;
+}
+
+export async function countPressureOccupations() {
+  const db = getDb();
+  const [row] = await db
+    .select({ count: sql<number>`count(*)::int` })
+    .from(occupations)
+    .where(isNotNull(occupations.pressureType));
   return row?.count ?? 0;
 }
 

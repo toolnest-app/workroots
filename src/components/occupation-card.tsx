@@ -7,10 +7,11 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { STATUS_LABELS, ERA_LABELS } from "@/lib/constants";
+import { PRESSURE_TYPE_LABELS, STATUS_LABELS, ERA_LABELS } from "@/lib/constants";
+import { PRESSURE_BADGE_STYLES } from "@/lib/pressure-styles";
 import { STATUS_STYLES, ERA_STYLES } from "@/lib/status-styles";
 import { buildAgeDisplay } from "@/lib/occupation-age";
-import type { EraPrimary, OccupationStatus } from "@/db/schema";
+import type { EraPrimary, OccupationStatus, PressureType } from "@/db/schema";
 import { cn } from "@/lib/utils";
 import { Clock } from "lucide-react";
 import { CuratedBadge } from "@/components/curated-badge";
@@ -26,6 +27,7 @@ interface OccupationCardProps {
   originYear?: number | null;
   originLabel?: string | null;
   contentTier?: ContentTier;
+  pressureType?: PressureType | null;
 }
 
 export function OccupationCard({
@@ -37,6 +39,7 @@ export function OccupationCard({
   originYear = null,
   originLabel = null,
   contentTier = "stub",
+  pressureType = null,
 }: OccupationCardProps) {
   const age = buildAgeDisplay({
     status,
@@ -83,6 +86,17 @@ export function OccupationCard({
             >
               {ERA_LABELS[eraPrimary]}
             </Badge>
+            {pressureType && (
+              <Badge
+                variant="outline"
+                className={cn(
+                  "text-[10px]",
+                  PRESSURE_BADGE_STYLES[pressureType]
+                )}
+              >
+                {PRESSURE_TYPE_LABELS[pressureType]}
+              </Badge>
+            )}
           </div>
         </CardHeader>
         <CardContent>

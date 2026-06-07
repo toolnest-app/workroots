@@ -6,7 +6,10 @@ import { OccupationCard } from "@/components/occupation-card";
 import { BreadcrumbsNav } from "@/components/breadcrumbs-nav";
 import { EraTimeline } from "@/components/era-timeline";
 import { CommandTrigger } from "@/components/command-trigger";
-import { listOccupations } from "@/lib/queries/occupations";
+import {
+  countPressureOccupations,
+  listOccupations,
+} from "@/lib/queries/occupations";
 import type { EraPrimary, OccupationStatus } from "@/db/schema";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -16,18 +19,20 @@ interface JobsPageProps {
     q?: string;
     status?: string;
     era?: string;
+    pressure?: string;
     page?: string;
   }>;
 }
 
 function jobsPageHref(
-  params: { q?: string; status?: string; era?: string },
+  params: { q?: string; status?: string; era?: string; pressure?: string },
   page: number
 ) {
   const sp = new URLSearchParams();
   if (params.q) sp.set("q", params.q);
   if (params.status) sp.set("status", params.status);
   if (params.era) sp.set("era", params.era);
+  if (params.pressure) sp.set("pressure", params.pressure);
   sp.set("page", String(page));
   return `/jobs?${sp.toString()}`;
 }
@@ -42,13 +47,19 @@ export default async function JobsPage({ searchParams }: JobsPageProps) {
   const status = params.status as OccupationStatus | undefined;
   const era = params.era as EraPrimary | undefined;
 
-  const result = await listOccupations({
-    q: params.q,
-    status,
-    era,
-    page,
-    pageSize: 24,
-  });
+  const pressure = params.pressure === "1";
+
+  const [result, pressureCount] = await Promise.all([
+    listOccupations({
+      q: params.q,
+      status,
+      era,
+      pressure: pressure || undefined,
+      page,
+      pageSize: 24,
+    }),
+    countPressureOccupations(),
+  ]);
 
   return (
     <div className="space-y-8">
@@ -65,16 +76,29 @@ export default async function JobsPage({ searchParams }: JobsPageProps) {
             Browse the archive
           </h1>
           <p className="mt-2 text-muted-foreground">
-            Filter by status and historical era
+            Filter by status, era, or roles under AI & automation pressure
           </p>
         </div>
         <CommandTrigger className="w-full sm:w-72" />
       </div>
 
-      {era && (
+      {(era || pressure) && (
         <div className="rounded-xl border border-primary/20 bg-primary/5 px-4 py-2 text-sm">
-          Filtering by era:{" "}
-          <span className="font-medium capitalize">{era.replace("_", " ")}</span>
+          {era && (
+            <span>
+              Era:{" "}
+              <span className="font-medium capitalize">
+                {era.replace("_", " ")}
+              </span>
+            </span>
+          )}
+          {era && pressure && <span className="mx-2">·</span>}
+          {pressure && (
+            <span>
+              Showing roles with{" "}
+              <span className="font-medium">current pressures</span> assessments
+            </span>
+          )}
         </div>
       )}
 
@@ -83,7 +107,8 @@ export default async function JobsPage({ searchParams }: JobsPageProps) {
       <div className="grid gap-8 lg:grid-cols-[260px_1fr]">
         <JobFilters
           total={result.total}
-          current={{ q: params.q, status, era }}
+          pressureCount={pressureCount}
+          current={{ q: params.q, status, era, pressure }}
         />
         <div className="space-y-6">
           <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
@@ -116,6 +141,7 @@ export default async function JobsPage({ searchParams }: JobsPageProps) {
                   eraPrimary={job.eraPrimary}
                   originYear={job.originYear}
                   contentTier={job.contentTier}
+                  pressureType={job.pressureType}
                 />
               ))
             )}

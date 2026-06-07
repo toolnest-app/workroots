@@ -11,6 +11,7 @@ import { BreadcrumbsNav } from "@/components/breadcrumbs-nav";
 import { getOccupationBySlug } from "@/lib/queries/occupations";
 import { Separator } from "@/components/ui/separator";
 import { TierNotice } from "@/components/tier-notice";
+import { CurrentPressures } from "@/components/current-pressures";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -103,6 +104,17 @@ export default async function OccupationDetailPage({ params }: PageProps) {
               <OccupationTimeline events={events} />
             </ContentSection>
           )}
+
+          {occupation.pressureType &&
+            occupation.pressureConfidence &&
+            occupation.pressureSummary && (
+              <CurrentPressures
+                pressureType={occupation.pressureType}
+                pressureConfidence={occupation.pressureConfidence}
+                summary={occupation.pressureSummary}
+                sources={sources}
+              />
+            )}
 
           <OccupationFacts
             duties={occupation.duties || undefined}

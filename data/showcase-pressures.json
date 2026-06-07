@@ -1,0 +1,334 @@
+[
+  {
+    "slug": "software-developer",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "Generative coding tools automate boilerplate, tests, and documentation, shifting emphasis toward architecture, integration, and judgment over ambiguous requirements. The role is expanding in scope rather than disappearing, echoing earlier shifts from assembly coding to higher-level languages.",
+    "event": {
+      "year": 2023,
+      "label": "Generative coding assistants",
+      "description": "Large language models accelerate routine implementation and code review prep across many teams.",
+      "sortOrder": 2
+    },
+    "sources": [
+      {
+        "title": "GitHub Octoverse — AI in software development",
+        "url": "https://github.blog/news-insights/octoverse/",
+        "note": "Current pressures citation"
+      }
+    ]
+  },
+  {
+    "slug": "web-developer",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "AI layout generators, component libraries, and no-code layers compress front-end prototyping time. Skilled developers increasingly own performance, accessibility, security, and bespoke interaction design that templates cannot safely replicate.",
+    "sources": [
+      {
+        "title": "W3C Web Accessibility Initiative",
+        "url": "https://www.w3.org/WAI/",
+        "note": "Current pressures citation"
+      }
+    ]
+  },
+  {
+    "slug": "computer-programmer",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "The historical programmer role—translating specifications into executable logic—faces pressure on routine translation tasks. Demand persists for programmers who maintain legacy systems, optimize runtimes, and validate AI-generated code in regulated environments."
+  },
+  {
+    "slug": "data-entry-clerk",
+    "pressureType": "displaced_tasks",
+    "pressureConfidence": "high",
+    "summary": "Optical character recognition, robotic process automation, and form-parsing AI have removed much repetitive keyboard entry. Remaining clerical work clusters around exception handling, verification, and legacy systems without API integration.",
+    "event": {
+      "year": 2010,
+      "label": "RPA adoption",
+      "description": "Robotic process automation targets high-volume form and invoice entry in offices.",
+      "sortOrder": 2
+    }
+  },
+  {
+    "slug": "typist",
+    "pressureType": "displaced_tasks",
+    "pressureConfidence": "high",
+    "summary": "Word processing, speech-to-text, and dictation software long ago displaced dedicated typing pools. The occupation survives mainly as a historical and regional label rather than a distinct full-time career path in most economies."
+  },
+  {
+    "slug": "robotics-engineer",
+    "pressureType": "emerging",
+    "pressureConfidence": "medium",
+    "summary": "Industrial and service robotics accelerate alongside AI perception and planning stacks. Engineers who integrate autonomous systems into warehouses, surgery, agriculture, and maintenance are a growing specialization branching from mechanical and software disciplines."
+  },
+  {
+    "slug": "laboratory-technician",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "Automated analyzers and AI-assisted image classification speed routine sample processing. Technicians remain essential for specimen integrity, calibration, contamination control, and interpreting anomalies machines flag without context."
+  },
+  {
+    "slug": "draftsman",
+    "pressureType": "transformed",
+    "pressureConfidence": "medium",
+    "summary": "CAD, BIM, and generative design tools replaced hand drafting decades ago; today's pressure comes from AI-assisted modeling and clash detection. The role persists as technical drawing and model stewardship, often merged with engineering technician work.",
+    "event": {
+      "year": 2020,
+      "label": "BIM & generative design",
+      "description": "Parametric and AI-assisted modeling reshape how construction documents are produced.",
+      "sortOrder": 2
+    }
+  },
+  {
+    "slug": "illustrator",
+    "pressureType": "transformed",
+    "pressureConfidence": "medium",
+    "summary": "Image-generation models compress concept-art iteration and stock-style production. Commissioned illustrators increasingly differentiate through consistent style, narrative intent, brand identity, and rights-managed original work clients can own."
+  },
+  {
+    "slug": "film-editor",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "Auto-assembly, transcript-based rough cuts, and AI-assisted color matching speed post-production logistics. Creative editing—pacing, story, performance, and director collaboration—remains a human craft machines approximate but rarely master."
+  },
+  {
+    "slug": "screenwriter",
+    "pressureType": "augmented",
+    "pressureConfidence": "low",
+    "summary": "Language models can draft outlines and dialogue variations, but greenlit film and television still depend on human voice, legal clearance, guild contracts, and showrunner vision. Impact is felt earliest in development rooms exploring ideas, not in credited final scripts."
+  },
+  {
+    "slug": "voice-actor",
+    "pressureType": "transformed",
+    "pressureConfidence": "medium",
+    "summary": "Synthetic voice cloning pressures low-budget narration, phone prompts, and some localization work. Unionized performance, character acting, live direction, and celebrity likeness rights have pushed back with new contract guardrails."
+  },
+  {
+    "slug": "editor",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "Grammar models and summarization tools accelerate copy-editing and fact-check prep. Editors add value through structural judgment, tone, legal sensitivity, and accountability—especially in journalism, academic publishing, and regulatory text."
+  },
+  {
+    "slug": "photographer",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "Computational photography and generative fill reduce retouching labor and raise competition for generic stock imagery. Event, documentary, forensic, and brand photographers still rely on presence, timing, and client relationships AI cannot substitute on site."
+  },
+  {
+    "slug": "journalist",
+    "pressureType": "transformed",
+    "pressureConfidence": "medium",
+    "summary": "AI drafting and aggregation tools pressure commodity news briefs and SEO content farms. Investigative, local, and accountability reporting still depends on sourcing, ethics, and editorial judgment—though newsroom headcounts continue to shrink from broader digital disruption."
+  },
+  {
+    "slug": "cartoonist",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "Style-consistent image models threaten templated cartooning and quick editorial gags. Distinctive artists with recurring characters, editorial voice, and print or syndication contracts retain audiences that follow human creators."
+  },
+  {
+    "slug": "actor",
+    "pressureType": "transformed",
+    "pressureConfidence": "low",
+    "summary": "Digital doubles, de-aging, and synthetic extras alter some production economics, but live performance, union negotiations, and audience attachment to human actors limit near-term displacement. Impact is uneven across advertising, games, and feature film."
+  },
+  {
+    "slug": "accountant",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "Bookkeeping automation and tax-prep software absorb routine ledger work, pushing accountants toward advisory, audit, forensic, and compliance roles. AI assists reconciliation and anomaly detection but does not hold professional liability."
+  },
+  {
+    "slug": "bookkeeper",
+    "pressureType": "displaced_tasks",
+    "pressureConfidence": "high",
+    "summary": "Cloud accounting platforms auto-categorize transactions and sync bank feeds, shrinking pure data-entry bookkeeping. Surviving roles blend payroll, client support, and cleanup of exceptions automated systems mishandle."
+  },
+  {
+    "slug": "secretary",
+    "pressureType": "displaced_tasks",
+    "pressureConfidence": "high",
+    "summary": "Calendar AI, email triage, and executive self-service tools reduced dedicated secretarial pools from mid-century peaks. Modern administrative assistants handle complex logistics, stakeholder management, and judgment calls algorithms defer."
+  },
+  {
+    "slug": "clerk",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "Document classification and workflow bots handle routine filing and routing. Clerks who understand institutional process, customer-facing exceptions, and records retention remain necessary in government, courts, and healthcare."
+  },
+  {
+    "slug": "auditor",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "Continuous auditing analytics and AI sampling expand what a small team can review. Auditors still sign opinions, interview management, and interpret control failures—tasks requiring professional skepticism and legal accountability."
+  },
+  {
+    "slug": "financial-advisor",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "Robo-advisors and portfolio algorithms commoditize basic asset allocation. Human advisors differentiate through estate planning, behavioral coaching, complex tax situations, and trust relationships regulators still expect for fiduciary advice."
+  },
+  {
+    "slug": "marketing-manager",
+    "pressureType": "augmented",
+    "pressureConfidence": "low",
+    "summary": "Generative tools flood channels with copy and creative variants, raising the value of brand strategy, measurement, and channel discipline. Managers spend more time governing AI output quality and less on first-draft production."
+  },
+  {
+    "slug": "lawyer",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "Legal research models and contract review AI accelerate discovery and due diligence. Licensed attorneys remain responsible for courtroom advocacy, client counseling, and ethical obligations machines cannot assume."
+  },
+  {
+    "slug": "judge",
+    "pressureType": "resilient",
+    "pressureConfidence": "high",
+    "summary": "Judicial appointment, open court procedure, and constitutional authority require human decision-makers accountable to the public. AI may assist docket management and research, but binding rulings stay with seated judges in virtually all jurisdictions."
+  },
+  {
+    "slug": "nurse",
+    "pressureType": "resilient",
+    "pressureConfidence": "high",
+    "summary": "Clinical documentation scribes and monitoring algorithms reduce paperwork burden, but direct patient care, triage, and advocacy require physical presence and licensure AI cannot hold. Nursing shortages persist despite automation aids."
+  },
+  {
+    "slug": "physician",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "Diagnostic decision support and ambient clinical notes change how doctors spend time, shifting hours from charting toward interpretation and patient communication. Medical licensure and liability keep humans at the center of treatment decisions."
+  },
+  {
+    "slug": "pharmacist",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "Automated dispensing and interaction-checking systems handle routine verification faster. Pharmacists focus more on medication therapy management, vaccination, and counseling—especially where regulations require a pharmacist of record."
+  },
+  {
+    "slug": "dentist",
+    "pressureType": "resilient",
+    "pressureConfidence": "high",
+    "summary": "Chairside AI imaging improves caries detection and treatment planning, but manual procedures, infection control, and patient consent require licensed clinicians in the operatory. Demand for cosmetic and restorative work remains locally driven."
+  },
+  {
+    "slug": "radiographer",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "AI triage of scans flags suspected findings for radiologists, speeding workflows. Technologists still position patients, manage radiation safety, and operate equipment—tasks tightly regulated and physically situated."
+  },
+  {
+    "slug": "surgeon",
+    "pressureType": "resilient",
+    "pressureConfidence": "high",
+    "summary": "Robotic assistants and image-guided systems augment precision in some specialties, but operative responsibility, informed consent, and emergency judgment remain human. Surgical training pipelines are long and licensure-bound."
+  },
+  {
+    "slug": "teacher",
+    "pressureType": "transformed",
+    "pressureConfidence": "medium",
+    "summary": "Tutoring bots and adaptive platforms personalize drill practice outside class. Classroom teachers remain central for motivation, classroom management, safeguarding, and social learning—though policy debates continue over homework assistance tools."
+  },
+  {
+    "slug": "librarian",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "Search interfaces and digitization reduce pure catalog retrieval labor. Librarians increasingly teach information literacy, curate community programs, and help patrons evaluate AI-generated answers—a new form of reference work."
+  },
+  {
+    "slug": "professor",
+    "pressureType": "augmented",
+    "pressureConfidence": "low",
+    "summary": "Grading assistants and literature summarizers shift how faculty prepare materials and review drafts. Tenure, research originality, and seminar teaching still anchor the academic role, with institutions revising plagiarism and authorship policies."
+  },
+  {
+    "slug": "tutor",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "On-demand tutoring apps and step-by-step solvers compete with homework help. Human tutors retain demand for exam strategy, accountability, special-needs adaptation, and subjects where reasoning must be demonstrated aloud."
+  },
+  {
+    "slug": "electrician",
+    "pressureType": "resilient",
+    "pressureConfidence": "high",
+    "summary": "Smart-home and EV-charging installations add new technical layers, but pulling wire, troubleshooting faults, and meeting code inspections require licensed tradespeople on site. Physical installation resists full remote automation."
+  },
+  {
+    "slug": "carpenter",
+    "pressureType": "resilient",
+    "pressureConfidence": "high",
+    "summary": "Prefabrication and CNC milling shift some shop work off-site, yet framing, finishing, and renovation still demand adaptable human crews in varied building conditions. Construction labor remains locally regulated and weather-dependent."
+  },
+  {
+    "slug": "chef",
+    "pressureType": "resilient",
+    "pressureConfidence": "high",
+    "summary": "Kitchen automation and ghost-kitchen logistics change back-of-house economics, but menu creativity, timing on the line, and hospitality experience keep executive chefs central in full-service dining. Fast-food layers face more process standardization."
+  },
+  {
+    "slug": "bartender",
+    "pressureType": "resilient",
+    "pressureConfidence": "medium",
+    "summary": "Self-pour systems and robotic cocktail kiosks appear in some venues, but social service, responsible alcohol service laws, and atmosphere-building keep human bartenders standard in bars and restaurants worldwide."
+  },
+  {
+    "slug": "architect",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "Generative massing and energy models accelerate early design exploration. Licensed architects still stamp drawings, navigate zoning politics, and coordinate stakeholders—liabilities algorithms cannot carry."
+  },
+  {
+    "slug": "civil-engineer",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "Simulation and digital twins improve infrastructure planning, but sign-off on safety factors, geotechnical judgment, and construction oversight remains a licensed engineering responsibility with public accountability."
+  },
+  {
+    "slug": "cashier",
+    "pressureType": "displaced_tasks",
+    "pressureConfidence": "medium",
+    "summary": "Self-checkout, mobile pay, and Amazon-style walk-out stores reduce cashier headcount in supermarkets and big-box retail. Attendants increasingly supervise kiosks, verify age-restricted sales, and handle exceptions."
+  },
+  {
+    "slug": "insurance-agent",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "Quote engines and chatbots handle simple policy comparisons online. Agents persist in commercial lines, life underwriting nuance, and claims advocacy where trust and complex risk explanation matter."
+  },
+  {
+    "slug": "real-estate-agent",
+    "pressureType": "augmented",
+    "pressureConfidence": "low",
+    "summary": "Listing algorithms, virtual tours, and automated valuations compress marketing chores. Transactions still involve negotiation, disclosure law, and local market knowledge—though commission models face regulatory and tech pressure in several countries."
+  },
+  {
+    "slug": "hotel-receptionist",
+    "pressureType": "displaced_tasks",
+    "pressureConfidence": "medium",
+    "summary": "Mobile check-in, kiosks, and messaging concierges reduce front-desk volume in mid-scale hotels. Receptionists handle VIP arrivals, complaints, and situations requiring empathy or security judgment."
+  },
+  {
+    "slug": "travel-agent",
+    "pressureType": "transformed",
+    "pressureConfidence": "high",
+    "summary": "Online booking made commodity itinerary shopping self-service decades ago; AI trip planners continue that trend. Surviving agents specialize in complex multi-leg journeys, corporate policy, and crisis rebooking when automation fails."
+  },
+  {
+    "slug": "fashion-designer",
+    "pressureType": "augmented",
+    "pressureConfidence": "low",
+    "summary": "Trend-forecast models and generative textile prints speed mood-board iteration. Fashion houses still depend on human taste, fit testing, supply-chain relationships, and brand narrative for seasonal collections."
+  },
+  {
+    "slug": "hairdresser",
+    "pressureType": "resilient",
+    "pressureConfidence": "high",
+    "summary": "Salon service requires tactile skill, client consultation, and sanitation practices resistant to remote automation. Personalized cutting and coloring adapt to individual hair texture in ways generic algorithms cannot safely execute unsupervised."
+  },
+  {
+    "slug": "statistician",
+    "pressureType": "augmented",
+    "pressureConfidence": "medium",
+    "summary": "AutoML and large-scale simulation tools accelerate model prototyping. Statisticians remain vital for experimental design, causal inference, regulatory submission, and explaining uncertainty to decision-makers who must act under risk."
+  }
+]
