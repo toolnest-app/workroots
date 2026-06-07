@@ -31,22 +31,34 @@ export const PRESSURE_TYPE_LABELS: Record<PressureType, string> = {
   augmented: "Augmented",
   displaced_tasks: "Displaced tasks",
   transformed: "Transformed",
-  resilient: "Resilient",
+  resilient: "Limited change",
   emerging: "Emerging",
 };
 
 export const PRESSURE_TYPE_DESCRIPTIONS: Record<PressureType, string> = {
   augmented:
-    "AI assists core work; the role persists but duties shift toward judgment and oversight.",
+    "Tools assist parts of the work; the occupation persists with shifting task mix.",
   displaced_tasks:
-    "Routine tasks are increasingly automated; headcount pressure is visible in parts of the role.",
+    "Routine tasks are automated; headcount has fallen in identifiable segments of the role.",
   transformed:
-    "The occupation's daily work is changing materially as new tools reshape production.",
+    "How the work is produced is changing materially — often accelerating trends that began before generative AI.",
   resilient:
-    "Physical presence, regulated judgment, or human trust remain central despite automation.",
+    "Documented automation and AI effects remain limited relative to licensed, physical, or trust-based core duties.",
   emerging:
-    "New specializations are forming around AI systems and their deployment.",
+    "New specializations forming around AI systems — growth rather than displacement.",
 };
+
+/** Homepage strip — roles with documented flux from automation or generative AI */
+export const PRESSURE_FEATURED_SLUGS = [
+  "software-developer",
+  "illustrator",
+  "voice-actor",
+  "data-entry-clerk",
+  "journalist",
+  "lawyer",
+  "bookkeeper",
+  "film-editor",
+] as const;
 
 export const CONFIDENCE_LABELS = {
   high: "High confidence",
@@ -55,18 +67,6 @@ export const CONFIDENCE_LABELS = {
 } as const;
 
 /** Homepage featured order — all must exist in showcase.json */
-/** Homepage pressure strip — diverse impact types, all must have pressure data */
-export const PRESSURE_FEATURED_SLUGS = [
-  "software-developer",
-  "nurse",
-  "illustrator",
-  "data-entry-clerk",
-  "travel-agent",
-  "electrician",
-  "teacher",
-  "judge",
-] as const;
-
 export const FEATURED_SLUGS = [
   "blacksmith",
   "software-developer",

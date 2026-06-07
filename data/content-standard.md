@@ -202,35 +202,37 @@ Beauty — makeup artist, cosmetologist, hairdresser, esthetician, manicurist, p
 
 Business of fashion — fashion buyer, stylist, merchandiser, editor, photographer, PR specialist, trend forecaster
 
-## Current pressures (AI & automation pilot)
+## Automation & AI effects (pilot)
 
-Curated assessments live in `data/showcase-pressures.json`. Import with `npm run import:pressures` after running `drizzle/manual/003_current_pressures.sql`.
+Curated assessments live in `data/showcase-pressures.json`. Import with `npm run import:pressures` (re-import clears removed slugs).
 
-### Impact types
+**Only include roles with documented task change.** Do not tag nurses, judges, electricians, chefs, etc. as "under pressure" when automation and generative AI have not materially reshaped their core licensed or physical duties.
+
+### Impact types (in pilot use)
 
 | Type | Meaning |
 |------|---------|
-| **augmented** | AI assists core work; role persists with shifting duties |
-| **displaced_tasks** | Routine tasks automated; headcount pressure in parts of the role |
-| **transformed** | Daily work changing materially as tools reshape production |
-| **resilient** | Physical presence, regulated judgment, or trust remain central |
-| **emerging** | New specializations forming around AI systems |
+| **augmented** | Tools assist parts of the work; occupation persists with shifting task mix |
+| **displaced_tasks** | Routine tasks automated; identifiable segments have fewer workers |
+| **transformed** | How work is produced is changing materially — often accelerating pre-AI trends |
+
+Reserve **resilient** and **emerging** for schema compatibility; omit those roles from the pilot rather than mislabeling them.
 
 ### Required fields (pressure overlay)
 
 - `slug` — must match an existing curated occupation
-- `pressureType` — one of the types above
+- `pressureType` — augmented, displaced_tasks, or transformed
 - `pressureConfidence` — `high` \| `medium` \| `low`
-- `summary` — 2–4 sentences; encyclopedic, not predictive scoring
-- `event` (optional) — timeline row for a clear inflection point (e.g. generative AI adoption)
+- `summary` — 2–4 sentences; separate pre-2020 automation from generative-AI effects when both apply
+- `event` (optional) — timeline row for a documented inflection (label whether RPA, self-checkout, or generative AI)
 - `sources` (optional) — at least one when confidence is not `high`; use note `Current pressures citation`
 
 ### Voice
 
-- Describe **task change**, not job extinction prophecies
-- Compare to prior waves when useful (word processing, ATMs, CAD)
-- Prefer "shifting toward" over "will be replaced"
-- Active/contemporary roles only in the pilot; skip extinct entries unless illustrating historical parallel
+- Describe **task change**, not extinction prophecies
+- Say when pressure predates generative AI (travel agents, secretaries, cashiers)
+- Prefer "evidence is mixed" over confident forecasts
+- Never imply a resilient occupation is "under pressure" in UI copy
 
 ## Review checklist
 

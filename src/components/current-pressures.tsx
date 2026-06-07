@@ -55,7 +55,7 @@ export function CurrentPressures({
       <div className="flex flex-wrap items-center gap-2">
         <Sparkles className="size-4 opacity-70" aria-hidden />
         <h2 className="font-serif text-xl font-semibold tracking-tight">
-          Current pressures
+          Automation & AI effects
         </h2>
         <Badge variant="outline" className="border-current/20 bg-white/50">
           {PRESSURE_TYPE_LABELS[pressureType]}
@@ -94,8 +94,8 @@ export function CurrentPressures({
 
       <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-current/10 pt-4">
         <p className="text-xs opacity-70">
-          Pilot layer (2024–2026). Assessments are curated and revised as
-          evidence shifts — not predictive scores.
+          Pilot notes (2024–2026). We separate long-running automation from
+          recent generative-AI changes where possible — not predictive scores.
         </p>
         <Link
           href={`/suggest?role=${occupationSlug}&type=pressure`}

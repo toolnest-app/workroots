@@ -61,35 +61,35 @@ export default function AboutPage() {
       </section>
 
       <section className="space-y-3">
-        <h2 className="font-serif text-2xl font-semibold">Current pressures</h2>
+        <h2 className="font-serif text-2xl font-semibold">
+          Automation &amp; AI effects
+        </h2>
         <p className="leading-relaxed text-muted-foreground">
-          A pilot set of curated entries includes assessments of how the
-          contemporary AI and automation wave is affecting each role. These are
-          not predictions or risk scores — they describe task change, historical
-          parallels, and where human judgment still anchors the occupation.
+          A pilot set of entries documents where automation or generative AI is
+          measurably changing tasks. We do not publish risk scores or
+          predictions. When digitization began before the 2020s generative-AI
+          wave, we say so — conflating decades of automation with ChatGPT-era
+          tools would mislead readers.
         </p>
         <ul className="space-y-2 text-sm text-muted-foreground">
           <li>
-            <strong className="text-foreground">Augmented</strong> — AI assists
-            core work; duties shift toward oversight and judgment.
+            <strong className="text-foreground">Augmented</strong> — tools
+            assist parts of the work; the occupation persists with a shifting
+            task mix.
           </li>
           <li>
             <strong className="text-foreground">Displaced tasks</strong> —
-            routine work automated; headcount pressure in parts of the role.
+            routine work automated; identifiable segments have fewer workers.
           </li>
           <li>
-            <strong className="text-foreground">Transformed</strong> — daily
-            production reshaped by new tools.
-          </li>
-          <li>
-            <strong className="text-foreground">Resilient</strong> — physical
-            presence, licensure, or trust remain central.
-          </li>
-          <li>
-            <strong className="text-foreground">Emerging</strong> — new
-            specializations forming around AI systems.
+            <strong className="text-foreground">Transformed</strong> — how work
+            is produced is changing materially, often accelerating older trends.
           </li>
         </ul>
+        <p className="text-sm text-muted-foreground">
+          Roles with little documented change from automation or AI are omitted
+          from this pilot rather than labeled &ldquo;under pressure.&rdquo;
+        </p>
       </section>
     </div>
   );

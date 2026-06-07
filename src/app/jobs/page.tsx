@@ -76,7 +76,7 @@ export default async function JobsPage({ searchParams }: JobsPageProps) {
             Browse the archive
           </h1>
           <p className="mt-2 text-muted-foreground">
-            Filter by status, era, or roles under AI & automation pressure
+            Filter by status, era, or roles with documented automation & AI effects
           </p>
         </div>
         <CommandTrigger className="w-full sm:w-72" />
@@ -95,8 +95,8 @@ export default async function JobsPage({ searchParams }: JobsPageProps) {
           {era && pressure && <span className="mx-2">·</span>}
           {pressure && (
             <span>
-              Showing roles with{" "}
-              <span className="font-medium">current pressures</span> assessments
+              Showing roles with documented{" "}
+              <span className="font-medium">automation & AI effects</span>
             </span>
           )}
         </div>

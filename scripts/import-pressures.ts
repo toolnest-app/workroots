@@ -1,7 +1,7 @@
 import "dotenv/config";
 import { readFileSync } from "fs";
 import { join } from "path";
-import { and, eq } from "drizzle-orm";
+import { and, eq, isNotNull } from "drizzle-orm";
 import { getDb } from "../src/db";
 import {
   occupationEvents,
@@ -39,8 +39,10 @@ async function main() {
   );
   const entries = JSON.parse(raw) as PressureEntry[];
   let updated = 0;
+  const importedSlugs = new Set<string>();
 
   for (const entry of entries) {
+    importedSlugs.add(entry.slug);
     const [row] = await db
       .select({ id: occupations.id })
       .from(occupations)
@@ -109,7 +111,29 @@ async function main() {
     updated += 1;
   }
 
-  console.log(`Imported current pressures for ${updated} occupations.`);
+  const previouslyTagged = await db
+    .select({ id: occupations.id, slug: occupations.slug })
+    .from(occupations)
+    .where(isNotNull(occupations.pressureType));
+
+  let cleared = 0;
+  for (const row of previouslyTagged) {
+    if (importedSlugs.has(row.slug)) continue;
+    await db
+      .update(occupations)
+      .set({
+        pressureType: null,
+        pressureConfidence: null,
+        pressureSummary: null,
+        updatedAt: new Date(),
+      })
+      .where(eq(occupations.id, row.id));
+    cleared += 1;
+  }
+
+  console.log(
+    `Imported current pressures for ${updated} occupations; cleared ${cleared} removed entries.`
+  );
 }
 
 main().catch((err) => {

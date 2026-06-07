@@ -34,11 +34,11 @@ export function PressureRolesStrip({ roles, totalCount }: PressureRolesStripProp
             </p>
           </div>
           <h2 className="mt-1 font-serif text-2xl font-semibold tracking-tight">
-            Roles under pressure
+            Roles in flux
           </h2>
           <p className="mt-1 max-w-2xl text-sm text-muted-foreground">
-            How the AI and automation wave is reshaping work today — curated
-            assessments, not predictions.
+            Where automation or generative AI is measurably changing tasks —
+            curated notes, not a ranking of jobs at risk.
           </p>
         </div>
         <Link

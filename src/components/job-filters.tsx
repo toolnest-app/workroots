@@ -72,7 +72,7 @@ export function JobFilters({ total, pressureCount, current }: JobFiltersProps) {
               "h-7 w-full justify-start text-xs"
             )}
           >
-            AI & automation pressures
+            Roles in flux
             <span className="ml-auto tabular-nums opacity-70">
               {pressureCount}
             </span>
