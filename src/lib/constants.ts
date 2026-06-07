@@ -51,13 +51,13 @@ export const PRESSURE_TYPE_DESCRIPTIONS: Record<PressureType, string> = {
 /** Homepage strip — roles with documented flux from automation or generative AI */
 export const PRESSURE_FEATURED_SLUGS = [
   "software-developer",
-  "illustrator",
-  "voice-actor",
-  "data-entry-clerk",
-  "journalist",
-  "lawyer",
-  "bookkeeper",
-  "film-editor",
+  "machine-learning-engineer",
+  "devops-engineer",
+  "frontend-developer",
+  "cybersecurity-analyst",
+  "data-scientist",
+  "technical-writer",
+  "systems-analyst",
 ] as const;
 
 export const CONFIDENCE_LABELS = {

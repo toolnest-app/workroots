@@ -17,8 +17,9 @@ Curated entries live in:
 - `data/showcase-batch-retail-crafts.json` — retail & crafts (40)
 - `data/showcase-batch-sports-games.json` — sports & games (40)
 - `data/showcase-batch-fashion-beauty.json` — fashion & beauty (40)
+- `data/showcase-batch-technology-it.json` — software & IT (20)
 
-Import all with `npm run import:showcase` (**500 curated**). The import script auto-loads `showcase.json`, `showcase-pilot.json`, and every `data/showcase-batch-*.json` file. All other occupations remain **stub** tier until upgraded.
+Import all with `npm run import:showcase` (**520 curated** including the technology & IT batch). The import script auto-loads `showcase.json`, `showcase-pilot.json`, and every `data/showcase-batch-*.json` file. All other occupations remain **stub** tier until upgraded.
 
 ## Tier rules
 

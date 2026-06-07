@@ -1,0 +1,921 @@
+[
+  {
+    "slug": "systems-administrator",
+    "name": "Systems Administrator",
+    "status": "active",
+    "summary": "An IT specialist who installs, configures, and maintains servers, user accounts, backups, and operating systems for organizations — the backbone role of corporate computing since minicomputer departments.",
+    "duties": "Patch servers, monitor uptime, manage AD or LDAP directories, restore backups, automate routine jobs, and support infrastructure tickets.",
+    "skills": "Linux or Windows server administration, scripting, networking basics, incident response, documentation.",
+    "tools": "SSH, Ansible, monitoring stacks, virtualization, ticket queues.",
+    "regions": "Global enterprises, schools, hospitals, and government agencies.",
+    "category": "technology",
+    "eraPrimary": "modern",
+    "originYear": 1965,
+    "originYearEnd": null,
+    "originLabel": "Multi-user computer operations teams",
+    "dateConfidence": "medium",
+    "educationPath": "Computer science or IT certifications (e.g. Linux+, cloud vendor certs).",
+    "modernSectors": "Enterprise IT, managed service providers, SaaS infrastructure teams.",
+    "aliases": [
+      "sysadmin",
+      "system administrator"
+    ],
+    "events": [
+      {
+        "year": 2000,
+        "label": "Linux in the data center",
+        "description": "Open-source server stacks expand sysadmin specialization beyond mainframe operations.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Corporate computing histories",
+        "url": null,
+        "note": "Minicomputer era operations groups precede modern sysadmin titles."
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "computer-programmer",
+        "type": "related"
+      },
+      {
+        "toSlug": "network-engineer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "network-engineer",
+    "name": "Network Engineer",
+    "status": "active",
+    "summary": "A technician who designs and maintains LANs, WANs, routing, switching, and firewall policies — professionalized as TCP/IP networks became the default corporate backbone.",
+    "duties": "Configure routers and switches, troubleshoot outages, plan capacity, document topology, and implement security zones.",
+    "skills": "Routing protocols, subnetting, firewall rules, vendor CLI fluency, physical cabling literacy.",
+    "tools": "Cisco/Juniper gear, Wireshark, network monitoring, SD-WAN controllers.",
+    "regions": "Global; every organization with more than a handful of computers.",
+    "category": "technology",
+    "eraPrimary": "modern",
+    "originYear": 1980,
+    "originYearEnd": null,
+    "originLabel": "Enterprise LAN adoption",
+    "dateConfidence": "medium",
+    "educationPath": "Network certifications (CCNA and equivalents) plus on-the-job training.",
+    "modernSectors": "ISPs, enterprises, cloud providers, data centers.",
+    "aliases": [
+      "network administrator"
+    ],
+    "events": [
+      {
+        "year": 1990,
+        "label": "Internet in business",
+        "description": "WAN connectivity and firewalls become standard enterprise network engineering work.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Networking industry histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "systems-administrator",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "database-administrator",
+    "name": "Database Administrator",
+    "status": "active",
+    "summary": "A specialist who installs, tunes, backs up, and secures relational and NoSQL databases — critical once organizations stored payroll, inventory, and customer records in shared DBMS platforms.",
+    "duties": "Manage schemas, tune queries, schedule backups, patch DBMS software, plan replication, and recover from corruption events.",
+    "skills": "SQL, indexing, capacity planning, security hardening, disaster recovery drills.",
+    "tools": "PostgreSQL, Oracle, SQL Server, MySQL, cloud managed databases.",
+    "regions": "Global enterprises and SaaS vendors.",
+    "category": "technology",
+    "eraPrimary": "modern",
+    "originYear": 1970,
+    "originYearEnd": null,
+    "originLabel": "Commercial relational databases",
+    "dateConfidence": "medium",
+    "educationPath": "Computer science or DBA certification tracks.",
+    "modernSectors": "Finance, retail, government, cloud database services.",
+    "aliases": [
+      "DBA"
+    ],
+    "events": [
+      {
+        "year": 2010,
+        "label": "Managed cloud databases",
+        "description": "RDS-style services shift some patching and scaling tasks toward vendors.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Database management histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "software-developer",
+        "type": "related"
+      },
+      {
+        "toSlug": "data-analyst",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "devops-engineer",
+    "name": "DevOps Engineer",
+    "status": "active",
+    "summary": "A role bridging development and operations that automates build, test, and deployment pipelines — named explicitly in the 2000s as web services demanded frequent releases.",
+    "duties": "Maintain CI/CD, infrastructure as code, observability, incident runbooks, and collaboration between dev and ops teams.",
+    "skills": "Scripting, containers, cloud APIs, monitoring, release coordination, security basics.",
+    "tools": "Kubernetes, Terraform, GitHub Actions, Jenkins, Prometheus.",
+    "regions": "Tech companies and digital teams in traditional enterprises worldwide.",
+    "category": "technology",
+    "eraPrimary": "contemporary",
+    "originYear": 2009,
+    "originYearEnd": null,
+    "originLabel": "DevOps movement and continuous delivery",
+    "dateConfidence": "medium",
+    "educationPath": "Software engineering or sysadmin background with cloud tooling.",
+    "modernSectors": "SaaS, fintech, e-commerce, platform teams.",
+    "aliases": [
+      "platform engineer",
+      "release engineer"
+    ],
+    "events": [
+      {
+        "year": 2014,
+        "label": "Container orchestration",
+        "description": "Docker and Kubernetes standardize how DevOps teams package and ship services.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "DevOps practice literature",
+        "url": null,
+        "note": "Term popularized after Patrick Debois DevOpsDays 2009."
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "software-developer",
+        "type": "related"
+      },
+      {
+        "toSlug": "site-reliability-engineer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "cloud-engineer",
+    "name": "Cloud Engineer",
+    "status": "active",
+    "summary": "An engineer who architects and operates workloads on public cloud platforms — a distinct specialty after AWS, Azure, and GCP became default enterprise infrastructure choices.",
+    "duties": "Design VPCs, migrate legacy apps, manage IAM, optimize cloud spend, and enforce security baselines.",
+    "skills": "Cloud vendor services, networking, automation, cost governance, compliance mapping.",
+    "tools": "AWS/Azure/GCP consoles, Terraform, CloudFormation, cost dashboards.",
+    "regions": "Global; concentrated where enterprises adopt cloud-first policies.",
+    "category": "technology",
+    "eraPrimary": "contemporary",
+    "originYear": 2006,
+    "originYearEnd": null,
+    "originLabel": "Amazon Web Services commercial launch era",
+    "dateConfidence": "medium",
+    "educationPath": "Vendor cloud certifications plus software or sysadmin experience.",
+    "modernSectors": "Enterprise migration programs, startups, government cloud adoption.",
+    "aliases": [
+      "cloud architect",
+      "cloud administrator"
+    ],
+    "events": [
+      {
+        "year": 2010,
+        "label": "Enterprise cloud migration",
+        "description": "Large firms begin moving datacenter workloads to hyperscale providers.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cloud computing industry timelines",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "devops-engineer",
+        "type": "related"
+      },
+      {
+        "toSlug": "systems-administrator",
+        "type": "successor"
+      }
+    ]
+  },
+  {
+    "slug": "site-reliability-engineer",
+    "name": "Site Reliability Engineer",
+    "status": "active",
+    "summary": "An engineer who applies software practices to operations — error budgets, SLOs, and on-call rotation — codified at Google and adopted by large web platforms.",
+    "duties": "Define reliability targets, automate toil, run incident response, postmortems, and capacity planning for high-traffic services.",
+    "skills": "Programming, statistics, distributed systems debugging, communication under outage pressure.",
+    "tools": "Monitoring, paging systems, feature flags, chaos testing frameworks.",
+    "regions": "Large internet companies and enterprises imitating SRE practices.",
+    "category": "technology",
+    "eraPrimary": "contemporary",
+    "originYear": 2003,
+    "originYearEnd": null,
+    "originLabel": "Google SRE organization practices",
+    "dateConfidence": "medium",
+    "educationPath": "Software engineering background; SRE handbooks and on-call training.",
+    "modernSectors": "Hyperscale web, fintech, streaming, cloud-native SaaS.",
+    "aliases": [
+      "SRE",
+      "reliability engineer"
+    ],
+    "events": [
+      {
+        "year": 2016,
+        "label": "SRE book popularized",
+        "description": "Google SRE practices spread as a named job family outside original company.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Site Reliability Engineering (O'Reilly)",
+        "url": null,
+        "note": "Google-origin discipline for operating large services."
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "devops-engineer",
+        "type": "related"
+      },
+      {
+        "toSlug": "software-developer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "cybersecurity-analyst",
+    "name": "Cybersecurity Analyst",
+    "status": "active",
+    "summary": "A defender who monitors threats, investigates alerts, and hardens systems — professionalized as networks connected to the public internet and compliance regimes matured.",
+    "duties": "Triage SIEM alerts, patch vulnerabilities, run phishing simulations, document incidents, and support forensic handoffs.",
+    "skills": "Threat modeling, log analysis, networking, policy writing, calm under incident stress.",
+    "tools": "SIEM, EDR, vulnerability scanners, firewall logs, ticketing.",
+    "regions": "Global; mandatory in regulated finance, health, and government IT.",
+    "category": "technology",
+    "eraPrimary": "contemporary",
+    "originYear": 1990,
+    "originYearEnd": null,
+    "originLabel": "Internet-connected enterprise security teams",
+    "dateConfidence": "medium",
+    "educationPath": "Security certifications (Security+, CISSP paths) and IT experience.",
+    "modernSectors": "SOC teams, MSSPs, corporate security, critical infrastructure.",
+    "aliases": [
+      "security analyst",
+      "SOC analyst"
+    ],
+    "events": [
+      {
+        "year": 2010,
+        "label": "SOC formalization",
+        "description": "Security operations centers become standard in large enterprises.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cybersecurity workforce surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "network-engineer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "data-scientist",
+    "name": "Data Scientist",
+    "status": "active",
+    "summary": "A quantitative analyst who builds models and experiments on large datasets — named as a distinct tech role in the 2010s big-data and machine-learning hiring wave.",
+    "duties": "Frame business questions, clean data, train models, evaluate metrics, and communicate findings to product and leadership teams.",
+    "skills": "Statistics, Python or R, experiment design, visualization, domain curiosity.",
+    "tools": "Jupyter, SQL, scikit-learn, cloud ML platforms, experiment trackers.",
+    "regions": "Tech hubs, finance, retail analytics, healthcare research.",
+    "category": "technology",
+    "eraPrimary": "contemporary",
+    "originYear": 2008,
+    "originYearEnd": null,
+    "originLabel": "Hadoop-era data science job title",
+    "dateConfidence": "low",
+    "educationPath": "Statistics, computer science, or quantitative PhDs; bootcamps for career changers.",
+    "modernSectors": "Tech, advertising, insurance, logistics optimization.",
+    "aliases": [
+      "data scientist"
+    ],
+    "events": [
+      {
+        "year": 2012,
+        "label": "Big data hiring boom",
+        "description": "LinkedIn and media popularize data scientist as a hot tech title.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Harvard Business Review — data scientist",
+        "url": null,
+        "note": "Widely cited 2012 article on the role's rise."
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "statistician",
+        "type": "related"
+      },
+      {
+        "toSlug": "machine-learning-engineer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "machine-learning-engineer",
+    "name": "Machine Learning Engineer",
+    "status": "active",
+    "summary": "An engineer who productionizes models — training pipelines, serving infrastructure, and monitoring drift — distinct from research scientists who focus on novel algorithms.",
+    "duties": "Build feature pipelines, deploy model endpoints, optimize inference cost, and maintain ML observability in production.",
+    "skills": "Software engineering, ML frameworks, data engineering, performance tuning.",
+    "tools": "PyTorch, TensorFlow, feature stores, Kubernetes, MLflow.",
+    "regions": "Tech companies with recommendation, search, or vision products.",
+    "category": "technology",
+    "eraPrimary": "contemporary",
+    "originYear": 2015,
+    "originYearEnd": null,
+    "originLabel": "Production ML systems at scale",
+    "dateConfidence": "low",
+    "educationPath": "Computer science or ML specialization; often from data science or backend roles.",
+    "modernSectors": "Search, ads, autonomous systems, enterprise AI features.",
+    "aliases": [
+      "ML engineer",
+      "AI engineer"
+    ],
+    "events": [
+      {
+        "year": 2023,
+        "label": "Generative model products",
+        "description": "LLM APIs push more teams to ship AI features requiring MLOps discipline.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "ML engineering practice literature",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "data-scientist",
+        "type": "related"
+      },
+      {
+        "toSlug": "software-developer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "data-analyst",
+    "name": "Data Analyst",
+    "status": "active",
+    "summary": "A worker who queries databases, builds dashboards, and answers business questions with numbers — expanded dramatically as SQL and BI tools spread beyond statistics departments.",
+    "duties": "Write SQL, maintain dashboards, define metrics, present trends, and validate data quality with stakeholders.",
+    "skills": "SQL, spreadsheet modeling, visualization, business communication, curiosity.",
+    "tools": "SQL clients, Tableau, Looker, Excel, Python notebooks.",
+    "regions": "Every industry with digital operations.",
+    "category": "technology",
+    "eraPrimary": "modern",
+    "originYear": 1990,
+    "originYearEnd": null,
+    "originLabel": "PC-era spreadsheet and database reporting",
+    "dateConfidence": "medium",
+    "educationPath": "Business, economics, or analytics programs; SQL bootcamps.",
+    "modernSectors": "Product analytics, marketing ops, finance, operations.",
+    "aliases": [
+      "business analyst",
+      "BI analyst"
+    ],
+    "events": [
+      {
+        "year": 2010,
+        "label": "Self-serve BI",
+        "description": "Dashboard tools let non-engineers query curated datasets directly.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Business intelligence histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "database-administrator",
+        "type": "related"
+      },
+      {
+        "toSlug": "data-scientist",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "software-qa-engineer",
+    "name": "Software QA Engineer",
+    "status": "active",
+    "summary": "A quality specialist who designs test plans and automates regression checks for software releases — institutionalized as applications grew too large for developer-only testing.",
+    "duties": "Write test cases, build automation frameworks, file defects, verify fixes, and sign off release candidates.",
+    "skills": "Test design, scripting, attention to detail, risk prioritization, API testing.",
+    "tools": "Selenium, Cypress, JUnit, test management systems, CI hooks.",
+    "regions": "Software companies worldwide; often colocated with dev teams.",
+    "category": "technology",
+    "eraPrimary": "modern",
+    "originYear": 1980,
+    "originYearEnd": null,
+    "originLabel": "Commercial software QA departments",
+    "dateConfidence": "medium",
+    "educationPath": "Computer science or QA certification; manual testing entry paths.",
+    "modernSectors": "Enterprise software, SaaS, embedded systems, games.",
+    "aliases": [
+      "QA engineer",
+      "test engineer",
+      "SDET"
+    ],
+    "events": [
+      {
+        "year": 2000,
+        "label": "Test automation growth",
+        "description": "Agile teams embed QA automation alongside continuous integration.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Software quality engineering references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "software-developer",
+        "type": "related"
+      },
+      {
+        "toSlug": "video-game-tester",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "it-support-specialist",
+    "name": "IT Support Specialist",
+    "status": "active",
+    "summary": "A frontline technician who resets passwords, troubleshoots laptops, and escalates outages — the help-desk layer every organization with PCs has maintained since the 1980s.",
+    "duties": "Answer tickets, image machines, install software, guide users, and route complex issues to sysadmins or vendors.",
+    "skills": "Troubleshooting, patience, ticketing hygiene, basic networking and OS knowledge.",
+    "tools": "Remote desktop, MDM consoles, knowledge bases, asset trackers.",
+    "regions": "Global offices, schools, hospitals, call centers.",
+    "category": "technology",
+    "eraPrimary": "modern",
+    "originYear": 1985,
+    "originYearEnd": null,
+    "originLabel": "Corporate PC help desks",
+    "dateConfidence": "medium",
+    "educationPath": "CompTIA A+ and help-desk experience; internal promotion to sysadmin.",
+    "modernSectors": "Corporate IT, MSPs, university computing, retail tech support.",
+    "aliases": [
+      "help desk technician",
+      "desktop support",
+      "IT technician"
+    ],
+    "events": [
+      {
+        "year": 2020,
+        "label": "Remote work surge",
+        "description": "VPN and laptop logistics expand distributed help-desk workloads.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Corporate IT support histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "systems-administrator",
+        "type": "successor"
+      }
+    ]
+  },
+  {
+    "slug": "ux-designer",
+    "name": "UX Designer",
+    "status": "active",
+    "summary": "A designer who researches user needs and shapes interfaces for software products — named distinctly as graphical user interfaces and web apps required usability specialization.",
+    "duties": "Interview users, wireframe flows, run usability tests, hand off specs to engineering, and iterate from analytics.",
+    "skills": "User research, information architecture, prototyping, accessibility awareness, collaboration.",
+    "tools": "Figma, Sketch, usability labs, analytics dashboards.",
+    "regions": "Tech product companies globally; agency studios.",
+    "category": "technology",
+    "eraPrimary": "contemporary",
+    "originYear": 1995,
+    "originYearEnd": null,
+    "originLabel": "GUI and web usability professions",
+    "dateConfidence": "medium",
+    "educationPath": "HCI programs, design bootcamps, portfolio-driven hiring.",
+    "modernSectors": "SaaS, mobile apps, e-commerce, government digital services.",
+    "aliases": [
+      "user experience designer",
+      "product designer"
+    ],
+    "events": [
+      {
+        "year": 2007,
+        "label": "Mobile UX",
+        "description": "Smartphones create dedicated mobile interaction design workflows.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Human-computer interaction histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "web-developer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "technical-writer",
+    "name": "Technical Writer",
+    "status": "active",
+    "summary": "A communicator who documents APIs, admin guides, and release notes for technical audiences — essential once software products shipped to customers who never met the engineers.",
+    "duties": "Draft manuals, maintain docs sites, interview SMEs, version documentation with releases, and enforce style guides.",
+    "skills": "Clear writing, diagramming, tooling literacy, audience modeling, version control for docs.",
+    "tools": "Markdown docs stacks, MadCap Flare, Confluence, OpenAPI specs.",
+    "regions": "Software vendors, open-source projects, hardware manufacturers.",
+    "category": "technology",
+    "eraPrimary": "modern",
+    "originYear": 1970,
+    "originYearEnd": null,
+    "originLabel": "Software manual departments",
+    "dateConfidence": "medium",
+    "educationPath": "English or technical communication degrees; engineer-to-writer career paths.",
+    "modernSectors": "Developer tools, enterprise SaaS, regulated hardware.",
+    "aliases": [
+      "documentation engineer",
+      "API technical writer"
+    ],
+    "events": [
+      {
+        "year": 2015,
+        "label": "Docs-as-code",
+        "description": "Engineers and writers publish docs from repositories beside source code.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Technical communication profession surveys",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "software-developer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "solutions-architect",
+    "name": "Solutions Architect",
+    "status": "active",
+    "summary": "A senior technologist who designs how products fit a customer's stack — common at enterprise vendors selling complex platforms that require pre-sales engineering.",
+    "duties": "Map requirements, propose architectures, estimate effort, support sales demos, and guide implementation teams.",
+    "skills": "Broad stack knowledge, communication, trade-off reasoning, security and compliance awareness.",
+    "tools": "Architecture diagrams, cloud reference designs, POC environments.",
+    "regions": "Enterprise software and cloud vendor customer teams globally.",
+    "category": "technology",
+    "eraPrimary": "contemporary",
+    "originYear": 2000,
+    "originYearEnd": null,
+    "originLabel": "Enterprise software pre-sales engineering",
+    "dateConfidence": "low",
+    "educationPath": "Senior engineering or consulting background.",
+    "modernSectors": "Cloud providers, ERP vendors, systems integrators.",
+    "aliases": [
+      "presales architect",
+      "enterprise architect"
+    ],
+    "events": [
+      {
+        "year": 2010,
+        "label": "Cloud solution selling",
+        "description": "Vendors formalize architect roles for migration and landing-zone designs.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Enterprise software sales engineering references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "cloud-engineer",
+        "type": "related"
+      },
+      {
+        "toSlug": "software-developer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "frontend-developer",
+    "name": "Frontend Developer",
+    "status": "active",
+    "summary": "A developer who implements user interfaces in browsers or native UI layers — specialized as web apps grew richer than static HTML pages.",
+    "duties": "Build components, manage state, optimize rendering, ensure accessibility, and integrate with backend APIs.",
+    "skills": "JavaScript/TypeScript, CSS, component frameworks, performance profiling, design collaboration.",
+    "tools": "React, Vue, bundlers, browser devtools, Storybook.",
+    "regions": "Global product teams and agencies.",
+    "category": "technology",
+    "eraPrimary": "contemporary",
+    "originYear": 2005,
+    "originYearEnd": null,
+    "originLabel": "Ajax-era interactive web applications",
+    "dateConfidence": "medium",
+    "educationPath": "Bootcamps, computer science, or self-taught web portfolios.",
+    "modernSectors": "SaaS, e-commerce, media, design-heavy startups.",
+    "aliases": [
+      "front-end engineer",
+      "UI developer"
+    ],
+    "events": [
+      {
+        "year": 2013,
+        "label": "Component frameworks",
+        "description": "React and similar libraries make frontend engineering a distinct specialty.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Web development histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "web-developer",
+        "type": "related"
+      },
+      {
+        "toSlug": "ux-designer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "backend-developer",
+    "name": "Backend Developer",
+    "status": "active",
+    "summary": "A developer who builds servers, APIs, databases, and background jobs — the counterpart to frontend work in split web engineering teams.",
+    "duties": "Design APIs, implement business logic, tune databases, handle authentication, and operate services in production.",
+    "skills": "Server languages, SQL, caching, distributed systems basics, security hygiene.",
+    "tools": "Node, Java, Go, Postgres, Redis, message queues.",
+    "regions": "Global software organizations.",
+    "category": "technology",
+    "eraPrimary": "contemporary",
+    "originYear": 2000,
+    "originYearEnd": null,
+    "originLabel": "Three-tier web application architecture",
+    "dateConfidence": "medium",
+    "educationPath": "Computer science or backend-focused bootcamps.",
+    "modernSectors": "SaaS APIs, fintech, marketplaces, infrastructure products.",
+    "aliases": [
+      "server-side developer",
+      "API engineer"
+    ],
+    "events": [
+      {
+        "year": 2010,
+        "label": "REST API economy",
+        "description": "Mobile apps and SaaS integrations expand dedicated API engineering.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Application server histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "software-developer",
+        "type": "related"
+      },
+      {
+        "toSlug": "frontend-developer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "mobile-app-developer",
+    "name": "Mobile App Developer",
+    "status": "active",
+    "summary": "A developer who ships applications for smartphones and tablets — a distinct job family after iOS and Android app stores created commercial mobile software markets.",
+    "duties": "Implement screens, integrate device APIs, optimize battery and network use, publish to app stores, and fix crash reports.",
+    "skills": "Swift/Kotlin or cross-platform frameworks, mobile UX patterns, release signing, performance tuning.",
+    "tools": "Xcode, Android Studio, Flutter, Firebase, app analytics.",
+    "regions": "Global; product companies and contract studios.",
+    "category": "technology",
+    "eraPrimary": "contemporary",
+    "originYear": 2008,
+    "originYearEnd": null,
+    "originLabel": "Apple App Store launch era",
+    "dateConfidence": "high",
+    "educationPath": "Mobile development courses; often from web or backend backgrounds.",
+    "modernSectors": "Consumer apps, banking, delivery, health tech.",
+    "aliases": [
+      "iOS developer",
+      "Android developer"
+    ],
+    "events": [
+      {
+        "year": 2008,
+        "label": "App Store opens",
+        "description": "Commercial mobile app development becomes a mass occupation.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mobile software industry timelines",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "frontend-developer",
+        "type": "related"
+      },
+      {
+        "toSlug": "software-developer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "embedded-software-engineer",
+    "name": "Embedded Software Engineer",
+    "status": "active",
+    "summary": "An engineer who writes firmware for microcontrollers and devices with tight resource limits — distinct from application developers working on servers or browsers.",
+    "duties": "Write C/C++ firmware, debug hardware interfaces, meet real-time constraints, and certify safety-critical behavior.",
+    "skills": "Low-level programming, electronics literacy, RTOS concepts, testing on hardware.",
+    "tools": "JTAG debuggers, oscilloscopes, cross-compilers, CI for firmware.",
+    "regions": "Automotive, aerospace, medical device, consumer electronics hubs.",
+    "category": "technology",
+    "eraPrimary": "modern",
+    "originYear": 1971,
+    "originYearEnd": null,
+    "originLabel": "Microcontroller commercial era",
+    "dateConfidence": "medium",
+    "educationPath": "Electrical engineering or computer engineering degrees.",
+    "modernSectors": "Automotive, IoT, industrial control, medical implants.",
+    "aliases": [
+      "firmware engineer",
+      "embedded developer"
+    ],
+    "events": [
+      {
+        "year": 2010,
+        "label": "IoT expansion",
+        "description": "Connected devices broaden embedded software hiring beyond classic industrial firms.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Embedded systems engineering references",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "computer-programmer",
+        "type": "related"
+      },
+      {
+        "toSlug": "robotics-engineer",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "slug": "systems-analyst",
+    "name": "Systems Analyst",
+    "status": "declining",
+    "summary": "An IT professional who translated business requirements into specifications for mainframe and enterprise systems — peak role in 1970s–1990s corporate computing before agile product teams absorbed much of the function.",
+    "duties": "Gather requirements, document flows, coordinate vendors, and supervise programmers on large batch projects.",
+    "skills": "Process mapping, structured analysis methods, stakeholder interviews, cost estimation.",
+    "tools": "DFD diagrams, CASE tools, Gantt charts, COBOL-era documentation.",
+    "regions": "US and European corporate IT departments historically.",
+    "category": "technology",
+    "eraPrimary": "modern",
+    "originYear": 1965,
+    "originYearEnd": null,
+    "originLabel": "Corporate data processing projects",
+    "dateConfidence": "medium",
+    "educationPath": "MIS degrees and internal promotion from programming pools.",
+    "modernSectors": "Legacy enterprise modernization, government IT, consulting.",
+    "aliases": [
+      "business systems analyst",
+      "IT analyst"
+    ],
+    "events": [
+      {
+        "year": 2001,
+        "label": "Agile product teams",
+        "description": "Iterative software teams reduce standalone analyst roles on many projects.",
+        "sortOrder": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "MIS and enterprise IT histories",
+        "url": null,
+        "note": ""
+      }
+    ],
+    "relations": [
+      {
+        "toSlug": "software-developer",
+        "type": "successor"
+      },
+      {
+        "toSlug": "data-analyst",
+        "type": "related"
+      }
+    ]
+  }
+]

@@ -37,8 +37,8 @@ export function PressureRolesStrip({ roles, totalCount }: PressureRolesStripProp
             Roles in flux
           </h2>
           <p className="mt-1 max-w-2xl text-sm text-muted-foreground">
-            Where automation or generative AI is measurably changing tasks —
-            curated notes, not a ranking of jobs at risk.
+            Software, IT, and other roles where automation or generative AI is
+            measurably changing tasks — curated notes, not a jobs-at-risk ranking.
           </p>
         </div>
         <Link
