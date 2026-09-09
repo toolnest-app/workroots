@@ -5,6 +5,8 @@ import { SiteHeader } from "@/components/site-header";
 import { CommandMenu } from "@/components/command-menu";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const fraunces = Fraunces({
   variable: "--font-serif",
@@ -58,6 +60,8 @@ export default function RootLayout({
             </div>
           </footer>
         </TooltipProvider>
+              <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
